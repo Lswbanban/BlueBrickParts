@@ -1,3 +1,4 @@
+hello
 <?php
     header('Content-Type: text/plain');
 	echo "AAA\r\n";
@@ -13,3 +14,4 @@
 	}   
     closedir($dh);
 ?>
+youpi
