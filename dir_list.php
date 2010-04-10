@@ -1,7 +1,7 @@
 hello
 <?php
 //    header('Content-Type: text/plain');
-	echo "AAA";
+	print("AAA");
 	echo 'BBB';
 //	$dir = "parts";
 //	$dh = opendir($dir);
