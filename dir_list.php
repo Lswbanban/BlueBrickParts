@@ -4,12 +4,12 @@ hello
 	echo "AAA";
 	$dir = "parts";
 	$dh = opendir($dir);
-	echo "---\r\n";
+	echo "---\n";
 	while (($file = readdir($dh)) !== false)
 	{
 //		if (is_dir($dir.'/'.$file) && $file != "." && $file != "..")
 		{
-            echo $file."\r\n";
+//            echo $file."\n";
 		}
 	}   
     closedir($dh);
