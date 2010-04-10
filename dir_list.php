@@ -1,5 +1,3 @@
-<HTML>
-<HEAD>
 <?php
     header('Content-Type: text/plain') ;
 	$dir = "parts";
@@ -13,5 +11,3 @@
 	}   
     closedir($dh) ;
 ?>
-</HEAD>
-</HTML>
