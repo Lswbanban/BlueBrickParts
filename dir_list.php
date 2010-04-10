@@ -1,8 +1,8 @@
 hello
 <?php
-    header('Content-Type: text/plain');
-	echo "AAA\r\n";
-	$dir = "./parts";
+//    header('Content-Type: text/plain');
+	echo "AAA";
+	$dir = "parts";
 	$dh = opendir($dir);
 	echo "---\r\n";
 	while (($file = readdir($dh)) !== false)
