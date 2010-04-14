@@ -94,4 +94,14 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+	
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<Angle>11.25</Angle>
+		<Translation>
+			<x>-7.65</x>
+			<y>12.15</y>
+		</Translation>
+		<PreferedHeight>-8</PreferedHeight>
+	</LDraw>
 </part>

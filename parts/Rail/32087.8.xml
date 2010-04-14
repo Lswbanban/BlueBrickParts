@@ -131,4 +131,9 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<PreferedHeight>-8</PreferedHeight>
+	</LDraw>
 </part>
