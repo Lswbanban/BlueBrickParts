@@ -1,3 +1,13 @@
 syntax: glob
 .hg
 *.php
+
+; ignore the generated files
+.\BlueBrick.*
+.\config
+.\de
+.\es
+.\fr
+.\it
+.\nl
+.\pt

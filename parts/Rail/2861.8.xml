@@ -110,6 +110,6 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
-		<PreferedHeight>-8</PreferedHeight>
+		<PreferredHeight>-8</PreferredHeight>
 	</LDraw>
 </part>
