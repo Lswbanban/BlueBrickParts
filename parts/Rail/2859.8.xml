@@ -110,6 +110,10 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
+		<Translation>
+			<x>-338.75</x>
+			<y>127.5</y>
+		</Translation>
 		<PreferredHeight>-8</PreferredHeight>
 	</LDraw>
 </part>
