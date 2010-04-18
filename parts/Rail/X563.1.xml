@@ -135,4 +135,11 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<PreferredHeight>-24</PreferredHeight>
+		<SleeperID>3034.15</SleeperID>
+		<UsePartInstead>7857.1</UsePartInstead> <!-- The old blue 12V crossover doesn't exist in LDRAW, so use the grey one -->
+	</LDraw>
 </part>

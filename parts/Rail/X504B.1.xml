@@ -110,4 +110,15 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<Translation>
+			<x>0</x>
+			<y>-80</y>
+		</Translation>
+		<PreferredHeight>-24</PreferredHeight>
+		<SleeperID>3034.15</SleeperID>
+		<UsePartInstead>X864C01.1</UsePartInstead> <!-- The old blue 12V left point doesn't exist in LDRAW, so use the grey one -->
+	</LDraw>
 </part>

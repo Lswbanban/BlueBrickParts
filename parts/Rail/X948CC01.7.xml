@@ -107,4 +107,15 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<Translation>
+			<x>0</x>
+			<y>-80</y>
+		</Translation>
+		<PreferredHeight>-24</PreferredHeight>
+		<SleeperID>767.8</SleeperID>
+		<UsePartInstead>X948AC01.7</UsePartInstead>	<!-- the shortcut part doesn't exist yet in LDraw -->
+	</LDraw>
 </part>

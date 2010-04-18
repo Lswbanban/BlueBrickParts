@@ -110,4 +110,14 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<Translation>
+			<x>0</x>
+			<y>80</y>
+		</Translation>
+		<PreferredHeight>-24</PreferredHeight>
+		<SleeperID>767.8</SleeperID>
+	</LDraw>
 </part>

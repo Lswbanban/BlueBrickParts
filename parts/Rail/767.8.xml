@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<part>
+	<!-- This part should be skip during the Loading of LDraw files because it is the 4.5V sleeper, that's why we add a XML file without image -->
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Train Track Sleeper Plate 2 x 8 without Cable Grooves</en>
+		<fr>Traverse de chemin de fer 2 x 8 avec clip</fr>
+	</Description>
+	
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<Angle>90</Angle>
+		<PreferredHeight>-8</PreferredHeight>
+	</LDraw>
+</part>

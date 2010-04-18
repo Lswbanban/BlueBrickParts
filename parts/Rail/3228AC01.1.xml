@@ -66,5 +66,6 @@
 	<LDraw>
 		<PreferredHeight>-24</PreferredHeight>
 		<SleeperID>3034.15</SleeperID>
+		<UsePartInstead>3228AC01.15</UsePartInstead> <!-- Change the color of the shortcut LDraw part to have the correct sleeper color -->
 	</LDraw>
 </part>
