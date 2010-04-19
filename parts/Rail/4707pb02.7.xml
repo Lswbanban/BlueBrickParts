@@ -9,7 +9,7 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
+		<Alias>u9004c01.7</Alias>
 		<PreferredHeight>-44</PreferredHeight>
-		<UsePartInstead>u9004c01.7</UsePartInstead>
 	</LDraw>
 </part>
