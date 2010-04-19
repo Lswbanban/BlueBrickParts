@@ -100,4 +100,13 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<Translation>
+			<x>-191.25</x>
+			<y>85</y>
+		</Translation>
+		<PreferredHeight>-265</PreferredHeight>
+	</LDraw>
 </part>

@@ -51,6 +51,11 @@ X865C01.1=X505B.1
 7857.1=X563.1
 X948AC01.7=X948CC01.1
 X949AC01.7=X949CC01.1
+;12V switches:
+u9003c01.7=4707PB01.7
+u9003c02.7=4707PB03.7
+u9004c01.7=4707PB02.7
+u9005c01.7=4707PB04.7
 
 ; remaping because LDRaw use a white shortcut instead of a blue one that is more logical for me
 ; for the old blue rails. We could also rename the part in BlueBrick library.

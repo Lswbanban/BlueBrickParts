@@ -6,4 +6,10 @@
 		<fr>Télécommande avec sigle de découplage</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/x462px4.1192152097.jpg</ImageURL>
+
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<PreferredHeight>-44</PreferredHeight>
+		<UsePartInstead>u9003c02.7</UsePartInstead>
+	</LDraw>
 </part>

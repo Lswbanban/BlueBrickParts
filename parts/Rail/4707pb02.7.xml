@@ -6,4 +6,10 @@
 		<fr>Télécommande avec feu bicolore</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/x462px2.1141011748.jpg</ImageURL>
+
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<PreferredHeight>-44</PreferredHeight>
+		<UsePartInstead>u9004c01.7</UsePartInstead>
+	</LDraw>
 </part>
