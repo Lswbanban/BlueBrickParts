@@ -6,6 +6,11 @@
 		<fr>Rail 4.5V courbe (ancien modèle)</fr>
 	</Description>
 	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts//3229ac01.png</ImageURL>
+	<OldNameList>
+	    <OldName>3229A.1</OldName>
+	    <OldName>3229B.1</OldName>
+	</OldNameList>
+
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
@@ -13,6 +18,7 @@
 		<top>0</top>
 		<bottom>2.375</bottom>
 	</SnapMargin>
+
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<!-- the center of this part in stud is x = 135 pix / 8 pixperstud / 2 = 8.4375    and    y = 87 / 8 / 2 = 5.4375 -->		

@@ -6,6 +6,10 @@
 		<fr>Route croisement en T 32 x 32 9 intersection en T avec ligne de chemin</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/608px1.jpg</ImageURL>
+	<OldNameList>
+	    <OldName>608px1.2</OldName>
+	</OldNameList>
+
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>
 		<connexion>

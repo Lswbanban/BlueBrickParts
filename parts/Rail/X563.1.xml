@@ -6,6 +6,9 @@
 		<fr>Rail 12V croisement (ancien modèle)</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/x563.1083161313.jpg</ImageURL>
+	<OldNameList>
+	    <OldName>7857.1</OldName>
+	</OldNameList>
 	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

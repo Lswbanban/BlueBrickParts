@@ -6,6 +6,9 @@
 		<fr>Rail 12V courbe (nouveau modèle)</fr>
 	</Description>
 	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts//3241c01.png</ImageURL>
+	<OldNameList>
+	    <OldName>3241.7</OldName>
+	</OldNameList>
 	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

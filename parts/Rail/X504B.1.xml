@@ -6,7 +6,10 @@
 		<fr>Rail 12V aiguillage gauche (ancien modèle)</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/x504b.1251649727.jpg</ImageURL>
-	
+	<OldNameList>
+	    <OldName>7859.1</OldName>
+	</OldNameList>
+
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

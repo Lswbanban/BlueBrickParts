@@ -6,6 +6,11 @@
 		<fr>Rail 4.5V aiguillage droit (nouveau modèle)</fr>
 	</Description>
 	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts//x949ac01.png</ImageURL>
+	<OldNameList>
+	    <OldName>3236.7</OldName>
+	    <OldName>X879CX2.7</OldName>	    
+	</OldNameList>
+
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
@@ -13,6 +18,7 @@
 		<top>0</top>
 		<bottom>16</bottom>
 	</SnapMargin>
+
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<!-- the center of this part in stud is x = 256 pix / 8 pixperstud / 2 = 16    and    y = 128 / 8 / 2 = 8 -->
