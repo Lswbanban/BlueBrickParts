@@ -1,6 +1,7 @@
 Baseplate
 Custom
 Duplo
+LargeSet
 Logo
 Rail
 Road
