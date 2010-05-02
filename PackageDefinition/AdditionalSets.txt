@@ -2,3 +2,5 @@
 ./parts/LargeSet/*.xml
 ./parts/Set/10027.set_half.gif
 ./parts/Set/10027.set_half.xml
+./parts/Set/10027.set_long.gif
+./parts/Set/10027.set_long.xml
