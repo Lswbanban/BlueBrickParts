@@ -1,2 +1,4 @@
 ./parts/LargeSet/*.gif
 ./parts/LargeSet/*.xml
+./parts/Set/10027.set_half.gif
+./parts/Set/10027.set_half.xml
