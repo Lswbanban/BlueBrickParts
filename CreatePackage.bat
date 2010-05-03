@@ -3,4 +3,4 @@ REM This batch iterate through all the text files that it can find in the Packag
 
 for %%I in (PackageDefinition\*) do ( "C:\Program Files\WinRAR\WinRAR.exe" a %%~nI.zip @%%I )
 
-pause
+IF NOT ERRORLEVEL 0 pause
