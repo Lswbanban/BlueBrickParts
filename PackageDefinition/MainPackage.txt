@@ -40,5 +40,7 @@
 ./parts/Set/6399.set3.xml
 ./parts/Set/7834.set.gif
 ./parts/Set/7834.set.xml
+./parts/Set/7835.set.gif
+./parts/Set/7835.set.xml
 ./parts/Table/*.gif
 ./parts/Table/*.xml
