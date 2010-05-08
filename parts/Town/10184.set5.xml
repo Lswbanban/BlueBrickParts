@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Marc Raps</Author>
+	<Description>
+		<en>Town Plan - Fountain</en>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10184-1.1200101995.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>2</top>
+		<bottom>4</bottom>
+	</SnapMargin>
+</part>

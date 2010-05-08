@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Marc Raps</Author>
+	<Description>
+		<en>Passenger Train - Platform</en>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7897-1.1203731771.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>1</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>

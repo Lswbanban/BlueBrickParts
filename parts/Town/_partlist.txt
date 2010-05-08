@@ -1,3 +1,19 @@
+10184.set1.gif
+10184.set1.xml
+10184.set1b.gif
+10184.set1b.xml
+10184.set2.gif
+10184.set2.xml
+10184.set3.gif
+10184.set3.xml
+10184.set4.gif
+10184.set4.xml
+10184.set5.gif
+10184.set5.xml
+10184.set6.gif
+10184.set6.xml
+10184.set7.gif
+10184.set7.xml
 1472.set1.gif
 1472.set1.xml
 1472.set2.gif
@@ -34,6 +50,8 @@
 4954.set_house.xml
 4956.set.gif
 4956.set.xml
+545.set.gif
+545.set.xml
 6355.set.gif
 6355.set.xml
 6360.set.gif
@@ -106,5 +124,7 @@
 7822.set.xml
 7824.set.gif
 7824.set.xml
+7897.set4.gif
+7897.set4.xml
 7997.set.gif
 7997.set.xml

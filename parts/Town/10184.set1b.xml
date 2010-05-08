@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Marc Raps</Author>
+	<Description>
+		<en>Town Plan - Service Station - alternate configuration</en>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10184-1.1200101995.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>2</right>
+		<top>3</top>
+		<bottom>6</bottom>
+	</SnapMargin>
+</part>
