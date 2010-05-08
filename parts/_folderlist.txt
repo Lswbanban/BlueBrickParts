@@ -1,7 +1,6 @@
 Baseplate
 Custom
 Duplo
-LargeSet
 Logo
 Road
 Space

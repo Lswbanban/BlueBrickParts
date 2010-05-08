@@ -6,6 +6,8 @@
 1484.set.xml
 1490.set.gif
 1490.set.xml
+1590.set.gif
+1590.set.xml
 1620.set.gif
 1620.set.xml
 1682.set.gif
@@ -62,6 +64,10 @@
 6382.set.xml
 6384.set.gif
 6384.set.xml
+6390.set.gif
+6390.set.xml
+6392.set.gif
+6392.set.xml
 6392.set1.gif
 6392.set1.xml
 6392.set2.gif
@@ -70,6 +76,14 @@
 6392.set3.xml
 6392.set4.gif
 6392.set4.xml
+6393.set.gif
+6393.set.xml
+6394.set.gif
+6394.set.xml
+6541.set.gif
+6541.set.xml
+6542.set.gif
+6542.set.xml
 6592.set.gif
 6592.set.xml
 6683.set.gif
@@ -86,5 +100,11 @@
 7641.set3.xml
 7641.set4.gif
 7641.set4.xml
+7744.set.gif
+7744.set.xml
+7822.set.gif
+7822.set.xml
+7824.set.gif
+7824.set.xml
 7997.set.gif
 7997.set.xml
