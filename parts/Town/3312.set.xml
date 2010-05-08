@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>SHELL Promotional Set: Soccer: Medic's Station</en>
+		<fr></fr>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/3312-1.1188303793.thumb2.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>.75</left>
+		<right>3</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>

@@ -6,6 +6,8 @@
 10027.set_sidebyside.xml
 10128.set.gif
 10128.set.xml
+113.set.gif
+113.set.xml
 146.set.gif
 146.set.xml
 148.set.gif

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<part>
+	<Author>FreeBee (Roland Bal)</Author>
+	<Description>
+		<en>Train Track 9V Point Left Modified</en>
+		<fr>Aiguillage gauche 9V</fr>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/custpics/2861.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0.5</left>
+		<right>0.5</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<!-- the center of this part in stud is x = 264 pix /8 pixperstud /2 = 17    and    y = 114 /8 /2 = 7.125 -->
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>1</type>
+			<position>
+				<x>-16</x>
+				<y>3.125</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>146.25</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>1</type>
+			<position>
+				<x>16</x>
+				<y>3.125</y>
+			</position>
+			<angle>0</angle>
+			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>33.75</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>1</type>
+			<position>
+				<x>6.22281</x>	
+				<y>-3.6162</y>	
+			</position>
+			<angle>-33.75</angle>
+			<angleToPrev>33.75</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>146.25</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+	</ConnexionList>
+	<!-- a list of point that describe the hull of the parts to help finding the bounding box, when rotating the part. This is optionnal, if it doesn't exist we use the full box of the picture. -->
+	<hull>
+		<point>
+			<x>258</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>280</x>
+			<y>52</y>
+		</point>
+		<point>
+			<x>264</x>
+			<y>166</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>166</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>102</y>
+		</point>
+		<point>
+			<x>19</x>
+			<y>53</y>
+		</point>
+	</hull>
+</part>

@@ -16,8 +16,12 @@
 2774c01.7.xml
 2859.8.gif
 2859.8.xml
+2859halfcurve.8.gif
+2859halfcurve.8.xml
 2861.8.gif
 2861.8.xml
+2861halfcurve.8.gif
+2861halfcurve.8.xml
 2865.8.gif
 2865.8.xml
 2867.8.gif

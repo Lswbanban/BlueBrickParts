@@ -12,6 +12,8 @@ Table64x64.gif
 Table64x64.xml
 Table96x152.gif
 Table96x152.xml
+table96x190.gif
+table96x190.xml
 Table96x192.gif
 Table96x192.xml
 Table96x228.gif
