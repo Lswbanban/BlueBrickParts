@@ -22,14 +22,6 @@
 167.set.xml
 2150.set.gif
 2150.set.xml
-2617.7.gif
-2617.7.xml
-2617.8.gif
-2617.8.xml
-2642.7.gif
-2642.7.xml
-2642.8.gif
-2642.8.xml
 343.set.gif
 343.set.xml
 4532.set.gif
