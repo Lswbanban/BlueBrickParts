@@ -4,10 +4,16 @@
 608p02.0.xml
 608p03.7.gif
 608p03.7.xml
+608p04.7.gif
+608p04.7.xml
 6099p02.0.gif
 6099p02.0.xml
 6099p03.7.gif
 6099p03.7.xml
+6099p05.7.gif
+6099p05.7.xml
+6099p06.7.gif
+6099p06.7.xml
 6930.set.gif
 6930.set.xml
 6970.set.gif
