@@ -61,8 +61,14 @@
 341.set.xml
 342.set.gif
 342.set.xml
+344.set.gif
+344.set.xml
 345.set.gif
 345.set.xml
+346.set.gif
+346.set.xml
+347.set.gif
+347.set.xml
 356.set.gif
 356.set.xml
 361.set.xml
