@@ -69,6 +69,8 @@
 346.set.xml
 347.set.gif
 347.set.xml
+354.set.gif
+354.set.xml
 356.set.gif
 356.set.xml
 361.set.xml
@@ -93,6 +95,11 @@
 4996.set_option_2.xml
 545.set.gif
 545.set.xml
+605.set.gif
+605.set.xml
+608.set.gif
+608.set.xml
+608-1.set.gif
 6350.set.gif
 6350.set.xml
 6355.set.gif
@@ -145,6 +152,8 @@
 6397.set.xml
 6398.set.gif
 6398.set.xml
+648.set.gif
+648.set.xml
 6541.set.gif
 6541.set.xml
 6542.set.gif
