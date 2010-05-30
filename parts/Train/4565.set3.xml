@@ -2,15 +2,15 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>Freight & Crane Railway</en>
-		<fr></fr>
+		<en>Freight &amp; Crane Railway</en>
+		<fr>Train de Fret &amp; Grue</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/4565-1.1174536164.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0</right>
-		<top>0</top>
-		<bottom>0</bottom>
+		<top>-0.75</top>
+		<bottom>-0.75</bottom>
 	</SnapMargin>
 </part>
