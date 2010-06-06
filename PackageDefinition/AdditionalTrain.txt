@@ -1,9 +1,3 @@
-./parts/Duplo/*.gif
-./parts/Duplo/*.xml
-./parts/Space/*.gif
-./parts/Space/*.xml
-./parts/Town/*.gif
-./parts/Town/*.xml
 ./parts/Train/10027.set_half.gif
 ./parts/Train/10027.set_half.xml
 ./parts/Train/10027.set_long.gif

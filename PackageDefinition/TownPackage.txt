@@ -1,0 +1,2 @@
+./parts/Town/*.gif
+./parts/Town/*.xml
