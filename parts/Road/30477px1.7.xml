@@ -3,7 +3,7 @@
 	<Author>Alex McKenna / Alban Nanty</Author>
 	<Description>
 		<en>Baseplate 16 x 32 Roadway Ramp Inclined with White Center Stripe Pattern</en>
-		<fr></fr>
+		<fr>Plaque de Base 16 x 32 rampe inclinée de route avec des lignes blanches centrales</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/30477px1.1248481581.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
@@ -16,8 +16,8 @@
 				<y>0</y>
 			</position>
 			<angle>180</angle>
-			<angleToPrev>-90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
-			<angleToNext>-270</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 		<connexion>
@@ -27,9 +27,9 @@
 				<x>16</x>
 				<y>0</y>
 			</position>
-			<angle>90</angle>
-			<angleToPrev>-270</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
-			<angleToNext>-90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<angle>0</angle>
+			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 	</ConnexionList>
