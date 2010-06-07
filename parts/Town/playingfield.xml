@@ -5,7 +5,7 @@
 		<en>Sets 4186p01, 3303, 3304, 3305, 3306</en>
 		<fr>Sets 4186p01, 3303, 3304, 3305, 3306</fr>
 	</Description>
-	<ImageURL></ImageURL>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/3302-1.1177121412.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0.5</left>
