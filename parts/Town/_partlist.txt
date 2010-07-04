@@ -16,7 +16,6 @@
 10184.set6.xml
 10184.set7.gif
 10184.set7.xml
-113.set.xml
 1472.set1.gif
 1472.set1.xml
 1472.set2.gif
@@ -99,7 +98,6 @@
 605.set.xml
 608.set.gif
 608.set.xml
-608-1.set.gif
 6350.set.gif
 6350.set.xml
 6355.set.gif
