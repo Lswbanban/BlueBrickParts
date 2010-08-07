@@ -1,8 +1,7 @@
 /* ---- body ------------------------------------------------------- */
-BODY		{ 	background-color: white; 
-				font-family: cursive; /* please same family as P */
+BODY		{ 	font-family: cursive; /* please same family as P */
 				color: black; /* please same color as P */
-				background-color: #CEDFFF; /* light blue */
+				background-color: #C1D4F7; /* light blue */
 				text-align: justify;
 				margin-top: 2em;
 				margin-left: 2em;
