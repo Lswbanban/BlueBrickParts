@@ -9,18 +9,18 @@ BODY		{ 	font-family: cursive; /* please same family as P */
 				margin-bottom: 2em; }
 
 /* ---- links ------------------------------------------------------ */
-A:link			{ color: blue }
+A:link			{ color: #002071 }
 A:active		{ color: red }
 A:visited		{ color: #5E86CE }
-A:hover   		{ color: blue; background-color: #FFE44F }
+A:hover   		{ color: #002071; background-color: #FFE44F }
 A.NoHover:hover { color: black; background-color: transparent }
 
 /* ---- Headers --------------------------------------------------- */
 H1				{ font-size: XX-large;
-				  color: #1D77F2;
+				  color: #002071;
 				  text-align: left; }
 H2				{ font-size: large;
-				  color: #1D77F2;
+				  color: #002071;
 				  text-align: left;
 				  margin-top: 2em;
 				  font-style: italic }
