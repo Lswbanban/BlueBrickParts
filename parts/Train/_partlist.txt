@@ -1,3 +1,9 @@
+10020.set.gif
+10022.set1.gif
+10022.set2.gif
+10022.set3.gif
+10025.set1.gif
+10025.set2.gif
 10027.set_half.gif
 10027.set_half.xml
 10027.set_long.gif
@@ -6,6 +12,7 @@
 10027.set_sidebyside.xml
 10128.set.gif
 10128.set.xml
+10133.set.gif
 113.set.gif
 113.set.xml
 116.set.gif
@@ -58,6 +65,10 @@
 4558.set2.xml
 4559.set.gif
 4559.set.xml
+4564.set1.gif
+4564.set2.gif
+4564.set3.gif
+4564.set4.gif
 4565.set.gif
 4565.set.xml
 4565.set1.gif
