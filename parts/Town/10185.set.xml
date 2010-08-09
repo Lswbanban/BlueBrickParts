@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Flickr-user q_159</Author>
+	<Description>
+		<en>Green Grocer</en>
+		<fr></fr>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10185-1.1205549010.thumb2.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+	
+</part>
