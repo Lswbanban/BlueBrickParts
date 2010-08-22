@@ -212,5 +212,7 @@
 7993.set.xml
 7997.set.gif
 7997.set.xml
+8403.set.gif
+8403.set.xml
 playingfield.gif
 playingfield.xml

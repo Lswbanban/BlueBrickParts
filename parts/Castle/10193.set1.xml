@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Medieval Market Village</en>
+		<fr></fr>
+	</Description>
+	<ImageURL>http://www.1000steine.com/brickset/images/10193-1.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>.4</left>
+		<right>0</right>
+		<top>1.2</top>
+		<bottom>1.75</bottom>
+	</SnapMargin>
+	
+</part>
