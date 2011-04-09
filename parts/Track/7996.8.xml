@@ -25,8 +25,22 @@
 			</position>
 			<angle>180</angle>
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<nextConnexionPreference>2</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>1</electricPlug>
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>1</type>
+			<position>
+				<x>-24</x>
+				<y>8</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
-			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<nextConnexionPreference>3</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>1</electricPlug>
 		</connexion>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -37,20 +51,9 @@
 			</position>
 			<angle>0</angle>
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
-			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<angleToNext>0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
-		</connexion>
-		<connexion>
-			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
-			<type>1</type>
-			<position>
-				<x>-24</x>
-				<y>8</y>
-			</position>
-			<angle>180</angle>
-			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
-			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
-			<nextConnexionPreference>3</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>-1</electricPlug>
 		</connexion>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -60,9 +63,10 @@
 				<y>8</y>
 			</position>
 			<angle>0</angle>
-			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToPrev>0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
-			<nextConnexionPreference>2</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>-1</electricPlug>
 		</connexion>
 	</ConnexionList>
 </part>
