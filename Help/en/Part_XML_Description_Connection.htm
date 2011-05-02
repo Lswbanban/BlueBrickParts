@@ -23,6 +23,7 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;angleToPrev&gt;...&lt;/angleToPrev&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;angleToNext&gt;...&lt;/angleToNext&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;nextConnexionPreference&gt;...&lt;/nextConnexionPreference&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;electricPlug&gt;...&lt;/electricPlug&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/connexion&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;...<BR>
 		&lt;/ConnexionList&gt;
@@ -88,7 +89,7 @@ And finally the right top connection point is at:<BR>
 
 <P>The order of the connection points is used by BlueBrick when you rotate a part that is connected to another. BlueBrick rotates the part in such a way to connect it to the next connection point in the list. Of course, if one part has a different type of connection point (such as a rail crossing in which you have road and rail connection point), you have a different circular list. There is one list per connection type.</P>
 
-<P>Finally the <FONT CLASS="Important">Next connection preference field</FONT> is a 0-based index pointing to a connection inside the list. This parameter tells BlueBrick witch connection point should be selected automatically after the user has placed the part and connected it. If you take the straight 9V track as an example, when the user connects this track by its left connection point, you want to have the right connection point selected automatically so that you can add subsequent pieces very easily. The same applies if you connect this part with the right connection point, as then you want to have the left one selected automatically.</P>
+<P>The <FONT CLASS="Important">Next connection preference field</FONT> is a 0-based index pointing to a connection inside the list. This parameter tells BlueBrick witch connection point should be selected automatically after the user has placed the part and connected it. If you take the straight 9V track as an example, when the user connects this track by its left connection point, you want to have the right connection point selected automatically so that you can add subsequent pieces very easily. The same applies if you connect this part with the right connection point, as then you want to have the left one selected automatically.</P>
 
 <P>Normally a connection should not refer to itself as the preference for the next selected connection point (unless there is only one connection point in this part), else you will see the parts stack to each other in BlueBrick. If you take the example of a 9V switch point, you can see that if you connect this part from the left connecion point, the bottom right will then be selected and if you connect it from any right connection point, the left one will be selected.</P>
 
@@ -105,6 +106,11 @@ And finally the right top connection point is at:<BR>
       &lt;/connexion&gt;
 &lt;/ConnexionList&gt;</PRE>
 </DIV>
+
+<P>Finally the <FONT CLASS="Important">Electric Plug field</FONT> is used for track with electric circuits (9V and 12V) so you can omit this field for most parts. The field contains an integer that can be positive or negative. Different values indicates different independant circuits which are not connected electrically on the part. For example if you take the rail-cross part 32087, or a level crossing with two parallel railways, one line will be identified with the numbers +1/-1, and the other line with the numbers +2/-2.</P>
+<P>The connections with the positive values are electricaly connected to the connections with the same negative values. That means a connection with an electric plug +1 is connected to all the connections with an electric plug -1 and vice and versa. But of cource +1 is not connected to -2, neither to another +1. See the image below for some example:</P>
+
+<CENTER><IMG SRC="../ElectricPlug.png"></CENTER>
 
 </BODY>
 </HTML>
