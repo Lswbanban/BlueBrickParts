@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+<META NAME="keywords" CONTENT="BlueBrick, Help">
+<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
+<META NAME="author" CONTENT="Alban Nanty">
+<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
+<Title>Connection Type Configuration File</Title>
+</HEAD>
+<BODY>
+<H1>Connection Type Configuration File</H1>
+<P>Since the version 1.7 of BlueBrick you can extend the type of connections for the parts, letting you creating an infinite number of connection types. You can also define the color and the size of the dot used to represent the free connections in BlueBrick.</P>
+
+<P>All the different connections types are described in an XML file named <FONT CLASS="Important">"ConnectionTypeList.xml"</FONT> and located in the <FONT CLASS="Important">"config"</FONT> folder of the BlueBrick install folder. The file has this architecture:</P>
+
+<TABLE CLASS="XMLDescription">
+<TR>
+	<TD CLASS="Tilte">Selected Connection:</TD>
+	<TD CLASS="XMLCode">&lt;SelectedConnection&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;ColorARGB&gt;...&lt;/ColorARGB&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;Size&gt;...&lt;/Size&gt;<BR>
+		&lt;/SelectedConnection&gt;
+	</TD>
+</TR><TR>
+	<TD CLASS="Tilte">List of Connection Types:</TD>
+	<TD CLASS="XMLCode">&lt;ConnectionTypeList&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;ConnectionType name="..."&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ColorARGB&gt;...&lt;/ColorARGB&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Size&gt;...&lt;/Size&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ConnectionType&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;...<BR>
+		&lt;/ConnectionTypeList&gt;
+	</TD>
+</TR>  
+</TABLE>
+
+<P>The <FONT CLASS="Important">SelectedConnection field</FONT> let you define the size and the color of the connection currently selected when you click on one single part. If this field is not present in the XML file, a big red dot will be used by default. You should always use a size bigger than every size you may define in the following list of connection types, because the selection dot is drawn first, under the actual connection dot. So if you choose a too small size, the selection dot may be hidden by the connection dot.</P>
+
+<P>The <FONT CLASS="Important">ColorARGB field</FONT> is a 4 bytes integer written in Hexadecimal and the order of the color components are Alpha (i.e. transparency), Red, Green, Blue. Do not prefix the numbe with "0x". For example the solid green color would be <FONT CLASS="Important">FF00FF00</FONT>. If this field is missing the solid black color will be used by default. Be careful to not set a null value in the Alpha channel, otherwise the dot will be totally transparent and therefore invisible.</P>
+
+<P>The <FONT CLASS="Important">Size field</FONT> defines the radius of the dot in Stud unit. If this field is missing a default radius of 1 stud will be used.</P>
+
+<P>The <FONT CLASS="Important">ConnectionTypeList field</FONT> list a serie of <FONT CLASS="Important">ConnectionType field</FONT> that describe all the different connection type.</P>
+
+<P>The <FONT CLASS="Important">ConnectionType field</FONT> contains also a color and a size fields for this connection. But most important, this field has a mandatory attribute called <FONT CLASS="Important">name</FONT> which is the name id of the connection so this name must be a unique string among all the list of connection. This same name must be used in the XML description files of the parts in the part library in the field <FONT CLASS="Important">&lt;connexion&gt;&lt;type&gt;</FONT>.</P>
+
+<P>For your information, here is the list of the available connections so far. Historically it was using a number, but these numbers will be renamed with a more explicit name in the 1.8 version.</P>
+<DIV CLASS="TechNote">
+<FONT STYLE="background-color:yellow">1 = Rail (4.5V, 12V or 9V)</FONT><BR>
+<FONT STYLE="background-color:cyan">2 = Road</FONT><BR>
+<FONT STYLE="background-color:purple">3 = Monorail (standard)</FONT><BR>
+<FONT STYLE="background-color:pink">4 = Monorail (short curve)</FONT><BR>
+<FONT STYLE="background-color:lightgreen">5 = Duplo Rail</FONT><BR>
+</DIV>
+
+</BODY>
+</HTML>

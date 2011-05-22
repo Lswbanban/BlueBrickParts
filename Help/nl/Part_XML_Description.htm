@@ -169,6 +169,7 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;angleToPrev&gt;...&lt;/angleToPrev&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;angleToNext&gt;...&lt;/angleToNext&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;nextConnexionPreference&gt;...&lt;/nextConnexionPreference&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;electricPlug&gt;...&lt;/electricPlug&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/connexion&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;...<BR>
 		&lt;/ConnexionList&gt;
@@ -182,18 +183,9 @@
 </TR>  
 </TABLE>
 
-<P>The <FONT CLASS="Important">type field</FONT> is an integer representing the type of the connection. In BlueBrick only connections of the same type can connect to each other. Here is the list of all the available types (the background color reflect the color of the connection points in BlueBrick).</P>
+<P>The <FONT CLASS="Important">type field</FONT> is string id representing the type of the connection. In BlueBrick only connections of the same type can connect to each other. The available types and the color used to represent them in BlueBrick are defined in an XML configuration file called "ConnectionTypeList.xml" and located in the "config" folder of the BlueBrick install folder. Read the <A HREF="Connection_Type_Config_File.htm">"Connection Type" configuration file section</A> for more details.</P>
 
-<DIV CLASS="TechNote">
-0 = None<BR>
-<FONT STYLE="background-color:yellow">1 = Rail (4.5V, 12V or 9V)</FONT><BR>
-<FONT STYLE="background-color:cyan">2 = Road</FONT><BR>
-<FONT STYLE="background-color:purple">3 = Monorail (standard)</FONT><BR>
-<FONT STYLE="background-color:pink">4 = Monorail (short curve)</FONT><BR>
-<FONT STYLE="background-color:lightgreen">5 = Duplo Rail</FONT><BR>
-</DIV>
-
-<P>The <FONT CLASS="Important">position field</FONT> is the coordinate of the connection <FONT CLASS="Important">in stud unit</FONT> and <FONT CLASS="Important">from the center of the part</FONT>. So first you have to compute the center of your part in stud coordinate. You don't need to specify the center of the part because BlueBrick compute it automatically, but you still need to calculate it for yourself in order to place the connection point at the right position. When BlueBrick rotates the parts, it is a lot more simple and efficient to rotate it from its center, that's why BlueBrick use this system of coordinate for the connection points:</P>
+<P>The <FONT CLASS="Important">position field</FONT> is the coordinate of the connection <FONT CLASS="Important">in stud units</FONT>, <FONT CLASS="Important">relative to the center of the part</FONT>. First you have to determine the distance of your connector to the center of your part, in studs. In the example below the distance is 8 studs to all sides. You don't need to specify the center of the part because BlueBrick does this automatically. When BlueBrick rotates the parts, it is a lot more simple and efficient to rotate it at its center. This is why BlueBrick uses this system to make the coordinates for the connection points:</P>
 
 <CENTER><IMG SRC="../ConnectionPointAxisCross.png"></CENTER>
 

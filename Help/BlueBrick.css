@@ -68,7 +68,7 @@ FONT.path		{ font-variant: small-caps;
 FONT.Important	{font-variant: small-caps;
 				 font-weight: bold;
 				 color: #6A1AFF }
-			  
+
 /* ---- hr -------------------------------------------------------- */
 HR			{ 	width: 80%;
 				background-color: #A0FBD0 }
@@ -99,3 +99,5 @@ DIV.TechNote	{ width: 100%;
 				  padding-bottom: 1em;
 				  background-color: #E8E8E8;
 				  font-family: monospace; }
+
+DIV.ToTranslate { background-color: yellow; }

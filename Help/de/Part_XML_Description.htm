@@ -183,16 +183,7 @@
 </TR>  
 </TABLE>
 
-<P>Im Feld <FONT CLASS="Important">type</FONT> ist eine ganze Zahl zur Beschreibung des Verknüpfungstyps einzutragen. In BlueBrick können nur Verknüpfungspunkte des gleichen Typs verknüpft werden. Hier ist eine Liste mit allen verfügbaren Typen (die Hintergrundfarbe entspricht der Farbe des Verknüpfungspunktes in BlueBrick).</P>
-
-<DIV CLASS="TechNote">
-0 = Keine<BR>
-<FONT STYLE="background-color:yellow">1 = Schiene (4.5V, 12V or 9V)</FONT><BR>
-<FONT STYLE="background-color:cyan">2 = Straße</FONT><BR>
-<FONT STYLE="background-color:purple">3 = Monorail (standard)</FONT><BR>
-<FONT STYLE="background-color:pink">4 = Monorail (kurze Kurve)</FONT><BR>
-<FONT STYLE="background-color:lightgreen">5 = Duplo-Schienen</FONT><BR>
-</DIV>
+<P><DIV CLASS="ToTranslate">The <FONT CLASS="Important">type field</FONT> is string id representing the type of the connection. In BlueBrick only connections of the same type can connect to each other. The available types and the color used to represent them in BlueBrick are defined in an XML configuration file called "ConnectionTypeList.xml" and located in the "config" folder of the BlueBrick install folder. Read the <A HREF="Connection_Type_Config_File.htm">"Connection Type" configuration file section</A> for more details.</DIV></P>
 
 <P>Im Feld <FONT CLASS="Important">position</FONT> sind die Koordinaten der Verknüpfungspunkte <FONT CLASS="Important">in Noppen-Einheiten</FONT>, <FONT CLASS="Important"> relativ zum Teilmittelpunkt einzutragen.</FONT>. Hierzu ist zunächst der Abstand des Verknüpfungspunktes zum Teilmittelpunkt zu bestimmen. Im unten gezeigten Beispiel beträgt der Abstand 8 Noppen zu allen Seiten. Der Teilmittelpunkt muss nicht angegeben werden, BlueBrick berechnet diesen automatisch. Wird ein Teil in BlueBrick gedreht, so ist es am einfachsten, dieses um den Teilemittelpunkt zu drehen. Deshalb sind die Koordinaten der Verknüpfungspunkte als Abstand zum Teilemittelpunkt anzugeben:</P>
 

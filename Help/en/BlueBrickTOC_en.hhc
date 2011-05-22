@@ -172,6 +172,10 @@
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Connection Type Configuration File">
+			<param name="Local" value="Connection_Type_Config_File.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Reload the Part Library">
 			<param name="Local" value="Reload_the_Part_Library.htm">
 			</OBJECT>
