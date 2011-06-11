@@ -43,7 +43,6 @@
 			<TDBitmap>
 				<BBConnexionPointIndex>0</BBConnexionPointIndex>
 				<Type>0</Type>
-				<Polarity>0</Polarity>
 				<AngleBetweenTDandBB>-90</AngleBetweenTDandBB>
 			</TDBitmap>
 		</TDBitmapList>

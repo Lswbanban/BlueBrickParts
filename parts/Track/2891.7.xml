@@ -89,13 +89,11 @@
 			<TDBitmap>
 				<BBConnexionPointIndex>0</BBConnexionPointIndex>
 				<Type>17</Type> <!-- The type list is too long, please refer to the help file -->
-				<Polarity>0</Polarity> <!-- 0=unasasigned, N=-ve, P=+ve -->
 				<AngleBetweenTDandBB>45</AngleBetweenTDandBB>
 			</TDBitmap>
 			<TDBitmap>
 				<BBConnexionPointIndex>1</BBConnexionPointIndex>
 				<Type>14</Type> <!-- The type list is too long, please refer to the help file -->
-				<Polarity>0</Polarity> <!-- 0=unasasigned, N=-ve, P=+ve -->
 				<AngleBetweenTDandBB>180</AngleBetweenTDandBB>
 			</TDBitmap>
 		</TDBitmapList>

@@ -55,19 +55,16 @@
         		<TDBitmap>
             			<BBConnexionPointIndex>0</BBConnexionPointIndex>
             			<Type>7</Type>
-            			<Polarity>0</Polarity>
             			<AngleBetweenTDandBB>90</AngleBetweenTDandBB>
         		</TDBitmap>
         		<TDBitmap>
             			<BBConnexionPointIndex>2</BBConnexionPointIndex>
             			<Type>8</Type>
-            			<Polarity>0</Polarity>
             			<AngleBetweenTDandBB>-90</AngleBetweenTDandBB>
         		</TDBitmap>
         		<TDBitmap>
             			<BBConnexionPointIndex>1</BBConnexionPointIndex>
             			<Type>10</Type>
-            			<Polarity>0</Polarity>
             			<AngleBetweenTDandBB>180</AngleBetweenTDandBB>
         		</TDBitmap>
     		</TDBitmapList>
