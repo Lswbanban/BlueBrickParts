@@ -42,6 +42,8 @@
 1620.set.xml
 1682.set.gif
 1682.set.xml
+1854.set.gif
+1854.set.xml
 1966.set.gif
 1966.set.xml
 309.set.gif

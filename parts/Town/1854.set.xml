@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>VELUX Promotional Set: House</en>
+		<fr></fr>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/1854-1.1175266695.thumb2.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>1</left>
+		<right>1</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+	
+</part>
