@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Open Freight Wagon</en>
+		<fr></fr>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10013-1.1123038526.thumb.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>
