@@ -165,7 +165,6 @@
 6394.set.gif
 6394.set.xml
 6395.set.gif
-6395.set.xml
 6397.set.gif
 6397.set.xml
 6398.set.gif
