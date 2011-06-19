@@ -210,12 +210,6 @@
 7641.set4.xml
 7744.set.gif
 7744.set.xml
-7822.set.gif
-7822.set.xml
-7824.set.gif
-7824.set.xml
-7897.set4.gif
-7897.set4.xml
 7993.set.gif
 7993.set.xml
 7997.set.gif

@@ -159,8 +159,12 @@
 7820.set.xml
 7821.set.gif
 7821.set.xml
+7822.set.gif
+7822.set.xml
 7823.set.gif
 7823.set.xml
+7824.set.gif
+7824.set.xml
 7834.set.gif
 7834.set.xml
 7835.set.gif
@@ -169,5 +173,9 @@
 7838.set.xml
 7866.set.gif
 7866.set.xml
+7897.set4.gif
+7897.set4.xml
+7937.set.gif
+7937.set.xml
 7997.set.gif
 7997.set.xml
