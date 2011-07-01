@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Eurobricks user Stu83</Author>
+	<Description>
+		<en>Cargo Train</en>
+		<fr></fr>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7939-1.1292176184.thumb2.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>
