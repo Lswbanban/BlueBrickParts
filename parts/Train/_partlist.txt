@@ -34,6 +34,12 @@
 10194.set1.xml
 10194.set2.gif
 10194.set2.xml
+10219.set1.gif
+10219.set1.xml
+10219.set2.gif
+10219.set2.xml
+10219.set3.gif
+10219.set3.xml
 113.set.gif
 113.set.xml
 116.set.gif
