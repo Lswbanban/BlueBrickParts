@@ -236,6 +236,8 @@
 7866.set.xml
 7897.set4.gif
 7897.set4.xml
+7936.set.gif
+7936.set.xml
 7937.set.gif
 7937.set.xml
 7938.set2.gif
