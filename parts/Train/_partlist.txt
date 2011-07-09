@@ -30,6 +30,8 @@
 10133.set.xml
 10170.set.gif
 10170.set.xml
+10183.set.gif
+10183.set.xml
 10194.set1.gif
 10194.set1.xml
 10194.set2.gif
@@ -202,12 +204,16 @@
 7755.set.xml
 7760.set.gif
 7760.set.xml
+7810.set.gif
+7810.set.xml
 7814.set.gif
 7814.set.xml
 7815.set.gif
 7815.set.xml
 7816.set.gif
 7816.set.xml
+7818.set.gif
+7818.set.xml
 7820.set.gif
 7820.set.xml
 7821.set.gif
