@@ -1,10 +1,6 @@
 00-1.set.gif
 00-1.set.xml
-10016.set.gif
-10016.set.xml
 10182.set.gif
-10182.set.xml
-10183.set.gif
 10183.set.xml
 10184.set1.gif
 10184.set1.xml
