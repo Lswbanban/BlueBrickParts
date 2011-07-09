@@ -102,8 +102,6 @@
 356.set.xml
 361.set.gif
 361.set.xml
-3739.set.gif
-3739.set.xml
 376.set.gif
 376.set.xml
 377.set.gif
