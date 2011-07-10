@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<part>
+	<Author>L@go</Author>
+	<Description>
+		<en>Blacksmith Shop</en>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/3739-1.1175441243.thumb2.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0.5</left>
+		<right>1</right>
+		<top>1</top>
+		<bottom>3.5</bottom>
+	</SnapMargin>
+</part>

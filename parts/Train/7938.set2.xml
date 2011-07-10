@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <part>
-	<Author>Alexander McKenna</Author>
+	<Author>Eurobricks user Stu83</Author>
 	<Description>
-		<en>Riding Stable</en>
+		<en>Passenger Train</en>
 		<fr></fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/6379-1.1172124096.thumb2.jpg</ImageURL>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7938-1.1304291491.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
@@ -13,5 +13,4 @@
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-	
 </part>
