@@ -74,12 +74,17 @@
 7864.7.xml
 7996.8.gif
 7996.8.xml
+88492.8.gif
+88492.8.xml
+88493.8.gif
+88493.8.xml
 9VHalfCurve.8.gif
 9VHalfCurve.8.xml
 9VHalfStraight.8.gif
 9VHalfStraight.8.xml
 9VQuarterStraight.8.gif
 9VQuarterStraight.8.xml
+flex.group.xml
 X504B.1.gif
 X504B.1.xml
 X505B.1.gif

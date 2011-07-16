@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Flex Track Female</en>
+		<fr>Rail flex female</fr>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/custpics/88492c00.1238400171.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0.5</left>
+		<right>-1.2</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<!-- this part is 3.3 stud wide and 4 stud height, the center of this part in stud is x = 3.3/2 = 1.65    and    y = 4 -->
+		<connexion>
+			<type>1</type>
+			<position>
+				<x>-1.15</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>flexpivot</type>
+			<position>
+				<x>0.85</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+			<angleToPrev>0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+	</ConnexionList>
+	<!-- a list of point that describe the hull of the parts to help finding the bounding box, when rotating the part. This is optionnal, if it doesn't exist we use the full box of the picture. -->
+	<hull>
+		<point>
+			<x>0</x>
+			<y>8</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>12</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>22</x>
+			<y>7</y>
+		</point>
+		<point>
+			<x>25</x>
+			<y>28</y>
+		</point>
+		<point>
+			<x>25</x>
+			<y>35</y>
+		</point>
+		<point>
+			<x>22</x>
+			<y>56</y>
+		</point>
+		<point>
+			<x>12</x>
+			<y>63</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>63</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>54</y>
+		</point>
+	</hull>
+
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<Translation>
+			<x>17</x>
+			<y>0</y>
+		</Translation>
+		<PreferredHeight>-8</PreferredHeight>
+	</LDraw>
+</part>
