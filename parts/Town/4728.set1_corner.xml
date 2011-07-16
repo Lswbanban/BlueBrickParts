@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/4728-1-1024809647.jpg</ImageURL>
+	<Description>
+		<de>Flucht aus dem Lingusterweg</de>
+		<en>Escape from Privet Drive</en>
+		<fr></fr>
+	</Description>
+
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>3.9</left>
+		<right>1.1</right>
+		<top>0</top>
+		<bottom>3</bottom>
+	</SnapMargin>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		
+	</ConnexionList>
+</part>
