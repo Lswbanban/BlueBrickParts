@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<META NAME="keywords" CONTENT="BlueBrick, Help">
+<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
+<META NAME="author" CONTENT="Alban Nanty">
+<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
+<Title>Specify if the part should be hidden</Title>
+</HEAD>
+<BODY>
+<H1>Specify if the part should be hidden</H1>
+
+<TABLE CLASS="XMLDescription">
+<TR>
+	<TD CLASS="Tilte">Syntax:</TD>
+	<TD CLASS="XMLCode">&lt;NotListedInLibrary&gt;...&lt;/NotListedInLibrary&gt;</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Default Value:</TD>
+	<TD>false</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Description:</TD>
+	<TD>If this tag is set with "true", the part will not be visible in the Part Library of the application.</TD>
+</TR>  
+</TABLE>
+
+<P>Most of the parts should ignore this tag. If this tag is set with "true", the part will not be visible in the Part Library of the application. If the tag is missing or set to "false" then the part will appear normally in the Part Library view of the application. This tag is usefull if you want to create a group of parts accessible in the part library, but you want to hide all the sub-parts of the group.</P>
+
+<P>Even if this flag is set to true, the application will load its image and all the XML properties, and the part will be fully functionnable (connection points, etc...) on the map. Specifically if you add this part through a group, then ungroup this group, you will be able to manipulate the part normally like any other part. Setting the flag to true, just prevent the part to appear in the library and being able to be dragged on the map.</P>
+
+</BODY>
+</HTML>
