@@ -1,13 +1,13 @@
 [OPTIONS]
 Compatibility=1.1 or later
-Compiled file=..\..\BlueBrick\bin\Release\BlueBrick.chm
+Compiled file=..\..\fr\BlueBrick.chm
 Contents file=BlueBrickTOC_fr.hhc
 Default topic=Start_Page.htm
 Display compile progress=No
 Error log file=log.log
 Index file=BlueBrickIndex_fr.hhk
 Language=0x40c French (France)
-Title=BlueBrick Help
+Title=Aide de BlueBrick
 
 
 [FILES]
@@ -50,6 +50,8 @@ Part_XML_Description_Image.htm
 Part_XML_Description_LDRAW.htm
 Part_XML_Description_Margin.htm
 Part_XML_Description_OldName.htm
+Part_Library_Options.htm
+Part_XML_Description_NotListedInLibrary.htm
 
 [INFOTYPES]
 
