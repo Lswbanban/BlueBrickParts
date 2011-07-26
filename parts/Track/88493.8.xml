@@ -6,6 +6,7 @@
 		<fr>Rail flex male</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/88492c00.1238400171.jpg</ImageURL>
+	<NotListedInLibrary>true</NotListedInLibrary>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>-1.0</left>

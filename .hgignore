@@ -1,6 +1,7 @@
 syntax: glob
 .hg
 *.php
+*.log
 
 ; ignore the generated files
 .\BlueBrick.*
