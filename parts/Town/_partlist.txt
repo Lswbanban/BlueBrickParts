@@ -1,5 +1,7 @@
 00-1.set.gif
 00-1.set.xml
+10181.set.gif
+10181.set.xml
 10182.set.gif
 10183.set.xml
 10184.set1.gif
@@ -24,6 +26,8 @@
 10190.set1.xml
 10190.set2.gif
 10190.set2.xml
+10196.set.gif
+10196.set.xml
 10197.set.gif
 10197.set.xml
 10200.set.gif
@@ -179,6 +183,16 @@
 4999.set.xml
 545.set.gif
 545.set.xml
+5766.set_option_1.gif
+5766.set_option_1.xml
+5766.set_option_2.gif
+5766.set_option_2.xml
+5766.set_option_3.gif
+5766.set_option_3.xml
+5770.set_option_2.gif
+5770.set_option_2.xml
+5770.set_option_3.gif
+5770.set_option_3.xml
 605.set.gif
 605.set.xml
 608.set.gif
@@ -293,6 +307,12 @@
 6699.set.xml
 675.set.gif
 675.set.xml
+6754.set_option_1.gif
+6754.set_option_1.xml
+6754.set_option_2.gif
+6754.set_option_2.xml
+6754.set_option_3.gif
+6754.set_option_3.xml
 7035.set.gif
 7035.set.xml
 7641.set1.gif
