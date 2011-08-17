@@ -20,6 +20,8 @@ DelVaLUG.gif
 DelVaLUG.xml
 EJLTC.gif
 EJLTC.xml
+FestiBriques.gif
+FestiBriques.xml
 FreeLUG.gif
 FreeLUG.xml
 GBLTC.gif
