@@ -26,6 +26,7 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;&lt;ConnectionType name="..."&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ColorARGB&gt;...&lt;/ColorARGB&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Size&gt;...&lt;/Size&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;HingeAngle&gt;...&lt;/HingeAngle&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ConnectionType&gt;<BR>
 		&nbsp;&nbsp;&nbsp;&nbsp;...<BR>
 		&lt;/ConnectionTypeList&gt;
@@ -38,6 +39,8 @@
 <P>The <FONT CLASS="Important">ColorARGB field</FONT> is a 4 bytes integer written in Hexadecimal and the order of the color components are Alpha (i.e. transparency), Red, Green, Blue. Do not prefix the numbe with "0x". For example the solid green color would be <FONT CLASS="Important">FF00FF00</FONT>. If this field is missing the solid black color will be used by default. Be careful to not set a null value in the Alpha channel, otherwise the dot will be totally transparent and therefore invisible.</P>
 
 <P>The <FONT CLASS="Important">Size field</FONT> defines the radius of the dot in Stud unit. If this field is missing a default radius of 1 stud will be used.</P>
+
+<P>The <FONT CLASS="Important">HingeAngle field</FONT> defines the maximum angle the bricks can rotate while they are connected. This field cannot appears in the selected connection field and is optionnal for the other connections. If this field is set with a value of 0, it has the same effect that not setting it at all (that means the connection is not an hinge). If a non null value is set then this connection is like an hinge, and the two bricks linked through this connection can rotate between them on the connection point.</P>
 
 <P>The <FONT CLASS="Important">ConnectionTypeList field</FONT> list a serie of <FONT CLASS="Important">ConnectionType field</FONT> that describe all the different connection type.</P>
 
