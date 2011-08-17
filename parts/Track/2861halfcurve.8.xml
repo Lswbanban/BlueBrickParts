@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <part>
-	<Author>FreeBee (Roland Bal)</Author>
+	<Author>FreeBee (Roland Bal), Alban Nanty</Author>
 	<Description>
 		<en>Train Track 9V Point Left Modified</en>
 		<fr>Aiguillage gauche 9V</fr>
@@ -10,18 +10,17 @@
 	<SnapMargin>
 		<left>0.5</left>
 		<right>0.5</right>
-		<top>0</top>
+		<top>6</top>
 		<bottom>0</bottom>
 	</SnapMargin>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
-		<!-- the center of this part in stud is x = 264 pix /8 pixperstud /2 = 17    and    y = 114 /8 /2 = 7.125 -->
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
 			<type>1</type>
 			<position>
 				<x>-16</x>
-				<y>3.125</y>
+				<y>3</y>
 			</position>
 			<angle>180</angle>
 			<angleToPrev>146.25</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
@@ -34,7 +33,7 @@
 			<type>1</type>
 			<position>
 				<x>16</x>
-				<y>3.125</y>
+				<y>3</y>
 			</position>
 			<angle>0</angle>
 			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
@@ -46,8 +45,8 @@
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
 			<type>1</type>
 			<position>
-				<x>6.22281</x>	
-				<y>-3.6162</y>	
+				<x>6.22281</x>	<!-- x = connection0.X + radius * sin(33.75) = -16 + 40*sin(33.75) -->
+				<y>-3.7412155</y>	<!-- y = connection0.Y - radius * (1 - cos(33.75)) = 3 - 40*(1 - cos(33.75)) -->
 			</position>
 			<angle>-33.75</angle>
 			<angleToPrev>33.75</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
@@ -59,28 +58,40 @@
 	<!-- a list of point that describe the hull of the parts to help finding the bounding box, when rotating the part. This is optionnal, if it doesn't exist we use the full box of the picture. -->
 	<hull>
 		<point>
-			<x>258</x>
+			<x>0</x>
+			<y>59</y>
+		</point>
+		<point>
+			<x>18</x>
 			<y>0</y>
 		</point>
 		<point>
-			<x>280</x>
-			<y>52</y>
+			<x>161</x>
+			<y>0</y>
 		</point>
 		<point>
-			<x>264</x>
-			<y>166</y>
+			<x>260</x>
+			<y>49</y>
+		</point>
+		<point>
+			<x>263</x>
+			<y>57</y>
+		</point>
+		<point>
+			<x>263</x>
+			<y>103</y>
+		</point>
+		<point>
+			<x>260</x>
+			<y>113</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>113</y>
 		</point>
 		<point>
 			<x>0</x>
-			<y>166</y>
-		</point>
-		<point>
-			<x>0</x>
-			<y>102</y>
-		</point>
-		<point>
-			<x>19</x>
-			<y>53</y>
+			<y>105</y>
 		</point>
 	</hull>
 </part>

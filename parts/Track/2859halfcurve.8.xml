@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <part>
-	<Author>FreeBee (Roland Bal)</Author>
+	<Author>FreeBee (Roland Bal), Alban Nanty</Author>
 	<Description>
 		<en>Train Track 9V Point Right Modified</en>
 		<fr>Aiguillage droit 9V</fr>
@@ -9,9 +9,9 @@
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0.5</left>
-		<right>2.375</right>
+		<right>0.5</right>
 		<top>0</top>
-		<bottom>12.625</bottom>
+		<bottom>6</bottom>
 	</SnapMargin>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
@@ -21,7 +21,7 @@
 			<type>1</type>
 			<position>
 				<x>-16</x>
-				<y>-3.125</y>
+				<y>-3</y>
 			</position>
 			<angle>180</angle>
 			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
@@ -33,8 +33,8 @@
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
 			<type>1</type>
 			<position>
-				<x>6.22281</x>	
-				<y>3.6162</y>	
+				<x>6.22281</x>	<!-- x = connection0.X + radius * sin(33.75) = -16 + 40*sin(33.75) -->
+				<y>3.7412155</y>	<!-- y = connection0.Y + radius * (1 - cos(33.75)) = -3 + 40*(1 - cos(33.75)) -->	
 			</position>
 			<angle>33.75</angle>
 			<angleToPrev>146.25</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
@@ -47,7 +47,7 @@
 			<type>1</type>
 			<position>
 				<x>16</x>	
-				<y>-3.125</y>	
+				<y>-3</y>	
 			</position>
 			<angle>0</angle>
 			<angleToPrev>33.75</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
@@ -60,27 +60,43 @@
 	<hull>
 		<point>
 			<x>0</x>
+			<y>54</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>7</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>261</x>
 			<y>0</y>
 		</point>
 		<point>
 			<x>264</x>
-			<y>0</y>
+			<y>9</y>
 		</point>
 		<point>
-			<x>279</x>
-			<y>115</y>
+			<x>264</x>
+			<y>55</y>
 		</point>
 		<point>
-			<x>255</x>
-			<y>166</y>
+			<x>260</x>
+			<y>63</y>
+		</point>
+		<point>
+			<x>160</x>
+			<y>111</y>
+		</point>
+		<point>
+			<x>43</x>
+			<y>112</y>
 		</point>
 		<point>
 			<x>18</x>
 			<y>112</y>
-		</point>
-		<point>
-			<x>0</x>
-			<y>63</y>
 		</point>
 	</hull>
 </part>
