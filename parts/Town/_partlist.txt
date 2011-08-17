@@ -197,6 +197,10 @@
 605.set.xml
 608.set.gif
 608.set.xml
+6338.set.gif
+6338.set.xml
+6339.set.gif
+6339.set.xml
 6349.set.gif
 6349.set.xml
 6350.set.gif
@@ -239,7 +243,6 @@
 6383.set.xml
 6384.set.gif
 6384.set.xml
-6387.set.gif
 6387.set.xml
 6390.set.gif
 6390.set.xml
