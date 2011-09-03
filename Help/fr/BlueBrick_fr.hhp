@@ -18,7 +18,6 @@ Part_Image_Format.htm
 Part_Library_Folders.htm
 Part_XML_Description.htm
 Reload_the_Part_Library.htm
-..\parts_folder.png
 Software_Overview.htm
 Toolbars.htm
 Window_Panes.htm
@@ -52,6 +51,11 @@ Part_XML_Description_Margin.htm
 Part_XML_Description_OldName.htm
 Part_Library_Options.htm
 Part_XML_Description_NotListedInLibrary.htm
+Group_XML_Description.htm
+Group_XML_Description_CanUngroup.htm
+Group_XML_Description_GroupConnectionPreferenceList.htm
+Group_XML_Description_SubPartList.htm
+Connection_Type_Config_File.htm
 
 [INFOTYPES]
 
