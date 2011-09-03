@@ -108,6 +108,10 @@
 			<param name="Local" value="Appearance_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Onderdelenbibliotheek">
+			<param name="Local" value="Part_Library_Options.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Sneltoetsen">
 			<param name="Local" value="Shortcut_Keys.htm">
 			</OBJECT>
@@ -130,20 +134,88 @@
 			<param name="Local" value="Part_Image_Format.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Part XML Description">
+			<param name="Name" value="XML Part Description">
 			<param name="Local" value="Part_XML_Description.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Author">
+				<param name="Local" value="Part_XML_Description_Author.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part Description">
+				<param name="Local" value="Part_XML_Description_Description.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Image URL">
+				<param name="Local" value="Part_XML_Description_Image.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Not Listed in Library">
+				<param name="Local" value="Part_XML_Description_NotListedInLibrary.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Old Name">
+				<param name="Local" value="Part_XML_Description_OldName.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Margins">
+				<param name="Local" value="Part_XML_Description_Margin.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Connections">
+				<param name="Local" value="Part_XML_Description_Connection.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Hull">
+				<param name="Local" value="Part_XML_Description_Hull.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="TD Compatibility">
+				<param name="Local" value="Part_XML_Description_Track_Designer.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="LDraw Compatibility">
+				<param name="Local" value="Part_XML_Description_LDRAW.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="XML Group Description">
+			<param name="Local" value="Group_XML_Description.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Author">
+				<param name="Local" value="Part_XML_Description_Author.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Part Description">
+				<param name="Local" value="Part_XML_Description_Description.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Can Ungroup">
+				<param name="Local" value="Group_XML_Description_CanUngroup.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Margins">
+				<param name="Local" value="Part_XML_Description_Margin.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sub Part List">
+				<param name="Local" value="Group_XML_Description_SubPartList.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Connection Preference List">
+				<param name="Local" value="Group_XML_Description_GroupConnectionPreferenceList.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Connection Type Configuration File">
+			<param name="Local" value="Connection_Type_Config_File.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Reload the Part Library">
 			<param name="Local" value="Reload_the_Part_Library.htm">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="LDraw Remaping File">
-			<param name="Local" value="LDraw_Remaping_File.htm">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Track Designer Remaping File">
-			<param name="Local" value="Track_Designer_Remaping_File.htm">
 			</OBJECT>
 	</UL>
 </UL>

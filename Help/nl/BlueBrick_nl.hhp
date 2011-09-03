@@ -1,6 +1,6 @@
 [OPTIONS]
 Compatibility=1.1 or later
-Compiled file=..\..\BlueBrick\bin\Release\nl\BlueBrick.chm
+Compiled file=..\..\..\Release\nl\BlueBrick.chm
 Contents file=BlueBrickTOC_nl.hhc
 Default topic=Start_Page.htm
 Display compile progress=No
@@ -20,7 +20,6 @@ Part_Image_Format.htm
 Part_Library_Folders.htm
 Part_XML_Description.htm
 Reload_the_Part_Library.htm
-..\parts_folder.png
 Software_Overview.htm
 Toolbars.htm
 Window_Panes.htm
@@ -43,6 +42,22 @@ General_Options.htm
 Appearance_Options.htm
 Shortcut_Keys.htm
 Other_Options.htm
+Group_XML_Description_SubPartList.htm
+Connection_Type_Config_File.htm
+Group_XML_Description.htm
+Group_XML_Description_CanUngroup.htm
+Group_XML_Description_GroupConnectionPreferenceList.htm
+Part_XML_Description_Track_Designer.htm
+Part_XML_Description_Author.htm
+Part_XML_Description_Connection.htm
+Part_XML_Description_Description.htm
+Part_XML_Description_Hull.htm
+Part_XML_Description_Image.htm
+Part_XML_Description_LDRAW.htm
+Part_XML_Description_Margin.htm
+Part_XML_Description_NotListedInLibrary.htm
+Part_XML_Description_OldName.htm
+..\parts_folder.png
 
 [INFOTYPES]
 
