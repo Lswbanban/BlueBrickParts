@@ -1,12 +1,12 @@
 [OPTIONS]
 Compatibility=1.1 or later
-Compiled file=..\..\..\Release\BlueBrick.chm
-Contents file=BlueBrickTOC_en.hhc
+Compiled file=..\..\..\Release\es\BlueBrick.chm
+Contents file=BlueBrickTOC_es.hhc
 Default topic=Start_Page.htm
 Display compile progress=No
 Error log file=log.log
-Index file=BlueBrickIndex_en.hhk
-Language=0x409 English (United States)
+Index file=BlueBrickIndex_es.hhk
+Language=0x80a Spanish (Mexico)
 Title=BlueBrick Help
 
 
