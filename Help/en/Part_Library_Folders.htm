@@ -49,7 +49,7 @@ parts<FONT COLOR=red>    &#x2190; If you add parts in this folder they will be i
 
 <P>When creating the parts library, BlueBrick first looks for GIF files in the parts folders. For each GIF file that is found, BlueBrick then checks if an XML file of the same name exists. XML files are optional and if the XML file is missing, default values will be used for this part.</P>
 
-<P>Then BlueBrick looks for XML file without an associated GIF file and will also parse these XML files. These parts however will be ignored by BlueBrick, which means that they will not be visible in the part window pane. Those parts will also not be visible on a layout and won't generate a warning if BlueBrick finds them in a layout file. So if you want to force BlueBrick to ignore some specific parts, you just need to create the correct XML file.</P>
+<P>Then BlueBrick looks for XML file without an associated GIF file and will also parse these XML files. These parts can be of two types: either it is a group part, or a normal part. If it is a group part, the image of the group will be recreated by BlueBrick (that's why they don't have gif associated) and visible in the part window pane. If it is a normal part, then this part will be ignored by BlueBrick, which means that they will not be visible in the part window pane. Those parts will also not be visible on a layout and won't generate a warning if BlueBrick finds them in a layout file. So if you want to force BlueBrick to ignore some specific parts, you just need to create the correct XML file.</P>
 
 <CENTER>
 <TABLE BORDER=2>
@@ -58,7 +58,8 @@ parts<FONT COLOR=red>    &#x2190; If you add parts in this folder they will be i
 </TR><TR>
 	<TD>XML present</TD>
 	<TD><CENTER><FONT COLOR="green">Valid Part</FONT></CENTER>The part is visible in the library.<BR>The behavior of the part is correct.</TD>
-	<TD><CENTER><FONT COLOR="green">Ignored Part</FONT></CENTER>The part is not visible in BlueBrick.<BR>Some information can be used for export.</TD>
+	<TD><CENTER><FONT COLOR="green">Group Part</FONT></CENTER>The image is created by BlueBrick.<BR>The behavior of the part is correct.<BR>
+		<CENTER>or <FONT COLOR="green">Ignored Part</FONT></CENTER>The part is not visible in BlueBrick.<BR>Some information can be used for export.</TD>
 </TR><TR>
 	<TD>XML missing</TD>
 	<TD><CENTER><FONT COLOR="green">Simple Image</FONT></CENTER>The part is visible in the library.<BR>The part is inert.</TD>

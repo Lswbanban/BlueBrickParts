@@ -121,8 +121,12 @@
 		<param name="Local" value="Moving_Parts.htm">
 		<param name="Name" value="Appearance Options">
 		<param name="Local" value="Appearance_Options.htm">
-		<param name="Name" value="Part XML Description">
-		<param name="Local" value="Part_XML_Description.htm">
+		<param name="Name" value="Connection Type Configuration File">
+		<param name="Local" value="Connection_Type_Config_File.htm">
+		<param name="Name" value="List the interface connections of the group">
+		<param name="Local" value="Group_XML_Description_GroupConnectionPreferenceList.htm">
+		<param name="Name" value="Describe the Connection Points">
+		<param name="Local" value="Part_XML_Description_Connection.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="convention">
@@ -252,6 +256,11 @@
 		<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
 		<param name="Name" value="Other Options">
 		<param name="Local" value="Other_Options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="group">
+		<param name="Name" value="Group XML Description">
+		<param name="Local" value="Group_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="html">
@@ -798,6 +807,8 @@
 		<param name="Name" value="xml">
 		<param name="Name" value="Part XML Description">
 		<param name="Local" value="Part_XML_Description.htm">
+		<param name="Name" value="Group XML Description">
+		<param name="Local" value="Group_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="zoom">
