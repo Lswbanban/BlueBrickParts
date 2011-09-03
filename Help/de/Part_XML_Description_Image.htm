@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+<META NAME="keywords" CONTENT="BlueBrick, Help">
+<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
+<META NAME="author" CONTENT="Alban Nanty">
+<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
+<Title>Verweis auf ein Bild im Internet</Title>
+</HEAD>
+<BODY>
+<H1>Verweis auf ein Bild im Internet</H1>
+
+<TABLE CLASS="XMLDescription">
+<TR>
+	<TD CLASS="Tilte">Syntax:</TD>
+	<TD CLASS="XMLCode">&lt;ImageURL&gt;...&lt;/ImageURL&gt;</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Standardwert:</TD>
+	<TD>Als Standardeinstellung erstellt BlueBrick diese URL:<BR>
+	http://media.peeron.com/ldraw/images/<I>&lt;ColorCode&gt;</I>/<I>&lt;PartNumber&gt;</I>.png</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Beschreibung:</TD>
+	<TD>Um die Teileliste in HTML zu erstellen, kann auf ein Bild im Internet verwiesen werden. Hierzu ist, wie im obigen Beispiel, die vollständige Internetadresse (URL) des Bildes anzugegeben.</TD>
+</TR>    
+</TABLE>
+
+<P>Wird die Teileliste des Gleisplans in HTML exportiert, so wird für die Teilebilder kein Link zur lokalen Festplatte akzeptiert. Die Bilder aus der Teileliste würden sonst nur auf einem Rechner angezeigt. Vielmehr wird eine Internet URL, z.B. ein Link zu Peeron oder Bricklink, in der Teileliste abgelegt. Für selbst erstellte Teile sollten daher die Bilder im Internet, z.B. auf Brickshelf, abgelegt werden und der Link zu diesem Bild im XML tag abgelegt werden.</P>
+
+</BODY>
+</HTML>

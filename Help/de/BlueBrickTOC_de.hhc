@@ -13,20 +13,20 @@
 		<param name="Local" value="Start_Page.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Choosing a language">
+		<param name="Name" value="Auswahl der Sprache">
 		<param name="Local" value="Choosing_a_language.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Software Overview">
+		<param name="Name" value="Software &Uuml;berblick">
 		<param name="Local" value="Software_Overview.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Toolbars">
+			<param name="Name" value="Werkzeugleiste">
 			<param name="Local" value="Toolbars.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Window Panes">
+			<param name="Name" value="Bildschirmaufteilung">
 			<param name="Local" value="Window_Panes.htm">
 			</OBJECT>
 	</UL>
@@ -36,114 +36,186 @@
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Zooming and Viewing">
+			<param name="Name" value="Zoomen und Ansicht verschieben">
 			<param name="Local" value="Zooming_and_Viewing.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Selecting Parts">
+			<param name="Name" value="Auswahl von Teilen">
 			<param name="Local" value="Selecting_Parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Creating and Modifying Layouts">
+		<param name="Name" value="Erstellung und &Auml;nderung von Gleispl&auml;nen">
 		<param name="Local" value="Creating_and_Modifying_Models.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Adding and Deleting Parts">
+			<param name="Name" value="L&ouml;schen und Hinzuf&uuml;gen von Teilen">
 			<param name="Local" value="Adding_and_Deleting_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Moving Parts">
+			<param name="Name" value="Teile verschieben">
 			<param name="Local" value="Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Undo and Redo">
+			<param name="Name" value="R&uuml;ckg&auml;ngig machen und wiederherstellen">
 			<param name="Local" value="Undo_and_Redo.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Saving and Loading">
+			<param name="Name" value="Speichern und Laden">
 			<param name="Local" value="Saving_and_Loading.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Creating and Using Layers">
+		<param name="Name" value="Erstellung und Nutzung von Ebenen">
 		<param name="Local" value="Creating_and_Using_Layers.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="The Layer Toolbar">
+			<param name="Name" value="Die Ebenen-Werkzeugleiste">
 			<param name="Local" value="Layer_Toolbar.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="The Four Different Type of Layers">
+			<param name="Name" value="Die vier verschiedenen Arten von Ebenen">
 			<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Export, Report and Printing">
+		<param name="Name" value="Exportieren, ausdrucken und Berichte erstellen">
 		<param name="Local" value="Export_Report_and_Printing.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Exporting a Layout as an Image">
+			<param name="Name" value="Gleisplan als Bild exportieren und ausdrucken">
 			<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Exporting the Parts List">
+			<param name="Name" value="Export und Ausdruck der St&uuml;ckliste">
 			<param name="Local" value="Exporting_the_Parts_List.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Global Options">
+		<param name="Name" value="BlueBrick Einstellungen">
 		<param name="Local" value="Global_Options.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="General Options">
+			<param name="Name" value="Allgemeine Einstellungen">
 			<param name="Local" value="General_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Appearance Options">
+			<param name="Name" value="Aussehen (Erscheinungsbild) einstellen">
 			<param name="Local" value="Appearance_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Shortcut Keys">
+			<param name="Name" value="Part Library Options">
+			<param name="Local" value="Part_Library_Options.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tastaturk&uuml;rzel">
 			<param name="Local" value="Shortcut_Keys.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Other Options">
+			<param name="Name" value="Andere Einstellungen">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="How to extend the Part Library">
+		<param name="Name" value="Erweiterung der Teilebibliothek">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Part Library Folders">
+			<param name="Name" value="Teile-Ordner &quot;parts&quot;">
 			<param name="Local" value="Part_Library_Folders.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Part Image Format">
+			<param name="Name" value="Dateinamen und -formate f&uuml;r Teile- und Setbilder">
 			<param name="Local" value="Part_Image_Format.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Part XML Description">
+			<param name="Name" value="Zus&auml;tzliche Teiledaten in XML-Dateien">
 			<param name="Local" value="Part_XML_Description.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Name des Autors">
+				<param name="Local" value="Part_XML_Description_Author.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Beschreibung in verschiedenen Sprachen einf&uuml;gen">
+				<param name="Local" value="Part_XML_Description_Description.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Verweis auf ein Bild im Internet">
+				<param name="Local" value="Part_XML_Description_Image.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Not Listed in Library">
+				<param name="Local" value="Part_XML_Description_NotListedInLibrary.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Old Name">
+				<param name="Local" value="Part_XML_Description_OldName.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Angabe der &Uuml;berscheidungen bei Verbindungen">
+				<param name="Local" value="Part_XML_Description_Margin.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Beschreibung der Verkn&uuml;pfungspunkte">
+				<param name="Local" value="Part_XML_Description_Connection.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Beschreibung der H&uuml;llkurve">
+				<param name="Local" value="Part_XML_Description_Hull.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="TD Compatibility">
+				<param name="Local" value="Part_XML_Description_Track_Designer.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="LDraw Compatibility">
+				<param name="Local" value="Part_XML_Description_LDRAW.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="XML Group Description">
+			<param name="Local" value="Group_XML_Description.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Name des Autors">
+				<param name="Local" value="Part_XML_Description_Author.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Beschreibung in verschiedenen Sprachen einf&uuml;gen">
+				<param name="Local" value="Part_XML_Description_Description.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Can Ungroup">
+				<param name="Local" value="Group_XML_Description_CanUngroup.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Angabe der &Uuml;berscheidungen bei Verbindungen">
+				<param name="Local" value="Part_XML_Description_Margin.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sub Part List">
+				<param name="Local" value="Group_XML_Description_SubPartList.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Connection Preference List">
+				<param name="Local" value="Group_XML_Description_GroupConnectionPreferenceList.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Connection Type Configuration File">
+			<param name="Local" value="Connection_Type_Config_File.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Reload the Part Library">
 			<param name="Local" value="Reload_the_Part_Library.htm">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="LDraw Remaping File">
-			<param name="Local" value="LDraw_Remaping_File.htm">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Track Designer Remaping File">
-			<param name="Local" value="Track_Designer_Remaping_File.htm">
 			</OBJECT>
 	</UL>
 </UL>

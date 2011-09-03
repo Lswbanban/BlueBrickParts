@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<META NAME="keywords" CONTENT="BlueBrick, Help">
+<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
+<META NAME="author" CONTENT="Alban Nanty">
+<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
+<Title>Beschreibung in verschiedenen Sprachen einfügen</Title>
+</HEAD>
+<BODY>
+<H1>Beschreibung in verschiedenen Sprachen einfügen</H1>
+
+<TABLE CLASS="XMLDescription">
+<TR>
+	<TD CLASS="Tilte">Syntax:</TD>
+	<TD CLASS="XMLCode">&lt;Description&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;en&gt;...&lt;/en&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;de&gt;...&lt;/de&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;fr&gt;...&lt;/fr&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;...<BR>
+		&lt;/Description&gt;
+	</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Standardwert:</TD>
+	<TD>Der Text "Unbekannt" in der gerade für BlueBrick gewählten Sprache.</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Beschreibung:</TD>
+	<TD>Eine kurze Beschreibung des Teils.</TD>
+</TR>  
+</TABLE>
+
+<P>In diesem Feld wird eine Beschreibung des Teils eingetragen. Diese Beschreibung wird in der Statuszeile angezeigt. Im Zweifelsfall sollte man als Beschreibung einfach die Teilebeschreibung von peeron.com eintragen.</P>
+
+<P>Die Teilebeschreibung kann in jede beliebige Sprache übersetzt werden. Jede Übersetzung muss in einem Tag aus zwei Buchstaben für die jeweilige Sprache eingefasst sein, z.B. &lt;fr&gt; ... &lt;/fr&gt; für französisch. Beim Start von BlueBrick werden aus der Teilebibliothek nur die Teilebeschreibungen in der aktuell in BlueBrick eingestellten Sprache übernommen. Ist BlueBrick beispielsweise auf französisch eingestellt, sucht BlueBrick nach dem Tag &lt;fr&gt;. Wird keine Beschreibung in der in BlueBrick eingestellten Sprache gefunden, wird die englische Beschreibung benutzt. Wird nicht einmal eine englische Version gefunden, so wird der Text "Unbekannt" (übersetzt in der in BlueBrick eingestellten Sprache) benutzt. Die Teilebeschreibung sollte also mindestens eine englische Version enthalten.</P>
+
+</BODY>
+</HTML>
