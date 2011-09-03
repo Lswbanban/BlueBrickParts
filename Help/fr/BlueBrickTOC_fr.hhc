@@ -180,6 +180,40 @@
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Description XML des groupes">
+			<param name="Local" value="Group_XML_Description.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Auteur">
+				<param name="Local" value="Part_XML_Description_Author.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Description de la pi&egrave;ce">
+				<param name="Local" value="Part_XML_Description_Description.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="D&eacute;groupabilit&eacute;">
+				<param name="Local" value="Group_XML_Description_CanUngroup.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Marges">
+				<param name="Local" value="Part_XML_Description_Margin.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Liste des sous-pi&egrave;ces">
+				<param name="Local" value="Group_XML_Description_SubPartList.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Liste des connections de pr&eacute;f&eacute;rence">
+				<param name="Local" value="Group_XML_Description_GroupConnectionPreferenceList.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Fichier de configuration des types de connection">
+			<param name="Local" value="Connection_Type_Config_File.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Recharger la libraire de pi&egrave;ces">
 			<param name="Local" value="Reload_the_Part_Library.htm">
 			</OBJECT>
