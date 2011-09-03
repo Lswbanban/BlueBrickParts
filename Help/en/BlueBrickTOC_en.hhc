@@ -108,6 +108,10 @@
 			<param name="Local" value="Appearance_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Part Library Options">
+			<param name="Local" value="Part_Library_Options.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Shortcut Keys">
 			<param name="Local" value="Shortcut_Keys.htm">
 			</OBJECT>
@@ -173,6 +177,36 @@
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="LDraw Compatibility">
 				<param name="Local" value="Part_XML_Description_LDRAW.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="XML Group Description">
+			<param name="Local" value="Group_XML_Description.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Author">
+				<param name="Local" value="Part_XML_Description_Author.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Group Description">
+				<param name="Local" value="Part_XML_Description_Description.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Can Ungroup">
+				<param name="Local" value="Group_XML_Description_CanUngroup.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Margins">
+				<param name="Local" value="Part_XML_Description_Margin.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sub Part List">
+				<param name="Local" value="Group_XML_Description_SubPartList.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Connection Preference List">
+				<param name="Local" value="Group_XML_Description_GroupConnectionPreferenceList.htm">
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
