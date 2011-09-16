@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<group>
+	<Author>Thomas Hess (rumpelmuck, scorpy63), Alban Nanty</Author>
+	<Description>
+    <de>Flucht aus dem Lingusterweg</de>
+    <en>Escape from Privet Drive</en>
+  </Description>
+	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
+	<CanUngroup>false</CanUngroup>
+	<!-- The margin of this group in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+    <left>3.9</left>
+    <right>1.1</right>
+    <top>0</top>
+    <bottom>3</bottom>
+	</SnapMargin>
+	<!-- list of parts contained in this group -->
+	<SubPartList>
+		<SubPart id="4728-1.SET1">
+			<position>
+				<x>8.5</x>
+				<y>4.75</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="4728-1.SET2">
+			<position>
+				<x>-6</x>
+				<y>-4</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

@@ -15,14 +15,16 @@
 	<TD CLASS="XMLCode">&lt;CanUngroup&gt;...&lt;/CanUngroup&gt;</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Default Value:</TD>
-	<TD>True</TD>
+	<TD>true</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Description:</TD>
-	<TD>A boolean flag "True" or "False" (case sensitive) that tells if the group can be ungrouped in BlueBrick.</TD>
+	<TD>A boolean flag "true" or "false" (case sensitive) that tells if the group can be ungrouped in BlueBrick.</TD>
 </TR>  
 </TABLE>
 
-<P></P>
+<P>By default any group can be ungrouped after being added on the layout (see the documentation about grouping/ungrouping parts). If this flag is set to false, the user won't be able to choose "ungroup" when right-clicking on the part in the layout.</P>
+
+<P>This flag is quite important for a good user experience. Depending on which kind of group you are creating, you may want to let the possibility to the user to ungroup it or not. For example if you create a shortcut group representing a standard 3x3 module, you want to let the user modify it after adding it on the layout. On the other hand if you create a group for a set that can open with a hinge brick, you don't want to let the user disband the set unintentionnaly.</P>
 
 </BODY>
 </HTML>

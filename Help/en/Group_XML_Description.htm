@@ -10,13 +10,21 @@
 <H1>Group XML Description</H1>
 <H2>Overview</H2>
 
-<P></P>
+<P>Since BlueBrick version 1.7, you can write an XML file that describe several parts or other groups arranged in a predefined position and orientation. Therefore, a group can be also seen as a shortcut to add severals parts in one click. For example you can create a standard train module of 3x3 green baseplates with two straight railway lines on the bottom.</P>
+
+<P>A future version of BlueBrick will provide a way to save the current selection as a group, but for now you need to edit the group XML file by hand. A workaround is to save the parts you want to group in a BBM file and then copy/paste the position and orientation code lines into the group XML file.</P>
+
+<P>A group XML file can contain one or several references to other group XML files. However, you cannot create cyclic reference, meaning a group XML file cannot make reference to itself, neither make reference to file that make reference to a file, etc... that make reference to itself. BlueBrick detect cyclic references during the parsing of the Brick Library and generate an error if one is found.</P>
+
+<P>A group in the Brick Library do not need any associated gif image. BlueBrick recreated the image of the group from the description of the group at loading time to display it in the Brick Library. When adding the group on the map, BlueBrick use the individuals images of each parts belonging to the group.</P>
 
 <P>You can duplicate an existing XML file and modify it to work faster. Be careful, the XML tags are case sensitive. Every field is optional, and the order of the fields does not matter. If one field is missing the default behavior is used instead.</P>
 
+<P>Be carefull, in the XML file, <FONT CLASS="Important">the first tag, root of the hierachy, must be "group"</FONT>. This is how BlueBrick makes the difference between a group and a part.</P>
+
 <H2>Structure of the XML file</H2>
 
-<P>If you don't know what an XML file is, and if you are not familiar with its syntax, I strongly recommend you search for some additional help on internet. To summarize it in few words, this format organizes the data in a tree hierarchy by using tags which are identified by being enclosed with the characters &lt; and &gt;. Here is the general structure of an XML group file:</P>
+<P>If you don't know what an XML file is, and if you are not familiar with its syntax, it is strongly recommend to search for some additional help on internet. To summarize it in few words, this format organizes the data in a tree hierarchy by using tags which are identified by being enclosed with the characters &lt; and &gt;. Here is the general structure of an XML group file:</P>
 
 <DIV CLASS="TechNote">
 <PRE>
@@ -52,7 +60,7 @@
 	<LI><A HREF="Part_XML_Description_Author.htm">Specify the Author</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_Description.htm">Add a description in different languages</A> (easy)</LI>
 	<LI><A HREF="Group_XML_Description_CanUngroup.htm">Specify is this group can be ungrouped</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_Margin.htm">Specify the Margins for Snaping</A> (medium difficulty)</LI>
+	<LI><A HREF="Part_XML_Description_Margin.htm">Specify the Margins for Snaping</A> (medium difficulty) <FONT CLASS="Important">This is not implemented for Group in the 1.7.0 version of BlueBrick</FONT></LI>
 	<LI><A HREF="Group_XML_Description_SubPartList.htm">Describe the parts contained in the group</A> (medium difficulty)</LI>
 	<LI><A HREF="Group_XML_Description_GroupConnectionPreferenceList.htm">Describe the prefered connectivity inside the group</A> (medium difficulty)</LI>
 <UL>

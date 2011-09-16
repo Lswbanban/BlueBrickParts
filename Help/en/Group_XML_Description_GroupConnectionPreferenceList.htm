@@ -12,17 +12,20 @@
 <TABLE CLASS="XMLDescription">
 <TR>
 	<TD CLASS="Tilte">Syntax:</TD>
-	<TD CLASS="XMLCode">&lt;GroupConnectionPreferenceList&gt;...&lt;/GroupConnectionPreferenceList&gt;</TD>
+	<TD CLASS="XMLCode">&lt;GroupConnectionPreferenceList&gt;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;nextIndex from="..."&gt;...&lt;/nextIndex&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;...<br>
+	    &lt;/GroupConnectionPreferenceList&gt;</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Default Value:</TD>
-	<TD>If this tag is not present, the group cannot be connected properly.</TD>
+	<TD>If this tag is not present, the group cannot be connected using its connection points.</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Description:</TD>
 	<TD>A list of connections.</TD>
 </TR>  
 </TABLE>
 
-<P></P>
+<P>The <FONT CLASS="Important">GroupConnectionPreferenceList field</FONT> is required if your group contains parts that have connection points and you want to be able to connect the whole group to an existing part via its connection points. This field contains a list of <FONT CLASS="Important">nextIndex field</FONT>, each entry indicating a connection point that can be used to connect the group. When grouping several parts that have connection points, the sum of all these connection points can potentially become the connection points of the group. However, you may not use all of them.</P>
 
 </BODY>
 </HTML>
