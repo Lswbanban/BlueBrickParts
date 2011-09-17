@@ -4,25 +4,47 @@
 <META NAME="description" CONTENT="The reference documentation for BlueBrick.">
 <META NAME="author" CONTENT="Alban Nanty">
 <LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>List the interface connections of the group</Title>
+<Title>Describe the prefered connectivity inside the group</Title>
 </HEAD>
 <BODY>
-<H1>List the interface connections of the group</H1>
+<H1>Describe the prefered connectivity inside the group</H1>
 
 <TABLE CLASS="XMLDescription">
 <TR>
 	<TD CLASS="Tilte">Syntax:</TD>
-	<TD CLASS="XMLCode">&lt;GroupConnectionPreferenceList&gt;...&lt;/GroupConnectionPreferenceList&gt;</TD>
+	<TD CLASS="XMLCode">&lt;GroupConnectionPreferenceList&gt;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;nextIndex from="..."&gt;...&lt;/nextIndex&gt;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;...<br>
+	    &lt;/GroupConnectionPreferenceList&gt;</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Default Value:</TD>
-	<TD>If this tag is not present, the group cannot be connected properly.</TD>
+	<TD>If this tag is not present, when connecting a group, the next selected connection point will be the next one in the cycling list.</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Description:</TD>
-	<TD>A list of connections.</TD>
+	<TD>A list of connection pairs.</TD>
 </TR>  
 </TABLE>
 
-<P></P>
+<P>The <FONT CLASS="Important">GroupConnectionPreferenceList field</FONT> can be used to control the next prefered free connection point that will be selected when a connection is made. This field contains a list of <FONT CLASS="Important">nextIndex field</FONT>, each entry indicating the next connection point that will be selected when the specified connection point is connected.</P>
+
+<P>This field is similar to the <FONT CLASS="Important">nextConnexionPreference field</FONT> of a single part (see the <a href="Part_XML_Description_Connection.htm">Describe the Connection Points</a> page for more details) but it acts on the whole group. Indeed, if you consider a group of two straight rail tracks connected to each other, when you connect the group from the left extremity of the first track, you want to have the right extremity of the second track to be selected, not the right extremity of the first track (which is already connected to the second track). That's why we need a description of the prefered connection sequence at the group level.</P>
+
+<div class="TechNote">
+<center><img src="../ConnectionPointForGroup.png"></center><br>
+<br>
+The red numbers are the connection indice of the first part, the orange numbers are the connection indice of the second part, and the white number are the one that need to be used for the group.
+</div>
+
+<p>The <FONT CLASS="Important">nextIndex field</FONT> contains two indice. The first index is specified in the <FONT CLASS="Important">from attribute</FONT> and the second index <FONT CLASS="Important">inside the field</FONT>. When the "from" connection is connected then the connection point specified in the field will be selected. The indice are counted sequentially, from the first part appearing in the group list to the last one (respecting the order of the connections for each part). If the group contains another group, enter in that sub group first to count the indice before continuing on the current group. In other words, the hierarchical tree is explored in a deep way.</p>
+
+<div class="TechNote">
+In the group example above, when the connection 0 is snaped, you want the connection 3 to be selected, and vice and versa. So you should write these two lines:<br>
+<br>
+&lt;GroupConnectionPreferenceList&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;nextIndex from="0"&gt;3&lt;/nextIndex&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;nextIndex from="3"&gt;0&lt;/nextIndex&gt;<br>
+&lt;/GroupConnectionPreferenceList&gt;
+</div>
 
 </BODY>
 </HTML>
