@@ -28,13 +28,13 @@
 	<TD>If this tag is not present, the group is empty and then ignored during the loading of the part library.</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Description:</TD>
-	<TD>A list of parts with there positions and orientation.</TD>
+	<TD>A list of parts with their position and orientation.</TD>
 </TR>  
 </TABLE>
 
-<P>The <FONT CLASS="Important">SubPartList field</FONT> contains a set of <FONT CLASS="Important">SubPart</FONT> element, one for each part contained in the group. The order of the SubPart in this list is used to determine the rendering order: the first elements are in the back and the last element in the front.</P>
+<P>The <FONT CLASS="Important">SubPartList field</FONT> contains a list of <FONT CLASS="Important">SubPart</FONT> element, one for each part contained in the group. The order of the parts in this list is used to determine the rendering order: the first elements are in the back and the last elements in the front.</P>
 
-<P>The <FONT CLASS="Important">SubPart field</FONT> describes one part or one sub-group in this group. The mandatory <FONT CLASS="Important">id</FONT> attribute is the full part number or group name (without the xml or gif extension). The id name is not case sensitive. If this part or group is not present in the library, a red cross image will be used instead. Cyclic reference are not allowed, meaning you cannot reference the name of this group in this id attribute, neither another group that reference this group in one of its id attributes. Cyclic references are detected by BlueBrick and will generate an error when loading this file, the group is then ignored by BlueBrick.</P>
+<P>The <FONT CLASS="Important">SubPart field</FONT> describes one part or one sub-group in this group. The mandatory <FONT CLASS="Important">id</FONT> attribute is the full part number or group name (without the xml or gif extension). This id name is not case sensitive. If this part or group is not present in the library, a red cross image will be used instead. Cyclic reference are not allowed, meaning you cannot reference the name of this group in this id attribute, neither another group that reference this group in one of its id attributes. Cyclic references are detected by BlueBrick and will generate an error when loading this file, the group is then ignored by BlueBrick.</P>
 
 <P>The <FONT CLASS="Important">position field</FONT> describes the position in stud coordinate of the element inside the group. The origin has no importance, since only the relative position between all the elements of the group is taken in consideration. However, for an easy edition of the XML file it is convenient to place one part at the origin (0.0, 0.0) and place all the other ones around it. Or you can also choose to place the origin in the center of the group.</P>
 
