@@ -1,5 +1,5 @@
 /* ---- body ------------------------------------------------------- */
-BODY		{ 	font-family: cursive; /* please same family as P */
+BODY		{ 	font-family: "Comic Sans MS", Tahoma, Arial, Sans-Serif; /* please same family as P */
 				color: black; /* please same color as P */
 				background-color: #C1D4F7; /* light blue */
 				text-align: justify;
