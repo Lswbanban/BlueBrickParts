@@ -19,7 +19,7 @@
 <P>The names of the parts are not case sensitive, as BlueBrick converts all the names into upper case when creating its part library. Therefore if you create two parts that have the same name but with different cases, they will be considered as the same part. You can use any authorized character to name your parts (including spaces), but I strongly recommend you to use English characters only to facilitate the share of your map internationally. Also avoid using the period (full-stop) character since this character is used to separate the file name from the extension and is also used by BlueBrick to separate the part number from the color.</P>
 
 <H2>File Name Convention</H2>
-<P>BlueBrick doesn't mind how you name your parts.  The only constraint is that the name must be unique in the whole library. You cannot name two parts with the same name even if they are in different folders. Moreover this name becomes a unique id that is saved in the layout BBM files. So to avoid naming collisions in the library and to make your BBM files portable, <FONT CLASS="Important">one commonly uses the part or set number</FONT>. This is just a common practice, but I strongly recommend you to follow it. The official BlueBrick library will use this method.</P>
+<P>BlueBrick doesn't mind how you name your parts.  The only constraint is that the name must be unique in the whole library. You cannot name two parts with the same name even if they are in different folders. Moreover this name becomes a unique ID that is saved in the layout BBM files. So to avoid naming conflicts in the library and to make your BBM files portable, <FONT CLASS="Important">one commonly uses the part or set number</FONT>. This is just common practice, but I strongly recommend you to follow it. The official BlueBrick library will use this method.</P>
 
 <H3>File Name Convention for a Set</H3>
 <P>Since there are some Lego&copy; parts and Lego&copy; sets that have the same number, to avoid conflicts, the common practice is to add ".set" as a suffix to the set number. Do not use a numerical suffix (like ".1"), otherwise this suffix will be interpreted as a color (see below for more details), and the color information is irrelevant for a set. Moreover Peeron and Bricklink also use a dash followed by a number to differentiate parts from set, and also because different set produced over the years may have the same number. So it is recommanded to use this suffix and use the same numbers as in Peeron or Bricklink.</P>
@@ -35,6 +35,12 @@ Moreover if you want to split a set in different gif images, you can name them l
 6399-1.set1.gif
 6399-1.set2.gif
 6399-1.set3.gif
+etc...
+
+If you want to make GIFs of the alternative Lego models which can be found in a set, the naming convention should be as follows:
+4886-1.setA.gif
+4886-1.setB.gif
+4886-1.setC.gif
 etc...</PRE>
 </DIV>
 
@@ -80,7 +86,7 @@ For example the naming convention for a Blue Baseplate 32 x 32 is:
 
 <H3>File Name Convention for a Group</H3>
 
-<P>The file name of the group parts (parts made from other parts arranged in a certain predifined laying out) should start with any name describing the group followed by a dot and then the word "group" and finally by the extension. The group parts never have gif file, only xml files. If you want to make a group which actually represent a set (for example a set including many building in a predifined layout), use the "set" naming convention instead (see above).</P>
+<P>The file name of the group parts (parts made from other parts arranged in a specific, predifined layout) should start with any name describing the group followed by a dot and then the word "group" and finally by the extension. The group parts never have gif file, only xml files. If you want to make a group which actually represents a set (for example a set including many buildings in a predifined layout), use the "set" naming convention instead (see above).</P>
 
 <DIV class="TechNote">
 <PRE>&lt;GroupName&gt;.group.xml
