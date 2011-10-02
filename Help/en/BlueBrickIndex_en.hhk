@@ -85,6 +85,11 @@
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="circuit">
+		<param name="Name" value="Electric Circuits">
+		<param name="Local" value="Electric_Circuits.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="color">
 		<param name="Name" value="Appearance Options">
 		<param name="Local" value="Appearance_Options.htm">
@@ -178,6 +183,11 @@
 		<param name="Name" value="duplicate">
 		<param name="Name" value="Adding and Deleting Parts">
 		<param name="Local" value="Adding_and_Deleting_Parts.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="electric">
+		<param name="Name" value="Electric Circuits">
+		<param name="Local" value="Electric_Circuits.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="export">
@@ -688,6 +698,8 @@
 		<param name="Name" value="shortcut">
 		<param name="Name" value="Shortcut Keys">
 		<param name="Local" value="Shortcut_Keys.htm">
+		<param name="Name" value="Electric Circuits">
+		<param name="Local" value="Electric_Circuits.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="snap">
