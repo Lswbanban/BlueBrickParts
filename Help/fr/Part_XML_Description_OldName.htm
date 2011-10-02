@@ -1,40 +1,43 @@
-<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alban Nanty">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Keep a trace of the previous name of a part</Title>
-</HEAD>
-<BODY>
-<H1>Keep a trace of the previous name of a part</H1>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="BlueBrick, Aide">
+<meta name="description" content="La documentation de r&eacute;f&eacute;rence pour BlueBrick.">
+<meta name="author" content="Alban Nanty">
+<meta name="translator" content="Gr&eacute;gory Lambert">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Conserver une trace de l'ancien nom d'une pi&egrave;ce</title>
+</head>
+<body>
+<h1>Conserver une trace de l'ancien nom d'une pi&egrave;ce</h1>
 
-<TABLE CLASS="XMLDescription">
-<TR>
-	<TD CLASS="Tilte">Syntax:</TD>
-	<TD CLASS="XMLCode">&lt;OldNameList&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;OldName&gt;...&lt;/OldName&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;...<BR>
+<table class="XMLDescription">
+<tr>
+	<td class="Tilte">Syntaxe:</td>
+	<td class="XMLCode">&lt;OldNameList&gt;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;OldName&gt;...&lt;/OldName&gt;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;...<br>
 		&lt;/OldNameList&gt;
-	</TD>
-</TR><TR>
-	<TD CLASS="Tilte">Default Value:</TD>
-	<TD>By default the &lt;OldNameList&gt; tag should be absent, which means that the part was never renamed.</TD>
-</TR><TR>
-	<TD CLASS="Tilte">Description:</TD>
-	<TD>This tag is only usefull if you rename a part (change the GIF and XML file names) to still be able to load BBM files that were saved with the previous name.</TD>
-</TR>  
-</TABLE>
+	</td>
+</tr><tr>
+	<td class="Tilte">Valeur par D&eacute;faut:</td>
+	<td>Par d&eacute;faut l'&eacute;tiquette &lt;OldNameList&gt; devrait &ecirc;tre absente, ce qui signifie que la pi&egrave;ce n'a jamais &eacute;t&eacute; renom&eacute;e.</td>
+</tr><tr>
+	<td class="Tilte">Description:</td>
+	<td>Cette &eacute;tiquette n'est utile que si vous renommez une pi&egrave;ce (modification du nom des fichiers GIF et 
+XML) afin de toujours pouvoir charger des fichier BBM qui &eacute;taient sauvegard&eacute;s sous le nom pr&eacute;c&eacute;dent.</td>
+</tr>  
+</table>
 
-<P>Since the part numbers which are used in a layout are also listed and saved in the BBM files (the layout file), BlueBrick will not find parts which you have renamed and will display them as a red cross image. To avoid this problem you should add a <FONT CLASS="Important">OldNameList field</FONT> in the XML file.</P>
+<p>Comme les num&eacute;ros de pi&egrave;ces qui sont utilis&eacute;s dans un calque sont &eacute;galement list&eacute;s et sauvegard&eacute;s dans le fichier BBM (le fichier calque), BlueBrick ne retrouvera pas les pi&egrave;ces que vous avez renomm&eacute;es et les affichera avec une image repr&eacute;sentant une croix rouge. Pour &eacute;viter ce probl&egrave;me, vous devez <font class="Important">champ OldNameList</font> dans le fichier XML.</p>
 
-<P>Since a part can be renamed several times, you can add all the previous names of the part inside the <FONT CLASS="Important">OldNameList field</FONT>. This field contains a list of <FONT CLASS="Important">OldName fields</FONT> the contents of which is the full previous BlueBrick number (part number followed by a dot and by the color number).</P>
+<p>Comme les pi&egrave;ces peuvent &ecirc;tre renomm&eacute;es plusieurs fois, vous pouvez ajouter tous les noms pr&eacute;c&eacute;dents de la pi&egrave;ce dans le <font class="Important">champ OldNameList</font>. Ce champ contient une liste de <font class="Important">champs OldName </font> dont le contenu est le num&eacute;ro BlueBriock pr&eacute;c&eacute;dent (num&eacute;ro de la pi&egrave;ce suivi par un point et le num&eacute;ro de la couleur).</p>
 
-<P>Of course you only need to add this field if you have previously published that part on the internet. This is important as people may have created layouts with the previous name of that part. To make their lives easier, you should add the <FONT CLASS="Important">OldNameList field</FONT> so that they can reload their previous Layout without missing images. If you are just changing the names for personal use, you don't need to keep a full record of the part names.</P>
+<p>Vous n'avez biens&ucirc;r besoin d'ajouter ce champ que si vous avez pr&eacute;c&eacute;demment publi&eacute; cette pi&egrave;ce sur Internet. C'est important car d'autres utilisateurs peuvent avoir cr&eacute;&eacute; des calques avec l'ancien nom de la pi&egrave;ce. Pour leur faciliter la vie, il est recommand&eacute; d'ajouter <font class="Important">champ OldNameList</font> afin qu'ils puissent charger leur calque pr&eacute;c&eacute;dent sans image manquante. Si vous modifiez des noms de pi&egrave;ce lors d'une utilisation personnelle, il n'est alors pas utile de conserver un enregistrement complet des noms de la pi&egrave;ce.</p>
 
-<P>Note that if you load a layout file with an old name and save it again, the new name will be used during the save. Nevertheless you should never delete a <FONT CLASS="Important">OldNameList field</FONT> unless you are certaint that all the layout files which were using the old name have been converted. As this feature does not reduce the performance of the BlueBrick software you can leave them forever, just in case.</P>
+<p>Notez que si vous chargez un fichier calque contenant un ancien nom puis que vous le sauvegardez, le nouveau nom sera utilis&eacute; lors de la sauvegarde. N&eacute;anmoins vous ne devriez jamais supprimer un <font class="Important">champ OldNameList</font> avant d'&ecirc;tre certain que tous les fichiers calques qui utlisaient l'ancien nom sont bien convertis. Comme cette caract&eacute;ristique n'a pas d'impact sur les performances du logiciel BlueBrick, vous pouvez la laisser en permanence activ&eacute;e, au cas o&ugrave;.</p>
 
-<P>You can also use the <FONT CLASS="Important">OldNameList field</FONT> as an alias for the part because actually BlueBrick is treating the previous names as an alias. However, if you add in a new part in the library that has the same name as a previous part that you have renamed, the alias for the renamed part will be ignored. This means, that BlueBrick only creates the alias if there is not another part with the same name.</P>
+<p>Vous pouvez &eacute;galement utiliser le <font class="Important">champ OldNameList</font> comme un alias pour les pi&egrave;ces car BlueBrick manipule actuellement les anciens noms comme un alias. Cependant, si vous ajoutez une nouvelle pi&egrave;ce dans la biblioth&egrave;que portant le m&ecirc;me nom qu'une ancienne pi&egrave;ce que vous avez renomm&eacute;e, l'alias pour la pi&egrave;ce renomm&eacute;e sera ignor&eacute;. Cela signifieque BlueBrick ne cr&eacute;e un alias que s'il n'y a pas d&eacute;j&agrave; une pi&egrave;ce portant le m&ecirc;me nom.</p>
 
-</BODY>
-</HTML>
+</body>
+</html>
