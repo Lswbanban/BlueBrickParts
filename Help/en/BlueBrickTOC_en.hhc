@@ -58,7 +58,19 @@
 			<param name="Local" value="Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Electric Circuits">
+			<param name="Name" value="Grouping Parts">
+			<param name="Local" value="Grouping_Parts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Searching and Replacing Parts">
+			<param name="Local" value="Search_Replace_Parts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Using Flex Track">
+			<param name="Local" value="Using_Flex_Track.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Seeing Electric Circuits">
 			<param name="Local" value="Electric_Circuits.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
