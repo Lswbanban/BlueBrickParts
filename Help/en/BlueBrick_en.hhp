@@ -35,9 +35,10 @@ The_Four_Different_Type_of_Layers.htm
 Export_Report_and_Printing.htm
 Exporting_a_Layout_as_an_Image.htm
 Exporting_the_Parts_List.htm
-Global_Options.htm
-General_Options.htm
-Appearance_Options.htm
+BlueBrick_Preferences.htm
+General_Preferences.htm
+Appearance_Preferences.htm
+Part_Library_Preferences.htm
 Shortcut_Keys.htm
 Other_Options.htm
 Part_XML_Description_Track_Designer.htm
@@ -55,8 +56,8 @@ Group_XML_Description.htm
 Group_XML_Description_CanUngroup.htm
 Group_XML_Description_GroupConnectionPreferenceList.htm
 Group_XML_Description_SubPartList.htm
-Part_Library_Options.htm
 ..\parts_folder.png
+Electric_Circuits.htm
 
 [INFOTYPES]
 
