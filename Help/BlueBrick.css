@@ -1,6 +1,6 @@
 /* ---- body ------------------------------------------------------- */
-BODY		{ 	font-family: "Comic Sans MS", Tahoma, Arial, Sans-Serif; /* please same family as P */
-				color: black; /* please same color as P */
+BODY		{ 	font-family: "Comic Sans MS", Tahoma, Arial, Sans-Serif;
+				color: black;
 				background-color: #C1D4F7; /* light blue */
 				text-align: justify;
 				margin-top: 2em;
@@ -68,6 +68,18 @@ FONT.path		{ font-variant: small-caps;
 FONT.Important	{font-variant: small-caps;
 				 font-weight: bold;
 				 color: #6A1AFF }
+
+FONT.RefNumber	{font-family: Arial, Sans-Serif;
+				 font-weight: bold;
+				 background-color: #000000;
+				 color: #FFFFFF }
+FONT.RefNumber:before {	content: url(LeftRefNumber.png); 
+						background-color: #C1D4F7;
+						vertical-align: -19% }
+FONT.RefNumber:after { content: url(RightRefNumber.png);
+						background-color: #C1D4F7;
+						vertical-align: -19%; }
+				 
 
 /* ---- hr -------------------------------------------------------- */
 HR			{ 	width: 80%;
