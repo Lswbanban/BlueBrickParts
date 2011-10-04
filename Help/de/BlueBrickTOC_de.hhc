@@ -96,20 +96,20 @@
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="BlueBrick Einstellungen">
-		<param name="Local" value="Global_Options.htm">
+		<param name="Local" value="BlueBrick_Preferences.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Allgemeine Einstellungen">
-			<param name="Local" value="General_Options.htm">
+			<param name="Local" value="General_Preferences.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Aussehen (Erscheinungsbild) einstellen">
-			<param name="Local" value="Appearance_Options.htm">
+			<param name="Local" value="Appearance_Preferences.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Part Library Options">
-			<param name="Local" value="Part_Library_Options.htm">
+			<param name="Name" value="Part Library Preferences">
+			<param name="Local" value="Part_Library_Preferences.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Tastaturk&uuml;rzel">
