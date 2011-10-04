@@ -22,14 +22,14 @@
 	
 	<!-- list of parts contained in this group -->
 	<SubPartList>
-		<SubPart id="4728-1.SET1">
+		<SubPart id="4728-1.HOUSE1">
 			<position>
 				<x>8.5</x>
 				<y>6</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>
-		<SubPart id="4728-1.SET2">
+		<SubPart id="4728-1.HOUSE2">
 			<position>
 				<x>-6</x>
 				<y>-4</y>
