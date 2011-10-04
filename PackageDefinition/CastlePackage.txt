@@ -1,0 +1,2 @@
+./parts/Castle/*.gif
+./parts/Castle/*.xml
