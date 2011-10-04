@@ -6,9 +6,9 @@
 		<de>Flucht aus dem Lingusterweg</de>
 		<en>Escape from Privet Drive</en>
 	</Description>
-  <NotListedInLibrary>true</NotListedInLibrary>
+	<NotListedInLibrary>true</NotListedInLibrary>
 
-  <!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>3.9</left>
 		<right>0</right>
@@ -18,16 +18,16 @@
 
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
-    <connexion>
-      <type>threequarterhinge</type>
-      <position>
-        <x>6</x>
-        <y>4</y>
-      </position>
-      <angle>180</angle>
-      <angleToPrev>0</angleToPrev>
-      <angleToNext>0</angleToNext>
-      <nextConnexionPreference>0</nextConnexionPreference>
-    </connexion>
+	<connexion>
+		<type>threequarterhinge</type>
+		<position>
+			<x>6</x>
+			<y>4</y>
+		</position>
+		<angle>180</angle>
+		<angleToPrev>0</angleToPrev>
+		<angleToNext>0</angleToNext>
+		<nextConnexionPreference>0</nextConnexionPreference>
+	</connexion>
   </ConnexionList>
 </part>
