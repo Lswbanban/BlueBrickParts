@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Marc Raps</Author>
+	<Description>
+		<en>Town Plan - Service Station</en>
+		<fr>Town Plan - Station Service</fr>
+	</Description>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10184-1.1200101995.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>3</left>
+		<right>0</right>
+		<top>2</top>
+		<bottom>6</bottom>
+	</SnapMargin>
+
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<connexion>
+			<type>halfhinge</type>
+			<position>
+				<x>0</x>
+				<y>-10.9375</y>
+			</position>
+			<angle>-90</angle>
+			<angleToPrev>0</angleToPrev>
+			<angleToNext>0</angleToNext>
+			<nextConnexionPreference>0</nextConnexionPreference>
+		</connexion>
+	</ConnexionList>	
+</part>
