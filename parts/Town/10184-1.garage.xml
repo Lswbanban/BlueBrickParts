@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<group>
+	<Author>Marc Raps</Author>
+	<Description>
+		<en>Town Plan - Service Station</en>
+		<fr>Town Plan - Station Service</fr>
+	</Description>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<OldNameList>
+	    <OldName>10184.SET1</OldName>
+	    <OldName>10184.SET1B</OldName>
+	</OldNameList>
+	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
+	<CanUngroup>false</CanUngroup>
+	
+	<!-- The margin of this group in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+	    <left>0</left>
+	    <right>0</right>
+	    <top>0</top>
+	    <bottom>0</bottom>
+	</SnapMargin>
+	
+	<!-- list of parts contained in this group -->
+	<SubPartList>
+		<SubPart id="10184-1.GARAGE1">
+			<position>
+				<x>-9.375</x>
+				<y>-8.625</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="10184-1.GARAGE2">
+			<position>
+				<x>0</x>
+				<y>10.9375</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>
