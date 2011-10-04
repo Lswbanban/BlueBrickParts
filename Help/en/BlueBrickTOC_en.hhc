@@ -209,6 +209,14 @@
 				<param name="Local" value="Part_XML_Description_Description.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Not Listed in Library">
+				<param name="Local" value="Part_XML_Description_NotListedInLibrary.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Old Name">
+				<param name="Local" value="Part_XML_Description_OldName.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Can Ungroup">
 				<param name="Local" value="Group_XML_Description_CanUngroup.htm">
 				</OBJECT>
