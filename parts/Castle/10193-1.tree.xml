@@ -5,13 +5,17 @@
 		<en>Medieval Market Village</en>
 		<fr></fr>
 	</Description>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<OldNameList>
+	    <OldName>10193.SET3</OldName>
+	</OldNameList>
 	<ImageURL>http://www.1000steine.com/brickset/images/10193-1.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0</right>
 		<top>0</top>
-		<bottom>4</bottom>
+		<bottom>0</bottom>
 	</SnapMargin>
 	
 </part>

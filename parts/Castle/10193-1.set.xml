@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<group>
+	<Author>Alexander McKenna</Author>
+	<Description>
+	    <en>Medieval Market Village</en>
+	    <fr>Le marché du village médiéval</fr>
+	</Description>
+	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
+	<CanUngroup>true</CanUngroup>
+	
+	<!-- The margin of this group in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+	    <left>0</left>
+	    <right>0</right>
+	    <top>0</top>
+	    <bottom>0</bottom>
+	</SnapMargin>
+	
+	<!-- list of parts contained in this group -->
+	<SubPartList>
+		<SubPart id="10193-1.HOUSE1">
+			<position>
+				<x>-20</x>
+				<y>0</y>
+			</position>
+			<angle>-70</angle>
+		</SubPart>
+		<SubPart id="10193-1.HOUSE2">
+			<position>
+				<x>8</x>
+				<y>-20</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="10193-1.TREE">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>
