@@ -5,13 +5,8 @@
 	    <de>Flucht aus dem Lingusterweg</de>
 	    <en>Escape from Privet Drive</en>
 	</Description>
-	<NotListedInLibrary>true</NotListedInLibrary>
-	<OldNameList>
-	    <OldName>4728.SET1_CORNER</OldName>
-	    <OldName>4728.SET1_STRAIGHT</OldName>
-	</OldNameList>
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
-	<CanUngroup>false</CanUngroup>
+	<CanUngroup>true</CanUngroup>
 	
 	<!-- The margin of this group in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -23,19 +18,19 @@
 	
 	<!-- list of parts contained in this group -->
 	<SubPartList>
-		<SubPart id="4728-1.HOUSE1">
+		<SubPart id="4728-1.HOUSE">
 			<position>
-				<x>8.5</x>
-				<y>6</y>
+				<x>0</x>
+				<y>0</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>
-		<SubPart id="4728-1.HOUSE2">
+		<SubPart id="4728-1.CAR">
 			<position>
-				<x>-6</x>
+				<x>10</x>
 				<y>-4</y>
 			</position>
-			<angle>0</angle>
+			<angle>-90</angle>
 		</SubPart>
 	</SubPartList>
 </group>
