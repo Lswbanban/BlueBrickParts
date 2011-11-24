@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
 		<en>Duplo Level Crossing</en>
-		<fr>Duplo Passage � niveau</fr>
+		<fr>Duplo Passage à niveau</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3773-1.1181874244.thumb2.jpg</ImageURL>	
 

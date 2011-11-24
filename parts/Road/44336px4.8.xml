@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alban Nanty</Author>
 	<Description>
 		<en>Baseplate 32 x 32 Road 6-Stud Straight with White Dashed Lines Pattern</en>
-		<fr>Route droite 32 x 32 6 tenons avec des lignes blanches pointill�es</fr>
+		<fr>Route droite 32 x 32 6 tenons avec des lignes blanches pointillées</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/44336px4.1119737190.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->

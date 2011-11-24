@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alex McKenna / Alban Nanty</Author>
 	<Description>
 		<en>Baseplate 16 x 32 Roadway Ramp Inclined with White Center Stripe Pattern</en>
-		<fr>Plaque de Base 16 x 32 rampe inclin�e de route avec des lignes blanches centrales</fr>
+		<fr>Plaque de Base 16 x 32 rampe inclinée de route avec des lignes blanches centrales</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/30477px1.1248481581.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->

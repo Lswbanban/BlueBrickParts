@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
 		<en>Freight Loading Depot with Wagon</en>
-		<fr>D�pot de chargement de fret avec wagon</fr>
+		<fr>Dépot de chargement de fret avec wagon</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7838-1.1174536178.thumb2.jpg</ImageURL>
 

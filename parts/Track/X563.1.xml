@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
 		<en>Rail 12V Crossing (old type)</en>
-		<fr>Rail 12V croisement (ancien mod�le)</fr>
+		<fr>Rail 12V croisement (ancien modèle)</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/x563.1083161313.jpg</ImageURL>
 	<OldNameList>

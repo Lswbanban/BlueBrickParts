@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
 		<en>Manual Road Crossing</en>
-		<fr>Passage � niveau manuel</fr>
+		<fr>Passage à niveau manuel</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7835.1152516458.thumb2.jpg</ImageURL>
 
