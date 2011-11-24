@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Electric Inter-city train set, 12 V (Station)</en>
-		<fr>Train inter-aglom�ration 12V (gare)</fr>
+		<fr>Train inter-aglomération 12V (gare)</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7740-1.1119047171.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

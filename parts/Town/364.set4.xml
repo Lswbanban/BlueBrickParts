@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
 	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/364-1-907198008.jpg</ImageURL>
 	<Description>
 		<de>Hafen - Lagerhaus</de>
 		<en>Harbour Scene - Stockhouse</en>
-		<fr>Port - Entrep�t</fr>
+		<fr>Port - Entrepôt</fr>
 	</Description>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

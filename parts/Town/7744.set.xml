@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Aawsum (JB)</Author>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7744-1.1198550909.thumb2.jpg</ImageURL>
 	<Description>
 		<en>Police Headquarters</en>
-		<fr>Quartier général de police</fr>
+		<fr>Quartier gÃ©nÃ©ral de police</fr>
 	</Description>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

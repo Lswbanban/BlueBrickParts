@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
 		<en>Rail 4.5V Crossing (old type)</en>
-		<fr>Rail 4.5V croisement (ancien mod�le)</fr>
+		<fr>Rail 4.5V croisement (ancien modèle)</fr>
 	</Description>
 
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->

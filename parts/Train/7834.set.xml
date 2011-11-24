@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Level Crossing</en>
-		<fr>Passage � niveau</fr>
+		<fr>Passage à niveau</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7834-1.1105127517.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->

@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
 		<en>Level crossing</en>
-		<fr>Passage � niveau</fr>
+		<fr>Passage à niveau</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/158-1.1192152146.thumb2.jpg</ImageURL>
 	<OldNameList>

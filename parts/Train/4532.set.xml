@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Level Crossing</en>
-		<fr>Passage � niveau</fr>
+		<fr>Passage à niveau</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/4532-1.1174843227.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
