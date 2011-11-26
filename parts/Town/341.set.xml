@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
 		<en>Warehouse</en>
-		<fr>Entrep�t</fr>
+		<fr>Entrepôt</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/341-1.1105127488.thumb2.jpg</ImageURL>
 </part>

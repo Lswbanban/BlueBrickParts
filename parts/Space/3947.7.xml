@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Baseplate 32 x 32 with Craters</en>
-		<fr>Plaque de base 32 x 32 avec crat�res</fr>
+		<fr>Plaque de base 32 x 32 avec cratères</fr>
 	</Description>
 
 	<!-- Track Designer remaping data -->

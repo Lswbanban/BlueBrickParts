@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Intercoastal Seaport</en>
-		<fr>Port inter-c�te</fr>
+		<fr>Port inter-côte</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6541-1.1182647259.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

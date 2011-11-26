@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
 	<ImageURL>http://img.lugnet.com/display.cgi?set/universal/lego369.jpg</ImageURL>
 	<Description>
-		<de>Küstenwache</de>
+		<de>KÃ¼stenwache</de>
 		<en>Coastguard</en>
-		<fr>garde côtière</fr>
+		<fr>garde cÃ´tiÃ¨re</fr>
 	</Description>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

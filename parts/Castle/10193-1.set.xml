@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
 <group>
 	<Author>Alexander McKenna</Author>
 	<Description>
 	    <en>Medieval Market Village</en>
-	    <fr>Le marché du village médiéval</fr>
+	    <fr>Le marchÃ© du village mÃ©diÃ©val</fr>
 	</Description>
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
 	<CanUngroup>true</CanUngroup>

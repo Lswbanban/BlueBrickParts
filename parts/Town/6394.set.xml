@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Metro Park and Service Tower</en>
-		<fr>Parc m�tro et tour de service</fr>
+		<fr>Parc métro et tour de service</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6394-1.1121389557.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

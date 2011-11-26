@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alban Nanty</Author>
 	<Description>
 		<en>Baseplate 16 x 32 with Square Corners</en>
-		<fr>Plaque de base 16 x 32 avec coins carr�s</fr>
+		<fr>Plaque de base 16 x 32 avec coins carrés</fr>
 	</Description>
 
 	<!-- Track Designer remaping data -->

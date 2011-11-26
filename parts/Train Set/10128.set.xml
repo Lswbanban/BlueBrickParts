@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Aawsum (JB)</Author>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/10128-1.1175271657.thumb2.jpg</ImageURL>
 	<Description>
 		<en>Train Level Crossing</en>
-		<fr>Passage � niveau</fr>
+		<fr>Passage à niveau</fr>
 	</Description>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
