@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Marc Raps</Author>
+	<Description>
+		<en>Town Plan - Gas Pumps</en>
+		<fr>Town Plan - Pompes à essence</fr>
+	</Description>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<OldNameList>
+	    <OldName>10184.SET2</OldName>
+	</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10184-1.1200101995.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>
