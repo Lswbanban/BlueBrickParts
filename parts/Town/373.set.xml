@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
 	<ImageURL>http://img.lugnet.com/display.cgi?set/universal/lego373.jpg</ImageURL>
 	<Description>
-		<de>Offshore Rig mit Öltanker</de>
+		<de>Offshore Rig mit Ã–ltanker</de>
 		<en>Offshore Rig with Fuel Tanker</en>
-		<fr>Offshore Rig avec carburants pétroliers</fr>
+		<fr>Offshore Rig avec carburants pÃ©troliers</fr>
 	</Description>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

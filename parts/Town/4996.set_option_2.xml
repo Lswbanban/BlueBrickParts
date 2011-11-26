@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
 	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/4996-1-1198029853.jpg</ImageURL>
 	<Description>
 		<de>Ferienhaus (2)</de>
 		<en>Beach House (2)</en>
-		<fr>La maison d'été (2)</fr>
+		<fr>La maison d'Ã©tÃ© (2)</fr>
 	</Description>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

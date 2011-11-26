@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<!-- This part was named before 2358p01 -->
 	<Author>Alban Nanty</Author>
 	<Description>
 		<en>Baseplate, Road 32 x 32 7-Stud Straight with Road with White Sidelines Pattern</en>
-		<fr>Route droite 32 x 32 7 tenons avec des lignes blanches sur les cot�s</fr>
+		<fr>Route droite 32 x 32 7 tenons avec des lignes blanches sur les cotés</fr>
 	</Description>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>

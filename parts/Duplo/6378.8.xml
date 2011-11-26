@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
 		<en>Duplo Train Track Curved 30 Degrees</en>
-		<fr>Rail courbe Duplo de 30 degr�s</fr>
+		<fr>Rail courbe Duplo de 30 degrés</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/6378.1114408932.jpg</ImageURL>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

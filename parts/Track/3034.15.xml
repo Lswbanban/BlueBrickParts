@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<!-- This part should be skip during the Loading of LDraw files because it is the 4.5V sleeper, that's why we add a XML file without image -->
 	<Author>Alban Nanty</Author>

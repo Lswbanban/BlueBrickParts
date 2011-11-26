@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alban Nanty</Author>
 	<Description>
 		<en>Baseplate 32 x 32 Road 6-Stud T Intersection with White Dashed Lines and Crosswalk Pattern</en>
-		<fr>Route croisement en T 32 x 32 6 tenons avec des lignes blanches pointill�es et un passage pieton</fr>
+		<fr>Route croisement en T 32 x 32 6 tenons avec des lignes blanches pointillées et un passage pieton</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/44341px2.1119737202.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->

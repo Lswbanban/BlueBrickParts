@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Dave Sterling</Author>
 	<Description>
 		<en>Big Rig Truck Stop</en>
-		<fr>L'arr�t des routiers</fr>
+		<fr>L'arrêt des routiers</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6393-1.1203177573.thumb2.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->

@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
 	<Description>
 		<de>Bahnuebergang</de>
 		<en>Level Crossing</en>
-		<fr>Le passage � niveau</fr>
+		<fr>Le passage á niveau</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7936-1.1302239921.jpg</ImageURL>
 
