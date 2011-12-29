@@ -138,6 +138,7 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
+		<Alias>x992.7</Alias>	
 		<PreferredHeight>-24</PreferredHeight>
 		<SleeperID>767.8</SleeperID>
 	</LDraw>
