@@ -116,7 +116,7 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
-		<Alias>X864C01.1</Alias> <!-- The old blue 12V left point doesn't exist in LDRAW, so use the grey one -->
+		<Alias>u9220c03.1</Alias>
 		<Translation>
 			<x>0</x>
 			<y>-80</y>
