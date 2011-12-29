@@ -141,7 +141,7 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
-		<Alias>7857.1</Alias> <!-- The old blue 12V crossover doesn't exist in LDRAW, so use the grey one -->
+		<Alias>u9137.1</Alias>
 		<PreferredHeight>-24</PreferredHeight>
 		<SleeperID>3034.15</SleeperID>
 	</LDraw>
