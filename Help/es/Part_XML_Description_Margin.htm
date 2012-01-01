@@ -1,40 +1,37 @@
 <HTML>
 <HEAD>
+<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
+
 <META NAME="keywords" CONTENT="BlueBrick, Help">
 <META NAME="description" CONTENT="The reference documentation for BlueBrick.">
 <META NAME="author" CONTENT="Alban Nanty">
 <LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Specify the Margins for Snaping</Title>
+<Title>Especificar los m&aacute;rgenes para autoajuste</Title>
 </HEAD>
 <BODY>
-<H1>Specify the Margins for Snaping</H1>
+<H1>Especificar los m&aacute;rgenes para autoajuste</H1>
 
 <TABLE CLASS="XMLDescription">
 <TR>
-	<TD CLASS="Tilte">Syntax:</TD>
-	<TD CLASS="XMLCode">&lt;SnapMargin&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;left&gt;...&lt;/left&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;right&gt;...&lt;/right&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;top&gt;...&lt;/top&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;bottom&gt;...&lt;/bottom&gt;<BR>
-		&lt;/SnapMargin&gt;
+	<TD CLASS="Tilte">Sintaxis:</TD>
+	<TD CLASS="XMLCode">&lt;SnapMargin&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;left&gt;...&lt;/left&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;right&gt;...&lt;/right&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;top&gt;...&lt;/top&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;bottom&gt;...&lt;/bottom&gt;<BR> &lt;/SnapMargin&gt;
 	</TD>
 </TR><TR>
-	<TD CLASS="Tilte">Default Value:</TD>
-	<TD>0 on every side (the part is snapped with the border of image)</TD>
+	<TD CLASS="Tilte">Valor por defecto:</TD>
+	<TD>0 en cada lado (la pieza se ajusta al borde de la imagen</TD>
 </TR><TR>
-	<TD CLASS="Tilte">Description:</TD>
-	<TD>The inside margin in <FONT CLASS="Important">Stud coordinates</FONT> that must be stripped inside the part to snap the part at the correct place on the grid.</TD>
+	<TD CLASS="Tilte">Descripci&oacute;n:</TD>
+	<TD>El margen interior en <FONT CLASS="Important">coordenadas de studs</FONT> que hay que quitar dentro de la pieza para que se ajuste correctamente  la cuadr&iacute;cula</TD>
 </TR>  
 </TABLE>
 
-<P><FONT CLASS="Important">Warning: This is not implemented for Group in the 1.7.0 version of BlueBrick. This is only working for the parts.</FONT></P>
+<P><FONT CLASS="Important">Advertencia: Esto no ha sido implementado para piezas &quot;agrupadas&quot; en la versi&oacute;n 1.7.0 de BlueBrick. De momento solo funciona para piezas individuales.</FONT></P>
 
-<P>Most of the time, you can keep the default value (no margin) for the snapping. For example you want to snap the border of a base plate with the grid line. But if you take a 9V straight track for example, this part is 17 studs long: 16 stud for the rail itself, and half a stud on both side overtake for connection purpose. In that case you don't want to snap this part based on the extremity of its connection pin. If you do so, you will end up with a gap between the grid and the layout of the parts like in this example:</P>
+<P>La mayor&iacute;a de las veces puedes usar el valor por defecto (sin margen) par el ajuste. Por ejemplo: quieres ajustar el borde de un baseplate con la l&iacute;nea de la cuadr&iacute;cula. Pero si tomas por ejemplo una recta de 9V, la pieza mide 17 studs de largo. 16 studs para la propia v&iacute;a y medio stud a ambos lados que solapan con la siguiente pieza de la v&iacute;a (puntos de conexi&oacute;n). En este caso no quieres que se ajuste al extremo de la pieza. Si lo hicieras acabar&iacute;as teniendo un hueco entre la cuadr&iacute;cula y el trazado como en el siguiente ejemplo:</P>
 
 <CENTER><IMG SRC="../SnapMargin2.png"></CENTER>
 
-<P>That's why this part has a 0.5 stud margin on both left and right side in its XML file, as you can see:</P>
+<P>Por eso esta pieza tiene un margen de 0,5 studs en ambos extremos en el archivo XML como puedes ver a continuaci&oacute;n:</P>
 
 <DIV CLASS="TechNote">
 <IMG SRC="../SnapMargin1.png" ALIGN="right">
@@ -45,6 +42,7 @@
     &lt;top&gt;0&lt;/top&gt;
     &lt;bottom&gt;0&lt;/bottom&gt;
 &lt;/SnapMargin&gt;
+
 
 
 

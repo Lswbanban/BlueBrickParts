@@ -1,30 +1,32 @@
 <HTML>
 <HEAD>
+<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
+
 <META NAME="keywords" CONTENT="BlueBrick, Help">
 <META NAME="description" CONTENT="The reference documentation for BlueBrick.">
 <META NAME="author" CONTENT="Alban Nanty">
 <LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Specify if the Group can be ungrouped</Title>
+<Title>Especificar si el grupo se puede desagrupar</Title>
 </HEAD>
 <BODY>
-<H1>Specify if the Group can be ungrouped</H1>
+<H1>Especificar si el grupo se puede desagrupar</H1>
 
 <TABLE CLASS="XMLDescription">
 <TR>
-	<TD CLASS="Tilte">Syntax:</TD>
+	<TD CLASS="Tilte">Sintaxis:</TD>
 	<TD CLASS="XMLCode">&lt;CanUngroup&gt;...&lt;/CanUngroup&gt;</TD>
 </TR><TR>
-	<TD CLASS="Tilte">Default Value:</TD>
-	<TD>true</TD>
+	<TD CLASS="Tilte">Valor por defecto:</TD>
+	<TD>true (verdadero)</TD>
 </TR><TR>
-	<TD CLASS="Tilte">Description:</TD>
-	<TD>A boolean flag "true" or "false" (case sensitive) that tells if the group can be ungrouped in BlueBrick.</TD>
+	<TD CLASS="Tilte">Descripci&oacute;n:</TD>
+	<TD>Una etiqueta booleana &quot;true&quot; o &quot;false&quot; (sensible a may&uacute;sculas) que especifica si un grupo se puede desagrupar o no en BlueBrick.</TD>
 </TR>  
 </TABLE>
 
-<P>By default any group can be ungrouped after being added on the layout (see the documentation about grouping/ungrouping parts). If this flag is set to false, the user won't be able to choose "ungroup" when right-clicking on the part in the layout.</P>
+<P>Por defecto cualquier grupo puede ser deagrupado despu&eacute;s de a&ntilde;adirlo a un trazado (vea la documentaci&oacute;n sobre agrupar/desagrupar piezas). Si esta etiqueta tiene el valor &quot;false&quot;, el usuario no podr&aacute; desagruparlo haciendo un clic derecho sobre el trazado.</P>
 
-<P>This flag is quite important for a good user experience. Depending on which kind of group you are creating, you may want to let the possibility to the user to ungroup it or not. For example if you create a shortcut group representing a standard 3x3 module, you want to let the user modify it after adding it on the layout. On the other hand if you create a group for a set that can be opened with a hinge brick, you don't want to let the user dismantle the set unintentionnaly.</P>
+<P>Esta etiqueta tiene bastante importancia para asegurar una buena experiencia de uso. Dependiendo de qu&eacute; tipo de grupo creas, puedes querer permitir que un usuario o desagrupe o no. Por ejemplo, si est&aacute;s haciendo un atajo para introducir un m&oacute;dulo 3x3 est&aacute;ndar, querr&aacute;s dejar que otros usuarios lo modifiquen luego de a&ntilde;adirlo a su trazado. Por otro lado, si creas un grupo para un set que se puede abrir con un hinge, no querras permitir que el usuario desarme el grupo por accidente.</P>
 
 </BODY>
 </HTML>

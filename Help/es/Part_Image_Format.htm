@@ -1,55 +1,63 @@
 <HTML>
 <HEAD>
+<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
+
 <META NAME="keywords" CONTENT="BlueBrick, Help">
 <META NAME="description" CONTENT="The reference documentation for BlueBrick.">
 <META NAME="author" CONTENT="Alban Nanty">
 <LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Part Image Format</Title>
+<Title>Formato de piezas</Title>
 </HEAD>
 <BODY>
-<H1>Part Image Format</H1>
-<H2>Format</H2>
-<P>BlueBrick only parses GIF images in the subfolders of the parts folder (see the <A HREF="Part_Library_Folders.htm">Folder Organization</A> for more details). The GIF image can contain a transparent color.</P>
-<P>It doesn't matter in which orientation you place the top view of the part in the image, but to facilitate the integration of your part with LDraw, I recommend you to use the same orientation as the LDraw part. Otherwise, you will have to modify the <A HREF="LDraw_Remaping_File.htm">LDraw Remap file</A>.</P>
+<H1>Formato de piezas</H1>
+<H2>Formato</H2>
+<P>BlueBrick solo carga im&aacute;genes GIF que est&aacute;n en una carpeta dentro de la carpeta de piezas (vea <A HREF="Part_Library_Folders.htm">Organizaci&oacute;n de carpetas</A> para m&aacute;s detalles). La imagen GIF puede contener color transparente.</P>
+<P>No importa la orientaci&oacute;n de la vista superior de la pieza en la imagen, pero para facilitar la integraci&oacute;n de tu pieza con LDraw, recomiendo usar la misma orientaci&oacute;n que la pieza LDraw. De lo contrario tendr&aacute;s que modificar el <A HREF="LDraw_Remaping_File.htm">archivo LDraw Remap file</A>.</P>
 
-<H2>Scale</H2>
-<P>The scale of the parts is <FONT CLASS="Important">1 stud = 8 pixels</FONT>. Since a stud is equal to 8 millimeters in real life, another way to memorize the scale is 1 pixel = 1 millimeter.</P>
+<H2>Escala</H2>
+<P>La escala de una pieza es <FONT CLASS="Important">1 stud = 8 pixeles</FONT>. Como en realidad un stud iguala 8mm, otra manera de memorizar esta escala es 1 pixel = 1 mil&iacute;metro.</P>
 
-<H2>Authorized Characters for File Name</H2>
-<P>The names of the parts are not case sensitive, as BlueBrick converts all the names into upper case when creating its part library. Therefore if you create two parts that have the same name but with different cases, they will be considered as the same part. You can use any authorized character to name your parts (including spaces), but I strongly recommend you to use English characters only to facilitate the share of your map internationally. Also avoid using the period (full-stop) character since this character is used to separate the file name from the extension and is also used by BlueBrick to separate the part number from the color.</P>
+<H2>Caracteres autorizados para nombrar archivos</H2>
+<P>Los nombres de las piezas no son sensibles a may&uacute;sculas, ya que BlueBrick convierte todos los nombres a may&uacute;sculas al crear la biblioteca de piezas. Por lo tanto, si creas dos piezas con el mismo nombre, pero alguna letra en min&uacute;scula o may&uacute;scula, se considerar&aacute; como la misma pieza. Puedes usar cualquier car&aacute;cter autorizado para nombrar tu pieza (incluido espacios), pero recomiendo en&eacute;rgicamente usar solo caracteres ingleses para facilitar el compartir tu mapa de manera internacional. Evita tambi&eacute;n el uso del punto ya que este se usa para separar el nombre de un archivo de su extensi&oacute;n y BlueBrick lo emplea para separar el n&uacute;mero de una pieza de su color.</P>
 
-<H2>File Name Convention</H2>
-<P>BlueBrick doesn't mind how you name your parts.  The only constraint is that the name must be unique in the whole library. You cannot name two parts with the same name even if they are in different folders. Moreover this name becomes a unique id that is saved in the layout BBM files. So to avoid naming collisions in the library and to make your BBM files portable, <FONT CLASS="Important">one commonly uses the part or set number</FONT>. This is just a common practice, but I strongly recommend you to follow it. The official BlueBrick library will use this method.</P>
+<H2>Convenci&oacute;n de nombres de archivo</H2>
+<P>A BlueBrick le d igual c&oacute;mo llamas tus piezas.  La &uacute;nica limitaci&oacute;n es que el nombre debe ser &uacute;nico dentro de la biblioteca entera. No puedes usar el mismo nombre para dos piezas, incluso si est&aacute;n en carpetas diferentes. Este nombre se convierte en el ID exclusivo que se guarda en el trazado BBM. Para evitar conflictos en la biblioteca y para hacer los archivos BBM portables, <FONT CLASS="Important">habitualmente se emplea el numero de la pieza o set como su nombre</FONT>. Esto simplemente es un uso com&uacute;n que recomiendo en&eacute;rgicamente que sigas. La biblioteca oficial de BlueBrick tambi&eacute;n seguir&aacute; este criterio.</P>
 
-<H3>File Name Convention for a Set</H3>
-<P>Since there are some Lego&copy; parts and Lego&copy; sets that have the same number, to avoid conflicts, the common practice is to add ".set" as a suffix to the set number. Do not use a numerical suffix (like ".1"), otherwise this suffix will be interpreted as a color (see below for more details), and the color information is irrelevant for a set. Moreover Peeron and Bricklink also use a dash followed by a number to differentiate parts from set, and also because different set produced over the years may have the same number. So it is recommanded to use this suffix and use the same numbers as in Peeron or Bricklink.</P>
+<H3>Convenci&oacute;n de nombres para sets.</H3>
+<P>Como algunas piezas de Lego&copy; tienen el mismo n&uacute;mero que sets de Lego&copy; la npr&aacute;ctica com&uacute;n es la de a&ntilde;adir &quot;.set&quot; como sufijo al n&uacute;mero del set. No uses un sufijo num&eacute;rico (como &quot;.1&quot;) ya que ese sufijo se interpretar&aacute; como un color (vea m&aacute;s abajo para m&aacute;s detalles), y la informaci&oacute;n del color no es relevante para un set. Adem&aacute;s, Peeron y Bricklink pueden emplear un gui&oacute;n seguido de un n&uacute;mero para diferenciar piezas de sets y tambi&eacute;n diferentes sets producidos a lo largo del tiempo pueden tener el mismo n&uacute;mero. Por ello es recomendable usar este sufijo y emplaer los mismos n&uacute;meros que Peeron o Bricklink.</P>
 
 <DIV class="TechNote">
-<PRE><PRE>&lt;SetNumber&gt;.set.gif
-&lt;SetNumber&gt;.set.xml
+<PRE><PRE>&lt;N&uacute;meroDeSet&gt;.set.gif
+&lt;N&uacute;meroDeSet&gt;.set.xml
 
-For example the naming convention for the set #2150 is:
+Por ejemplo la convenci&oacute;n para nombrar el set #2150 es:
 <B>2150-1.set.gif</B>
 
-Moreover if you want to split a set in different gif images, you can name them like:
+Adem&aacute;s, si quieres separar un set en diferentes im&aacute;genes gif, puedes renombr&aacute;rlos de la siguiente manera:
 6399-1.set1.gif
 6399-1.set2.gif
 6399-1.set3.gif
+etc...
+
+Si quieres hacer GIFs de modelos alternativos de LEGO que est&aacute;n contenidos dentro de un set, la convenci&oacute;n para nombrarlos es como sigue:
+4886-1.setA.gif
+4886-1.setB.gif
+4886-1.setC.gif
 etc...</PRE>
 </DIV>
 
-<H3>File Name Convention for a Part</H3>
+<H3>Convenci&oacute;n de nombres de piezas</H3>
 
-<P>The common standard for naming a LEGO&copy; part is to use the full part number, followed by a dot and then by the color code of the part according to the LDRAW color table, and finally by the extension.</P>
+<P>El est&aacute;ndar com&uacute;n para nombrar una pieza de LEGO&copy; es la de usar el n&uacute;mero completo de la pieza seguido de un punto, luego el c&oacute;digo de color seg&uacute;n la tabla de colores de LDraw y finalmente una extensi&oacute;n.</P>
 
 <DIV class="TechNote">
-<PRE>&lt;PartNumber&gt;.&lt;Color&gt;.gif
-&lt;PartNumber&gt;.&lt;Color&gt;.xml
+<PRE>&lt;N&uacute;meroDePieza&gt;.&lt;Color&gt;.gif
+&lt;N&uacute;meroDePieza&gt;.&lt;Color&gt;.xml
 
-For example the naming convention for a Blue Baseplate 32 x 32 is:
+Por ejemplo, la convenci&oacute;n para nombrar un baseplate az&uacute;l 32x32 es:
 <B>3811.1.gif</B>
 
-<B>The LDRAW color table is:</B>
+<B>La tabla de color de LDraw es:</B>
   0 Black               28 Dark Tan               134 Pearl Copper
   1 Blue                29 Light Purple           135 Pearl Gray
   2 Green               33 Trans Blue             137 Pearl Sand Blue
@@ -78,14 +86,14 @@ For example the naming convention for a Blue Baseplate 32 x 32 is:
  27 Lime                92 Flesh</PRE>
 </DIV>
 
-<H3>File Name Convention for a Group</H3>
+<H3>Convenci&oacute;n de nombres de grupos</H3>
 
-<P>The file name of the group parts (parts made from other parts arranged in a certain predifined laying out) should start with any name describing the group followed by a dot and then the word "group" and finally by the extension. The group parts never have gif file, only xml files. If you want to make a group which actually represent a set (for example a set including many building in a predifined layout), use the "set" naming convention instead (see above).</P>
+<P>El nombre del archivo que describe un grupo de piezas (piezas hechas de piezas organizadas de una manera espec&iacute;fica), deber&iacute;a comenzar por un nombre que describe el grupo, seguido de un punto, la palabra &quot;group&quot; y finalmente la extensi&oacute;n. Piezas de grupo nunca tienen imagen gif, solo archivo xml. Si quieres hacer un grupo que representa un set (por ejemplo un set que incluye varios edificios en un formato predefinido), emplea la convenci&oacute;n para nombres de sets (vea arriba).</P>
 
 <DIV class="TechNote">
 <PRE>&lt;GroupName&gt;.group.xml
 
-For example the naming convention for a flex track can be:
+Por ejemplo, la convenci&oacute;n de nombre para una v&aacute;i flexible podr&iacute;a ser:
 <B>flex.group.xml</B></PRE>
 </DIV>
 
