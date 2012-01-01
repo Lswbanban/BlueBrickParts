@@ -1,46 +1,68 @@
 <HTML>
 <HEAD>
+<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
+
 <META NAME="keywords" CONTENT="BlueBrick, Help">
 <META NAME="description" CONTENT="The reference documentation for BlueBrick.">
 <META NAME="author" CONTENT="Alban Nanty">
 <LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Group XML Description</Title>
+<Title>Descripci&oacute;n XML de grupos</Title>
 </HEAD>
 <BODY>
-<H1>Group XML Description</H1>
-<H2>Overview</H2>
+<H1>Descripci&oacute;n XML de grupos</H1>
+<H2>Sinopsis</H2>
 
-<P>Since BlueBrick version 1.7, you can write an XML file that describes several parts or other groups arranged in predefined positions and orientations. Therefore, a group can be also seen as a shortcut to add several parts in one click. For example you can create a standard train module of 3x3 green baseplates with two straight railway lines on the bottom.</P>
+<P>Desde la versi&oacute;n 1.7 de BlueBrick se puede escribir un archivo XML que describe varias piezas u otros grupos organizados en posiciones y orientaciones predefinidas. Por lo tanto, un grupo puede ser un atajo para a&ntilde;adir varias piezas de golpe. Por ejemplo, puedes crear un m&oacute;dulo est&aacute;ndar de 3x baseplates con dos v&iacute;as rectas en su parte inferior.</P>
 
-<P>A future version of BlueBrick will provide a way to save the current selection as a group, but for now you need to edit the group XML file by hand. A workaround is to save the parts you want to group in a BBM file and then copy/paste the position and orientation code lines into the group XML file.</P>
+<P>Una pr&oacute;xima versi&oacute;n de BlueBrick proporcionar&aacute; una manera para guardar una selecci&oacute;n actual como grupo, pero por ahora hay que crear el XML de forma manual. Una manera alternativa de hacerlo es guardar las piezas que necesites en un archivo BBM y luego copiar y pegar los c&oacute;digos de orientaci&oacute;n y posici&oacute;n a un archivo XML de grupo.</P>
 
-<P>A group XML file can contain one or several references to other group XML files. However, you cannot create cyclic references, meaning a group XML file cannot make reference to itself, neither makes reference to file that makes reference to a file, etc... that makes reference to itself. BlueBrick detect cyclic references during the loading of the Brick Library and generates an error if one is found.</P>
+<P>Un archivo XML de grupo puede contener una o varias referencias a otros archivos XML de grupo. Sin embargo, no se puede crear referencias c&iacute;clicas, es decir un archivo XML de grupo no puede hacer referencia a si mismo ni a un archivo que hace referencia a otro que a su vez hace referencia al propio archivo, etc.  BlueBrick detecta referencias de este tipo durante la carga de la biblioteca de piezas y genera un error si encuentra uno.</P>
 
-<P>A group in the Brick Library do not need any associated gif image. BlueBrick recreated the image of the group from the description of the group at loading time to display it in the Brick Library. When adding the group on the map, BlueBrick uses the individual images of each part belonging to the group.</P>
+<P>Un grupo en la biblioteca de piezas no requiere una imagen gif. BlueBrick recrea la imagen de grupo de la descripci&oacute;n del mismo durante la carga de la biblioteca. Al a&ntilde;adir un grupo a un trazado, BlueBrick emplea las im&aacute;genes individuales de cada pieza que pertenece al grupo.</P>
 
-<P>You can duplicate an existing XML file and modify it to work faster. Be careful, the XML tags are case sensitive. Every field except the "SubPartList" is optional, and the order of the fields does not matter. If one field is missing the default behavior is used instead.</P>
+<P>Puedes duplicar un archivo XML existente y modificarlo para trabajar m&aacute;s r&aacute;pido. Ten cuidado, las etiquetas XML requieren correspondencia exacta de may&uacute;sculas y min&uacute;sculas. Todos los campos salvo &quot;SubPartList&quot; son opcionales y el orden de los campos no importa. Si falta un campo se usar&aacute; el ajuste por defecto en su lugar.</P>
 
-<P>Be carefull, in the XML file, <FONT CLASS="Important">the first tag, root of the hierachy, must be "group"</FONT>. This is how BlueBrick makes the difference between a group and a part.</P>
+<P>Ten cuidado, en el archivo XML, <FONT CLASS="Important">la primera etiqueta, base de la jerarqu&iacute;a, debe ser &quot;group&quot;</FONT>. Es as&iacute; como BlueBrick distingue entre grupos y piezas.</P>
 
-<H2>Structure of the XML file</H2>
+<DIV class="ToTranslate">
+<H2>File Encoding</H2>
 
-<P>If you don't know what an XML file is, and if you are not familiar with its syntax, it is strongly recommend to search for some additional help on internet. To summarize it in few words, this format organizes the data in a tree hierarchy by using tags which are identified by being enclosed with the characters &lt; and &gt;. Here is the general structure of an XML group file:</P>
+<P>For a good cross platform compatibility, you should clearly indicate in the header of the xml file the encoding in which the file is saved. The prefered encoding is UTF-8, because it can save accentuated character for the part description in different languages. Use a text editor to save your XML file in UTF-8. For example with Windows Notepad, choose the correct encoding in the save dialog:</P>
+
+<CENTER><IMG SRC="XmlEncoding.png"></CENTER>
+
+<P>And make sure the header of your file starts with this line:</P>
 
 <DIV CLASS="TechNote">
 <PRE>
-&lt;?xml version="1.0"?&gt;
+&lt;?xml version="1.0" <FONT COLOR="red">encoding="UTF-8"</FONT>?&gt;
+</PRE>
+</DIV>
+</DIV>
+
+<H2>Estructura del archivo XML</H2>
+
+<P>Si no sabes lo que es un archivo XML, y no est&aacute;s familiarizado con su sintaxis, te recomiendo en&eacute;rgicamente que busques ayuda adicional en Internet. Para resumirlo e pocas palabras, este formato organiza la informaci&oacute;n en un &aacute;rbol jer&aacute;rquico por medio de etiquetas que se identifican por estar dentro de los caracteres &lt; y &gt;. Esta es una estructura general de un archivo XML de grupo:</P>
+
+<DIV CLASS="TechNote">
+<PRE>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;group&gt;
     &lt;Author&gt;...&lt;/Author&gt;
     &lt;Description&gt;
         &lt;en&gt;...&lt;/en&gt;
         ...
     &lt;/Description&gt;
+    &lt;NotListedInLibrary&gt;...&lt;/NotListedInLibrary&gt;
+    &lt;OldNameList&gt;
+        ...
+    &lt;/OldNameList&gt;
     &lt;CanUngroup&gt;...&lt;/CanUngroup&gt;
     &lt;SnapMargin&gt;
         ...
     &lt;/SnapMargin&gt;
     &lt;SubPartList&gt;
-        &lt;SubPart id="..."&gt;
+        &lt;SubPart id=&quot;...&quot;&gt;
             ...
         &lt;/SubPart&gt;
         ...
@@ -52,17 +74,21 @@
 </DIV>
 
 
-<H2>The different XML tags in details</H2>
+<H2>Las diferentes etiquetas XML en detalle</H2>
 
-<P>For a detailed description of each XML tags, read the following sections:</P>
+<P>Para una descripci&oacute;n detallada de cada etiqueta XML, lea las siguientes secciones:</P>
 
 <UL>
-	<LI><A HREF="Part_XML_Description_Author.htm">Specify the Author</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_Description.htm">Add a description in different languages</A> (easy)</LI>
-	<LI><A HREF="Group_XML_Description_CanUngroup.htm">Specify is this group can be ungrouped</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_Margin.htm">Specify the Margins for Snaping</A> (medium difficulty) <FONT CLASS="Important">This is not implemented for Group in the 1.7.0 version of BlueBrick</FONT></LI>
-	<LI><A HREF="Group_XML_Description_SubPartList.htm">Describe the parts contained in the group</A> (medium difficulty)</LI>
-	<LI><A HREF="Group_XML_Description_GroupConnectionPreferenceList.htm">Describe the prefered connectivity inside the group</A> (medium difficulty)</LI>
+	<LI><A HREF="Part_XML_Description_Author.htm">Especificar autor</A> (f&aacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_Description.htm">A&ntilde;adir una descripci&oacute;n en un idioma diferente</A> (f&aacute;cil)</LI>
+	<DIV class="ToTranslate">
+	<LI><A HREF="Part_XML_Description_NotListedInLibrary.htm">Specify if the group should be hidden</A> (easy)</LI>
+	<LI><A HREF="Part_XML_Description_OldName.htm">Keep a trace of the previous name of a group</A> (easy)</LI>
+	</DIV>
+	<LI><A HREF="Group_XML_Description_CanUngroup.htm">Especificar si este grupo se puede deagrupar</A> (f&aacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_Margin.htm">Especificar m&aacute;rgenes para ajuste autom&aacute;tico</A> (dificultad media) <FONT CLASS="Important">Esto no ha sido implementado para grupos en la versi&oacute;n 1.7.0 de BlueBrick</FONT></LI>
+	<LI><A HREF="Group_XML_Description_SubPartList.htm">Describir las piezas contenidas en el grupo</A> (dificultad media)</LI>
+	<LI><A HREF="Group_XML_Description_GroupConnectionPreferenceList.htm">Describir la conectividad preferida dentro del grupo</A> (dificultad media)</LI>
 <UL>
 
 

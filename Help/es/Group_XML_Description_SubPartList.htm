@@ -1,43 +1,36 @@
 <HTML>
 <HEAD>
+<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
+
 <META NAME="keywords" CONTENT="BlueBrick, Help">
 <META NAME="description" CONTENT="The reference documentation for BlueBrick.">
 <META NAME="author" CONTENT="Alban Nanty">
 <LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>List all the parts in the group</Title>
+<Title>Listar todas las piezas en un grupo</Title>
 </HEAD>
 <BODY>
-<H1>List all the parts in the group</H1>
+<H1>Listar todas las piezas en un grupo</H1>
 
 <TABLE CLASS="XMLDescription">
 <TR>
-	<TD CLASS="Tilte">Syntax:</TD>
-	<TD CLASS="XMLCode">&lt;SubPartList&gt;<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;SubPart id=&quot;...&quot;&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;position&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;x&gt;...&lt;/x&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;y&gt;...&lt;/y&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/position&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;angle&gt;...&lt;/angle&gt;<BR>
-   		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/SubPart&gt;<BR>
-   		&nbsp;&nbsp;&nbsp;&nbsp;...<br>
-   		&lt;/SubPartList&gt;
+	<TD CLASS="Tilte">Sintaxis:</TD>
+	<TD CLASS="XMLCode">&lt;SubPartList&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;SubPart id=&quot;...&quot;&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;position&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;x&gt;...&lt;/x&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;y&gt;...&lt;/y&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/position&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;angle&gt;...&lt;/angle&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/SubPart&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;...<br> &lt;/SubPartList&gt;
     </TD>
 </TR><TR>
-	<TD CLASS="Tilte">Default Value:</TD>
-	<TD>If this tag is not present, the group is empty and then ignored during the loading of the part library.</TD>
+	<TD CLASS="Tilte">Valor por defecto:</TD>
+	<TD>Si esta etiqueta no est&aacute; presente, el grupo est&aacute; vac&iacute;o y ser&aacute; ignorado durante la carga de la biblioteca de piezas.</TD>
 </TR><TR>
-	<TD CLASS="Tilte">Description:</TD>
-	<TD>A list of parts with their position and orientation.</TD>
+	<TD CLASS="Tilte">Descripci&oacute;n:</TD>
+	<TD>Una lista de piezas con sus posiciones y orientaciones.</TD>
 </TR>  
 </TABLE>
 
-<P>The <FONT CLASS="Important">SubPartList field</FONT> contains a list of <FONT CLASS="Important">SubPart</FONT> element, one for each part contained in the group. The order of the parts in this list is used to determine the rendering order: the first elements are in the back and the last elements in the front.</P>
+<P>El <FONT CLASS="Important">campo SubPartList</FONT> contiene una lista de elementos <FONT CLASS="Important">SubPart</FONT>, uno por cada pieza que el grupo contiene. El orden de las piezas en la lista se emplea para determinar el orden de renderizaje: el primer elemento estar&aacute; al fondo y el &uacute;ltimo al frente.</P>
 
-<P>The <FONT CLASS="Important">SubPart field</FONT> describes one part or one sub-group in this group. The mandatory <FONT CLASS="Important">id</FONT> attribute is the full part number or group name (without the xml or gif extension). This id name is not case sensitive. If this part or group is not present in the library, a red cross image will be used instead. Cyclic reference are not allowed, meaning you cannot reference the name of this group in this id attribute, neither another group that reference this group in one of its id attributes. Cyclic references are detected by BlueBrick and will generate an error when loading this file, the group is then ignored by BlueBrick.</P>
+<P>El <FONT CLASS="Important">campo SubPart</FONT> describe una pieza o sub-grupo de este grupo. EL atributo obligatorio <FONT CLASS="Important">id</FONT> es el n&uacute;mero completo de la pieza o el nombre del grupo (sin la extensi&oacute;n gif o xml). Este id trata may&uacute;sculas y min&uacute;sculas como iguales. Si una pieza o grupo no est&aacute; en la biblioteca, se usar&aacute; una cruz roja en su lugar. Las referencias c&iacute;clicas no est&aacute;s permitidas, lo que significa que no puedes referencias el nombre del grupo en el atributo de id, ni otro grupo que referencia este grupo en uno de sus atributos id. BlueBrick detecta estas referencias c&iacute;clicas y generar&aacute; un error al cargar el archivo y el grupo es ignorado por BlueBrick.</P>
 
-<P>The <FONT CLASS="Important">position field</FONT> describes the position in stud coordinate of the element inside the group. The origin has no importance, since only the relative position between all the elements of the group is taken in consideration. However, for an easy edition of the XML file it is convenient to place one part at the origin (0.0, 0.0) and place all the other ones around it. Or you can also choose to place the origin in the center of the group.</P>
+<P>El <FONT CLASS="Important">campo position</FONT> describe la posici&oacute;n en coordenadas de studs de un elemento dentro del grupo. El origen no tiene importancia, ya que solo se considera la posici&oacute;n relativa entre todos los elementos del grupo. Sin embargo, para facilitar la edici&oacute;n del archivo XML, es conveniente colocar una pieza en el origen (0,0, 0,0) y las dem&aacute;s alrededor. O puedes elegir colocar el origen en el centro del grupo.</P>
 
-<P>The <FONT CLASS="Important">angle field</FONT> describes the orientation in degree of the element, with positive values in clockwise direction.</P>
+<P>El <FONT CLASS="Important">campo angle</FONT> describe la orientaci&oacute;n en grados del elemento, con los valores positivos en el sentido del reloj..</P>
 </BODY>
 </HTML>

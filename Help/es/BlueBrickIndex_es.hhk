@@ -6,815 +6,815 @@
 </HEAD><BODY>
 <UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="add">
-		<param name="Name" value="Adding and Deleting Parts">
+		<param name="Name" value="a&ntilde;adir">
+		<param name="Name" value="A&ntilde;adir y borrar piezas">
 		<param name="Local" value="Adding_and_Deleting_Parts.htm">
-		<param name="Name" value="The Layer Toolbar">
+		<param name="Name" value="La barra de capas">
 		<param name="Local" value="Layer_Toolbar.htm">
-		<param name="Name" value="How to extend the Part Library">
+		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="layer">
-			<param name="Name" value="The Layer Toolbar">
+			<param name="Name" value="capa">
+			<param name="Name" value="La barra de capas">
 			<param name="Local" value="Layer_Toolbar.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="part">
-			<param name="Name" value="Adding and Deleting Parts">
+			<param name="Name" value="pieza">
+			<param name="Name" value="A&ntilde;adir y borrar piezas">
 			<param name="Local" value="Adding_and_Deleting_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="text">
-			<param name="Name" value="The Four Different Type of Layers">
+			<param name="Name" value="texto">
+			<param name="Name" value="Los cuatro tipos de capas">
 			<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="align">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="alineaci&oacute;n">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="area">
-		<param name="Name" value="The Four Different Type of Layers">
+		<param name="Name" value="&aacute;rea">
+		<param name="Name" value="Los cuatro tipos de capas">
 		<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="author">
-		<param name="Name" value="Start Page">
+		<param name="Name" value="autor">
+		<param name="Name" value="P&aacute;gina de inicio">
 		<param name="Local" value="Start_Page.htm">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="axis">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="ejes">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="back">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="volver">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
-		<param name="Name" value="Other Options">
+		<param name="Name" value="Otras opciones">
 		<param name="Local" value="Other_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="bill">
-		<param name="Name" value="Exporting the Parts List">
+		<param name="Name" value="lista">
+		<param name="Name" value="Exportar una lista de piezas">
 		<param name="Local" value="Exporting_the_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="bmp">
-		<param name="Name" value="Exporting a Layout as an Image">
+		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="bom">
-		<param name="Name" value="Exporting the Parts List">
+		<param name="Name" value="Exportar una lista de piezas">
 		<param name="Local" value="Exporting_the_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="brick">
-		<param name="Name" value="The Four Different Type of Layers">
+		<param name="Name" value="ladrillo">
+		<param name="Name" value="Los cuatro tipos de capas">
 		<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
-		<param name="Name" value="Window Panes">
+		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="color">
-		<param name="Name" value="Appearance Options">
+		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Appearance_Options.htm">
-		<param name="Name" value="Other Options">
+		<param name="Name" value="Otras opciones">
 		<param name="Local" value="Other_Options.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="area">
-			<param name="Name" value="The Four Different Type of Layers">
+			<param name="Name" value="&aacute;rea">
+			<param name="Name" value="Los cuatro tipos de capas">
 			<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="background">
-			<param name="Name" value="Other Options">
+			<param name="Name" value="fondo">
+			<param name="Name" value="Otras opciones">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="grid">
-			<param name="Name" value="Appearance Options">
+			<param name="Name" value="cuadr&iacute;cula">
+			<param name="Name" value="Opciones de apariencia">
 			<param name="Local" value="Appearance_Options.htm">
-			<param name="Name" value="Other Options">
+			<param name="Name" value="Otras opciones">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="id">
-			<param name="Name" value="Part Image Format">
+			<param name="Name" value="Formato de piezas">
 			<param name="Local" value="Part_Image_Format.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="connection">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="conexi&oacute;n">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
-		<param name="Name" value="Appearance Options">
+		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Appearance_Options.htm">
-		<param name="Name" value="Connection Type Configuration File">
+		<param name="Name" value="Archivo de configuraci&oacute;n del tipo de conexi&oacute;n">
 		<param name="Local" value="Connection_Type_Config_File.htm">
-		<param name="Name" value="List the interface connections of the group">
+		<param name="Name" value="Listar las conexiones del grupo">
 		<param name="Local" value="Group_XML_Description_GroupConnectionPreferenceList.htm">
-		<param name="Name" value="Describe the Connection Points">
+		<param name="Name" value="Describir los puntos de conexi&oacute;n">
 		<param name="Local" value="Part_XML_Description_Connection.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="convention">
-		<param name="Name" value="Part Image Format">
+		<param name="Name" value="convenio">
+		<param name="Name" value="Formato de piezas">
 		<param name="Local" value="Part_Image_Format.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="coordinates">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="coordenadas">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="custom">
-		<param name="Name" value="How to extend the Part Library">
+		<param name="Name" value="personalizado">
+		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="default">
-		<param name="Name" value="Shortcut Keys">
+		<param name="Name" value="por defecto">
+		<param name="Name" value="Atajos de teclado">
 		<param name="Local" value="Shortcut_Keys.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="delete">
-		<param name="Name" value="Adding and Deleting Parts">
+		<param name="Name" value="borrar">
+		<param name="Name" value="A&ntilde;adir y borrar piezas">
 		<param name="Local" value="Adding_and_Deleting_Parts.htm">
-		<param name="Name" value="The Layer Toolbar">
+		<param name="Name" value="La barra de capas">
 		<param name="Local" value="Layer_Toolbar.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="layer">
-			<param name="Name" value="The Layer Toolbar">
+			<param name="Name" value="capa">
+			<param name="Name" value="La barra de capas">
 			<param name="Local" value="Layer_Toolbar.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="part">
-			<param name="Name" value="Adding and Deleting Parts">
+			<param name="Name" value="pieza">
+			<param name="Name" value="A&ntilde;adir y borrar piezas">
 			<param name="Local" value="Adding_and_Deleting_Parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="description">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="descripci&oacute;n">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
-		<param name="Name" value="Exporting the Parts List">
+		<param name="Name" value="Exportar una lista de piezas">
 		<param name="Local" value="Exporting_the_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="duplicate">
-		<param name="Name" value="Adding and Deleting Parts">
+		<param name="Name" value="duplicar">
+		<param name="Name" value="A&ntilde;adir y borrar piezas">
 		<param name="Local" value="Adding_and_Deleting_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="export">
-		<param name="Name" value="Exports, Reports and Printing">
+		<param name="Name" value="exportar">
+		<param name="Name" value="Exportaci&oacute;n, informes e impresi&oacute;n">
 		<param name="Local" value="Export_Report_and_Printing.htm">
-		<param name="Name" value="Exporting a Layout as an Image">
+		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
-		<param name="Name" value="Exporting the Parts List">
+		<param name="Name" value="Exportar una lista de piezas">
 		<param name="Local" value="Exporting_the_Parts_List.htm">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="image">
-			<param name="Name" value="Exporting a Layout as an Image">
+			<param name="Name" value="imagen">
+			<param name="Name" value="Exportar un trazado como imagen">
 			<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="ldraw">
-			<param name="Name" value="Saving and Loading">
+			<param name="Name" value="Guardar y cargar">
 			<param name="Local" value="Saving_and_Loading.htm">
-			<param name="Name" value="LDraw Remaping File">
+			<param name="Name" value="Archivo de remapeado LDraw">
 			<param name="Local" value="LDraw_Remaping_File.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="parts">
-			<param name="Name" value="Exporting the Parts List">
+			<param name="Name" value="piezas">
+			<param name="Name" value="Exportar una lista de piezas">
 			<param name="Local" value="Exporting_the_Parts_List.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="tdl">
-			<param name="Name" value="Saving and Loading">
+			<param name="Name" value="Guardar y cargar">
 			<param name="Local" value="Saving_and_Loading.htm">
-			<param name="Name" value="Track Designer Remaping File">
+			<param name="Name" value="Archivo de remapeado Track Designer">
 			<param name="Local" value="Track_Designer_Remaping_File.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="extend">
-		<param name="Name" value="How to extend the Part Library">
+		<param name="Name" value="extender">
+		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="folder">
-		<param name="Name" value="Part Library Folders">
+		<param name="Name" value="carpeta">
+		<param name="Name" value="Carpetas de la biblioteca de piezas">
 		<param name="Local" value="Part_Library_Folders.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="font">
-		<param name="Name" value="Appearance Options">
+		<param name="Name" value="Tipo de letra">
+		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Appearance_Options.htm">
-		<param name="Name" value="Other Options">
+		<param name="Name" value="Otras opciones">
 		<param name="Local" value="Other_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="format">
-		<param name="Name" value="Part Image Format">
+		<param name="Name" value="formato">
+		<param name="Name" value="Formato de piezas">
 		<param name="Local" value="Part_Image_Format.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="front">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="delantera">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="gif">
-		<param name="Name" value="Part Image Format">
+		<param name="Name" value="Formato de piezas">
 		<param name="Local" value="Part_Image_Format.htm">
-		<param name="Name" value="Exporting a Layout as an Image">
+		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="grid">
-		<param name="Name" value="The Four Different Type of Layers">
+		<param name="Name" value="cuadr&iacute;cula">
+		<param name="Name" value="Los cuatro tipos de capas">
 		<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
-		<param name="Name" value="Other Options">
+		<param name="Name" value="Otras opciones">
 		<param name="Local" value="Other_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="group">
-		<param name="Name" value="Group XML Description">
+		<param name="Name" value="grupo">
+		<param name="Name" value="Descripci&oacute;n XML de grupos">
 		<param name="Local" value="Group_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="html">
-		<param name="Name" value="Exporting the Parts List">
+		<param name="Name" value="Exportar una lista de piezas">
 		<param name="Local" value="Exporting_the_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="hull">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="Per&iacute;metro">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="image">
-		<param name="Name" value="Part Image Format">
+		<param name="Name" value="imagen">
+		<param name="Name" value="Formato de piezas">
 		<param name="Local" value="Part_Image_Format.htm">
-		<param name="Name" value="Exporting a Layout as an Image">
+		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="export">
-			<param name="Name" value="Exporting a Layout as an Image">
+			<param name="Name" value="exportar">
+			<param name="Name" value="Exportar un trazado como imagen">
 			<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="format">
-			<param name="Name" value="Part Image Format">
+			<param name="Name" value="formato">
+			<param name="Name" value="Formato de piezas">
 			<param name="Local" value="Part_Image_Format.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="url">
-			<param name="Name" value="Part XML Description">
+			<param name="Name" value="Descripci&oacute;n XML de las piezas">
 			<param name="Local" value="Part_XML_Description.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="import">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="importar">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
-		<param name="Name" value="LDraw Remaping File">
+		<param name="Name" value="Archivo de remapeado LDraw">
 		<param name="Local" value="LDraw_Remaping_File.htm">
-		<param name="Name" value="Track Designer Remaping File">
+		<param name="Name" value="Archivo de remapeado Track Designer">
 		<param name="Local" value="Track_Designer_Remaping_File.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="ldraw">
-			<param name="Name" value="Saving and Loading">
+			<param name="Name" value="Guardar y cargar">
 			<param name="Local" value="Saving_and_Loading.htm">
-			<param name="Name" value="LDraw Remaping File">
+			<param name="Name" value="Archivo de remapeado LDraw">
 			<param name="Local" value="LDraw_Remaping_File.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="tdl">
-			<param name="Name" value="Saving and Loading">
+			<param name="Name" value="Guardar y cargar">
 			<param name="Local" value="Saving_and_Loading.htm">
-			<param name="Name" value="Track Designer Remaping File">
+			<param name="Name" value="Archivo de remapeado Track Designer">
 			<param name="Local" value="Track_Designer_Remaping_File.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="jpg">
-		<param name="Name" value="Exporting a Layout as an Image">
+		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="key">
-		<param name="Name" value="Shortcut Keys">
+		<param name="Name" value="tecla">
+		<param name="Name" value="Atajos de teclado">
 		<param name="Local" value="Shortcut_Keys.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="language">
-		<param name="Name" value="Choosing a language">
+		<param name="Name" value="Idioma">
+		<param name="Name" value="Elegir un idioma">
 		<param name="Local" value="Choosing_a_language.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="layer">
-		<param name="Name" value="Window Panes">
+		<param name="Name" value="capa">
+		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
-		<param name="Name" value="Creating and Using Layers">
+		<param name="Name" value="Crear y usar capas">
 		<param name="Local" value="Creating_and_Using_Layers.htm">
-		<param name="Name" value="The Layer Toolbar">
+		<param name="Name" value="La barra de capas">
 		<param name="Local" value="Layer_Toolbar.htm">
-		<param name="Name" value="The Four Different Type of Layers">
+		<param name="Name" value="Los cuatro tipos de capas">
 		<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="layout">
-		<param name="Name" value="Window Panes">
+		<param name="Name" value="trazado">
+		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ldr">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
-		<param name="Name" value="LDraw Remaping File">
+		<param name="Name" value="Archivo de remapeado LDraw">
 		<param name="Local" value="LDraw_Remaping_File.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ldraw">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
-		<param name="Name" value="LDraw Remaping File">
+		<param name="Name" value="Archivo de remapeado LDraw">
 		<param name="Local" value="LDraw_Remaping_File.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="legal">
-		<param name="Name" value="Start Page">
+		<param name="Name" value="P&aacute;gina de inicio">
 		<param name="Local" value="Start_Page.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="library">
-		<param name="Name" value="Window Panes">
+		<param name="Name" value="biblioteca">
+		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
-		<param name="Name" value="How to extend the Part Library">
+		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
-		<param name="Name" value="Reload the Part Library">
+		<param name="Name" value="Recargar la biblioteca de piezas">
 		<param name="Local" value="Reload_the_Part_Library.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="browse">
-			<param name="Name" value="Window Panes">
+			<param name="Name" value="navegar">
+			<param name="Name" value="&Aacute;reas de la ventana">
 			<param name="Local" value="Window_Panes.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="extend">
-			<param name="Name" value="How to extend the Part Library">
+			<param name="Name" value="extender">
+			<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 			<param name="Local" value="How_to_extend_the_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="reload">
-			<param name="Name" value="Reload the Part Library">
+			<param name="Name" value="recargar">
+			<param name="Name" value="Recargar la biblioteca de piezas">
 			<param name="Local" value="Reload_the_Part_Library.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="license">
-		<param name="Name" value="Start Page">
+		<param name="Name" value="licencia">
+		<param name="Name" value="P&aacute;gina de inicio">
 		<param name="Local" value="Start_Page.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="link">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="enlace">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
-		<param name="Name" value="Appearance Options">
+		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Appearance_Options.htm">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="list">
-		<param name="Name" value="Exporting the Parts List">
+		<param name="Name" value="lista">
+		<param name="Name" value="Exportar una lista de piezas">
 		<param name="Local" value="Exporting_the_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="load">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="cargar">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="magnet">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="im&aacute;n">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="margin">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="margen">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="mouse">
-		<param name="Name" value="General Options">
+		<param name="Name" value="rat&oacute;n">
+		<param name="Name" value="Opciones generales">
 		<param name="Local" value="General_Options.htm">
-		<param name="Name" value="Zooming and Viewing">
+		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Zooming_and_Viewing.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="move">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="mover">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
-		<param name="Name" value="Zooming and Viewing">
+		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Zooming_and_Viewing.htm">
-		<param name="Name" value="The Layer Toolbar">
+		<param name="Name" value="La barra de capas">
 		<param name="Local" value="Layer_Toolbar.htm">
-		<param name="Name" value="The Four Different Type of Layers">
+		<param name="Name" value="Los cuatro tipos de capas">
 		<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="area">
-			<param name="Name" value="The Four Different Type of Layers">
+			<param name="Name" value="&aacute;rea">
+			<param name="Name" value="Los cuatro tipos de capas">
 			<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="grid">
-			<param name="Name" value="Other Options">
+			<param name="Name" value="cuadr&iacute;cula">
+			<param name="Name" value="Otras opciones">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="parts">
-			<param name="Name" value="Moving Parts">
+			<param name="Name" value="piezas">
+			<param name="Name" value="Mover piezas">
 			<param name="Local" value="Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="text">
-			<param name="Name" value="Moving Parts">
+			<param name="Name" value="texto">
+			<param name="Name" value="Mover piezas">
 			<param name="Local" value="Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="view">
-			<param name="Name" value="Zooming and Viewing">
+			<param name="Name" value="ver">
+			<param name="Name" value="Zoom y visualizaci&oacute;n">
 			<param name="Local" value="Zooming_and_Viewing.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="mpd">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
-		<param name="Name" value="LDraw Remaping File">
+		<param name="Name" value="Archivo de remapeado LDraw">
 		<param name="Local" value="LDraw_Remaping_File.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="new">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="nuevo">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="open">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="abrir">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="option">
-		<param name="Name" value="Global Options">
+		<param name="Name" value="opci&oacute;n">
+		<param name="Name" value="Opciones globales">
 		<param name="Local" value="Global_Options.htm">
-		<param name="Name" value="General Options">
+		<param name="Name" value="Opciones generales">
 		<param name="Local" value="General_Options.htm">
-		<param name="Name" value="Appearance Options">
+		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Appearance_Options.htm">
-		<param name="Name" value="Shortcut Keys">
+		<param name="Name" value="Atajos de teclado">
 		<param name="Local" value="Shortcut_Keys.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="appearance">
-			<param name="Name" value="Appearance Options">
+			<param name="Name" value="aspecto">
+			<param name="Name" value="Opciones de apariencia">
 			<param name="Local" value="Appearance_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="default">
-			<param name="Name" value="Shortcut Keys">
+			<param name="Name" value="por defecto">
+			<param name="Name" value="Atajos de teclado">
 			<param name="Local" value="Shortcut_Keys.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="general">
-			<param name="Name" value="General Options">
+			<param name="Name" value="Opciones generales">
 			<param name="Local" value="General_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="language">
-			<param name="Name" value="Choosing a language">
+			<param name="Name" value="Idioma">
+			<param name="Name" value="Elegir un idioma">
 			<param name="Local" value="Choosing_a_language.htm">
-			<param name="Name" value="General Options">
+			<param name="Name" value="Opciones generales">
 			<param name="Local" value="General_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="layer">
-			<param name="Name" value="Other Options">
+			<param name="Name" value="capa">
+			<param name="Name" value="Otras opciones">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="shortcut">
-			<param name="Name" value="Shortcut Keys">
+			<param name="Name" value="atajo">
+			<param name="Name" value="Atajos de teclado">
 			<param name="Local" value="Shortcut_Keys.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="order">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="orden">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="pan">
-		<param name="Name" value="Zooming and Viewing">
+		<param name="Name" value="centrar">
+		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Zooming_and_Viewing.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="pane">
-		<param name="Name" value="Window Panes">
+		<param name="Name" value="&aacute;rea">
+		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="part">
-		<param name="Name" value="Window Panes">
+		<param name="Name" value="pieza">
+		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="alias">
-			<param name="Name" value="Keep a trace of the previous name of a part">
+			<param name="Name" value="Seguir la pista del nombre anterior de luna pieza">
 			<param name="Local" value="Part_XML_Description_OldName.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="coordinates">
-			<param name="Name" value="Part XML Description">
+			<param name="Name" value="coordenadas">
+			<param name="Name" value="Descripci&oacute;n XML de las piezas">
 			<param name="Local" value="Part_XML_Description.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="description">
-			<param name="Name" value="Exporting the Parts List">
+			<param name="Name" value="descripci&oacute;n">
+			<param name="Name" value="Exportar una lista de piezas">
 			<param name="Local" value="Exporting_the_Parts_List.htm">
-			<param name="Name" value="Part XML Description">
+			<param name="Name" value="Descripci&oacute;n XML de las piezas">
 			<param name="Local" value="Part_XML_Description.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="hull">
-			<param name="Name" value="Part XML Description">
+			<param name="Name" value="per&iacute;metro">
+			<param name="Name" value="Descripci&oacute;n XML de las piezas">
 			<param name="Local" value="Part_XML_Description.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="id">
-			<param name="Name" value="Part Library Folders">
+			<param name="Name" value="Carpetas de la biblioteca de piezas">
 			<param name="Local" value="Part_Library_Folders.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="library">
-			<param name="Name" value="Window Panes">
+			<param name="Name" value="biblioteca">
+			<param name="Name" value="&Aacute;reas de la ventana">
 			<param name="Local" value="Window_Panes.htm">
-			<param name="Name" value="How to extend the Part Library">
+			<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 			<param name="Local" value="How_to_extend_the_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="list">
-			<param name="Name" value="Exporting the Parts List">
+			<param name="Name" value="lista">
+			<param name="Name" value="Exportar una lista de piezas">
 			<param name="Local" value="Exporting_the_Parts_List.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="rename">
-			<param name="Name" value="Keep a trace of the previous name of a part">
+			<param name="Name" value="renombrar">
+			<param name="Name" value="Seguir la pista del nombre anterior de luna pieza">
 			<param name="Local" value="Part_XML_Description_OldName.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="performance">
-		<param name="Name" value="General Options">
+		<param name="Name" value="rendimiento">
+		<param name="Name" value="Opciones generales">
 		<param name="Local" value="General_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="png">
-		<param name="Name" value="Exporting a Layout as an Image">
+		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="recent">
-		<param name="Name" value="General Options">
+		<param name="Name" value="reciente">
+		<param name="Name" value="Opciones generales">
 		<param name="Local" value="General_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="redo">
-		<param name="Name" value="Undo and Redo">
+		<param name="Name" value="rehacer">
+		<param name="Name" value="Deshacer y rehacer">
 		<param name="Local" value="Undo_and_Redo.htm">
-		<param name="Name" value="General Options">
+		<param name="Name" value="Opciones generales">
 		<param name="Local" value="General_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="reload">
-		<param name="Name" value="Reload the Part Library">
+		<param name="Name" value="recargar">
+		<param name="Name" value="Recargar la biblioteca de piezas">
 		<param name="Local" value="Reload_the_Part_Library.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="rename">
-		<param name="Name" value="Keep a trace of the previous name of a part">
+		<param name="Name" value="renombrar">
+		<param name="Name" value="Seguir la pista del nombre anterior de luna pieza">
 		<param name="Local" value="Part_XML_Description_OldName.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="rotate">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="girar">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="save">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="guardar">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
-		<param name="Name" value="Exporting a Layout as an Image">
+		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
-		<param name="Name" value="Exporting the Parts List">
+		<param name="Name" value="Exportar una lista de piezas">
 		<param name="Local" value="Exporting_the_Parts_List.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="image">
-			<param name="Name" value="Exporting a Layout as an Image">
+			<param name="Name" value="imagen">
+			<param name="Name" value="Exportar un trazado como imagen">
 			<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="map">
-			<param name="Name" value="Saving and Loading">
+			<param name="Name" value="mapa">
+			<param name="Name" value="Guardar y cargar">
 			<param name="Local" value="Saving_and_Loading.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="parts list">
-			<param name="Name" value="Exporting the Parts List">
+			<param name="Name" value="lista de piezas">
+			<param name="Name" value="Exportar una lista de piezas">
 			<param name="Local" value="Exporting_the_Parts_List.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="scale">
-		<param name="Name" value="Part Image Format">
+		<param name="Name" value="escala">
+		<param name="Name" value="Formato de piezas">
 		<param name="Local" value="Part_Image_Format.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="scheme">
-		<param name="Name" value="Appearance Options">
+		<param name="Name" value="esquema">
+		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Appearance_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="select">
-		<param name="Name" value="Selecting Parts">
+		<param name="Name" value="seleccionar">
+		<param name="Name" value="Seleccionar piezas">
 		<param name="Local" value="Selecting_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="shortcut">
-		<param name="Name" value="Shortcut Keys">
+		<param name="Name" value="atajo">
+		<param name="Name" value="Atajos de teclado">
 		<param name="Local" value="Shortcut_Keys.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="snap">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="ajustar">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="tab">
-		<param name="Name" value="Window Panes">
+		<param name="Name" value="pesta&ntilde;a">
+		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
-		<param name="Name" value="Part Library Folders">
+		<param name="Name" value="Carpetas de la biblioteca de piezas">
 		<param name="Local" value="Part_Library_Folders.htm">
-		<param name="Name" value="General Options">
+		<param name="Name" value="Opciones generales">
 		<param name="Local" value="General_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="tdl">
-		<param name="Name" value="Saving and Loading">
+		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Saving_and_Loading.htm">
-		<param name="Name" value="Track Designer Remaping File">
+		<param name="Name" value="Archivo de remapeado Track Designer">
 		<param name="Local" value="Track_Designer_Remaping_File.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="text">
-		<param name="Name" value="The Four Different Type of Layers">
+		<param name="Name" value="texto">
+		<param name="Name" value="Los cuatro tipos de capas">
 		<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
-		<param name="Name" value="Moving Parts">
+		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="add">
-			<param name="Name" value="The Four Different Type of Layers">
+			<param name="Name" value="a&ntilde;adir">
+			<param name="Name" value="Los cuatro tipos de capas">
 			<param name="Local" value="The_Four_Different_Type_of_Layers.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="font">
-			<param name="Name" value="Appearance Options">
+			<param name="Name" value="tipo de letra">
+			<param name="Name" value="Opciones de apariencia">
 			<param name="Local" value="Appearance_Options.htm">
-			<param name="Name" value="Other Options">
+			<param name="Name" value="Otras opciones">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="move">
-			<param name="Name" value="Moving Parts">
+			<param name="Name" value="mover">
+			<param name="Name" value="Mover piezas">
 			<param name="Local" value="Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="rotate">
-			<param name="Name" value="Moving Parts">
+			<param name="Name" value="girar">
+			<param name="Name" value="Mover piezas">
 			<param name="Local" value="Moving_Parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="theme">
-		<param name="Name" value="Appearance Options">
+		<param name="Name" value="tema">
+		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Appearance_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="toolbar">
-		<param name="Name" value="Toolbars">
+		<param name="Name" value="barra de herramientas">
+		<param name="Name" value="Barras de herramientas">
 		<param name="Local" value="Toolbars.htm">
-		<param name="Name" value="The Layer Toolbar">
+		<param name="Name" value="La barra de capas">
 		<param name="Local" value="Layer_Toolbar.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="layer">
-			<param name="Name" value="The Layer Toolbar">
+			<param name="Name" value="capa">
+			<param name="Name" value="La barra de capas">
 			<param name="Local" value="Layer_Toolbar.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="main">
-			<param name="Name" value="Toolbars">
+			<param name="Name" value="principal">
+			<param name="Name" value="Barras de herramientas">
 			<param name="Local" value="Toolbars.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="undo">
-		<param name="Name" value="Undo and Redo">
+		<param name="Name" value="deshacer">
+		<param name="Name" value="Deshacer y rehacer">
 		<param name="Local" value="Undo_and_Redo.htm">
-		<param name="Name" value="General Options">
+		<param name="Name" value="Opciones generales">
 		<param name="Local" value="General_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="url">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="view">
-		<param name="Name" value="Zooming and Viewing">
+		<param name="Name" value="ver">
+		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Zooming_and_Viewing.htm">
-		<param name="Name" value="Window Panes">
+		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="pan">
-			<param name="Name" value="Zooming and Viewing">
+			<param name="Name" value="centrar">
+			<param name="Name" value="Zoom y visualizaci&oacute;n">
 			<param name="Local" value="Zooming_and_Viewing.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="zoom">
-			<param name="Name" value="Zooming and Viewing">
+			<param name="Name" value="Zoom y visualizaci&oacute;n">
 			<param name="Local" value="Zooming_and_Viewing.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="window">
-		<param name="Name" value="Window Panes">
+		<param name="Name" value="ventana">
+		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="xml">
-		<param name="Name" value="Part XML Description">
+		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
-		<param name="Name" value="Group XML Description">
+		<param name="Name" value="Descripci&oacute;n XML de grupos">
 		<param name="Local" value="Group_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="zoom">
-		<param name="Name" value="Zooming and Viewing">
+		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Zooming_and_Viewing.htm">
-		<param name="Name" value="General Options">
+		<param name="Name" value="Opciones generales">
 		<param name="Local" value="General_Options.htm">
 		</OBJECT>
 </UL>

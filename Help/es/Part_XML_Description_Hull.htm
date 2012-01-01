@@ -1,42 +1,39 @@
 <HTML>
 <HEAD>
+<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
+
 <META NAME="keywords" CONTENT="BlueBrick, Help">
 <META NAME="description" CONTENT="The reference documentation for BlueBrick.">
 <META NAME="author" CONTENT="Alban Nanty">
 <LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Describe the Hull</Title>
+<Title>Describir el per&iacute;metro</Title>
 </HEAD>
 <BODY>
-<H1>Describe the Hull</H1>
+<H1>Describir el per&iacute;metro</H1>
 
 <TABLE CLASS="XMLDescription">
 <TR>
-	<TD CLASS="Tilte">Syntax:</TD>
-	<TD CLASS="XMLCode">&lt;hull&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;point&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/point&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;...<BR>
-		&lt;/hull&gt;	
+	<TD CLASS="Tilte">Sintaxis:</TD>
+	<TD CLASS="XMLCode">&lt;hull&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;point&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/point&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;...<BR> &lt;/hull&gt;	
 	</TD>
 </TR><TR>
-	<TD CLASS="Tilte">Default Value:</TD>
-	<TD>The 4 corners of the image define the hull by default.</TD>
+	<TD CLASS="Tilte">Valor por defecto:</TD>
+	<TD>Las 4 esquinas de una imagen definen su per&iacute;metro por defecto.</TD>
 </TR><TR>
-	<TD CLASS="Tilte">Description:</TD>
-	<TD>The Hull is the convex envelop that contains all the extremity of the part. It is defined by a list of points whose <FONT CLASS="Important">coordinates are in pixel</FONT>, relative to the top left corner of the part image.</TD>
+	<TD CLASS="Tilte">Descripci&oacute;n:</TD>
+	<TD>El per&iacute;metro es un envoltorio convexo que contiene todas las extremidades de la pieza. Se define como una lista de puntos cuyos <FONT CLASS="Important">coordenadas est&aacute;n en p&iacute;xeles</FONT>, relativo a la esquina superior izquierda de imagen de la pieza.</TD>
 </TR>
 </TABLE>
 
-<P>The Hull description is useful for parts that are neither square nor rectangular, such as a rail points or curves. BlueBrick uses the hull to compute the bounding box of the part. The bounding box is the smallest possible rectangular box (aligned on the vertical and horizontal axis) that can contains the whole part. This bounding box is used when you pick a part by clicking on it in the parts pane. A good hull will increase the usability of your part. The hull definition also has an impact on the amount of memory used by BlueBrick. This is because the hulls shape influences the size of the image needed to draw the part when rotated. Please add as few points to the hull as possible as this influences the performance of the application.</P>
+<P>La descripci&oacute;n del per&iacute;metro es pr&aacute;ctico para piezas que no son ni cuadradas ni rectangulares, como las agujas y curvas. BlueBrick emplea ese per&iacute;metro para calcular la caja envoltorio de la pieza. La caja envoltorio es la caja rectangular m&aacute;s peque&ntilde;a posible (alineada con los ejes vertical y horizontal) que puede contener la pieza entera. Esta caja envoltorio se emplea cuando seleccionas una pieza pulsando sobre ella en el &aacute;rea de la biblioteca. Un buen per&iacute;metro aumenta el buen uso de la pieza. La definici&oacute;n del per&iacute;metro tambi&eacute;n influye en la cantidad de memoria empleada por BlueBrick. Esto es as&iacute; porque el tama&ntilde;o del per&iacute;metro influye en el tama&ntilde;o de la imagen necesario al girar la pieza. Por favor a&ntilde;ade el m&iacute;nimo de puntos necesario ya que esto influye en el rendimiento del programa.</P>
 
-<P>Beware that the hull definition, unlike the previous parameters, is in pixel and not stud coordinates. The reason is that it is much easier to define the hull in pixels by using your image editor and finding the coordinates by moving the mouse over the image. A wrong hull definition may cause the part to be truncated when it is rotated with a free angle. When you are specifying the hull of your part, a good way to test this is to rotate your part up to 360&deg; with small increments like 22.5&deg; and check at every step if the part is not truncated. Here are two examples for the hull definition of the 9V Switch Point and Curved Track:</P>
+<P>Ten cuidado ya que, a diferencia de los par&aacute;metros anteriores, el per&iacute;metro se define en p&iacute;xeles, no en studs. La raz&oacute;n para ello es que es mucho m&aacute;s sencillo definir el per&iacute;metro en p&iacute;xeles, que se pueden encontrar con un editor de imagen, moviendo el cursor sobre la imagen. Una mala definici&oacute;n de per&iacute;metro puede resultar en una pieza truncada al girarla con un &aacute;ngulo libre. Al definir el per&iacute;metro de una pieza, una buena manera de comprobarlo  es girar la pieza hasta 360&deg; en peque&ntilde;os pasos como por ejemplo 22.5&deg; y comprobar en cada paso si la pieza no queda truncada. Abajo dos ejemplos de definici&oacute;n de per&iacute;metro de unas agujas 9V y una curva.</P>
 
 <CENTER><IMG SRC="../HullSwitchPoint.png">&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../HullCurve.png"></CENTER>
 <BR>
 
 <DIV CLASS="TechNote">
-<PRE><B>Here is the corresponding XML for the hull of the 9V Switch Point:</B>
+<PRE><B>Este es el XML correspondiente para el per&iacute;metro de las agujas 9V:</B>
 
 &lt;hull&gt;
     &lt;point&gt;
@@ -64,10 +61,11 @@
         &lt;y&gt;53&lt;/y&gt;
     &lt;/point&gt;
 &lt;/hull&gt;
+
 </PRE>
 </DIV>
 
-<P>Note that there is no point in creating a concave hull, since BlueBrick goes through all the points to create the bounding box. That's why there is no link between the last one and the first one for example.</P>
+<P>Nota que no tiene sentido crear un per&iacute;metro c&oacute;ncavo, ya que BlueBrick pasa por todos los puntos para crear la caja envoltorio. Es por ello que no hay enlace entre el &uacute;ltimo punto y el primero en este ejemplo.</P>
 
 </BODY>
 </HTML>

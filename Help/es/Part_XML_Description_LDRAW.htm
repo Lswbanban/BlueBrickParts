@@ -1,59 +1,48 @@
 <HTML>
 <HEAD>
+<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
+
 <META NAME="keywords" CONTENT="BlueBrick, Help">
 <META NAME="description" CONTENT="The reference documentation for BlueBrick.">
 <META NAME="author" CONTENT="Alban Nanty">
 <LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Add information for LDraw Compatibility</Title>
+<Title>A&ntilde;adir informaci&oacute;n para compatibilidad con LDraw</Title>
 </HEAD>
 <BODY>
-<H1>Add information for LDraw Compatibility</H1>
+<H1>A&ntilde;adir informaci&oacute;n para compatibilidad con LDraw</H1>
 
 <TABLE CLASS="XMLDescription">
 <TR>
-	<TD CLASS="Tilte">Syntax:</TD>
-	<TD CLASS="XMLCode">&lt;LDraw&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;Alias&gt;...&lt;/Alias&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;Angle&gt;...&lt;/Angle&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;Translation&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;x&gt;...&lt;/x&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;y&gt;...&lt;/y&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/Translation&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;PreferredHeight&gt;...&lt;/PreferredHeight&gt;<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;SleeperID&gt;...&lt;/SleeperID&gt;<BR>
-		&lt;/LDraw&gt;<BR>
-		<BR>
-		<BR>
-		<I>Note: The &lt;Alias&gt; tag can have an optionnal attribute named "noremap":</I><BR>
-		&lt;Alias noremap="true"&gt;...&lt;/Alias&gt;<BR>
+	<TD CLASS="Tilte">Sintaxis:</TD>
+	<TD CLASS="XMLCode">&lt;LDraw&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;Alias&gt;...&lt;/Alias&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;Angle&gt;...&lt;/Angle&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;Translation&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;x&gt;...&lt;/x&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;y&gt;...&lt;/y&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/Translation&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;PreferredHeight&gt;...&lt;/PreferredHeight&gt;<BR> &nbsp;&nbsp;&nbsp;&nbsp;&lt;SleeperID&gt;...&lt;/SleeperID&gt;<BR> &lt;/LDraw&gt;<BR> <BR> <BR> <I>Nota: La etiqueta &lt;Alias&gt; puede tener un atributo opcional llamado &quot;noremap&quot;:</I><BR> &lt;Alias noremap=&quot;true&quot;&gt;...&lt;/Alias&gt;<BR>
 	</TD>
 </TR><TR>
-	<TD CLASS="Tilte">Default Value:</TD>
-	<TD>If there is no &lt;LDraw&gt;, the part is not compatible with LDraw.</TD>
+	<TD CLASS="Tilte">Valor por defecto:</TD>
+	<TD>Si no hay etiqueta &lt;LDraw&gt;, la pieza no es compatible con LDraw.</TD>
 </TR><TR>
-	<TD CLASS="Tilte">Description:</TD>
-	<TD>A set of information used by BlueBrick to convert LDraw parts to BlueBrick parts and vice and versa.</TD>
+	<TD CLASS="Tilte">Descripci&oacute;n:</TD>
+	<TD>Un conjunto de informaci&oacute;n usado por BlueBrick para convertir a piezas  de LDraw a BlueBrick y viceversa.</TD>
 </TR>  
 </TABLE>
 
-<P>BlueBrick can save and load files in the LDraw format. Because the origin (e.g. rotation), of the parts in the LDraw files are not always the same as the origin of the parts in the BlueBrick library, BlueBrick needs to apply some transformation on the position and orientation of the parts when saving or loading an LDraw file format.</P>
+<P>BlueBrick puede guardar y cargar archivos en formato LDraw. Como el origen (ej. de giro) de la pieza en los archivo LDraw no siempre es el mismo que el origen en la biblioteca de BlueBrick, BlueBrick tiene que aplicar alg&uacute;n tipo de transformaci&oacute;n en la posici&oacute;n y orientaci&oacute;n de la pieza al guardar  o cargar un archivo en formato LDraw.</P>
 
-<P>If you are extending your library with sets, you probably don't need to modify this file because the LDraw library mostly contains parts and very few models. Because of this your LDraw software will not be able to load your sets unless you have you the corresponding LDR file.</P>
+<P>Si ampl&iacute;as tu biblioteca con sets , probablemente no tengas que modificar el archivo porque la biblioteca de LDraw contiene principalmente piezas y muy pocos sets. Debido a esto, tu programa d LDraw no podr&aacute; cargar tus sets a menos que tengas el archivo LDraw correspondiente.</P>
 
-<P>Moreover if you are extending your library with a part, you only need to add an LDraw field in the XML file if the origin of the part is different in BlueBrick and LDraw.</P>
+<P>Adem&aacute;s, si ampl&iacute;as tu biblioteca con una pieza, solo tienes que a&ntilde;adir el campo LDraw en el archivo XML si el origen de la pieza es distinto en BlueBrick que en LDraw.</P>
 
-<P>The <FONT CLASS="Important">Alias field</FONT> constains a BlueBrick part ID (the part number followed by a dot and the color ID) that should be used during the saving/loading in LDraw format to replace the current part by another one. This field is uselfull if the part does not exist yet in the LDraw library, but a similar one could be used instead.</P>
-<P>Normally the <FONT CLASS="Important">Alias field</FONT> is useless because the BlueBrick part ID is the same as the LDraw part ID (per default when creating a BlueBrick part). This field, however, can be used if the BlueBrick ID is different from the LDraw ID. If you add this field, BlueBrick will use the specified ID when saving a LDraw file, and will also create a remaping link that will be used when loading a Ldraw file, unless you add the attribute <FONT CLASS="Important">noremap="true"</FONT>. If you add the <FONT CLASS="Important">noremap="true"</FONT> attribute and save your layout in the LDraw format then you will have a red cross image (unknown part) when reloading your layout with BlueBrick. Most of the time you should not use the <FONT CLASS="Important">noremap="true"</FONT> attribute.</P>
+<P>El <FONT CLASS="Important">campo Alias</FONT> contiene una ID de pieza de BlueBrick (el n&uacute;mero de la pieza seguida de un punto y la ID del color) que deber&iacute;a usarse al guardar/cargar en formato LDraw para reemplazar la pieza actual por otra. Este campo es &uacute;til si la pieza no existe a&uacute;n en la biblioteca LDraw, pero se podr&iacute;a usar una similar en su lugar.</P>
+<P>Normalmente el <FONT CLASS="Important">campo Alias</FONT> no sirve porque la ID de la pieza en BlueBrick es la misma que en LDraw (por defecto al crear una pieza BlueBrick). Este campo, sin embargo, se puede usar si la ID de BlueBrick es diferente de la de LDraw. Si a&ntilde;ades este campo, BlueBrick emplear&aacute; la ID especificada al guardar en formato LDraw y crear&aacute; adem&aacute;s un enlace de redireccionamiento que se usar&aacute; al cargar un archivo LDraw, a menos que a&ntilde;ades el atributo <FONT CLASS="Important">noremap=&quot;true&quot;</FONT>. Si a&ntilde;ades el atributo <FONT CLASS="Important">noremap=&quot;true&quot;</FONT> y guardas el trazado en formato LDraw, aparecer&aacute; una cruz roja  (pieza desconocida) al cargar el trazado de nuevo en BlueBrick. En la mayor&iacute;a de casos no deber&iacute;as usar el atributo <FONT CLASS="Important">noremap=&quot;true&quot;</FONT>.</P>
 
-<P>The <FONT CLASS="Important">Angle field</FONT> contains the difference of angle between the two coordinate systems along the UP axis (in degrees).</P>
+<P>El <FONT CLASS="Important">campo Angle</FONT> contiene la diferencia en &aacute;ngulo entre dos sistemas de coordenadas a lo largo del eje UP (en grados).</P>
 
-<P>The <FONT CLASS="Important">x and y inside the translation fields</FONT> contain the difference in position between the two coordinate systems (in <A HREF="http://www.brickwiki.org/wiki/LDU">LDU</A>).</P>
+<P>Los <FONT CLASS="Important">x e y dentro de los campos de traslaci&oacute;n</FONT> contienen la diferencia en posici&oacute;n entre dos sistemas de coordenadas (en <A HREF="http://www.brickwiki.org/wiki/LDU">LDU</A>).</P>
 
-<P>When you save your BlueBrick layout in LDraw, BlueBrick places all the parts at an altitude of 0 by default. The <FONT CLASS="Important">PreferredHeight field</FONT> contains a height value (in <A HREF="http://www.brickwiki.org/wiki/LDU">LDU</A>), which is used by BlueBrick instead of the default altitude. If you change the altitude of a part with a LDraw software, and reload the map in BlueBrick, the altitude will be retained when the file is saved again. The <FONT CLASS="Important">PreferredHeight field</FONT> is only used when saving in the LDraw format if the altitude of the part is 0.</P>
-<P>Note that if you use a non-zero value for the <FONT CLASS="Important">PreferredHeight field</FONT> of a part and save a BlueBrick map containing this part, then the altitude of that part will never again change in that BlueBrick map file. Not even if you change the <FONT CLASS="Important">PreferredHeight field</FONT> again and reload the part library. This is because the part was saved in the LDR file with the first value you set and this value is then always kept by BlueBrick. So if you have created a new part and want to tune its preferred height, you have to recreate the layout each time before saving it in the LDraw format.</P>
+<P>Cuando guardas un trazado BlueBrick en LDraw, BlueBrick coloca todas las piezas en un altura de 0 por defecto. El <FONT CLASS="Important">campo PreferredHeight</FONT> contiene un valo de altura (en <A HREF="http://www.brickwiki.org/wiki/LDU">LDU</A>), que BlueBrick emplea en vez de la altura por defecto. Si modificas la altura de una pieza con un programa para LDraw  y recarga el mapa en BlueBrick, la altura se retendr&aacute; cuando se vuelva a guardar el archivo. El <FONT CLASS="Important">campo PreferredHeight</FONT> solamente se usa en el formato LDraw si la altitud de la pieza es 0.</P>
+<P>Nota que i usas un valor que no es cero para el <FONT CLASS="Important">campo PreferredHeight</FONT> de una pieza y guardas un mapa en BlueBrick que la contiene, la altura de esa pieza no volver&aacute; a modificarse en ese mapa BlueBrick. Ni siquiera se cambias el <FONT CLASS="Important">campo PreferredHeight</FONT> de nuevo y recargas la biblioteca de piezas. Esto es as&iacute; porque la pieza se guard&oacute; en un archivo LDR con el primer valor y ese valor es respetado por BlueBrick. De modo que si creas una nueva pieza y quieres ajustar su altura preferida, tienes que recrear el trazado cada vez antes de guardarlo en formato LDraw.</P>
 
-<P>The <FONT CLASS="Important">SleeperID field</FONT> contains the BlueBrick part ID (the part number followed by a dot and the color ID), of the sleeper to use with the rail part you are describing. For fast and easy editing in BlueBrick, you don't have to add the sleeper, they are already integrated inside the track parts. But when you want to save your layout in LDraw format, BlueBrick needs to generate the sleeper parts at the correct position. That's why BlueBrick still needs the LDraw information for these parts. For that purpose you can add an XML file without associated GIF for the Sleepers in the part library; BlueBrick will use this information during the saving but will ignore these parts during the loading of an LDRaw file.</P>
-<P>Because the sleepers of the 4.5V and 12V rails are shared between two portions of track, there's no solution which indicates whether a sleeper needs to be added or not. BlueBrick doesn't try to guess and always adds a sleeper at all the connecting points. This behavior will lead BlueBrick to generate an LDraw file where some sleepers are placed in exactly at the same place as the existing sleeper inside the LDraw shortcut piece.</P>
+<P>El <FONT CLASS="Important">campo SleeperID</FONT> contiene la ID BlueBrick de una pieza (el n&uacute;mero de la pieza seguido de un punto y la ID del color), del 'sleeper' que hay que usar con la v&iacute;a que estas describiendo. Para una edici&oacute;n r&aacute;pida y c&oacute;moda en BlueBrick, no hace falta a&ntilde;adir los &quot;sleeper&quot;; ya est&aacute;n integrados dentro de los diferentes tipos de v&iacute;as. Pero cuando quieres guardar un trazado en formato LDraw, BlueBrick tiene que generar los &quot;sleeper&quot; en las posiciones correctas. Por eso BlueBrick necesita la informaci&oacute;n LDraw de estas piezas. Para este fin puedes a&ntilde;adir un archivo XML sin GIF asociado, para los &quot;sleepers de la biblioteca de piezas; BlueBrick emplear&aacute; esta informaci&oacute;n al guardar pero ignorar&aacute; estas piezas al cargar un archivo LDraw.</P>
+<P>Ya que los &quot;sleepers de vias 4,5V y 12V son compartidos entre partes tramos de via, no hay soluci&oacute;n para saber si hace falta a&ntilde;adir un &quot;sleeper&quot; o no. BlueBrick no intenta adivinar y siempre a&ntilde;ade un &quot;sleeper&quot; a todos los puntos de conexi&oacute;n. Este comportamiento llevar&aacute; a BlueBrick a generar un archivo LDraw donde hay &quot;sleepers&quot; coloados en exactamente el mismo sitio que los SLEEPER existentes dentro de la pieza de atajo de LDraw.</P>
 
 </BODY>
 </HTML>

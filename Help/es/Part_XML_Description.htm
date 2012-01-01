@@ -1,26 +1,44 @@
 <HTML>
 <HEAD>
+<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
+
 <META NAME="keywords" CONTENT="BlueBrick, Help">
 <META NAME="description" CONTENT="The reference documentation for BlueBrick.">
 <META NAME="author" CONTENT="Alban Nanty">
 <LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Part XML Description</Title>
+<Title>Descripci&oacute;n XML de las piezas</Title>
 </HEAD>
 <BODY>
-<H1>Part XML Description</H1>
-<H2>Overview</H2>
+<H1>Descripci&oacute;n XML de las piezas</H1>
+<H2>Sinopsis</H2>
 
-<P>For each GIF image file created in the part library, you can create an XML file with the same name. This XML file will contain useful information to describe the properties of your parts such as its different connection points. But BlueBrick can still assign a default behavior to your part if you don't create an XML file, so this file is optional. The name of the XML file must be exactly the same as the GIF file, except the extension of course.</P>
+<P>Para cada archivo GIF en la biblioteca de piezas puedes crear un archivo XML con el mismo nombre Este archivo XML contendr&aacute; informaci&oacute;n pr&aacute;ctica para describir las propiedades de tu pieza como sus diferentes puntos de conexi&oacute;n. Pero BlueBrick puede asignar un comportamiento por defecto a la pieza si no creas un archivo XML, de modo que este archivo es opcional. El nombre del archivo XML debe ser exactamente el mismo que el del archivo GIF, con la excepci&oacute;n de la extensi&oacute;n por supuesto.</P>
 
-<P>You can duplicate an existing XML file and modify it to work faster. Be careful, the XML tags are case sensitive. Every field is optional, and the order of the fields does not matter. If one field is missing the default behavior is used instead.</P>
+<P>Puedes duplicar un archivo XML existente y modificarlo para trabajar m&aacute;s r&aacute;pido. Ten cuidado, las etiquetas XML requieren correspondencia exacta de may&uacute;sculas y min&uacute;sculas. Todos los campos son opcionales y el orden de los campos no importa. Si falta un campo se usar&aacute; el ajuste por defecto en su lugar.</P>
 
-<H2>Structure of the XML file</H2>
+<DIV Class="ToTranslate">
+<H2>File Encoding</H2>
 
-<P>If you don't know what an XML file is, and if you are not familiar with its syntax, I strongly recommend you search for some additional help on internet. To summarize it in few words, this format organizes the data in a tree hierarchy by using tags which are identified by being enclosed with the characters &lt; and &gt;. Here is the general structure of an XML part file:</P>
+<P>For a good cross platform compatibility, you should clearly indicate in the header of the xml file the encoding in which the file is saved. The prefered encoding is UTF-8, because it can save accentuated character for the part description in different languages. Use a text editor to save your XML file in UTF-8. For example with Windows Notepad, choose the correct encoding in the save dialog:</P>
+
+<CENTER><IMG SRC="XmlEncoding.png"></CENTER>
+
+<P>And make sure the header of your file starts with this line:</P>
 
 <DIV CLASS="TechNote">
 <PRE>
-&lt;?xml version="1.0"?&gt;
+&lt;?xml version="1.0" <FONT COLOR="red">encoding="UTF-8"</FONT>?&gt;
+</PRE>
+</DIV>
+</DIV>
+
+<H2>Estructura del archivo XML</H2>
+
+<P>Si no sabes lo que es un archivo XML, y no est&aacute;s familiarizado con su sintaxis, te recomiendo en&eacute;rgicamente que busques ayuda adicional en internet. Para resumirlo e pocas palabras, este formato organiza la informaci&oacute;n en un &aacute;rbol jer&aacute;rquico por medio de etiquetas que se identifican por estar dentro de los caracteres &lt; y &gt;. Esta es una estructura general de un archivo XML de una pieza:</P>
+
+<DIV CLASS="TechNote">
+<PRE>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;part&gt;
     &lt;Author&gt;...&lt;/Author&gt;
     &lt;Description&gt;
@@ -56,21 +74,21 @@
 &lt;/part&gt;</PRE>
 </DIV>
 
-<H2>The different XML tags in details</H2>
+<H2>Las diferentes etiquetas XML en detalle</H2>
 
-<P>For a detailed description of each XML tags, read the following sections:</P>
+<P>Para una descripci&oacute;n detallada de cada etiqueta XML, lea las siguientes secciones:</P>
 
 <UL>
-	<LI><A HREF="Part_XML_Description_Author.htm">Specify the Author</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_Description.htm">Add a description in different languages</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_Image.htm">Specify an online reference Image</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_NotListedInLibrary.htm">Specify if the part should be hidden</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_OldName.htm">Keep a trace of the previous name of a part</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_Margin.htm">Specify the Margins for Snaping</A> (medium difficulty)</LI>
-	<LI><A HREF="Part_XML_Description_Connection.htm">Describe the Connection Points</A> (difficult)</LI>
-	<LI><A HREF="Part_XML_Description_Hull.htm">Describe the Hull</A> (medium difficulty)</LI>
-	<LI><A HREF="Part_XML_Description_Track_Designer.htm">Add information for Track Designer Compatibility</A> (difficult)</LI>
-	<LI><A HREF="Part_XML_Description_LDRAW.htm">Add information for LDraw Compatibility</A> (difficult)</LI>
+	<LI><A HREF="Part_XML_Description_Author.htm">Especificar autor</A> (f&aacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_Description.htm">A&ntilde;adir una descripci&oacute;n en un idioma diferente</A> (f&aacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_Image.htm">Especificar una imagen de referencia online</A> (f&aacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_NotListedInLibrary.htm">Especificar si la pieza debe ser escondida</A> (f&aacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_OldName.htm">Seguir la pista del nombre anterior de luna pieza</A> (f&aacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_Margin.htm">Especificar los m&aacute;rgenes para autoajuste</A> (dificultad media)</LI>
+	<LI><A HREF="Part_XML_Description_Connection.htm">Describir los puntos de conexi&oacute;n</A> (dif&iacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_Hull.htm">Describir el per&iacute;metro</A> (dificultad media)</LI>
+	<LI><A HREF="Part_XML_Description_Track_Designer.htm">A&ntilde;adir informaci&oacute;n para comptibilidad con Track Designer</A> (dif&iacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_LDRAW.htm">A&ntilde;adir informaci&oacute;n para comptibilidad con LDraw</A> (dif&iacute;cil)</LI>
 <UL>
 
 
