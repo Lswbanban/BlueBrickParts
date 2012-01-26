@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Viallefont Xavier</Author>
+	<Description>
+		<en>Rail 9V Long Curve</en>
+		<fr>Rail 9V Long courbe</fr>
+	</Description>
+	<OldNameList>
+	    <OldName>Bricocurve.3</OldName>
+	</OldNameList>
+	
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0.5</left>
+		<right>0.375</right>
+		<top>0</top>
+		<bottom>0.875</bottom>
+	</SnapMargin>
+
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<!-- the center of this part in stud is x = 187 pix / 8 pixperstud / 2 = 11.6875    and    y = 95 / 8 / 2 = 5.9375 -->		
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>1</type>
+			<position>
+				<x>-11.1875</x>
+				<y>-1.9375</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>202.5</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>157.5</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>1</electricPlug>
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>1</type>
+			<position>
+				<x>10.2428</x>	<!-- x = pos1x + 56 * sin(22.5) because 56 is the radius in stud of the middle line of a 9V large curve turn (for a quarter of circle) -->
+				<y>2.3252</y>	<!-- y = pos1y + 56 * (1 - cos(22.5)) because 56 is the radius in stud of the middle line of a 9V large curveturn (for a quarter of circle) -->
+			</position>
+			<angle>22.5</angle>
+			<angleToPrev>157.5</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>202.5</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>-1</electricPlug>
+		</connexion>
+	</ConnexionList>
+	
+	<hull>
+	    <point>
+	        <x>0</x>
+        	<y>0</y>
+	    </point>
+	    <point>
+	        <x>68</x>
+        	<y>3</y>
+	    </point>
+	    <point>
+	        <x>131</x>
+        	<y>15</y>
+	    </point>
+	    <point>
+	        <x>186</x>
+        	<y>36</y>
+	    </point>
+	    <point>
+	        <x>186</x>
+        	<y>52</y>
+	    </point>
+	    <point>
+	        <x>171</x>
+        	<y>90</y>
+	    </point>
+	    <point>
+	        <x>164</x>
+        	<y>95</y>
+	    </point>
+	    <point>
+	        <x>155</x>
+        	<y>94</y>
+	    </point>
+	    <point>
+	        <x>4</x>
+        	<y>64</y>
+	    </point>
+	    <point>
+	        <x>0</x>
+        	<y>57</y>
+	    </point>
+	</hull> 
+</part>
