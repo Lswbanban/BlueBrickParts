@@ -39,10 +39,10 @@
 3034.15.xml
 32087.8.gif
 32087.8.xml
-3228AC01.1.gif
-3228AC01.1.xml
-3228BC01.7.gif
-3228BC01.7.xml
+3228AC02.1.gif
+3228AC02.1.xml
+3228BC02.7.gif
+3228BC02.7.xml
 3229AC01.1.gif
 3229AC01.1.xml
 3229BC01.7.gif
@@ -51,8 +51,8 @@
 3231.1.xml
 3231B.7.gif
 3231B.7.xml
-3240C01.7.gif
-3240C01.7.xml
+3240BC02.7.gif
+3240BC02.7.xml
 3241C01.7.gif
 3241C01.7.xml
 4707.7.gif
@@ -76,6 +76,8 @@
 7864_regulator.7.xml
 7996.8.gif
 7996.8.xml
+861C02.1.gif
+861C02.1.xml
 88492.8.gif
 88492.8.xml
 88493.8.gif
@@ -93,8 +95,6 @@ X505B.1.gif
 X505B.1.xml
 X563.1.gif
 X563.1.xml
-X861C01.1.gif
-X861C01.1.xml
 X864C01.7.gif
 X864C01.7.xml
 X865C01.7.gif
