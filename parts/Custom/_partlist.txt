@@ -1,3 +1,5 @@
+9VLongCurve.8.gif
+9VLongCurve.8.xml
 TDSupport10.4.gif
 TDSupport10.4.xml
 TDSupport12.4.gif
