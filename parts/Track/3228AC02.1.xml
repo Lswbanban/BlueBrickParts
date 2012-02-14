@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
-	<Author>Alban Nanty</Author>
+	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>Rail 4.5V Straight (new type)</en>
-		<fr>Rail 4.5V droit (nouveau modèle)</fr>
+		<en>Rail 4.5V Straight (old type)</en>
+		<fr>Rail 4.5V droit (ancien modèle)</fr>
 	</Description>
-	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts//3228bc01.png</ImageURL>
+	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts//3228ac01.png</ImageURL>
 	<OldNameList>
-	    <OldName>3228A.7</OldName>
-	    <OldName>3228B.7</OldName>
+	    <OldName>3228A.1</OldName>
+	    <OldName>3228B.1</OldName>
+	    <OldName>3228AC01.1</OldName>	    
 	</OldNameList>
-
+	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
@@ -49,7 +50,7 @@
 
 	<!-- Track Designer remaping data -->
 	<TrackDesigner>
-		<ID>533228</ID> <!-- ID of this part in Track Designer -->
+		<ID>733228</ID> <!-- ID of this part in Track Designer -->
 		<Flag>0</Flag> <!-- 0=no flag, 1=piece is an attachment, 2=piece is used to support elevation, 3=piece is an attachment and is used to support elevation -->
 		<HasSeveralGeometries>false</HasSeveralGeometries>
 		<TDBitmapList>
@@ -68,7 +69,8 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
+		<Alias>3228AC01.15</Alias> <!-- Change the color of the shortcut LDraw part to have the correct sleeper color -->
 		<PreferredHeight>-24</PreferredHeight>
-		<SleeperID>767.8</SleeperID>
+		<SleeperID>3034.15</SleeperID>
 	</LDraw>
 </part>
