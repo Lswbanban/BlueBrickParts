@@ -2,12 +2,13 @@
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
-		<en>Rail 12V Straight (new type)</en>
-		<fr>Rail 12V droit (nouveau modèle)</fr>
+		<en>Rail 12V Straight (old type)</en>
+		<fr>Rail 12V droit (ancien modèle)</fr>
 	</Description>
-	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts//3240c01.png</ImageURL>
+	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts//x861c01.png</ImageURL>
 	<OldNameList>
-	    <OldName>3240.7</OldName>
+	    <OldName>3240.1</OldName>
+	    <OldName>X861C01.1</OldName>
 	</OldNameList>
 	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
@@ -50,7 +51,7 @@
 
 	<!-- Track Designer remaping data -->
 	<TrackDesigner>
-		<ID>433240</ID> <!-- ID of this part in Track Designer -->
+		<ID>633240</ID> <!-- ID of this part in Track Designer -->
 		<Flag>0</Flag> <!-- 0=no flag, 1=piece is an attachment, 2=piece is used to support elevation, 3=piece is an attachment and is used to support elevation -->
 		<HasSeveralGeometries>false</HasSeveralGeometries>
 		<TDBitmapList>
@@ -70,6 +71,6 @@
 	<!-- LDraw remaping data -->
 	<LDraw>
 		<PreferredHeight>-24</PreferredHeight>
-		<SleeperID>767.8</SleeperID>
+		<SleeperID>3034.15</SleeperID>
 	</LDraw>
 </part>
