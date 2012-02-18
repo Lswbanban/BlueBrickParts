@@ -6,6 +6,9 @@
 		<fr>Découplage à distance</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7862-1.1105127517.thumb2.jpg</ImageURL>
+	<OldNameList>
+	    <OldName>7862.7</OldName>
+	</OldNameList>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -44,4 +47,10 @@
 			<electricPlug>-1</electricPlug>
 		</connexion>
 	</ConnexionList>
+	
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<PreferredHeight>-24</PreferredHeight>
+		<SleeperID>767.8</SleeperID>
+	</LDraw>	
 </part>
