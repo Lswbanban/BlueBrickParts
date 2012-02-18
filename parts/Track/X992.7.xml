@@ -5,7 +5,10 @@
 		<en>Rail 12V Crossing (new type)</en>
 		<fr>Rail 12V croisement (nouveau modèle)</fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/custpics/x563.1083161313.jpg</ImageURL>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7857-1.1192152135.thumb2.jpg</ImageURL>
+	<OldNameList>
+	    <OldName>7857.7</OldName>
+	</OldNameList>
 	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -138,7 +141,6 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
-		<Alias>x992.7</Alias>	
 		<PreferredHeight>-24</PreferredHeight>
 		<SleeperID>767.8</SleeperID>
 	</LDraw>

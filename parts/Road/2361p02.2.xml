@@ -5,7 +5,7 @@
 		<en>Baseplate, Road 32 x 32 7-Stud Crossroads with Runway Pattern</en>
 		<fr>Route croisement 32 x 32 7 tenons</fr>
 	</Description>
-	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts//2361p02.png</ImageURL>
+	<ImageURL>http://media.peeron.com/pics/inv/custpics/2361px1.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>
 		<connexion>

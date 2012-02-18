@@ -1,21 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
-	<Author>FreeBee (Roland Bal)</Author>
+	<Author>Sastrei</Author>
 	<Description>
-		<en>Rail 12V Right point (old type)</en>
-		<fr>Rail 12V aiguillage droit (ancien modèle)</fr>
+		<en>Rail 4.5V Left point (old type)</en>
+		<fr>Rail 4.5V aiguillage left (ancien modèle)</fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/custpics/x505b.1251649732.jpg</ImageURL>
+	<ImageURL>http://media.peeron.com/pics/inv/custpics/x878cx1.1124299753.jpg</ImageURL>
 	<OldNameList>
-	    <OldName>7858.1</OldName>
+	    <OldName>3237.1</OldName>
+	    <OldName>X878CX1.1</OldName>
+	    <OldName>X948AC01.1</OldName>	    
 	</OldNameList>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0</right>
-		<top>0</top>
-		<bottom>16</bottom>
+		<top>16</top>
+		<bottom>0</bottom>
 	</SnapMargin>
 
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
@@ -26,13 +28,12 @@
 			<type>1</type>
 			<position>
 				<x>-16</x>
-				<y>-4</y>
+				<y>4</y>
 			</position>
 			<angle>180</angle>
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
-			<nextConnexionPreference>2</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
-			<electricPlug>1</electricPlug>
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -45,7 +46,6 @@
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
-			<electricPlug>-1</electricPlug>
 		</connexion>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -58,10 +58,8 @@
 			<angleToPrev>0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
-			<electricPlug>-1</electricPlug>
 		</connexion>
 	</ConnexionList>
-
 	<!-- a list of point that describe the hull of the parts to help finding the bounding box, when rotating the part. This is optionnal, if it doesn't exist we use the full box of the picture. -->
 	<hull>
 		<point>
@@ -69,46 +67,46 @@
 			<y>64</y>
 		</point>
 		<point>
-			<x>23</x>
-			<y>119</y>
+			<x>45</x>
+			<y>35</y>
 		</point>
 		<point>
-			<x>248</x>
-			<y>128</y>
-		</point>
-		<point>
-			<x>256</x>
-			<y>128</y>
+			<x>238</x>
+			<y>0</y>
 		</point>
 		<point>
 			<x>256</x>
 			<y>0</y>
+		</point>
+		<point>
+			<x>256</x>
+			<y>128</y>
 		</point>
 		<point>
 			<x>0</x>
-			<y>0</y>
+			<y>128</y>
 		</point>
 	</hull>
 
 	<!-- Track Designer remaping data -->
 	<TrackDesigner>
-		<ID>610753</ID> <!-- ID of this part in Track Designer -->
+		<ID>703237</ID> <!-- ID of this part in Track Designer -->
 		<Flag>0</Flag> <!-- 0=no flag, 1=piece is an attachment, 2=piece is used to support elevation, 3=piece is an attachment and is used to support elevation -->
 		<HasSeveralGeometries>true</HasSeveralGeometries>
 		<TDBitmapList>
 			<TDBitmap>
 				<BBConnexionPointIndex>0</BBConnexionPointIndex>
-				<Type>4</Type> <!-- The type list is too long, please refer to the help file -->
+				<Type>3</Type> <!-- The type list is too long, please refer to the help file -->
 				<AngleBetweenTDandBB>0</AngleBetweenTDandBB>
 			</TDBitmap>
 			<TDBitmap>
-				<BBConnexionPointIndex>2</BBConnexionPointIndex>
-				<Type>5</Type> <!-- The type list is too long, please refer to the help file -->
+				<BBConnexionPointIndex>1</BBConnexionPointIndex>
+				<Type>6</Type> <!-- The type list is too long, please refer to the help file -->
 				<AngleBetweenTDandBB>180</AngleBetweenTDandBB>
 			</TDBitmap>
 			<TDBitmap>
-				<BBConnexionPointIndex>1</BBConnexionPointIndex>
-				<Type>7</Type> <!-- The type list is too long, please refer to the help file -->
+				<BBConnexionPointIndex>2</BBConnexionPointIndex>
+				<Type>8</Type> <!-- The type list is too long, please refer to the help file -->
 				<AngleBetweenTDandBB>180</AngleBetweenTDandBB>
 			</TDBitmap>
 		</TDBitmapList>
@@ -116,11 +114,10 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
-		<Alias>u9221c03.1</Alias>
 		<Translation>
-			<x>0</x>
-			<y>80</y>
-		</Translation>
+		    <x>0</x>
+		    <y>-80</y>
+		</Translation>	
 		<PreferredHeight>-24</PreferredHeight>
 		<SleeperID>3034.15</SleeperID>
 	</LDraw>
