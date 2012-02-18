@@ -5,7 +5,7 @@
 		<en>Baseplate 32 x 32 Road 6-Stud T Intersection with Dark Gray Road Pattern</en>
 		<fr>Route croisement en T 32 x 32 6 tenons avec des lignes de marquage</fr>
 	</Description>
-	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts//44341p01.png</ImageURL>
+	<ImageURL>http://media.peeron.com/pics/inv/custpics/44341px1.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>
 		<connexion>

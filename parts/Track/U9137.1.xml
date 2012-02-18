@@ -8,6 +8,7 @@
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/x563.1083161313.jpg</ImageURL>
 	<OldNameList>
 	    <OldName>7857.1</OldName>
+	    <OldName>X563.1</OldName>
 	</OldNameList>
 	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
@@ -141,7 +142,6 @@
 
 	<!-- LDraw remaping data -->
 	<LDraw>
-		<Alias>u9137.1</Alias>
 		<PreferredHeight>-24</PreferredHeight>
 		<SleeperID>3034.15</SleeperID>
 	</LDraw>
