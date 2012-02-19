@@ -5,7 +5,7 @@
 	<Description>
 		<de>Damplokomotive 12V</de>
 		<en>Steam Locomotive 12V</en>
-		<fr>locomotive à vapeur 12V</fr>
+		<fr>Locomotive à vapeur 12V</fr>
 	</Description>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
@@ -15,8 +15,30 @@
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
+
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
-		
+		<connexion>
+			<type>magnet</type>
+			<position>
+				<x>-12.5</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>magnet</type>
+			<position>
+				<x>12.5</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
 	</ConnexionList>
 </part>
