@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
-	<Author>FreeBee (Roland Bal)</Author>
+	<Author>Sastrei</Author>
 	<Description>
-		<en>Rail 12V Left point (old type)</en>
-		<fr>Rail 12V aiguillage gauche (ancien modèle)</fr>
+		<en>Rail 4.5V Left point (new type)</en>
+		<fr>Rail 4.5V aiguillage left (nouveau modèle)</fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/custpics/x504b.1251649727.jpg</ImageURL>
+	<ImageURL>http://media.peeron.com/pics/inv/custpics/x878cx2.1076477585.jpg</ImageURL>
 	<OldNameList>
-	    <OldName>7859.1</OldName>
-	    <OldName>X504B.1</OldName>
+	    <OldName>3237.7</OldName>
+	    <OldName>X878CX2.7</OldName>
+	    <OldName>X948CC01.7</OldName>
 	</OldNameList>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
@@ -33,7 +34,6 @@
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
 			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
-			<electricPlug>1</electricPlug>
 		</connexion>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -46,7 +46,6 @@
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
-			<electricPlug>-1</electricPlug>
 		</connexion>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -59,10 +58,8 @@
 			<angleToPrev>0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
-			<electricPlug>-1</electricPlug>
 		</connexion>
 	</ConnexionList>
-
 	<!-- a list of point that describe the hull of the parts to help finding the bounding box, when rotating the part. This is optionnal, if it doesn't exist we use the full box of the picture. -->
 	<hull>
 		<point>
@@ -70,11 +67,11 @@
 			<y>64</y>
 		</point>
 		<point>
-			<x>23</x>
-			<y>7</y>
+			<x>174</x>
+			<y>5</y>
 		</point>
 		<point>
-			<x>248</x>
+			<x>238</x>
 			<y>0</y>
 		</point>
 		<point>
@@ -93,7 +90,7 @@
 
 	<!-- Track Designer remaping data -->
 	<TrackDesigner>
-		<ID>610754</ID> <!-- ID of this part in Track Designer -->
+		<ID>503237</ID> <!-- ID of this part in Track Designer -->
 		<Flag>0</Flag> <!-- 0=no flag, 1=piece is an attachment, 2=piece is used to support elevation, 3=piece is an attachment and is used to support elevation -->
 		<HasSeveralGeometries>true</HasSeveralGeometries>
 		<TDBitmapList>
@@ -122,6 +119,6 @@
 			<y>-80</y>
 		</Translation>
 		<PreferredHeight>-24</PreferredHeight>
-		<SleeperID>3034.15</SleeperID>
+		<SleeperID>767.8</SleeperID>
 	</LDraw>
 </part>
