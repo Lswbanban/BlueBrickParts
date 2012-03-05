@@ -70,6 +70,8 @@
 73697C03.7.gif
 73697C03.7.xml
 767.8.xml
+7860.7.gif
+7860.7.xml
 7864.7.gif
 7864.7.xml
 7864_regulator.7.gif
@@ -105,6 +107,8 @@ U9221C05.1.gif
 U9221C05.1.xml
 U9230C01.7.gif
 U9230C01.7.xml
+x489c01.1.gif
+x489C01.1.xml
 X866C01.1.gif
 X866C01.1.xml
 X992.7.gif
