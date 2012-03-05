@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Version>5</Version>
+  <nbItems>8</nbItems>
+  <BackgroundColor>
+    <IsKnownColor>false</IsKnownColor>
+    <Name>ffffff80</Name>
+  </BackgroundColor>
+  <Author>Unknown Author</Author>
+  <LUG>Unknown LUG</LUG>
+  <Show>Unknown Event</Show>
+  <Date>
+    <Day>4</Day>
+    <Month>3</Month>
+    <Year>2012</Year>
+  </Date>
+  <Comment />
+  <ExportInfo>
+    <ExportPath />
+    <ExportFileType>1</ExportFileType>
+    <ExportArea>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </ExportArea>
+    <ExportScale>0</ExportScale>
+  </ExportInfo>
+  <SelectedLayerIndex>0</SelectedLayerIndex>
+  <Layers>
+    <Layer type="grid">
+      <Name>Background</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <GridColor>
+        <IsKnownColor>false</IsKnownColor>
+        <Name>ffffffff</Name>
+      </GridColor>
+      <GridThickness>2</GridThickness>
+      <SubGridColor>
+        <IsKnownColor>false</IsKnownColor>
+        <Name>ffd3d3d3</Name>
+      </SubGridColor>
+      <SubGridThickness>1</SubGridThickness>
+      <GridSizeInStud>96</GridSizeInStud>
+      <SubDivisionNumber>3</SubDivisionNumber>
+      <DisplayGrid>true</DisplayGrid>
+      <DisplaySubGrid>true</DisplaySubGrid>
+      <DisplayCellIndex>true</DisplayCellIndex>
+      <CellIndexFont>
+        <FontFamily>Arial</FontFamily>
+        <Size>18</Size>
+      </CellIndexFont>
+      <CellIndexColor>
+        <IsKnownColor>false</IsKnownColor>
+        <Name>ff000000</Name>
+      </CellIndexColor>
+      <CellIndexColumnType>0</CellIndexColumnType>
+      <CellIndexRowType>1</CellIndexRowType>
+      <CellIndexCorner>
+        <X>0</X>
+        <Y>0</Y>
+      </CellIndexCorner>
+    </Layer>
+    <Layer type="brick">
+      <Name>Room and Tables</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <Bricks>
+        <Brick>
+          <DisplayArea>
+            <X>160</X>
+            <Y>96</Y>
+            <Width>499.875</Width>
+            <Height>433</Height>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>ROOM EXAMPLE</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="0" />
+        </Brick>
+        <Brick>
+          <DisplayArea>
+            <X>216</X>
+            <Y>108</Y>
+            <Width>128</Width>
+            <Height>230</Height>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>TABLE230X128</PartNumber>
+          <Orientation>-90</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="0" />
+        </Brick>
+        <Brick>
+          <DisplayArea>
+            <X>404</X>
+            <Y>152</Y>
+            <Width>256</Width>
+            <Height>128</Height>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>TABLE256X128</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="0" />
+        </Brick>
+      </Bricks>
+      <Groups />
+    </Layer>
+    <Layer type="brick">
+      <Name>Track</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <Bricks />
+      <Groups />
+    </Layer>
+    <Layer type="area">
+      <Name>Bridges</Name>
+      <Visible>true</Visible>
+      <Transparency>30</Transparency>
+      <AreaCellSize>32</AreaCellSize>
+      <Areas>
+        <Area>
+          <x>10</x>
+          <y>6</y>
+          <color>4CFF0000</color>
+        </Area>
+        <Area>
+          <x>11</x>
+          <y>6</y>
+          <color>4CFF0000</color>
+        </Area>
+        <Area>
+          <x>12</x>
+          <y>6</y>
+          <color>4CFF0000</color>
+        </Area>
+      </Areas>
+    </Layer>
+    <Layer type="text">
+      <Name>Text</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <TextCells>
+        <TextCell>
+          <DisplayArea>
+            <X>335.0448</X>
+            <Y>193.9333</Y>
+            <Width>79.25</Width>
+            <Height>29.75</Height>
+          </DisplayArea>
+          <MyGroup />
+          <Text>Bridge</Text>
+          <Orientation>0</Orientation>
+          <FontColor>
+            <IsKnownColor>true</IsKnownColor>
+            <Name>Black</Name>
+          </FontColor>
+          <Font>
+            <FontFamily>Arial</FontFamily>
+            <Size>18</Size>
+          </Font>
+          <TextAlignment>Center</TextAlignment>
+        </TextCell>
+      </TextCells>
+      <Groups />
+    </Layer>
+  </Layers>
+</Map>
