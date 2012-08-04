@@ -5,13 +5,13 @@
 		<en>Rail 4.5V Curve (old type)</en>
 		<fr>Rail 4.5V courbe (ancien modèle)</fr>
 	</Description>
-	<ImageURL>http://bluebrick.bitbucket.org/parts/Track/3229AC01.1.gif</ImageURL>
+	<ImageURL>http://media.peeron.com/ldraw/images/1/3229ac01.png</ImageURL>
 	<OldNameList>
 	    <OldName>3229A.1</OldName>
 	    <OldName>3229B.1</OldName>
 	</OldNameList>
 
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<!-- The margin of this part in stud for snapping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0.875</right>
@@ -19,7 +19,7 @@
 		<bottom>2.375</bottom>
 	</SnapMargin>
 
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<!-- list of connection points (assuming that this part can connect to another one), the position of the connection is in stud coords and relative to the origin defined above) -->
 	<ConnexionList>
 		<!-- the center of this part in stud is x = 135 pix / 8 pixperstud / 2 = 8.4375    and    y = 87 / 8 / 2 = 5.4375 -->		
 		<connexion>
@@ -70,7 +70,7 @@
 		</point>
 	</hull>
 
-	<!-- Track Designer remaping data -->
+	<!-- Track Designer remapping data -->
 	<TrackDesigner>
 		<ID>733229</ID> <!-- ID of this part in Track Designer -->
 		<Flag>0</Flag> <!-- 0=no flag, 1=piece is an attachment, 2=piece is used to support elevation, 3=piece is an attachment and is used to support elevation -->
@@ -89,7 +89,7 @@
 		</TDBitmapList>
 	</TrackDesigner>
 
-	<!-- LDraw remaping data -->
+	<!-- LDraw remapping data -->
 	<LDraw>
 		<Angle>11.25</Angle>
 		<Translation>

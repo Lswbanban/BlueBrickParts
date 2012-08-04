@@ -5,11 +5,13 @@
 		<en>Remote Control with Signal Pattern</en>
 		<fr>Télécommande avec feu bicolore</fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/custpics/x462px2.1141011748.jpg</ImageURL>
+	<ImageURL>http://media.peeron.com/ldraw/images/7/u9004c01.png</ImageURL>
+	<OldNameList>
+		<OldName>4707PB02.7</OldName>
+	</OldNameList>
 
-	<!-- LDraw remaping data -->
+	<!-- LDraw remapping data -->
 	<LDraw>
-		<Alias>u9004c01.7</Alias>
-		<PreferredHeight>-44</PreferredHeight>
+		<PreferredHeight>-48</PreferredHeight>
 	</LDraw>
 </part>

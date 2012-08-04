@@ -5,11 +5,13 @@
 		<en>Remote Control with Level Crossing</en>
 		<fr>Télécommande avec sigle de passage a niveau</fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/custpics/x462px3.1180313605.jpg</ImageURL>
+	<ImageURL>http://media.peeron.com/ldraw/images/7/u9005c01.png</ImageURL>
+	<OldNameList>
+		<OldName>4707pb04.7</OldName>
+	</OldNameList>
 
-	<!-- LDraw remaping data -->
+	<!-- LDraw remapping data -->
 	<LDraw>
-		<Alias>u9005c01.7</Alias>
-		<PreferredHeight>-44</PreferredHeight>
+		<PreferredHeight>-48</PreferredHeight>
 	</LDraw>
 </part>
