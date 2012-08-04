@@ -44,6 +44,7 @@ ILTCO.gif
 ILTCO.xml
 IndyLUG.gif
 IndyLUG.xml
+ItLUG.gif
 LowLUG.gif
 LowLUG.xml
 MichLTC.gif
