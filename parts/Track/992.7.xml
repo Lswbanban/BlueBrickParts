@@ -2,11 +2,24 @@
 <part>
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
-		<en>Rail 4.5V Crossing (old type)</en>
-		<fr>Rail 4.5V croisement (ancien modèle)</fr>
+		<en>Rail 12V Crossing (new type)</en>
+		<fr>Rail 12V croisement (nouveau modèle)</fr>
 	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7857-1.1192152135.thumb2.jpg</ImageURL>
+	<OldNameList>
+	    <OldName>7857.7</OldName>
+            <OldName>X992.7</OldName>
+	</OldNameList>
+	
+	<!-- The margin of this part in stud for snapping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
 
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<!-- list of connection points (assuming that this part can connect to another one), the position of the connection is in stud coords and relative to the origin defined above) -->
 	<ConnexionList>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -19,6 +32,7 @@
 			<angleToPrev>-90.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>1</electricPlug>
 		</connexion>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -31,6 +45,7 @@
 			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>90.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>-1</electricPlug>
 		</connexion>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -43,6 +58,7 @@
 			<angleToPrev>90.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>3</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>2</electricPlug>
 		</connexion>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -55,9 +71,11 @@
 			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>-90.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>2</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>-2</electricPlug>
 		</connexion>
 	</ConnexionList>
-	<!-- a list of point that describe the hull of the parts to help finding the bounding box, when rotating the part. This is optionnal, if it doesn't exist we use the full box of the picture. -->
+
+	<!-- a list of points that describes the hull of the parts to help finding the bounding box, when rotating the part. This is optional, if it doesn't exist we use the full box of the picture. -->
 	<hull>
 		<point>
 			<x>32</x>
@@ -93,9 +111,9 @@
 		</point>
 	</hull>
 
-	<!-- Track Designer remaping data -->
+	<!-- Track Designer remapping data -->
 	<TrackDesigner>
-		<ID>703231</ID> <!-- ID of this part in Track Designer -->
+		<ID>417857</ID> <!-- ID of this part in Track Designer -->
 		<Flag>0</Flag> <!-- 0=no flag, 1=piece is an attachment, 2=piece is used to support elevation, 3=piece is an attachment and is used to support elevation -->
 		<HasSeveralGeometries>false</HasSeveralGeometries>
 		<TDBitmapList>
@@ -122,9 +140,9 @@
 		</TDBitmapList>
 	</TrackDesigner>
 
-	<!-- LDraw remaping data -->
+	<!-- LDraw remapping data -->
 	<LDraw>
 		<PreferredHeight>-24</PreferredHeight>
-		<SleeperID>3034.15</SleeperID>
+		<SleeperID>767.8</SleeperID>
 	</LDraw>
 </part>

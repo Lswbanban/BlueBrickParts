@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>FreeBee (Roland Bal)</Author>
+	<Description>
+		<en>Electric Train 12V Transformer Type 3</en>
+		<fr>Regulateur de vitesse de Train 12V Type 3</fr>
+	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7864-1.1105127517.thumb2.jpg</ImageURL>
+	<OldNameList>
+		<OldName>7864.7</OldName>
+	</OldNameList>
+	
+	<LDraw>
+		<PreferredHeight>-144</PreferredHeight>
+	</LDraw>
+</part>

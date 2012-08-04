@@ -1,20 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <part>
-	<Author>FreeBee (Roland Bal)</Author>
+	<Author>Steffen</Author>
 	<Description>
-		<en>Remote Controlled Decoupling</en>
-		<fr>Découplage à distance</fr>
+		<en>Train Track 12V Slotted Straight with Isolation</en>
+		<fr>Rail 12V avec Isolation</fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/7862-1.1105127517.thumb2.jpg</ImageURL>
-	<OldNameList>
-	    <OldName>7862.7</OldName>
-	</OldNameList>
+	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts/x862ac01.png</ImageURL>
 	
 	<!-- The margin of this part in stud for snapping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0</right>
-		<top>7</top>
+		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
 
@@ -25,11 +22,11 @@
 			<type>1</type>
 			<position>
 				<x>-8</x>
-				<y>3.5</y>
+				<y>0</y>
 			</position>
 			<angle>180</angle>
-			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
-			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
 			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 			<electricPlug>1</electricPlug>
 		</connexion>
@@ -38,23 +35,19 @@
 			<type>1</type>
 			<position>
 				<x>8</x>
-				<y>3.5</y>
+				<y>0</y>
 			</position>
 			<angle>0</angle>
-			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
-			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 			<electricPlug>-1</electricPlug>
 		</connexion>
 	</ConnexionList>
-	
+
 	<!-- LDraw remapping data -->
 	<LDraw>
-           <PreferredHeight>-24</PreferredHeight>
-           <SleeperID>767.8</SleeperID>
-           <Translation>
-              <x>0</x>
-              <y>-70</y>
-           </Translation>
+		<PreferredHeight>-24</PreferredHeight>
+		<SleeperID>767.8</SleeperID>
 	</LDraw>
 </part>

@@ -12,7 +12,7 @@
 	    <OldName>X949CC01.7</OldName>
 	</OldNameList>
 
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<!-- The margin of this part in stud for snapping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0</right>
@@ -20,7 +20,7 @@
 		<bottom>16</bottom>
 	</SnapMargin>
 
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<!-- list of connection points (assuming that this part can connect to another one), the position of the connection is in stud coords and relative to the origin defined above) -->
 	<ConnexionList>
 		<!-- the center of this part in stud is x = 256 pix / 8 pixperstud / 2 = 16    and    y = 128 / 8 / 2 = 8 -->
 		<connexion>
@@ -60,7 +60,7 @@
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 	</ConnexionList>
-	<!-- a list of point that describe the hull of the parts to help finding the bounding box, when rotating the part. This is optionnal, if it doesn't exist we use the full box of the picture. -->
+	<!-- a list of points that describes the hull of the parts to help finding the bounding box, when rotating the part. This is optional, if it doesn't exist we use the full box of the picture. -->
 	<hull>
 		<point>
 			<x>0</x>
@@ -88,7 +88,7 @@
 		</point>
 	</hull>
 
-	<!-- Track Designer remaping data -->
+	<!-- Track Designer remapping data -->
 	<TrackDesigner>
 		<ID>503236</ID> <!-- ID of this part in Track Designer -->
 		<Flag>0</Flag> <!-- 0=no flag, 1=piece is an attachment, 2=piece is used to support elevation, 3=piece is an attachment and is used to support elevation -->
@@ -112,7 +112,7 @@
 		</TDBitmapList>
 	</TrackDesigner>
 
-	<!-- LDraw remaping data -->
+	<!-- LDraw remapping data -->
 	<LDraw>
 		<Translation>
 			<x>0</x>

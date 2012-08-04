@@ -1,16 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
-	<Author>Alex McKenna</Author>
+	<Author>Alex McKenna &amp; Steffen</Author>
 	<Description>
 		<en>Remote Controled Signal 12v</en>
 		<fr>Feu de signalisation télécomandé 12V</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7860-1.1122686335.thumb2.jpg</ImageURL>
-	<OldNameList>
-	    <OldName>3240.7</OldName>
-	</OldNameList>
 	
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<!-- The margin of this part in stud for snapping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0</right>
@@ -18,7 +15,7 @@
 		<bottom>0</bottom>
 	</SnapMargin>
 
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<!-- list of connection points (assuming that this part can connect to another one), the position of the connection is in stud coords and relative to the origin defined above) -->
 	<ConnexionList>
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
@@ -28,8 +25,8 @@
 				<y>1.5</y>
 			</position>
 			<angle>180</angle>
-			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
-			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
 			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 			<electricPlug>1</electricPlug>
 		</connexion>
@@ -41,8 +38,8 @@
 				<y>1.5</y>
 			</position>
 			<angle>0</angle>
-			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
-			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 			<electricPlug>-1</electricPlug>
 		</connexion>
@@ -69,13 +66,13 @@
 		</TDBitmapList>
 	</TrackDesigner>
 
-	<!-- LDraw remaping data -->
+	<!-- LDraw remapping data -->
 	<LDraw>
 		<PreferredHeight>-24</PreferredHeight>
 		<SleeperID>767.8</SleeperID>
 		<Translation>
-	        <x>0</x>
-	        <y>-30</y>
-	    </Translation>
+			<x>0</x>
+			<y>-30</y>
+		</Translation>
 	</LDraw>
 </part>
