@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Train Signal 4.5V Complete Assembly</en>
+		<fr>Signalisation de train 4.5V (assemblage complet)</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/x489c01.jpg</ImageURL>
-
 	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -43,4 +43,13 @@
 		</connexion>
 	</ConnexionList>
 
+	<!-- LDraw remaping data -->
+	<LDraw>
+		<PreferredHeight>-24</PreferredHeight>
+		<SleeperID>3034.15</SleeperID>
+		<Translation>
+	        <x>0</x>
+	        <y>-26</y>
+	    </Translation>
+	</LDraw>
 </part>
