@@ -13,9 +13,7 @@ Title=BlueBrick Help
 [FILES]
 Choosing_a_language.htm
 Start_Page.htm
-Track_Designer_Remaping_File.htm
 How_to_extend_the_Part_Library.htm
-LDraw_Remaping_File.htm
 Part_Image_Format.htm
 Part_Library_Folders.htm
 Part_XML_Description.htm
@@ -26,7 +24,7 @@ Window_Panes.htm
 Navigation.htm
 Zooming_and_Viewing.htm
 Selecting_Parts.htm
-Creating_and_Modifying_Models.htm
+Creating_and_Modifying_Layouts.htm
 Saving_and_Loading.htm
 Adding_and_Deleting_Parts.htm
 Undo_and_Redo.htm
@@ -37,16 +35,12 @@ The_Four_Different_Type_of_Layers.htm
 Export_Report_and_Printing.htm
 Exporting_a_Layout_as_an_Image.htm
 Exporting_the_Parts_List.htm
-Global_Options.htm
-General_Options.htm
-Appearance_Options.htm
+BlueBrick_Preferences.htm
+General_Preferences.htm
+Appearance_Preferences.htm
+Part_Library_Preferences.htm
 Shortcut_Keys.htm
 Other_Options.htm
-Group_XML_Description_SubPartList.htm
-Connection_Type_Config_File.htm
-Group_XML_Description.htm
-Group_XML_Description_CanUngroup.htm
-Group_XML_Description_GroupConnectionPreferenceList.htm
 Part_XML_Description_Track_Designer.htm
 Part_XML_Description_Author.htm
 Part_XML_Description_Connection.htm
@@ -55,9 +49,19 @@ Part_XML_Description_Hull.htm
 Part_XML_Description_Image.htm
 Part_XML_Description_LDRAW.htm
 Part_XML_Description_Margin.htm
-Part_XML_Description_NotListedInLibrary.htm
 Part_XML_Description_OldName.htm
+Connection_Type_Config_File.htm
+Part_XML_Description_NotListedInLibrary.htm
+Group_XML_Description.htm
+Group_XML_Description_CanUngroup.htm
+Group_XML_Description_GroupConnectionPreferenceList.htm
+Group_XML_Description_SubPartList.htm
 ..\parts_folder.png
+Electric_Circuits.htm
+Grouping_Parts.htm
+Search_Replace_Parts.htm
+Using_Flex_Track.htm
+Part_XML_Description_SortingKey.htm
 
 [INFOTYPES]
 
