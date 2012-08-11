@@ -9,6 +9,7 @@
 	<OldNameList>
 	    <OldName>2774.7</OldName>
 	</OldNameList>
+	<SortingKey>Mono - B</SortingKey>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

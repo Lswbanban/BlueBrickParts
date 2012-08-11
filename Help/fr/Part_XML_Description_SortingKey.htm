@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<META NAME="keywords" CONTENT="BlueBrick, Aide">
+<META NAME="description" CONTENT="La documentation de r&eacute;f&eacute;rence pour BlueBrick.">
+<META NAME="author" CONTENT="Alban Nanty">
+<meta name="translator" content="Alban Nanty">
+<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
+<Title>Préciser l'ordre de tri</Title>
+</HEAD>
+<BODY>
+<H1>Préciser l'ordre de tri</H1>
+
+<TABLE CLASS="XMLDescription">
+<TR>
+	<TD CLASS="Tilte">Syntaxe&nbsp;:</TD>
+	<TD CLASS="XMLCode">&lt;SortingKey&gt;...&lt;/SortingKey&gt;</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Valeur par défaut&nbsp;:</TD>
+	<TD>Un texte vide.</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Description&nbsp;:</TD>
+	<TD>Un texte qui est utilisé pour trier cette pièce parmi les autres de la bibliothèque de pièces.</TD>
+</TR>  
+</TABLE>
+
+<P>Ce champ peut contenir une chaine de caractères libre qui est utilisée par BlueBrick pour trier les pièces dans l'ordre alphabétique. Par exemple si vous voulez afficher plusieurs pièces en relation l'une à coté de l'autre dans la bibliothèque de pièces, vous pouvez utiliser une chaine de caractère qui commence par un nom de catégorie suivi d'un numéro d'ordre. Par exemple si vous voulez grouper tous les rails 9V ensemble, en commençant par le rail droit, puis le courbe et finallement les aiguillages, vous pouvez utiliser ces Sorting Keys:</P>
+
+<UL>
+	<LI>"9V - 1": pour le rail droit</LI>
+	<LI>"9V - 2": pour le rail courbe</LI>
+	<LI>"9V - 3": pour l'aiguillage gauche</LI>
+	<LI>"9V - 4": pour l'aiguillage droit</LI>
+</UL>	
+
+<P>L'avantage d'utiliser des préfixes de catégorie plutôt que juste un numéro global est que, si vous voulez regrouper un autre type de pièces, vous n'avez pas besoin de changer les clefs de tri existantes. De plus si vous voulez placer votre nouvelle catégorie au dessus ou en dessous d'une catégorie existante, vous pouvez juste ajouter un 0 ou un Z au début. De toutes façon, rapellez-vous juste que BlueBrick n'a pas connaissance des catégories, il trie juste toutes les pièces (du même répertoire) à partir du texte complet.</P>
+
+</BODY>
+</HTML>

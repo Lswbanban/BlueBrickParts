@@ -10,6 +10,7 @@
 	    <OldName>3240.7</OldName>
 	    <OldName>3240C01.7</OldName>
 	</OldNameList>
+	<SortingKey>12V new - A</SortingKey>
 
 	<!-- The margin of this part in stud for snapping on the grid, relative to the bitmap -->
 	<SnapMargin>

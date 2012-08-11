@@ -5,6 +5,7 @@
 		<en>Rail 9V Straight</en>
 		<fr>Rail 9V droit</fr>
 	</Description>
+	<SortingKey>09V - AA</SortingKey>	
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

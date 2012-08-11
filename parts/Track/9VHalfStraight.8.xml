@@ -5,6 +5,8 @@
 		<en>Custom 9V Rail Half Straight</en>
 		<fr>Rail 9V demi droit custom</fr>
 	</Description>
+	<SortingKey>09V - AB1</SortingKey>
+
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0.5</left>

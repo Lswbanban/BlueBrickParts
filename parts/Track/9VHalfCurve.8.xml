@@ -5,6 +5,8 @@
 		<en>Custom 9V Rail Half Curve</en>
 		<fr>Rail 9V demi courbe custom</fr>
 	</Description>
+	<SortingKey>09V - AD</SortingKey>
+
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0.5</left>
