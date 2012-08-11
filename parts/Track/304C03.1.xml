@@ -6,6 +6,7 @@
 		<fr>Signalisation de train 4.5V (assemblage complet)</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/x489c01.jpg</ImageURL>
+	<SortingKey>4.5V old - Z</SortingKey>
 	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

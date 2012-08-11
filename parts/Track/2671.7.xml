@@ -5,6 +5,8 @@
 		<en>Monorail Track Straight 4 x 32</en>
 		<fr>Monorail droit 4 x 32</fr>
 	</Description>
+	<SortingKey>Mono - A1</SortingKey>
+	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

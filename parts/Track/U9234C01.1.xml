@@ -12,6 +12,7 @@
 	    <OldName>U9221C03.1</OldName>
 	    <OldName>U9221C05.1</OldName>
 	</OldNameList>
+	<SortingKey>12V old - C2</SortingKey>
 
 	<!-- The margin of this part in stud for snapping on the grid, relative to the bitmap -->
 	<SnapMargin>

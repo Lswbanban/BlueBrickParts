@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Steffen</Author>
 	<Description>
@@ -6,6 +6,7 @@
 		<fr>Rail 12V avec Isolation</fr>
 	</Description>
 	<ImageURL>http://www.ldraw.org/library/unofficial/images/parts/x862ac01.png</ImageURL>
+	<SortingKey>12V new - E2</SortingKey>
 	
 	<!-- The margin of this part in stud for snapping on the grid, relative to the bitmap -->
 	<SnapMargin>

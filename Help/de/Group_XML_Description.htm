@@ -10,31 +10,50 @@
 <H1>Group XML Description</H1>
 <H2>Overview</H2>
 
-<P>As of BlueBrick version 1.7, you can write an XML file that describes several parts or other groups arranged in predefined positions and orientations. Therefore, a group can be also seen as a shortcut to add several parts in one click. For example you can create a standard train module of 3x3 green baseplates with two straight railway lines at the bottom.</P>
+<P>Since BlueBrick version 1.7, you can write an XML file that describes several parts or other groups arranged in predefined positions and orientations. Therefore, a group can be also seen as a shortcut to add several parts in one click. For example you can create a standard train module of 3x3 green baseplates with two straight railway lines on the bottom.</P>
 
 <P>A future version of BlueBrick will provide a way to save the current selection as a group, but for now you need to edit the group XML file by hand. A workaround is to save the parts you want to group in a BBM file and then copy/paste the position and orientation code lines into the group XML file.</P>
 
-<P>A group XML file can contain one or several references to other group XML files. However, you cannot create cyclic references, meaning a group XML file cannot make reference to itself, neither can it make reference to file that makes reference to a file, etc... that makes reference to itself. BlueBrick detects cyclic references during the loading of the Brick Library and generates an error if one is found.</P>
+<P>A group XML file can contain one or several references to other group XML files. However, you cannot create cyclic references, meaning a group XML file cannot make reference to itself, neither makes reference to file that makes reference to a file, etc... that makes reference to itself. BlueBrick detect cyclic references during the loading of the Brick Library and generates an error if one is found.</P>
 
-<P>A group in the Brick Library does not need any associated gif image. BlueBrick generates an image of the group from the description of the group at the time it was created and will display this image in the Brick Library. When adding the group on the map, BlueBrick uses the individual images of each part belonging to the group.</P>
+<P>A group in the Brick Library do not need any associated gif image. BlueBrick recreated the image of the group from the description of the group at loading time to display it in the Brick Library. When adding the group on the map, BlueBrick uses the individual images of each part belonging to the group.</P>
 
 <P>You can duplicate an existing XML file and modify it to work faster. Be careful, the XML tags are case sensitive. Every field except the "SubPartList" is optional, and the order of the fields does not matter. If one field is missing the default behavior is used instead.</P>
 
-<P>Be carefull, in the XML file, <FONT CLASS="Important">the first tag, root of the hierachy, must be "group"</FONT>. This is how BlueBrick tells the difference between a group and a part.</P>
+<P>Be carefull, in the XML file, <FONT CLASS="Important">the first tag, root of the hierachy, must be "group"</FONT>. This is how BlueBrick makes the difference between a group and a part.</P>
 
-<H2>Structure of the XML file</H2>
+<H2>File Encoding</H2>
 
-<P>If you don't know what an XML file is, and if you are not familiar with its syntax, it is strongly recommended to search for some additional help on internet. To summarize it in few words, this format organizes the data in a tree hierarchy by using tags which are identified by being enclosed with the characters &lt; and &gt;. Here is the general structure of an XML group file:</P>
+<P>For a good cross platform compatibility, you should clearly indicate in the header of the xml file the encoding in which the file is saved. The prefered encoding is UTF-8, because it can save accentuated character for the part description in different languages. Use a text editor to save your XML file in UTF-8. For example with Windows Notepad, choose the correct encoding in the save dialog:</P>
+
+<CENTER><IMG SRC="XmlEncoding.png"></CENTER>
+
+<P>And make sure the header of your file starts with this line:</P>
 
 <DIV CLASS="TechNote">
 <PRE>
-&lt;?xml version="1.0"?&gt;
+&lt;?xml version="1.0" <FONT COLOR="red">encoding="UTF-8"</FONT>?&gt;
+</PRE>
+</DIV>
+
+<H2>Structure of the XML file</H2>
+
+<P>If you don't know what an XML file is, and if you are not familiar with its syntax, it is strongly recommend to search for some additional help on internet. To summarize it in few words, this format organizes the data in a tree hierarchy by using tags which are identified by being enclosed with the characters &lt; and &gt;. Here is the general structure of an XML group file:</P>
+
+<DIV CLASS="TechNote">
+<PRE>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;group&gt;
     &lt;Author&gt;...&lt;/Author&gt;
     &lt;Description&gt;
         &lt;en&gt;...&lt;/en&gt;
         ...
     &lt;/Description&gt;
+    &lt;SortingKey&gt;...&lt;/SortingKey&gt;
+    &lt;NotListedInLibrary&gt;...&lt;/NotListedInLibrary&gt;
+    &lt;OldNameList&gt;
+        ...
+    &lt;/OldNameList&gt;
     &lt;CanUngroup&gt;...&lt;/CanUngroup&gt;
     &lt;SnapMargin&gt;
         ...
@@ -54,11 +73,14 @@
 
 <H2>The different XML tags in details</H2>
 
-<P>For a detailed description of each XML tag, read the following sections:</P>
+<P>For a detailed description of each XML tags, read the following sections:</P>
 
 <UL>
 	<LI><A HREF="Part_XML_Description_Author.htm">Specify the Author</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_Description.htm">Add a description in different languages</A> (easy)</LI>
+	<LI><A HREF="Part_XML_Description_SortingKey.htm">Specify the sorting order</A> (easy)</LI>
+	<LI><A HREF="Part_XML_Description_NotListedInLibrary.htm">Specify if the group should be hidden</A> (easy)</LI>
+	<LI><A HREF="Part_XML_Description_OldName.htm">Keep a trace of the previous name of a group</A> (easy)</LI>
 	<LI><A HREF="Group_XML_Description_CanUngroup.htm">Specify is this group can be ungrouped</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_Margin.htm">Specify the Margins for Snaping</A> (medium difficulty) <FONT CLASS="Important">This is not implemented for Group in the 1.7.0 version of BlueBrick</FONT></LI>
 	<LI><A HREF="Group_XML_Description_SubPartList.htm">Describe the parts contained in the group</A> (medium difficulty)</LI>

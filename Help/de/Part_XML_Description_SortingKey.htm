@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<META NAME="keywords" CONTENT="BlueBrick, Help">
+<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
+<META NAME="author" CONTENT="Alban Nanty">
+<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
+<Title>Specify the Sorting Order</Title>
+</HEAD>
+<BODY>
+<H1>Specify the Sorting Order</H1>
+
+<TABLE CLASS="XMLDescription">
+<TR>
+	<TD CLASS="Tilte">Syntax:</TD>
+	<TD CLASS="XMLCode">&lt;SortingKey&gt;...&lt;/SortingKey&gt;</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Default Value:</TD>
+	<TD>An empty text.</TD>
+</TR><TR>
+	<TD CLASS="Tilte">Description:</TD>
+	<TD>A text that is used to sort this part among the other ones of the part library.</TD>
+</TR>  
+</TABLE>
+
+<P>This field can contain free string text that is used by BlueBrick to sort the parts in alphabetical order. For example if you want to display several related parts close to each other in the part library, you can use a string that start with a category name followed by an order number. For example if you want to group all the 9V track together, starting with the straight track, then the curved one and finally the points, you can use these Sorting Keys:</P>
+
+<UL>
+	<LI>"9V - 1": for the straight track</LI>
+	<LI>"9V - 2": for the curve track</LI>
+	<LI>"9V - 3": for the left point</LI>
+	<LI>"9V - 4": for the right point</LI>
+</UL>	
+
+<P>The advantage of using category prefix rather than just a global number is that, if you want to regroup another type of parts, you don't need to change the existing sorting keys. Moreover if you want to place your new category above or under an existing one, you can just add a 0 or a Z at the beggining. Anyway just remember that BlueBrick is not aware of the category, it just sorts all the parts (in the same folder) based on the whole text.</P>
+
+</BODY>
+</HTML>
