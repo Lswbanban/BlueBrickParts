@@ -9,8 +9,8 @@
 	<CanUngroup>false</CanUngroup>
 	<!-- The margin of this group in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
+		<left>0.5</left>
+		<right>0.5</right>
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
