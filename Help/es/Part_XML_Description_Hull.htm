@@ -31,9 +31,13 @@
 </TR>
 </TABLE>
 
-<P>La descripci&oacute;n del per&iacute;metro es pr&aacute;ctico para piezas que no son ni cuadradas ni rectangulares, como las agujas y curvas. BlueBrick emplea ese per&iacute;metro para calcular la caja envoltorio de la pieza. La caja envoltorio es la caja rectangular m&aacute;s peque&ntilde;a posible (alineada con los ejes vertical y horizontal) que puede contener la pieza entera. Esta caja envoltorio se emplea cuando seleccionas una pieza pulsando sobre ella en el &aacute;rea de la biblioteca. Un buen per&iacute;metro aumenta el buen uso de la pieza. La definici&oacute;n del per&iacute;metro tambi&eacute;n influye en la cantidad de memoria empleada por BlueBrick. Esto es as&iacute; porque el tama&ntilde;o del per&iacute;metro influye en el tama&ntilde;o de la imagen necesario al girar la pieza. Por favor a&ntilde;ade el m&iacute;nimo de puntos necesario ya que esto influye en el rendimiento del programa.</P>
+<DIV CLASS="ToTranslate"><P>La descripci&oacute;n del per&iacute;metro es pr&aacute;ctico para piezas que no son ni cuadradas ni rectangulares, como las agujas y curvas. BlueBrick emplea ese per&iacute;metro para calcular la caja envoltorio de la pieza. La caja envoltorio es la caja rectangular m&aacute;s peque&ntilde;a posible (alineada con los ejes vertical y horizontal) que puede contener la pieza entera. Un buen per&iacute;metro aumenta el buen uso de la pieza. La definici&oacute;n del per&iacute;metro tambi&eacute;n influye en la cantidad de memoria empleada por BlueBrick. Esto es as&iacute; porque el tama&ntilde;o del per&iacute;metro influye en el tama&ntilde;o de la imagen necesario al girar la pieza. Usually a convex hull is good enough, but you may want to define a concave hull to improve the picking selection. Generally speaking, por favor a&ntilde;ade el m&iacute;nimo de puntos necesario ya que esto influye en el rendimiento del programa.</P></DIV>
 
-<P>Ten cuidado ya que, a diferencia de los par&aacute;metros anteriores, el per&iacute;metro se define en p&iacute;xeles, no en studs. La raz&oacute;n para ello es que es mucho m&aacute;s sencillo definir el per&iacute;metro en p&iacute;xeles, que se pueden encontrar con un editor de imagen, moviendo el cursor sobre la imagen. Una mala definici&oacute;n de per&iacute;metro puede resultar en una pieza truncada al girarla con un &aacute;ngulo libre. Al definir el per&iacute;metro de una pieza, una buena manera de comprobarlo  es girar la pieza hasta 360&deg; en peque&ntilde;os pasos como por ejemplo 22.5&deg; y comprobar en cada paso si la pieza no queda truncada. Abajo dos ejemplos de definici&oacute;n de per&iacute;metro de unas agujas 9V y una curva.</P>
+<P>Ten cuidado ya que, a diferencia de los par&aacute;metros anteriores, el per&iacute;metro se define en p&iacute;xeles, no en studs. La raz&oacute;n para ello es que es mucho m&aacute;s sencillo definir el per&iacute;metro en p&iacute;xeles, que se pueden encontrar con un editor de imagen, moviendo el cursor sobre la imagen.</P>
+
+<DIV CLASS="ToTranslate"><P>All the points defined in the list belong to the hull. For example if you want to define the hull of a part which width is 2 studs but with uneven height, the image of the part will be 16 pixel wide, and the minimum hull coordinate will be (0, ...) and the maximum hull coordinate will be (15, ...). Use integer value to define the pixel coordinates, not decimal values.</P></DIV>
+
+<P>Una mala definici&oacute;n de per&iacute;metro puede resultar en una pieza truncada al girarla con un &aacute;ngulo libre. Al definir el per&iacute;metro de una pieza, una buena manera de comprobarlo  es girar la pieza hasta 360&deg; en peque&ntilde;os pasos como por ejemplo 22.5&deg; y comprobar en cada paso si la pieza no queda truncada. Abajo dos ejemplos de definici&oacute;n de per&iacute;metro de unas agujas 9V y una curva.</P>
 
 <CENTER><IMG SRC="../HullSwitchPoint.png">&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../HullCurve.png"></CENTER>
 <BR>
@@ -70,8 +74,6 @@
 
 </PRE>
 </DIV>
-
-<P>Nota que no tiene sentido crear un per&iacute;metro c&oacute;ncavo, ya que BlueBrick pasa por todos los puntos para crear la caja envoltorio. Es por ello que no hay enlace entre el &uacute;ltimo punto y el primero en este ejemplo.</P>
 
 </BODY>
 </HTML>

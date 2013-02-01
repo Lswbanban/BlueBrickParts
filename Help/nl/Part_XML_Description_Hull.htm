@@ -29,9 +29,13 @@
 </TR>
 </TABLE>
 
-<P>The Hull description is useful for parts that are neither square nor rectangular, such as a rail points or curves. BlueBrick uses the hull to compute the bounding box of the part. The bounding box is the smallest possible rectangular box (aligned on the vertical and horizontal axis) that can contains the whole part. This bounding box is used when you pick a part by clicking on it in the parts pane. A good hull will increase the usability of your part. The hull definition also has an impact on the amount of memory used by BlueBrick. This is because the hulls shape influences the size of the image needed to draw the part when rotated. Please add as few points to the hull as possible as this influences the performance of the application.</P>
+<P>The Hull description is useful for parts that are neither square nor rectangular, such as a rail points or curves. BlueBrick uses the hull for selection picking and to compute the bounding box of the part. The bounding box is the smallest possible rectangular box (aligned on the vertical and horizontal axis) that can contains the whole part. A good hull will increase the usability of your part. The hull definition also has an impact on the amount of memory used by BlueBrick. This is because the hulls shape influences the size of the image needed to draw the part when rotated. Usually a convex hull is good enough, but you may want to define a concave hull to improve the picking selection. Generally speaking, please add as few points to the hull as possible as this influences the performance of the application.</P>
 
-<P>Beware that the hull definition, unlike the previous parameters, is in pixel and not stud coordinates. The reason is that it is much easier to define the hull in pixels by using your image editor and finding the coordinates by moving the mouse over the image. A wrong hull definition may cause the part to be truncated when it is rotated with a free angle. When you are specifying the hull of your part, a good way to test this is to rotate your part up to 360&deg; with small increments like 22.5&deg; and check at every step if the part is not truncated. Here are two examples for the hull definition of the 9V Switch Point and Curved Track:</P>
+<P>Beware that the hull definition, unlike the previous parameters, is in pixel and not stud coordinates. The reason is that it is much easier to define the hull in pixels by using your image editor and finding the coordinates by moving the mouse over the image.</P>
+
+<P>All the points defined in the list belong to the hull. For example if you want to define the hull of a part which width is 2 studs but with uneven height, the image of the part will be 16 pixel wide, and the minimum hull coordinate will be (0, ...) and the maximum hull coordinate will be (15, ...). Use integer value to define the pixel coordinates, not decimal values.</P>
+
+<P>A wrong hull definition may cause the part to be truncated when it is rotated with a free angle. When you are specifying the hull of your part, a good way to test this is to rotate your part up to 360&deg; with small increments like 22.5&deg; and check at every step if the part is not truncated. Here are two examples for the hull definition of the 9V Switch Point and Curved Track:</P>
 
 <CENTER><IMG SRC="../HullSwitchPoint.png">&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../HullCurve.png"></CENTER>
 <BR>
@@ -67,8 +71,6 @@
 &lt;/hull&gt;
 </PRE>
 </DIV>
-
-<P>Note that there is no point in creating a concave hull, since BlueBrick goes through all the points to create the bounding box. That's why there is no link between the last one and the first one for example.</P>
 
 </BODY>
 </HTML>
