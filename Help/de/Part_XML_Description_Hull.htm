@@ -29,9 +29,11 @@
 </TR>
 </TABLE>
 
-<P>Die Hüllkurve ist für nicht rechteckige Teile, wie z.B. Gleiskurven, nützlich. Bluebrick benutzt die Hüllkurve, um die das kleinste Rechteck zu berechnen, in das dieses Teil passt. Dabei ist dieses Rechteck immer parallel zu den Achsen ausgerichtet. Wenn ein Teil im Gleisplan ausgewählt wird, wird um das ausgewählte Teil ein Rechteck gelegt und der Bereich innerhalb dieses Rechtecks wird aufgehellt. Dieses Rechteck wird mit Hilfe der Hüllkurve berechnet. Die Hüllkurve hat einen Einfluss auf den von BlueBrick benötigten Speicherplatz, denn die Hüllkurve beeinflusst die Größe des bei einer Drehung eines Teils zu erstellenden Bildes . Eine Hüllkurve sollte daher mit sowenig Punkten wie möglich erzeugt werden, um die Leistung von BlueBrick nicht unnötig zu beeinträchtigen.</P>
+<DIV CLASS="ToTranslate"><P>Die Hüllkurve ist für nicht rechteckige Teile, wie z.B. Gleiskurven, nützlich. Bluebrick benutzt die Hüllkurve, um die das kleinste Rechteck zu berechnen, in das dieses Teil passt. Dabei ist dieses Rechteck immer parallel zu den Achsen ausgerichtet. Dieses Rechteck wird mit Hilfe der Hüllkurve berechnet. Die Hüllkurve hat einen Einfluss auf den von BlueBrick benötigten Speicherplatz, denn die Hüllkurve beeinflusst die Größe des bei einer Drehung eines Teils zu erstellenden Bildes. Usually a convex hull is good enough, but you may want to define a concave hull to improve the picking selection. Generally speaking, eine Hüllkurve sollte daher mit sowenig Punkten wie möglich erzeugt werden, um die Leistung von BlueBrick nicht unnötig zu beeinträchtigen.</P></DIV>
 
 <P>Die Hüllkurve wird, im Gegensatz zu den vorherigen Parametern, <FONT CLASS="Important">in Pixel- und nicht in Noppen-Koordinaten</FONT> angegeben. Wird nämlich in einem Bildbearbeitungsprogramm die Maus über dem Bild bewegt, lassen sich die aktuellen Koordinaten der Mausposition direkt in Pixel ablesen. Die Eckpunkte der Hüllkurve lassen sich also einfach in Pixel bestimmen.</P>
+
+<DIV CLASS="ToTranslate"><P>All the points defined in the list belong to the hull. For example if you want to define the hull of a part which width is 2 studs but with uneven height, the image of the part will be 16 pixel wide, and the minimum hull coordinate will be (0, ...) and the maximum hull coordinate will be (15, ...). Use integer value to define the pixel coordinates, not decimal values.</P></DIV>
 
 <P>Eine falsche Hüllkurve kann dazu führen, dass Teilbereiche eines Teils bei der Drehung um einen beliebigen Winkel abgeschnitten werden. Eine gute Möglichkeit zum Testen der Hüllkurve ist die Drehung dieses Teils um 360&deg; in kleinen Schritten, z.B. 22.5&deg;. Nach jedem Schritt darf kein Bereich des Teils abgeschnitten sein.</P>
 
@@ -71,8 +73,6 @@
 &lt;/hull&gt;
 </PRE>
 </DIV>
-
-<P>Die Reihenfolge der Punkte ist unbedeutend. Auch ist unbedeutend, mit welchem Punkt begonnen und mit welchem aufgehört wird. BlueBrick erzeugt die Hüllkurve aus der Gesamtheit der einzelnen Punkte. Es ist jedoch übersichtlich, wenn die Punkte in der Reihenfolge angegeben werden, die dem Verlauf der Hüllkurve im Uhrzeigersinn entsprechen.</P>
 
 </BODY>
 </HTML>
