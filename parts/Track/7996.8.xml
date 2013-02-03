@@ -6,6 +6,7 @@
 		<en>Train Rail Double Crossing for RC Trains</en>
 		<fr>Double aiguillage pour train RC</fr>
 	</Description>
+	<SortingKey>09V RC - F</SortingKey>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

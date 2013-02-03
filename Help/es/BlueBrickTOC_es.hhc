@@ -167,6 +167,10 @@
 				<param name="Local" value="Part_XML_Description_Image.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Specify the Sorting Order">
+				<param name="Local" value="Part_XML_Description_SortingKey.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="No listado en la biblioteca">
 				<param name="Local" value="Part_XML_Description_NotListedInLibrary.htm">
 				</OBJECT>
@@ -207,6 +211,10 @@
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Descripci&oacute;n de grupos">
 				<param name="Local" value="Part_XML_Description_Description.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Specify the Sorting Order">
+				<param name="Local" value="Part_XML_Description_SortingKey.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Not Listed in Library">

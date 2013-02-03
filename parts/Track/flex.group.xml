@@ -5,6 +5,8 @@
 		<en>Flex Track</en>
 		<fr>Rail Flex</fr>
 	</Description>
+	<SortingKey>09V RC - A2</SortingKey>
+
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
 	<CanUngroup>false</CanUngroup>
 	<!-- The margin of this group in stud for snaping on the grid, relative to the bitmap -->

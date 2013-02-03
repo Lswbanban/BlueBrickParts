@@ -14,13 +14,27 @@
 
 <P>You can duplicate an existing XML file and modify it to work faster. Be careful, the XML tags are case sensitive. Every field is optional, and the order of the fields does not matter. If one field is missing the default behavior is used instead.</P>
 
+<H2>File Encoding</H2>
+
+<P>For a good cross platform compatibility, you should clearly indicate in the header of the xml file the encoding in which the file is saved. The prefered encoding is UTF-8, because it can save accentuated character for the part description in different languages. Use a text editor to save your XML file in UTF-8. For example with Windows Notepad, choose the correct encoding in the save dialog:</P>
+
+<CENTER><IMG SRC="XmlEncoding.png"></CENTER>
+
+<P>And make sure the header of your file starts with this line:</P>
+
+<DIV CLASS="TechNote">
+<PRE>
+&lt;?xml version="1.0" <FONT COLOR="red">encoding="UTF-8"</FONT>?&gt;
+</PRE>
+</DIV>
+
 <H2>Structure of the XML file</H2>
 
 <P>If you don't know what an XML file is, and if you are not familiar with its syntax, I strongly recommend you search for some additional help on internet. To summarize it in few words, this format organizes the data in a tree hierarchy by using tags which are identified by being enclosed with the characters &lt; and &gt;. Here is the general structure of an XML part file:</P>
 
 <DIV CLASS="TechNote">
 <PRE>
-&lt;?xml version="1.0"?&gt;
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;part&gt;
     &lt;Author&gt;...&lt;/Author&gt;
     &lt;Description&gt;
@@ -28,6 +42,7 @@
         ...
     &lt;/Description&gt;
     &lt;ImageURL&gt;...&lt;/ImageURL&gt;
+    &lt;SortingKey&gt;...&lt;/SortingKey&gt;
     &lt;NotListedInLibrary&gt;...&lt;/NotListedInLibrary&gt;
     &lt;OldNameList&gt;
         ...
@@ -64,6 +79,7 @@
 	<LI><A HREF="Part_XML_Description_Author.htm">Specify the Author</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_Description.htm">Add a description in different languages</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_Image.htm">Specify an online reference Image</A> (easy)</LI>
+	<LI><A HREF="Part_XML_Description_SortingKey.htm">Specify the sorting order</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_NotListedInLibrary.htm">Specify if the part should be hidden</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_OldName.htm">Keep a trace of the previous name of a part</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_Margin.htm">Specify the Margins for Snaping</A> (medium difficulty)</LI>

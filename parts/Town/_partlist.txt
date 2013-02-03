@@ -197,6 +197,8 @@
 5770.set_option_2.xml
 5770.set_option_3.gif
 5770.set_option_3.xml
+5891-1.set.gif
+5891-1.set.xml
 605.set.gif
 605.set.xml
 608.set.gif
@@ -233,8 +235,10 @@
 6373.set.xml
 6374.set.gif
 6374.set.xml
-6375.set.gif
-6375.set.xml
+6375-1.set.gif
+6375-1.set.xml
+6375-2.set.gif
+6375-2.set.xml
 6376.set.gif
 6376.set.xml
 6378.set.gif
@@ -325,6 +329,8 @@
 6754.set_option_3.xml
 7035.set.gif
 7035.set.xml
+7346-1.set.gif
+7346-1.set.xml
 7641.set1.gif
 7641.set1.xml
 7641.set2.gif

@@ -9,6 +9,7 @@
 	<OldNameList>
 	    <OldName>3231.7</OldName>
 	</OldNameList>
+	<SortingKey>4.5V new - D</SortingKey>
 	
 	<!-- list of connection points (assuming that this part can connect to another one), the position of the connection is in stud coords and relative to the origin defined above) -->
 	<ConnexionList>

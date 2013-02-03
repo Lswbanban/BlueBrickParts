@@ -6,7 +6,8 @@
 		<fr>Feu de signalisation télécomandé 12V</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7860-1.1122686335.thumb2.jpg</ImageURL>
-	
+	<SortingKey>12V new - E1</SortingKey>
+
 	<!-- The margin of this part in stud for snapping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

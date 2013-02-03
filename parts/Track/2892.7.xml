@@ -6,6 +6,8 @@
 		<fr>Monorail petite courbe gauche</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/2892.1092233080.jpg</ImageURL>
+	<SortingKey>Mono - C3</SortingKey>
+	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>4.875</left>

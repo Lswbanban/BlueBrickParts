@@ -5,6 +5,8 @@
 		<en>Train Track 9V Crossing</en>
 		<fr>Rail 9V croisement</fr>
 	</Description>
+	<SortingKey>09V - D</SortingKey>
+
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0.5</left>

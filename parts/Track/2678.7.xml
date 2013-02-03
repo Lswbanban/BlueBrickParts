@@ -6,6 +6,8 @@
 		<fr>Monorail rampe partie haute</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/2678.1092233004.jpg</ImageURL>
+	<SortingKey>Mono - A4</SortingKey>
+	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

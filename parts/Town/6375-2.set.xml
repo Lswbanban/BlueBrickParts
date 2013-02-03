@@ -6,7 +6,11 @@
 		<fr>Station service Exxon</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6375-2.1124747856.thumb2.jpg</ImageURL>
-
+	<SortingKey>Town</SortingKey>
+	<OldNameList>
+	    <OldName>6375.SET</OldName>
+	</OldNameList> 
+	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
