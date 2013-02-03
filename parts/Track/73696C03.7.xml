@@ -71,6 +71,22 @@
 		</point>
 		<point>
 			<x>23</x>
+			<y>64</y>
+		</point>
+		<point>
+			<x>23</x>
+			<y>7</y>
+		</point>
+		<point>
+			<x>87</x>
+			<y>7</y>
+		</point>
+		<point>
+			<x>87</x>
+			<y>45</y>
+		</point>
+		<point>
+			<x>182</x>
 			<y>7</y>
 		</point>
 		<point>
@@ -78,16 +94,16 @@
 			<y>0</y>
 		</point>
 		<point>
-			<x>256</x>
+			<x>255</x>
 			<y>0</y>
 		</point>
 		<point>
-			<x>256</x>
-			<y>128</y>
+			<x>255</x>
+			<y>127</y>
 		</point>
 		<point>
 			<x>0</x>
-			<y>128</y>
+			<y>127</y>
 		</point>
 	</hull>
 

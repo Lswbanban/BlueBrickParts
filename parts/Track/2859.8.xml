@@ -64,6 +64,18 @@
 			<y>0</y>
 		</point>
 		<point>
+			<x>264</x>
+			<y>63</y>
+		</point>
+		<point>
+			<x>204</x>
+			<y>63</y>
+		</point>
+		<point>
+			<x>279</x>
+			<y>107</y>
+		</point>
+		<point>
 			<x>279</x>
 			<y>115</y>
 		</point>
@@ -72,8 +84,24 @@
 			<y>166</y>
 		</point>
 		<point>
+			<x>86</x>
+			<y>76</y>
+		</point>
+		<point>
+			<x>42</x>
+			<y>67</y>
+		</point>
+		<point>
+			<x>42</x>
+			<y>112</y>
+		</point>
+		<point>
 			<x>18</x>
 			<y>112</y>
+		</point>
+		<point>
+			<x>18</x>
+			<y>63</y>
 		</point>
 		<point>
 			<x>0</x>

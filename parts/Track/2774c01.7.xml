@@ -46,6 +46,57 @@
 		</connexion>
 	</ConnexionList>
 
+	<hull>
+		<point>
+			<x>0</x>
+			<y>47</y>
+		</point>
+		<point>
+			<x>15</x>
+			<y>47</y>
+		</point>
+		<point>
+			<x>15</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>48</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>48</x>
+			<y>46</y>
+		</point>
+		<point>
+			<x>127</x>
+			<y>46</y>
+		</point>
+		<point>
+			<x>127</x>
+			<y>80</y>
+		</point>
+		<point>
+			<x>48</x>
+			<y>80</y>
+		</point>
+		<point>
+			<x>48</x>
+			<y>95</y>
+		</point>
+		<point>
+			<x>16</x>
+			<y>95</y>
+		</point>
+		<point>
+			<x>16</x>
+			<y>78</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>78</y>
+		</point>
+	</hull>
+
 	<!-- Track Designer remaping data -->
 	<TrackDesigner>
 		<ID>202774</ID> <!-- ID of this part in Track Designer -->

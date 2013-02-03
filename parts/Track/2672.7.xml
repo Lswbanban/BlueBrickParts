@@ -47,36 +47,48 @@
 			<y>0</y>
 		</point>
 		<point>
-			<x>42</x>
+			<x>56</x>
 			<y>0</y>
 		</point>
 		<point>
-			<x>106</x>
-			<y>18</y>
+			<x>118</x>
+			<y>23</y>
 		</point>
 		<point>
-			<x>172</x>
-			<y>66</y>
+			<x>173</x>
+			<y>65</y>
 		</point>
 		<point>
-			<x>224</x>
-			<y>142</y>
+			<x>223</x>
+			<y>134</y>
 		</point>
 		<point>
-			<x>240</x>
-			<y>208</y>
+			<x>239</x>
+			<y>188</y>
 		</point>
 		<point>
-			<x>240</x>
-			<y>240</y>
+			<x>239</x>
+			<y>239</y>
 		</point>
 		<point>
-			<x>204</x>
-			<y>240</y>
+			<x>207</x>
+			<y>239</y>
 		</point>
+		<point>
+			<x>195</x>
+			<y>161</y>
+		</point>
+		<point>
+			<x>149</x>
+			<y>92</y>
+		</point>
+		<point>
+			<x>86</x>
+			<y>47</y>
+		</point>		
 		<point>
 			<x>0</x>
-			<y>34</y>
+			<y>32</y>
 		</point>
 	</hull>
 
