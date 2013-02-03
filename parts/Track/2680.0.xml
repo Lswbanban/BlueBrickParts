@@ -5,6 +5,7 @@
 		<en>Support 4 x 4 x 5 Stanchion</en>
 		<fr>Support 4 x 4 x 5</fr>
 	</Description>
+	<SortingKey>Mono - E1</SortingKey>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

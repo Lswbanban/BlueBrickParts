@@ -5,6 +5,7 @@
 		<en>Rail 9V Curve</en>
 		<fr>Rail 9V courbe</fr>
 	</Description>
+	<SortingKey>09V - AC</SortingKey>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

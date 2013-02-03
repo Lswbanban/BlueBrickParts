@@ -5,6 +5,7 @@
 		<en>Custom 9V Rail Quarter Straight</en>
 		<fr>Rail 9V quart de droit custom</fr>
 	</Description>
+	<SortingKey>09V - AB2</SortingKey>	
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

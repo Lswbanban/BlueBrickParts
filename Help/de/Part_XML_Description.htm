@@ -14,13 +14,25 @@
 
 <P>Um schneller eine xml-Datei zu erstellen, kann eine bereits vorhandene xml-Datei kopiert und geändert werden. Vorsicht: die xml-tags unterscheiden zwischen Groß- und Kleinschreibung. Jedes Feld ist optional, die Reihenfolge der Felder spielt keine Rolle. Fehlt ein Feld, wird die Standardeinstellung für diese Eigenschaft verwendet.</P>
 
+<DIV CLASS="ToTranslate">
+<CENTER><IMG SRC="XmlEncoding.png"></CENTER>
+
+<P>And make sure the header of your file starts with this line:</P>
+
+<DIV CLASS="TechNote">
+<PRE>
+&lt;?xml version="1.0" <FONT COLOR="red">encoding="UTF-8"</FONT>?&gt;
+</PRE>
+</DIV>
+</DIV>
+
 <H2>Struktur einer xml-Datei</H2>
 
 <P>Diejenigen, die nicht mit der Syntax von xml-Dateien vertraut sind oder noch nicht einmal wissen, was eine xml-Datei ist, sollten sich zusätzliche Informationen aus dem Internet holen. Die Aufgabe von xml-Dateien lässt sich in Kurzform so beschreiben: Diese Dateien ordnen Daten in einer Baumstruktur durch die Benutzung von Tags, die mit den Zeichen &lt; und &gt; eingefasst sind. Die xml-Datei eines Teiles hat im allgemeinen folgende Struktur:</P>
 
 <DIV CLASS="TechNote">
 <PRE>
-&lt;?xml version="1.0"?&gt;
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;part&gt;
     &lt;Author&gt;...&lt;/Author&gt;
     &lt;Description&gt;
@@ -28,6 +40,7 @@
         ...
     &lt;/Description&gt;
     &lt;ImageURL&gt;...&lt;/ImageURL&gt;
+    &lt;SortingKey&gt;...&lt;/SortingKey&gt;
     &lt;NotListedInLibrary&gt;...&lt;/NotListedInLibrary&gt;
     &lt;OldNameList&gt;
         ...
@@ -66,6 +79,7 @@
 	<LI><A HREF="Part_XML_Description_Author.htm">Specify the Author</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_Description.htm">Add a description in different languages</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_Image.htm">Specify an online reference Image</A> (easy)</LI>
+	<LI><A HREF="Part_XML_Description_SortingKey.htm">Specify the sorting order</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_NotListedInLibrary.htm">Specify if the part should be hidden</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_OldName.htm">Keep a trace of the previous name of a part</A> (easy)</LI>
 	<LI><A HREF="Part_XML_Description_Margin.htm">Specify the Margins for Snaping</A> (medium difficulty)</LI>
