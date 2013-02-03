@@ -48,6 +48,41 @@
 		</connexion>
 	</ConnexionList>
 	
+	<hull>
+		<point>
+			<x>0</x>
+			<y>56</y>
+		</point>
+		<point>
+			<x>15</x>
+			<y>56</y>
+		</point>
+		<point>
+			<x>15</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>79</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>79</x>
+			<y>56</y>
+		</point>
+		<point>
+			<x>127</x>
+			<y>56</y>
+		</point>
+		<point>
+			<x>127</x>
+			<y>119</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>119</y>
+		</point>
+	</hull>
+	
 	<!-- LDraw remapping data -->
 	<LDraw>
            <PreferredHeight>-24</PreferredHeight>

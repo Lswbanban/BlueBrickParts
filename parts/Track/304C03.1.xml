@@ -42,6 +42,41 @@
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 	</ConnexionList>
+	
+	<hull>
+		<point>
+			<x>0</x>
+			<y>21</y>
+		</point>
+		<point>
+			<x>47</x>
+			<y>21</y>
+		</point>
+		<point>
+			<x>47</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>79</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>79</x>
+			<y>21</y>
+		</point>
+		<point>
+			<x>127</x>
+			<y>21</y>
+		</point>
+		<point>
+			<x>127</x>
+			<y>85</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>85</y>
+		</point>
+	</hull>
 
 	<!-- LDraw remaping data -->
 	<LDraw>

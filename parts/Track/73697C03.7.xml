@@ -67,27 +67,39 @@
 	<hull>
 		<point>
 			<x>0</x>
-			<y>64</y>
+			<y>0</y>
+		</point>
+		<point>
+			<x>255</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>255</x>
+			<y>127</y>
+		</point>
+		<point>
+			<x>181</x>
+			<y>119</y>
+		</point>
+		<point>
+			<x>87</x>
+			<y>82</y>
+		</point>
+		<point>
+			<x>87</x>
+			<y>119</y>
 		</point>
 		<point>
 			<x>23</x>
 			<y>119</y>
-		</point>
+		</point>		
 		<point>
-			<x>248</x>
-			<y>128</y>
-		</point>
-		<point>
-			<x>256</x>
-			<y>128</y>
-		</point>
-		<point>
-			<x>256</x>
-			<y>0</y>
+			<x>23</x>
+			<y>63</y>
 		</point>
 		<point>
 			<x>0</x>
-			<y>0</y>
+			<y>63</y>
 		</point>
 	</hull>
 
