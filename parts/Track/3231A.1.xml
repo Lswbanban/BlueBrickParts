@@ -77,40 +77,40 @@
 			<y>0</y>
 		</point>
 		<point>
-			<x>96</x>
+			<x>95</x>
 			<y>0</y>
 		</point>
 		<point>
-			<x>96</x>
+			<x>95</x>
 			<y>32</y>
 		</point>
 		<point>
-			<x>128</x>
+			<x>127</x>
 			<y>32</y>
 		</point>
 		<point>
-			<x>128</x>
-			<y>96</y>
+			<x>127</x>
+			<y>95</y>
 		</point>
 		<point>
-			<x>96</x>
-			<y>96</y>
+			<x>95</x>
+			<y>95</y>
 		</point>
 		<point>
-			<x>96</x>
-			<y>128</y>
-		</point>
-		<point>
-			<x>32</x>
-			<y>128</y>
+			<x>95</x>
+			<y>127</y>
 		</point>
 		<point>
 			<x>32</x>
-			<y>96</y>
+			<y>127</y>
+		</point>
+		<point>
+			<x>32</x>
+			<y>95</y>
 		</point>
 		<point>
 			<x>0</x>
-			<y>96</y>
+			<y>95</y>
 		</point>
 	</hull>
 

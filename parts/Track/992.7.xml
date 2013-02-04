@@ -79,36 +79,52 @@
 	<!-- a list of points that describes the hull of the parts to help finding the bounding box, when rotating the part. This is optional, if it doesn't exist we use the full box of the picture. -->
 	<hull>
 		<point>
+			<x>0</x>
+			<y>32</y>
+		</point>
+		<point>
+			<x>32</x>
+			<y>32</y>
+		</point>
+		<point>
 			<x>32</x>
 			<y>0</y>
 		</point>
 		<point>
-			<x>96</x>
+			<x>95</x>
 			<y>0</y>
 		</point>
 		<point>
-			<x>128</x>
+			<x>95</x>
 			<y>32</y>
 		</point>
 		<point>
-			<x>128</x>
-			<y>96</y>
+			<x>127</x>
+			<y>32</y>
 		</point>
 		<point>
-			<x>96</x>
-			<y>128</y>
+			<x>127</x>
+			<y>95</y>
+		</point>
+		<point>
+			<x>95</x>
+			<y>95</y>
+		</point>
+		<point>
+			<x>95</x>
+			<y>127</y>
 		</point>
 		<point>
 			<x>32</x>
-			<y>128</y>
+			<y>127</y>
+		</point>
+		<point>
+			<x>32</x>
+			<y>95</y>
 		</point>
 		<point>
 			<x>0</x>
-			<y>96</y>
-		</point>
-		<point>
-			<x>0</x>
-			<y>32</y>
+			<y>95</y>
 		</point>
 	</hull>
 

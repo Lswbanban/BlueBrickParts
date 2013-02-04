@@ -6,5 +6,40 @@
 		<fr>Regulateur de vitesse de Train 12V</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7864-1.1105127517.thumb2.jpg</ImageURL>
-	<SortingKey>12V new - F0</SortingKey>	
+	<SortingKey>12V new - F0</SortingKey>
+	
+	<hull>
+		<point>
+			<x>0</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>159</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>159</x>
+			<y>31</y>
+		</point>
+		<point>
+			<x>178</x>
+			<y>31</y>
+		</point>
+		<point>
+			<x>178</x>
+			<y>47</y>
+		</point>
+		<point>
+			<x>159</x>
+			<y>47</y>
+		</point>
+		<point>
+			<x>159</x>
+			<y>79</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>79</y>
+		</point>
+	</hull>
 </part>

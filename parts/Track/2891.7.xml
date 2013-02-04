@@ -69,16 +69,20 @@
 			<y>0</y>
 		</point>
 		<point>
-			<x>169</x>
+			<x>166</x>
 			<y>0</y>
 		</point>
 		<point>
-			<x>169</x>
+			<x>166</x>
 			<y>31</y>
 		</point>
 		<point>
+			<x>86</x>
+			<y>46</y>
+		</point>
+		<point>
 			<x>17</x>
-			<y>92</y>
+			<y>91</y>
 		</point>
 	</hull>
 

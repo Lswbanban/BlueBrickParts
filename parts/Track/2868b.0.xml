@@ -7,4 +7,39 @@
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/2868b.jpg</ImageURL>
 	<SortingKey>09V - E</SortingKey>
+
+	<hull>
+		<point>
+			<x>0</x>
+			<y>15</y>
+		</point>
+		<point>
+			<x>40</x>
+			<y>15</y>
+		</point>
+		<point>
+			<x>40</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>151</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>151</x>
+			<y>15</y>
+		</point>
+		<point>
+			<x>191</x>
+			<y>15</y>
+		</point>
+		<point>
+			<x>191</x>
+			<y>111</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>111</y>
+		</point>
+	</hull>	
 </part>
