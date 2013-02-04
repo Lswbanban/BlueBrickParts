@@ -62,7 +62,11 @@
 			<y>16</y>
 		</point>
 		<point>
-			<x>12</x>
+			<x>17</x>
+			<y>16</y>
+		</point>
+		<point>
+			<x>17</x>
 			<y>0</y>
 		</point>
 		<point>
@@ -70,12 +74,24 @@
 			<y>0</y>
 		</point>
 		<point>
-			<x>256</x>
+			<x>177</x>
 			<y>16</y>
 		</point>
 		<point>
-			<x>256</x>
-			<y>48</y>
+			<x>255</x>
+			<y>16</y>
+		</point>
+		<point>
+			<x>255</x>
+			<y>47</y>
+		</point>
+		<point>
+			<x>131</x>
+			<y>47</y>
+		</point>
+		<point>
+			<x>169</x>
+			<y>90</y>
 		</point>
 		<point>
 			<x>153</x>
@@ -86,12 +102,16 @@
 			<y>95</y>
 		</point>
 		<point>
-			<x>13</x>
-			<y>68</y>
+			<x>17</x>
+			<y>69</y>
+		</point>
+		<point>
+			<x>17</x>
+			<y>46</y>
 		</point>
 		<point>
 			<x>0</x>
-			<y>48</y>
+			<y>46</y>
 		</point>
 	</hull>
 

@@ -61,39 +61,43 @@
 	<hull>
 		<point>
 			<x>0</x>
-			<y>59</y>
+			<y>49</y>
+		</point>
+		<point>
+			<x>18</x>
+			<y>49</y>
 		</point>
 		<point>
 			<x>18</x>
 			<y>0</y>
 		</point>
 		<point>
+			<x>42</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>42</x>
+			<y>49</y>
+		</point>
+		<point>
 			<x>161</x>
 			<y>0</y>
 		</point>
 		<point>
-			<x>260</x>
+			<x>197</x>
 			<y>49</y>
 		</point>
 		<point>
 			<x>263</x>
-			<y>57</y>
+			<y>49</y>
 		</point>
 		<point>
 			<x>263</x>
-			<y>103</y>
-		</point>
-		<point>
-			<x>260</x>
-			<y>113</y>
-		</point>
-		<point>
-			<x>3</x>
-			<y>113</y>
+			<y>111</y>
 		</point>
 		<point>
 			<x>0</x>
-			<y>105</y>
+			<y>111</y>
 		</point>
 	</hull>
 </part>
