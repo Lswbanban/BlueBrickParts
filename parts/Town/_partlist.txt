@@ -70,6 +70,11 @@
 314.set.xml
 315.set.gif
 315.set.xml
+3182-1.set.xml
+3182-1.terminal.gif
+3182-1.terminal.xml
+3182-1.tower.gif
+3182-1.tower.xml
 322.set.gif
 322.set.xml
 324.set.gif

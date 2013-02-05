@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>PucelaBricks</Author>
+	<Description>
+		<en>Airport</en>
+		<fr>Aéroport</fr>
+	</Description>
+	<ImageURL>http://belay.peeron.com/pics/inv/setpics/3182-1.1327869977.thumb2.jpg</ImageURL>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>
