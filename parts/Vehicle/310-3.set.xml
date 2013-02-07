@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/lego310.jpg</ImageURL>
+	<Description>
+		<de>Schlepper</de>
+		<en>Tug</en>
+		<fr>Remorqueur</fr>
+	</Description>
+	<OldNameList>
+	    <OldName>310.SET</OldName>
+	</OldNameList> 
+</part>
