@@ -62,14 +62,6 @@
 236.set.xml
 309.set.gif
 309.set.xml
-310.set.gif
-310.set.xml
-311.set.gif
-311.set.xml
-314.set.gif
-314.set.xml
-315.set.gif
-315.set.xml
 3182-1.set.xml
 3182-1.terminal.gif
 3182-1.terminal.xml
@@ -95,6 +87,11 @@
 3313.set.xml
 3314.set.gif
 3314.set.xml
+3368-1.controlcenter.gif
+3368-1.controlcenter.xml
+3368-1.launchpad.gif
+3368-1.launchpad.xml
+3368-1.set.xml
 340.set.gif
 340.set.xml
 341.set.gif
