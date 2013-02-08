@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/lego355.jpg</ImageURL>
+	<Description>
+		<de>Stadtzentrum - Wohnhaus</de>
+		<en>Town Center - Garage</en>
+		<fr>Centre ville - Le garage</fr>
+	</Description>
+  <OldNameList>
+    <OldName>355.SET1</OldName>
+  </OldNameList>
+  <NotListedInLibrary>true</NotListedInLibrary>
+</part>

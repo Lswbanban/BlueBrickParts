@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<group>
+  <Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
+  <Description>
+    <de>Stadtzentrum</de>
+    <en>Town Center</en>
+    <fr>Centre ville</fr>
+  </Description>
+  <!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
+  <CanUngroup>true</CanUngroup>
+
+  <!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+  <SnapMargin>
+    <left>20</left>
+    <right>0</right>
+    <top>0</top>
+    <bottom>22</bottom>
+  </SnapMargin>
+
+  <!-- list of parts contained in this group -->
+  <SubPartList>
+    <SubPart id="355-1.GARAGE">
+      <position>
+        <x>0</x>
+        <y>0</y>
+      </position>
+      <angle>0</angle>
+    </SubPart>
+    <SubPart id="355-1.HOUSE">
+      <position>
+        <x>-26</x>
+        <y>27</y>
+      </position>
+      <angle>0</angle>
+    </SubPart>
+    <SubPart id="355-1.CRANE">
+      <position>
+        <x>6</x>
+        <y>27</y>
+      </position>
+      <angle>0</angle>
+    </SubPart>
+  </SubPartList>
+</group>

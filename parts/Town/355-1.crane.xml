@@ -4,19 +4,19 @@
 	<ImageURL>http://img.lugnet.com/display.cgi?set/new/lego355.jpg</ImageURL>
 	<Description>
 		<de>Stadtzentrum - Kran</de>
-		<en>Town Center - Crain</en>
-		<fr></fr>
+		<en>Town Center - Crane</en>
+		<fr>Centre ville - La Grue</fr>
 	</Description>
+  <OldNameList>
+    <OldName>355.SET3</OldName>
+  </OldNameList>
+  <NotListedInLibrary>true</NotListedInLibrary>
 
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+  <!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>5.25</left>
 		<right>0</right>
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
-	<ConnexionList>
-		
-	</ConnexionList>
 </part>
