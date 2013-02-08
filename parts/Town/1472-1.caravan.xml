@@ -5,5 +5,6 @@
 		<en>Holiday Home, the van with the trailer</en>
 		<fr>Maison de vacances, le camping car avec la remorque</fr>
 	</Description>
-	<ImageURL>http://www.bricklink.com/SL/1472-1.jpg?0</ImageURL>
+	<ImageURL>http://www.bricklink.com/SL/1472-1.jpg</ImageURL>
+  <NotListedInLibrary>true</NotListedInLibrary>
 </part>

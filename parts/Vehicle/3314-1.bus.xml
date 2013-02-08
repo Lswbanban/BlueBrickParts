@@ -3,14 +3,8 @@
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>SHELL Promotional Set: Soccer: Stadium Security</en>
-		<fr></fr>
+		<fr>Set Promotionnel SHELL : Sécurité du Stade de Football</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3314-1.1188344978.thumb2.jpg</ImageURL>
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
-	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
-		<top>0</top>
-		<bottom>0</bottom>
-	</SnapMargin>
+  <NotListedInLibrary>true</NotListedInLibrary>
 </part>
