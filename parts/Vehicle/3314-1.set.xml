@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<group>
+  <Author>Alexander McKenna</Author>
+  <Description>
+    <en>SHELL Promotional Set: Soccer: Stadium Security</en>
+    <fr>Set Promotionnel SHELL : Sécurité du Stade de Football</fr>
+  </Description>
+  <!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
+  <CanUngroup>true</CanUngroup>
+  <OldNameList>
+    <OldName>3314.SET</OldName>
+  </OldNameList>
+
+  <!-- list of parts contained in this group -->
+  <SubPartList>
+    <SubPart id="3314-1.BUS">
+      <position>
+        <x>0</x>
+        <y>-3</y>
+      </position>
+      <angle>0</angle>
+    </SubPart>
+    <SubPart id="3314-1.JAILVAN">
+      <position>
+        <x>0</x>
+        <y>3</y>
+      </position>
+      <angle>0</angle>
+    </SubPart>
+  </SubPartList>
+</group>

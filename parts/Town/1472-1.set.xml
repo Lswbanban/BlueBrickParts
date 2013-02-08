@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<group>
+  <Author>FreeBee (Roland Bal)</Author>
+  <Description>
+    <en>Holiday Home</en>
+    <fr>Maison de vacances</fr>
+  </Description>
+  <!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
+  <CanUngroup>true</CanUngroup>
+  <OldNameList>
+    <OldName>1472.SET1</OldName>
+  </OldNameList>
+
+  <!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+  <SnapMargin>
+    <left>5.25</left>
+    <right>0</right>
+    <top>0</top>
+    <bottom>5.25</bottom>
+  </SnapMargin>
+
+  <!-- list of parts contained in this group -->
+  <SubPartList>
+    <SubPart id="1472-1.HOUSE">
+      <position>
+        <x>0</x>
+        <y>0</y>
+      </position>
+      <angle>0</angle>
+    </SubPart>
+    <SubPart id="1472-1.CAR">
+      <position>
+        <x>-19</x>
+        <y>0</y>
+      </position>
+      <angle>0</angle>
+    </SubPart>
+    <SubPart id="1472-1.CARAVAN">
+      <position>
+        <x>0</x>
+        <y>11</y>
+      </position>
+      <angle>0</angle>
+    </SubPart>
+  </SubPartList>
+</group>

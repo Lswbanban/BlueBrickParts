@@ -38,10 +38,13 @@
 10211.set.xml
 1256.set.gif
 1256.set.xml
-1472.set1.gif
-1472.set1.xml
-1472.set2.gif
-1472.set2.xml
+1472-1.car.gif
+1472-1.car.xml
+1472-1.caravan.gif
+1472-1.caravan.xml
+1472-1.house.gif
+1472-1.house.xml
+1472-1.set.xml
 1484.set.gif
 1484.set.xml
 1490.set.gif
@@ -85,8 +88,6 @@
 3312.set.xml
 3313.set.gif
 3313.set.xml
-3314.set.gif
-3314.set.xml
 3368-1.controlcenter.gif
 3368-1.controlcenter.xml
 3368-1.launchpad.gif
