@@ -13,3 +13,5 @@
 3314-1.set.xml
 4434-1.truck.gif
 4434-1.truck.xml
+4439-1.helicopter.gif
+4439-1.helicopter.xml

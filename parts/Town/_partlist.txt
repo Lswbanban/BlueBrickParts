@@ -159,6 +159,8 @@
 4186p01.gif
 4210.set.gif
 4210.set.xml
+4438-1.house.gif
+4438-1.house.xml
 4728-1.car.gif
 4728-1.car.xml
 4728-1.house.xml
