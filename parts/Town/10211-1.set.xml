@@ -3,15 +3,11 @@
 	<Author>Flickr-user q_159</Author>
 	<Description>
 		<en>Grand Emporium</en>
-		<fr></fr>
+		<fr>Grand Emporium</fr>
 	</Description>
 	<ImageURL>http://www.bricklink.com/OL/10211-1.jpg</ImageURL>
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
-	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
-		<top>0</top>
-		<bottom>0</bottom>
-	</SnapMargin>
-	
+	<SortingKey>Modular</SortingKey>
+	<OldNameList>
+	    <OldName>10211.SET</OldName>
+	</OldNameList>		
 </part>

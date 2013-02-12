@@ -3,9 +3,13 @@
 	<Author>Flickr-user q_159</Author>
 	<Description>
 		<en>Fire Brigade</en>
-		<fr></fr>
+		<fr>Brigade du feu</fr>
 	</Description>
 	<ImageURL>http://www.bricklink.com/OL/10197-1.jpg</ImageURL>
+	<SortingKey>Modular</SortingKey>
+	<OldNameList>
+	    <OldName>10197.SET</OldName>
+	</OldNameList>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>1</left>
@@ -13,5 +17,4 @@
 		<top>0</top>
 		<bottom>1.1</bottom>
 	</SnapMargin>
-	
 </part>
