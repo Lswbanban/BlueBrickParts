@@ -38,6 +38,8 @@
 10211-1.set.xml
 10218-1.set.gif
 10218-1.set.xml
+10224-1.set.gif
+10224-1.set.xml
 1256.set.gif
 1256.set.xml
 1472-1.car.gif
@@ -210,6 +212,8 @@
 5770.set_option_2.xml
 5770.set_option_3.gif
 5770.set_option_3.xml
+5771-1.set.gif
+5771-1.set.xml
 5891-1.set.gif
 5891-1.set.xml
 605.set.gif
