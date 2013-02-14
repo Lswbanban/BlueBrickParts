@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>PucelaBricks</Author>
+	<Description>
+		<en>Public Transport Station - Tram</en>
+		<fr>Station de transport public - Tram</fr>
+	</Description>
+	<ImageURL>http://www.bricklink.com/OL/8404-1.jpg</ImageURL>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<hull>
+	    <point>
+	        <x>0</x>
+	        <y>7</y>
+	    </point>
+	    <point>
+	        <x>3</x>
+	        <y>0</y>
+	    </point>
+	    <point>
+	        <x>19</x>
+	        <y>8</y>
+	    </point>
+	    <point>
+	        <x>244</x>
+	        <y>8</y>
+	    </point>
+	    <point>
+	        <x>244</x>
+	        <y>64</y>
+	    </point>
+	    <point>
+	        <x>19</x>
+	        <y>64</y>
+	    </point>
+	    <point>
+	        <x>5</x>
+	        <y>69</y>
+	    </point>
+	    <point>
+	        <x>0</x>
+	        <y>62</y>
+	    </point>
+	    <point>
+	        <x>5</x>
+	        <y>56</y>
+	    </point>
+	    <point>
+	        <x>5</x>
+	        <y>10</y>
+	    </point>
+	</hull>
+</part>

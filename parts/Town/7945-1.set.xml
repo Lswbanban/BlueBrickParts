@@ -1,35 +1,35 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <group>
 	<Author>PucelaBricks</Author>
 	<Description>
-		<en>Forest Police Station</en>
-		<fr>Station de police forestière</fr>
+		<en>Fire Station</en>
+		<fr>Station de pompier</fr>
 	</Description>
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
 	<CanUngroup>true</CanUngroup>	
 	<SnapMargin>
-		<left>0.45</left>
+		<left>0</left>
 		<right>0</right>
-		<top>1</top>
+		<top>0.25</top>
 		<bottom>0</bottom>
 	</SnapMargin>
 	
 
 	<!-- list of parts contained in this group -->
 	<SubPartList>
-		<SubPart id="4440-1.STATION">
+		<SubPart id="7945-1.TRUCK">
 			<position>
 				<x>0</x>
 				<y>0</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>
-		<SubPart id="4440-1.HELICOPTER">
+		<SubPart id="7945-1.STATION">
 			<position>
-				<x>12</x>
-				<y>-1</y>
+				<x>0</x>
+				<y>0</y>
 			</position>
-			<angle>45</angle>
+			<angle>0</angle>
 		</SubPart>
 	</SubPartList>
 </group>

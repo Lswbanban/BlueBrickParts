@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group>
+	<Author>PucelaBricks</Author>
+	<Description>
+		<en>Public Transport Station</en>
+		<fr>Station de transport public</fr>
+	</Description>
+	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
+	<CanUngroup>true</CanUngroup>		
+	<SnapMargin>
+		<left>2.75</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+
+	<!-- list of parts contained in this group -->
+	<SubPartList>
+		<SubPart id="8404-1.STATION1">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="8404-1.STATION3">
+			<position>
+				<x>26</x>
+				<y>8</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="8404-1.TRAM">
+			<position>
+				<x>3</x>
+				<y>9</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="8404-1.BUS">
+			<position>
+				<x>2</x>
+				<y>18</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="8404-1.ROADSWEEPER">
+			<position>
+				<x>24</x>
+				<y>30</y>
+			</position>
+			<angle>-45</angle>
+		</SubPart>
+		<SubPart id="8404-1.CAR">
+			<position>
+				<x>-6</x>
+				<y>36</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="8404-1.STATION2">
+			<position>
+				<x>0</x>
+				<y>27</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>
