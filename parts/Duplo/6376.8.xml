@@ -5,6 +5,7 @@
 		<en>Duplo Train Track Crossing</en>
 		<fr>Croisement de Rail Duplo</fr>
 	</Description>
+	<SortingKey>0V - BF</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/6376.1070000992.jpg</ImageURL>	
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

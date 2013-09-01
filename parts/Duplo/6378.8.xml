@@ -5,6 +5,7 @@
 		<en>Duplo Train Track Curved 30 Degrees</en>
 		<fr>Rail courbe Duplo de 30 degrés</fr>
 	</Description>
+	<SortingKey>0V - BC</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/6378.1114408932.jpg</ImageURL>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

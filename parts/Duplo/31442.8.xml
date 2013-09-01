@@ -5,6 +5,7 @@
 		<en>Duplo Train Track Straight 4 x 8 with 2 x 4 Plate on End</en>
 		<fr>Rail droit Duplo 4 x 8 avec une plaque 2 x 4 au bout</fr>
 	</Description>
+		<SortingKey>0V - BB</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/31442.1072474371.jpg</ImageURL>	
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
