@@ -5,6 +5,7 @@
 		<en>Duplo Train Track Straight 4 x 8</en>
 		<fr>Rail droit Duplo 4 x 8</fr>
 	</Description>
+	<SortingKey>0V - AA</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/6377.1223848822.jpg</ImageURL>	
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
