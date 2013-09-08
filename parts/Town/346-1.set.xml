@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/lego347.jpg</ImageURL>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/346-2-966206875.jpg</ImageURL>
 	<Description>
-		<de>Feuerwache mit Löschfahrzeug, Krankenwagen und Abschleppwagen</de>
-		<en>Fire station with fire engine, ambulance and tow truck</en>
-		<fr>caserne de pompiers avec autopompe, ambulance et dépanneuse</fr>
+		<de>House with Car</de>
+		<en>House with Car</en>
+		<fr>House with Car</fr>
 	</Description>
-
+	<OldNameList>346.set</OldNameList>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
