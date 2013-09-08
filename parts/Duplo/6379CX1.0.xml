@@ -60,14 +60,22 @@
 	<hull>
 		<point>
 			<x>0</x>
-			<y>88</y>
+			<y>82</y>
 		</point>
 		<point>
 			<x>12</x>
-			<y>49</y>
+			<y>82</y>
 		</point>
 		<point>
-			<x>29</x>
+			<x>12</x>
+			<y>48</y>
+		</point>
+		<point>
+			<x>28</x>
+			<y>48</y>
+		</point>
+		<point>
+			<x>28</x>
 			<y>0</y>
 		</point>
 		<point>
@@ -75,12 +83,28 @@
 			<y>0</y>
 		</point>
 		<point>
-			<x>124</x>
-			<y>23</y>
+			<x>92</x>
+			<y>36</y>
 		</point>
 		<point>
-			<x>147</x>
-			<y>36</y>
+			<x>124</x>
+			<y>22</y>
+		</point>
+		<point>
+			<x>134</x>
+			<y>37</y>
+		</point>
+		<point>
+			<x>144</x>
+			<y>32</y>
+		</point>
+		<point>
+			<x>148</x>
+			<y>40</y>
+		</point>
+		<point>
+			<x>138</x>
+			<y>46</y>
 		</point>
 		<point>
 			<x>155</x>
@@ -88,15 +112,43 @@
 		</point>
 		<point>
 			<x>155</x>
-			<y>113</y>
+			<y>87</y>
 		</point>
 		<point>
-			<x>122</x>
-			<y>139</y>
+			<x>146</x>
+			<y>102</y>
+		</point>
+		<point>
+			<x>155</x>
+			<y>107</y>
+		</point>
+		<point>
+			<x>151</x>
+			<y>116</y>
+		</point>
+		<point>
+			<x>142</x>
+			<y>110</y>
+		</point>
+		<point>
+			<x>123</x>
+			<y>140</y>
+		</point>
+		<point>
+			<x>69</x>
+			<y>120</y>
 		</point>
 		<point>
 			<x>12</x>
 			<y>112</y>
+		</point>
+		<point>
+			<x>12</x>
+			<y>93</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>93</y>
 		</point>
 	</hull>
 </part>
