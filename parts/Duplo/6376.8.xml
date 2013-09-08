@@ -67,4 +67,42 @@
 			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 	</ConnexionList>
+	<hull>
+		<point>
+			<x>0</x>
+			<y>80</y>
+		</point>
+		<point>
+			<x>11</x>
+			<y>39</y>
+		</point>
+		<point>
+			<x>80</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>106</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>151</x>
+			<y>62</y>
+		</point>
+		<point>
+			<x>140</x>
+			<y>102</y>
+		</point>
+		<point>
+			<x>70</x>
+			<y>141</y>
+		</point>
+		<point>
+			<x>70</x>
+			<y>141</y>
+		</point>
+		<point>
+			<x>43</x>
+			<y>141</y>
+		</point>
+	</hull>
 </part>
