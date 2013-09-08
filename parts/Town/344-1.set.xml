@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/345-1-966206817.jpg</ImageURL>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/344-1-966206768.jpg</ImageURL>
 	<Description>
-		<de>House with Mini Wheel Car</de>
-		<en>House with Mini Wheel Car</en>
-		<fr>House with Mini Wheel Car</fr>
+		<de>Bungalow</de>
+		<en>Bungalow</en>
+		<fr>Bungalow</fr>
 	</Description>
-
+	<OldNameList>344.set</OldNameList>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

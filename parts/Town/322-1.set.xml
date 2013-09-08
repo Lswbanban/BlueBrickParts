@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/236-1-910507577.jpg</ImageURL>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/322-2-923846029.jpg</ImageURL>
 	<Description>
-		<de>Garage mit Automatiktor</de>
-		<en>Garage with Automatic Door</en>
-		<fr></fr>
+		<de>Haus</de>
+		<en>House</en>
+		<fr>Maison</fr>
 	</Description>
-
+	<OldNameList>322.set</OldNameList>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0</right>
-		<top>1</top>
+		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
