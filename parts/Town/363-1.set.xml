@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/363-1-966207263.jpg</ImageURL>
+	<Description>
+		<de>Krankenhaus mit Minifiguren</de>
+		<en>Hospital with minifigs</en>
+		<fr>Hôpital avec minifigs</fr>
+	</Description>
+	<OldNameList>363.set</OldNameList>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		
+	</ConnexionList>
+</part>
