@@ -4,12 +4,13 @@
 	<Description>
 		<en>Log Cabin</en>
 	</Description>
+	<OldNameList>5766.set_option_1</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/5766-1.1292791830.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
-		<right>0</right>
-		<top>1</top>
-		<bottom>0.25</bottom>
+		<right>4</right>
+		<top>4</top>
+		<bottom>0</bottom>
 	</SnapMargin>
 </part>

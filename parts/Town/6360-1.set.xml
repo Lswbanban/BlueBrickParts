@@ -1,22 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
-	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/4996-1-1198029853.jpg</ImageURL>
+	<Author>Alexander McKenna</Author>
 	<Description>
-		<de>Ferienhaus</de>
-		<en>Beach House</en>
-		<fr>La maison d'été</fr>
+		<en>Weekend Cottage</en>
+		<fr>Petite maison de weekend</fr>
 	</Description>
-
+	<OldNameList>6360.set</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6360-1.1187958326.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
-		<right>0.5</right>
+		<right>0</right>
 		<top>1</top>
-		<bottom>0.5</bottom>
+		<bottom>.25</bottom>
 	</SnapMargin>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
-	<ConnexionList>
-		
-	</ConnexionList>
 </part>

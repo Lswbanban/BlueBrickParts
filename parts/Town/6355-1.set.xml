@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
-	<Author>FreeBee (Roland Bal)</Author>
+	<Author>Marc Raps</Author>
 	<Description>
-		<en>Paramedic Unit</en>
-		<fr>Unité paramédicale</fr>
+		<en>Derby Trotter</en>
+		<fr>Ecurie Derby</fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/6364-1.1182991809.thumb2.jpg</ImageURL>
-
+	<OldNameList>6355.set</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6355-1.1122432012.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
-		<left>0</left>
+		<left>1.25</left>
 		<right>0</right>
 		<top>0</top>
-		<bottom>6</bottom>
+		<bottom>0</bottom>
 	</SnapMargin>
 </part>

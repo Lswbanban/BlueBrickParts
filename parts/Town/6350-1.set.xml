@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
-	<Author>Aawsum (JB)</Author>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/6369-1.1175443142.thumb2.jpg</ImageURL>
+	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
-		<en>Auto Workshop</en>
-		<fr>Atelier automobile</fr>
+		<en>Pizza To Go</en>
+		<fr></fr>
 	</Description>
+	<OldNameList>6350.set</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6350-1.1182575105.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>1</left>
 		<right>0</right>
 		<top>1</top>
-		<bottom>5</bottom>
+		<bottom>4</bottom>
 	</SnapMargin>
 </part>
+

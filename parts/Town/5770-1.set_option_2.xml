@@ -2,14 +2,15 @@
 <part>
 	<Author>L@go</Author>
 	<Description>
-		<en>Log Cabin</en>
+		<en>Lighthouse Island</en>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/5766-1.1292791830.thumb2.jpg</ImageURL>
+	<OldNameList>5570.set_option_2</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/5770-1.1307636693.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
-		<left>0</left>
+		<left>3</left>
 		<right>0</right>
-		<top>1.5</top>
+		<top>0.5</top>
 		<bottom>0</bottom>
 	</SnapMargin>
 </part>
