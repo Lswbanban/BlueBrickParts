@@ -4,6 +4,7 @@
 	<Description>
 		<en>Lighthouse Island</en>
 	</Description>
+	<OldNameList>5570.set_option_3</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/5770-1.1307636693.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

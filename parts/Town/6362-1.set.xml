@@ -2,15 +2,16 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>Town House</en>
-		<fr>Maison de ville</fr>
+		<en>Post Office</en>
+		<fr>Burreau de poste</fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/6372-1.1203176656.jpg</ImageURL>
+	<OldNameList>6362.set</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6362-1.1105127506.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
-		<left>1</left>
-		<right>1.5</right>
+		<left>0</left>
+		<right>1</right>
 		<top>0</top>
-		<bottom>0</bottom>
+		<bottom>4.25</bottom>
 	</SnapMargin>
 </part>

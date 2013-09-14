@@ -2,16 +2,17 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>Weekend Cottage</en>
-		<fr>Petite maison de weekend</fr>
+		<en>Breezeway Cafe</en>
+		<fr>Café de la brise</fr>
 	</Description>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/6360-1.1187958326.jpg</ImageURL>
+	<OldNameList>6376.set</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6376-1.1183739704.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
-		<top>1</top>
-		<bottom>.25</bottom>
+		<left>4</left>
+		<right>1</right>
+		<top>5</top>
+		<bottom>0</bottom>
 	</SnapMargin>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 </part>

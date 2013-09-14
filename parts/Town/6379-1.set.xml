@@ -5,6 +5,7 @@
 		<en>Riding Stable</en>
 		<fr></fr>
 	</Description>
+	<OldNameList>6379.set</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6379-1.1172124096.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

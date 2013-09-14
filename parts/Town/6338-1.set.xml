@@ -4,6 +4,7 @@
 	<Description>
 		<en>Hurricane Harbor</en>
 	</Description>
+	<OldNameList>6338.set</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6338-1.1182578767.thumb2.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<SnapMargin>
