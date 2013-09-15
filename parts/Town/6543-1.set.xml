@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>L@go</Author>
+	<Description>
+		<en>Sail N' Fly Marina</en>
+	</Description>
+	<OldNameList>6543.set</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6543-1.1168047863.thumb2.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>4</left>
+		<right>7</right>
+		<top>6</top>
+		<bottom>4</bottom>
+	</SnapMargin>
+</part>

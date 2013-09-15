@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Cycle Fix-It Shop</en>
+		<fr>Boutique de réparation de vélo</fr>
+	</Description>
+	<OldNameList>6699.set</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6699-1.1121480986.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>3</bottom>
+	</SnapMargin>
+</part>
