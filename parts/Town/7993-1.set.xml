@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+    <Author>Thomas Hess (Rumpelmuck, scorpy63)</Author>
+    <Description>
+	<de>Tankstelle</de>
+        <en>Service Station</en>
+     	<fr>La station service</fr>
+    </Description>
+	<OldNameList>7993.set</OldNameList>
+    <ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/7993-1-1179980652.jpg</ImageURL>
+    <SnapMargin>
+        <left>1.5</left>
+	<right>0</right>
+	<top>9.5</top>
+	<bottom>0</bottom>
+    </SnapMargin>
+    <ConnexionList>
+            <connexion>
+        	<type>2</type>
+        	<position>
+            	    <x>-15.25</x>
+            	    <y>4.75</y>
+        	</position>
+        	<angle>180</angle>
+            </connexion>
+            <connexion>
+        	<type>2</type>
+        	<position>
+            	    <x>16.75</x>
+            	    <y>4.75</y>
+        	</position>
+        	<angle>0</angle>
+            </connexion>
+    </ConnexionList> 
+</part>

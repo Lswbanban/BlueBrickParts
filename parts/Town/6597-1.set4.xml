@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Century Skyway</en>
+		<fr>Station Service</fr>
+	</Description>
+	<OldNameList>6597.set4</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6597-1.1180385840.thumb2.jpg</ImageURL>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+</part>
+

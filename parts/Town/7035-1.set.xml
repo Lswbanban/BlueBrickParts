@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>L@go</Author>
+	<Description>
+		<en>Police HQ</en>
+	</Description>
+	<OldNameList>7035.set</OldNameList>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7035-1.ImageL.thumb2.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>2</left>
+		<right>2</right>
+		<top>1.25</top>
+		<bottom>4.75</bottom>
+	</SnapMargin>
+</part>
