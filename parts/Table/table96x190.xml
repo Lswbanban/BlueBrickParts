@@ -2,15 +2,7 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>US Table 96" x 190"</en>
-		<fr></fr>
+		<en>US Table 30" x 60"</en>
+		<fr>Table US 30" x 60"</fr>
 	</Description>
-	<ImageURL></ImageURL>
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
-	<SnapMargin>
-		<left>0.5</left>
-		<right>0.5</right>
-		<top>0</top>
-		<bottom>0</bottom>
-	</SnapMargin>
 </part>
