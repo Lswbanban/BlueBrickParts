@@ -2,8 +2,8 @@
 <group>
 	<Author>Marc Raps</Author>
 	<Description>
-		<en>Town Plan - Service Station</en>
-		<fr>Town Plan - Station Service</fr>
+		<en>Town Plan Set</en>
+		<fr>Set Town Plan</fr>
 	</Description>
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
 	<CanUngroup>true</CanUngroup>
