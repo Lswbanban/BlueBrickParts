@@ -5,6 +5,7 @@
 		<en>Town Plan Set</en>
 		<fr>Set Town Plan</fr>
 	</Description>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10184-1.1200101995.thumb2.jpg</ImageURL>
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
 	<CanUngroup>true</CanUngroup>
 	
