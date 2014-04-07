@@ -6,7 +6,8 @@
 		<fr>Duplo Passage à niveau</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3773-1.1181874244.thumb2.jpg</ImageURL>	
-
+	<SortingKey>0V - Level</SortingKey>
+	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>2</left>

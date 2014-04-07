@@ -2,10 +2,12 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>SHELL Promotional Set: Soccer: Commentator and Press Box</en>
-		<fr></fr>
+		<en>SHELL Promotional Set: Soccer - Commentator and Press Box</en>
+		<fr>Boite promotionnelle SHELL : Football - Commentateur et box de presse</fr>
 	</Description>
-	<OldNameList>3310.set</OldNameList>
+	<OldNameList>
+		<OldName>3310.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3310-1.1105127487.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

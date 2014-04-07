@@ -6,5 +6,7 @@
 		<en>House</en>
 		<fr>Maison</fr>
 	</Description>
-	<OldNameList>4956.set</OldNameList>
+	<OldNameList>
+	    <OldName>4956.set</OldName>
+	</OldNameList>	
 </part>

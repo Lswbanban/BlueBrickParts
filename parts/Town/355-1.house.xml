@@ -7,8 +7,8 @@
 		<en>Town Center - House</en>
 		<fr>Centre ville - La maison</fr>
 	</Description>
-  <OldNameList>
-    <OldName>355.SET2</OldName>
-  </OldNameList>
-  <NotListedInLibrary>true</NotListedInLibrary>
+	<OldNameList>
+		<OldName>355.SET2</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
 </part>

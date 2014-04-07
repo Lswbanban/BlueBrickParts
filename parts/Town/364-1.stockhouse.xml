@@ -5,9 +5,12 @@
 	<Description>
 		<de>Hafen - Lagerhaus</de>
 		<en>Harbour Scene - Stockhouse</en>
-		<fr>Port - Entrepôt</fr>
+		<fr>Scène Portuaire - Entrepôt</fr>
 	</Description>
-
+	<OldNameList>
+		<OldName>364.SET4</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>1</left>
@@ -15,8 +18,4 @@
 		<top>1</top>
 		<bottom>3.5</bottom>
 	</SnapMargin>
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
-	<ConnexionList>
-		
-	</ConnexionList>
 </part>

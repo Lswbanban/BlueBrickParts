@@ -2,15 +2,18 @@
 <part>
 	<Author>L@go</Author>
 	<Description>
-		<en>McDonald's Promotional Set: LEGO McDonald's Restaurant - Table and Chairs</en>
+		<en>McDonald's Promotional Set: LEGO McDonald's Restaurant - restaurant</en>
 	</Description>
-	<OldNameList>3438.set2</OldNameList>
+	<OldNameList>
+		<OldName>3438.SET1</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3438-1.1188007519.thumb2.jpg</ImageURL>
+	<NotListedInLibrary>true</NotListedInLibrary>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>1</left>
-		<right>0.25</right>
+		<right>1</right>
 		<top>0</top>
-		<bottom>0</bottom>
+		<bottom>2</bottom>
 	</SnapMargin>
 </part>

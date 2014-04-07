@@ -7,7 +7,9 @@
 		<en>Offshore Rig with Fuel Tanker</en>
 		<fr>Offshore Rig avec carburants pétroliers</fr>
 	</Description>
-	<OldNameList>373.set</OldNameList>
+	<OldNameList>
+		<OldName>373.SET</OldName>
+	</OldNameList>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>8</left>
@@ -15,8 +17,4 @@
 		<top>0</top>
 		<bottom>6</bottom>
 	</SnapMargin>
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
-	<ConnexionList>
-		
-	</ConnexionList>
 </part>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
+	<Description>
+		<en>Harbour Scene</en>
+		<fr>Scène portuaire</fr>
+		<de>Hafen</de>
+	</Description>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="364-1.STOCKHOUSE">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="364-1.FACTORY">
+			<position>
+				<x>19.5</x>
+				<y>-19.5</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="364-1.CRANE">
+			<position>
+				<x>34</x>
+				<y>-3.0625</y>
+			</position>
+			<angle>90</angle>
+		</SubPart>
+		<SubPart id="364-1.POLICE">
+			<position>
+				<x>55</x>
+				<y>-0.1875</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

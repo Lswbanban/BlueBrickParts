@@ -5,7 +5,9 @@
 	<Description>
 		<en>Town Square</en>
 	</Description>
-	<OldNameList>1592.set</OldNameList>
+	<OldNameList>
+		<OldName>1592.SET</OldName>
+	</OldNameList>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

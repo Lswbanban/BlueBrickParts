@@ -6,7 +6,9 @@
 		<en>Model Town House - House</en>
 		<fr>Maison de ville  - Maison</fr>
 	</Description>
-	<OldNameList>4954.set_house</OldNameList>
+	<OldNameList>
+	    <OldName>4954.set_house</OldName>
+	</OldNameList>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>1.5</left>

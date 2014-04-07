@@ -7,7 +7,9 @@
 		<en>Church</en>
 		<fr>église</fr>
 	</Description>
-	<OldNameList>309.set</OldNameList>
+	<OldNameList>
+		<OldName>309.SET</OldName>
+	</OldNameList>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

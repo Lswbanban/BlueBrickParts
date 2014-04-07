@@ -4,7 +4,9 @@
 	<Description>
 		<en>Statue of Liberty Sculpture</en>
 	</Description>
-	<OldNameList>3450.set</OldNameList>
+	<OldNameList>
+		<OldName>3450.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3450-1.1162958765.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
