@@ -7,12 +7,11 @@
 		<en>Town Center - Crane</en>
 		<fr>Centre ville - La Grue</fr>
 	</Description>
-  <OldNameList>
-    <OldName>355.SET3</OldName>
-  </OldNameList>
-  <NotListedInLibrary>true</NotListedInLibrary>
-
-  <!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<OldNameList>
+		<OldName>355.SET3</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>5.25</left>
 		<right>0</right>

@@ -6,5 +6,7 @@
 		<en>Model Town House - Garage</en>
 		<fr>Maison de ville  - Garage</fr>
 	</Description>
-	<OldNameList>4954.set_garage</OldNameList>
+	<OldNameList>
+	    <OldName>4954.set_garage</OldName>
+	</OldNameList>
 </part>

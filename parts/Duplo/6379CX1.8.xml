@@ -5,7 +5,9 @@
 		<en>Duplo Train Track Point Y with Red Frog and Yellow Switch</en>
 		<fr>Aiguillage Duplo en forme de Y avec une aiguille rouge et un bouton jaune</fr>
 	</Description>
-	<OldName>6377.7</OldName>
+	<OldNameList>
+		<OldName>6377.7</OldName>
+	</OldNameList>
 	<SortingKey>0V - BD</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/custpics/6379cx1.1070001082.jpg</ImageURL>	
 	

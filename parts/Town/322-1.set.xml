@@ -7,7 +7,9 @@
 		<en>House</en>
 		<fr>Maison</fr>
 	</Description>
-	<OldNameList>322.set</OldNameList>
+	<OldNameList>
+		<OldName>322.SET</OldName>
+	</OldNameList>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

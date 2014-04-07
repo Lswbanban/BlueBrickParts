@@ -4,7 +4,9 @@
 	<Description>
 		<en>Building Bonanza</en>
 	</Description>
-	<OldNameList>4956.set_option_3</OldNameList>
+	<OldNameList>
+	    <OldName>4886.set_option_3</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/4886-1.1121720561.thumb2.jpg</ImageURL>
 </part>
 

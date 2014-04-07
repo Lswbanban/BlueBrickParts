@@ -6,5 +6,7 @@
 		<fr>Gare</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/342-1.1105127488.thumb2.jpg</ImageURL>
-	<OldNameList>342.set</OldNameList>
+	<OldNameList>
+		<OldName>342.SET</OldName>
+	</OldNameList>
 </part>

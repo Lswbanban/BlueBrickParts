@@ -2,10 +2,12 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>SHELL Promotional Set: Soccer: Tribune</en>
-		<fr></fr>
+		<en>SHELL Promotional Set: Soccer - Tribune</en>
+		<fr>Boite promotionnelle SHELL : Football - Tribune</fr>
 	</Description>
-	<OldNameList>3308.set</OldNameList>
+	<OldNameList>
+		<OldName>3308.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3308-1.1105127487.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -14,5 +16,4 @@
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 </part>

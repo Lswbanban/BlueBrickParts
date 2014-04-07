@@ -6,7 +6,9 @@
 		<en>Garage, Truck, and Carts</en>
 		<fr>Garage, camion et chariots</fr>
 	</Description>
-	<OldNameList>1966.set</OldNameList>
+	<OldNameList>
+		<OldName>1966.SET</OldName>
+	</OldNameList>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>

@@ -5,9 +5,10 @@
 		<en>Weetabix Town House</en>
 		<fr>Maison de ville Weetabix</fr>
 	</Description>
-	<OldNameList>1484.set</OldNameList>
+	<OldNameList>
+		<OldName>1484.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/1484-1.1175348421.thumb2.jpg</ImageURL>
-
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0.5</left>

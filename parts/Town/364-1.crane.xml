@@ -4,10 +4,13 @@
 	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/364-1-907198008.jpg</ImageURL>
 	<Description>
 		<de>Hafen - Ladekran</de>
-		<en>Harbour Scene - Craine</en>
-		<fr>Port - grue</fr>
+		<en>Harbour Scene - Crane</en>
+		<fr>Scène Portuaire - grue</fr>
 	</Description>
-
+	<OldNameList>
+		<OldName>364.SET1</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>8</left>
@@ -15,8 +18,4 @@
 		<top>3</top>
 		<bottom>6</bottom>
 	</SnapMargin>
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
-	<ConnexionList>
-		
-	</ConnexionList>
 </part>

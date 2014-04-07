@@ -2,10 +2,12 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>SHELL Promotional Set: Soccer: Head Tribune</en>
-		<fr></fr>
+		<en>SHELL Promotional Set: Soccer - Head Tribune</en>
+		<fr>Boite promotionnelle SHELL : Football - Tribune de tête</fr>
 	</Description>
-	<OldNameList>3309.set</OldNameList>
+	<OldNameList>
+		<OldName>3309.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3309-1.1188303739.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

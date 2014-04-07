@@ -5,9 +5,10 @@
 		<en>Chocomel Promotional Set: Chocomel Factory</en>
 		<fr>Set promotionel Chocomel: L'usine Chocomel</fr>
 	</Description>
-	<OldNameList>1620.set</OldNameList>
+	<OldNameList>
+		<OldName>1620.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/1620-2.1121722195.thumb2.jpg</ImageURL>
-
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>
 		<connexion>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>L@go</Author>
+	<Description>
+		<en>McDonald's Promotional Set: LEGO McDonald's Restaurant</en>
+	</Description>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="3438-1.RESTAURANT">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="3438-1.TABLE">
+			<position>
+				<x>-0.375</x>
+				<y>13</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="3438-1.CAR">
+			<position>
+				<x>-0.5</x>
+				<y>7.5</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

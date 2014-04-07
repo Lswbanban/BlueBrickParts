@@ -3,9 +3,11 @@
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>SHELL Promotional Set: Soccer: Camera Tower</en>
-		<fr></fr>
+		<fr>Boite promotionnelle SHELL : Football - Tour des cameras</fr>
 	</Description>
-	<OldNameList>3311.set</OldNameList>
+	<OldNameList>
+		<OldName>3311.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3311-1.1105127487.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

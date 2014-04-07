@@ -4,6 +4,8 @@
 	<Description>
 		<en>Coast Guard Platform</en>
 	</Description>
-	<OldNameList>4210.set</OldNameList>
+	<OldNameList>
+		<OldName>4210.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/4210-1.1235326185.thumb2.jpg</ImageURL>
 </part>

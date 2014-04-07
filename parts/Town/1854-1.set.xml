@@ -5,7 +5,9 @@
 		<en>VELUX Promotional Set: House</en>
 		<fr></fr>
 	</Description>
-	<OldNameList>1854.set</OldNameList>
+	<OldNameList>
+		<OldName>1854.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/1854-1.1175266695.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -14,5 +16,4 @@
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-	
 </part>

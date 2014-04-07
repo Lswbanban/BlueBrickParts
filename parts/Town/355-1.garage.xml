@@ -7,8 +7,8 @@
 		<en>Town Center - Garage</en>
 		<fr>Centre ville - Le garage</fr>
 	</Description>
-  <OldNameList>
-    <OldName>355.SET1</OldName>
-  </OldNameList>
-  <NotListedInLibrary>true</NotListedInLibrary>
+	<OldNameList>
+		<OldName>355.SET1</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
 </part>

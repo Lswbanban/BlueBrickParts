@@ -2,10 +2,12 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>SHELL Promotional Set: Soccer: Medic's Station</en>
-		<fr></fr>
+		<en>SHELL Promotional Set: Soccer - Medic's Station</en>
+		<fr>Boite promotionnelle SHELL : Football - Tente des Soigneurs</fr>
 	</Description>
-	<OldNameList>3312.set</OldNameList>
+	<OldNameList>
+		<OldName>3312.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/3312-1.1188303793.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

@@ -5,7 +5,9 @@
 		<en>Police Headquarters</en>
 		<fr>Quartier général de la Police</fr>
 	</Description>
-	<OldNameList>381.set</OldNameList>
+	<OldNameList>
+		<OldName>381.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/381-2.1105127490.thumb2.jpg</ImageURL>
 
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->

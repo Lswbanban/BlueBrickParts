@@ -5,5 +5,5 @@
 10193-1.set.xml
 10193-1.tree.gif
 10193-1.tree.xml
-3739.set.gif
-3739.set.xml
+3739-1.set.gif
+3739-1.set.xml

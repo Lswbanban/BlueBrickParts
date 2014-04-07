@@ -14,8 +14,8 @@
 6099p05.7.xml
 6099p06.7.gif
 6099p06.7.xml
-6930.set.gif
-6930.set.xml
+6930-1.set.gif
+6930-1.set.xml
 6970.set.gif
 6970.set.xml
 6990.set1.gif

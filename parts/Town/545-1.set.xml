@@ -4,7 +4,9 @@
 	<Description>
 		<en>Build-N-Store Chest</en>
 	</Description>
-	<OldNameList>345.set</OldNameList>
+	<OldNameList>
+		<OldName>545.SET</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/545-1.1162709143.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
