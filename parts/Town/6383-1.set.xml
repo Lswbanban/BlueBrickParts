@@ -3,11 +3,12 @@
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
 	<ImageURL>http://img.lugnet.com/display.cgi?set/town/lego6383.jpg</ImageURL>
 	<Description>
-		<de>Public Work Center</de>
 		<en>Public Work Center</en>
 		<fr>Centre de travaux publics</fr>
 	</Description>
-	<OldNameList>6383.set</OldNameList>
+	<OldNameList>
+	    <OldName>6383.set</OldName>
+	</OldNameList>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

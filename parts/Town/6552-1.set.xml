@@ -3,8 +3,11 @@
 	<Author>L@go</Author>
 	<Description>
 		<en>Rocky River Retreat</en>
+		<fr>Retraite de la rivière rocailleuse</fr>
 	</Description>
-	<OldNameList>6552.set</OldNameList>
+	<OldNameList>
+	    <OldName>6552.set</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6552-1.1181971118.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

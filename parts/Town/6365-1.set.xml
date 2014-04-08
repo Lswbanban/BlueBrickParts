@@ -5,7 +5,9 @@
 		<en>Summer Cottage</en>
 		<fr>Petite maison d'été</fr>
 	</Description>
-	<OldNameList>6365.set</OldNameList>
+	<OldNameList>
+	    <OldName>6365.set</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6365-1.1122433402.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

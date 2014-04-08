@@ -6,7 +6,9 @@
 		<en>Auto Repair Shop</en>
 		<fr>Station de réparation d'automobiles</fr>
 	</Description>
-	<OldNameList>6363.set</OldNameList>
+	<OldNameList>
+	    <OldName>6363.set</OldName>
+	</OldNameList>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

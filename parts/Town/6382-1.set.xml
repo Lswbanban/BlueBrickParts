@@ -6,7 +6,9 @@
 		<en>Fire Station</en>
 		<fr>Caserne de pompiers</fr>
 	</Description>
-	<OldNameList>6382.set</OldNameList>
+	<OldNameList>
+	    <OldName>6382.set</OldName>
+	</OldNameList>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

@@ -5,7 +5,9 @@
 		<en>Post Office</en>
 		<fr>Burreau de poste</fr>
 	</Description>
-	<OldNameList>6362.set</OldNameList>
+	<OldNameList>
+	    <OldName>6362.set</OldName>
+	</OldNameList>		
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6362-1.1105127506.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

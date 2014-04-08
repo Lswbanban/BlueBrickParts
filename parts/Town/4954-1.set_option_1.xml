@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Aawsum (JB)</Author>
+	<Description>
+		<en>Model Town House</en>
+		<fr>Maison de ville modèle</fr>
+	</Description>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="4954-1.GARAGE">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="4954-1.HOUSE">
+			<position>
+				<x>23.25</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

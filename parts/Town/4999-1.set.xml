@@ -4,7 +4,9 @@
 	<Description>
 		<en>Vestas Windmill</en>
 	</Description>
-	<OldNameList>4999.set</OldNameList>
+	<OldNameList>
+	    <OldName>4999.set</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/4999-1.1236607758.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

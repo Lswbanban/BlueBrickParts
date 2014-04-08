@@ -3,8 +3,11 @@
 	<Author>L@go</Author>
 	<Description>
 		<en>Weekend Home</en>
+		<fr>Maison de weekend</fr>
 	</Description>
-	<OldNameList>6370.set</OldNameList>
+	<OldNameList>
+	    <OldName>6370.set</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6370-1.1175266726.thumb2.jpg</ImageURL>
 </part>
 

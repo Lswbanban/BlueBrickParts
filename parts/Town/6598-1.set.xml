@@ -3,8 +3,11 @@
 	<Author>L@go</Author>
 	<Description>
 		<en>Metro PD Station</en>
+		<fr>Poste du département de Police</fr>
 	</Description>
-	<OldNameList>6598.set</OldNameList>
+	<OldNameList>
+	    <OldName>6598.set</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6598-1.1175441262.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

@@ -3,9 +3,11 @@
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Riding Stable</en>
-		<fr></fr>
+		<fr>Ecurie de course</fr>
 	</Description>
-	<OldNameList>6379.set</OldNameList>
+	<OldNameList>
+	    <OldName>6379.set</OldName>
+	</OldNameList>		
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6379-1.1172124096.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -14,5 +16,4 @@
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-	
 </part>

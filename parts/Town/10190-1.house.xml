@@ -2,10 +2,13 @@
 <part>
 	<Author>Flickr-user q_159</Author>
 	<Description>
-		<en>Market Street</en>
-		<fr></fr>
+		<en>Market Street - House</en>
+		<fr>Le marché de rue - Maison</fr>
 	</Description>
-	<OldNameList>10190.set2</OldNameList>
+	<OldNameList>
+	    <OldName>10190.set2</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/10190-1.1183179148.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -14,5 +17,4 @@
 		<top>0</top>
 		<bottom>1</bottom>
 	</SnapMargin>
-	
 </part>

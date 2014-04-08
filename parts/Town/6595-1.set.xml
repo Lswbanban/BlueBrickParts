@@ -3,9 +3,11 @@
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Surf Shack</en>
-		<fr></fr>
+		<fr>Cabane de veliplanchiste</fr>
 	</Description>
-	<OldNameList>6595.set</OldNameList>
+	<OldNameList>
+	    <OldName>6595.set</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6595-1.1189400812.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

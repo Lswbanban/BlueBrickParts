@@ -3,9 +3,11 @@
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>City House</en>
-		<fr></fr>
+		<fr>Maison de ville</fr>
 	</Description>
-	<OldNameList>8403.set</OldNameList>
+	<OldNameList>
+	    <OldName>8403.set</OldName>
+	</OldNameList>
 	<ImageURL>http://www.1000steine.com/brickset/images/8403-1.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

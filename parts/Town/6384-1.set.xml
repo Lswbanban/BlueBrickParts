@@ -6,7 +6,9 @@
 		<en>Police Station</en>
 		<fr>Caserne de police</fr>
 	</Description>
-	<OldNameList>6384-1.set</OldNameList>
+	<OldNameList>
+	    <OldName>6384.set</OldName>
+	</OldNameList>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
