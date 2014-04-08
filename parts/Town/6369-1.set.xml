@@ -6,7 +6,9 @@
 		<en>Auto Workshop</en>
 		<fr>Atelier automobile</fr>
 	</Description>
-	<OldNameList>6369.set</OldNameList>
+	<OldNameList>
+	    <OldName>6369.set</OldName>
+	</OldNameList>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>1</left>

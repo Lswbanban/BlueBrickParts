@@ -3,8 +3,11 @@
 	<Author>typo</Author>
 	<Description>
 		<en>Shuttle Launch Pad</en>
+		<fr>Aire de lancement de la Navette</fr>
 	</Description>
-	<OldNameList>6339.set</OldNameList>
+	<OldNameList>
+	    <OldName>6339.set</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6339-1.1180479106.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -13,7 +16,6 @@
 		<top>1.75</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-	
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>
 		<connexion>
@@ -29,5 +31,4 @@
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 	</ConnexionList>
-	
 </part>

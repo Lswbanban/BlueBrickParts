@@ -3,9 +3,11 @@
 	<Author>Flickr-user q_159</Author>
 	<Description>
 		<en>Grand Carousel</en>
-		<fr></fr>
+		<fr>Le grand Carousel</fr>
 	</Description>
-	<OldNameList>10196.set</OldNameList>
+	<OldNameList>
+	    <OldName>10196.set</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/10196-1.1287543013.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -13,6 +15,5 @@
 		<right>3</right>
 		<top>0</top>
 		<bottom>1.5</bottom>
-	</SnapMargin>
-	
+	</SnapMargin>	
 </part>

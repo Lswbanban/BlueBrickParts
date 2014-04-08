@@ -5,7 +5,9 @@
 		<en>Service Station</en>
 		<fr>Station Service</fr>
 	</Description>
-	<OldNameList>6378.set</OldNameList>
+	<OldNameList>
+	    <OldName>6378.set</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6378-1.1181771976.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>

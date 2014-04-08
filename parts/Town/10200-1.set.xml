@@ -3,8 +3,11 @@
 	<Author>L@go</Author>
 	<Description>
 		<en>Custom Car Garage</en>
+		<fr>Garage de tunning de voiture</fr>
 	</Description>
-	<OldNameList>10200.set</OldNameList>
+	<OldNameList>
+	    <OldName>10200.set</OldName>
+	</OldNameList>
 	<ImageURL>http://www.1000steine.com/brickset/AdditionalImages/10200-1/10200-0000-xx-23-1.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

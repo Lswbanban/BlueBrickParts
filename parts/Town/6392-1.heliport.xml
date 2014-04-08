@@ -2,11 +2,14 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>Century Skyway</en>
-		<fr>Aeroport</fr>
+		<en>Airport - Heliport</en>
+		<fr>Aéroport - Héliport</fr>
 	</Description>
-	<OldNameList>6597.set3</OldNameList>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/6597-1.1180385840.thumb2.jpg</ImageURL>
+	<OldNameList>
+	    <OldName>6392.set2</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6392-1.1121389543.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>
 		<connexion>

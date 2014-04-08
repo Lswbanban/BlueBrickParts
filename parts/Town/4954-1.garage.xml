@@ -4,9 +4,10 @@
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/4954-1.1183179146.thumb2.jpg</ImageURL>
 	<Description>
 		<en>Model Town House - Garage</en>
-		<fr>Maison de ville  - Garage</fr>
+		<fr>Maison de ville modèle - Garage</fr>
 	</Description>
 	<OldNameList>
 	    <OldName>4954.set_garage</OldName>
 	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
 </part>

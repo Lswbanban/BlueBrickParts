@@ -2,10 +2,13 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>Airport</en>
-		<fr>Aeroport</fr>
+		<en>Airport - Plane</en>
+		<fr>Aéroport - Avion</fr>
 	</Description>
-	<OldNameList>6392.set3</OldNameList>
+	<OldNameList>
+	    <OldName>6392.set3</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6392-1.1121389543.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>

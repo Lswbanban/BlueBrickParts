@@ -5,7 +5,9 @@
 		<en>Gas N' Wash Express</en>
 		<fr>Station Service</fr>
 	</Description>
-	<OldNameList>6397.set</OldNameList>
+	<OldNameList>
+	    <OldName>6397.set</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6397-1.1182646709.thumb2.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>

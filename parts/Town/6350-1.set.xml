@@ -3,9 +3,11 @@
 	<Author>FreeBee (Roland Bal)</Author>
 	<Description>
 		<en>Pizza To Go</en>
-		<fr></fr>
+		<fr>Pizza à emporter</fr>
 	</Description>
-	<OldNameList>6350.set</OldNameList>
+	<OldNameList>
+	    <OldName>6350.set</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6350-1.1182575105.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

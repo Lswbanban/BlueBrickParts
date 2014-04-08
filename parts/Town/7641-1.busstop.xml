@@ -2,16 +2,19 @@
 <part>
 	<Author>Marc Raps</Author>
 	<Description>
-		<en>City Corner - Pizza Shop</en>
-		<fr>Coin de ville - Pizzeria</fr>
+		<en>City Corner - Bus Stop</en>
+		<fr>Coin de ville - Arrêt de bus</fr>
 	</Description>
-	<OldNameList>7641-1.set1</OldNameList>
+	<OldNameList>
+	    <OldName>7641.set1</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7641-1.1245013792.1.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
-		<left>0</left>
-		<right>0.25</right>
-		<top>2</top>
-		<bottom>1.25</bottom>
+		<left>3.5</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>1.5</bottom>
 	</SnapMargin>
 </part>

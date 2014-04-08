@@ -6,5 +6,7 @@
 		<en>Hamburger Stand</en>
 		<fr>Barraque à hamburger</fr>
 	</Description>
-	<OldNameList>6683.set</OldNameList>
+	<OldNameList>
+	    <OldName>6683.set</OldName>
+	</OldNameList>
 </part>

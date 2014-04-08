@@ -5,7 +5,9 @@
 		<en>Derby Trotter</en>
 		<fr>Ecurie Derby</fr>
 	</Description>
-	<OldNameList>6355.set</OldNameList>
+	<OldNameList>
+	    <OldName>6355.set</OldName>
+	</OldNameList>		
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6355-1.1122432012.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

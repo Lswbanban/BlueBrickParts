@@ -5,9 +5,10 @@
 		<en>Main Street</en>
 		<fr>Rue principale</fr>
 	</Description>
-	<OldNameList>6390.set</OldNameList>
+	<OldNameList>
+	    <OldName>6390.set</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6390-1.1203177486.thumb2.jpg</ImageURL>
-
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
@@ -15,7 +16,6 @@
 		<top>9</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>

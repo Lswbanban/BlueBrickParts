@@ -3,8 +3,11 @@
 	<Author>L@go</Author>
 	<Description>
 		<en>Pier Police</en>
+		<fr>Police de la jetée</fr>
 	</Description>
-	<OldNameList>6540.set</OldNameList>
+	<OldNameList>
+	    <OldName>6540.set</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6540-1.1175268732.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

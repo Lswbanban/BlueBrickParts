@@ -5,9 +5,10 @@
 		<en>Paramedic Unit</en>
 		<fr>Unité paramédicale</fr>
 	</Description>
-	<OldNameList>6364.set</OldNameList>
+	<OldNameList>
+	    <OldName>6364.set</OldName>
+	</OldNameList>		
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6364-1.1182991809.thumb2.jpg</ImageURL>
-
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

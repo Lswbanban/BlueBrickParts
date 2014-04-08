@@ -5,11 +5,13 @@
 		<en>Intercoastal Seaport</en>
 		<fr>Port inter-côte</fr>
 	</Description>
-	<OldNameList>6541.set</OldNameList>
+	<OldNameList>
+	    <OldName>6541.set</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6541-1.1182647259.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
-		<left>.25</left>
+		<left>0.25</left>
 		<right>0</right>
 		<top>0</top>
 		<bottom>0</bottom>

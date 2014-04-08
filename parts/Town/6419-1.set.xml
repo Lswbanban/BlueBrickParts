@@ -3,8 +3,11 @@
 	<Author>L@go</Author>
 	<Description>
 		<en>Rolling Acres Ranch</en>
+		<fr>Ranch des hectares roulants</fr>
 	</Description>
-	<OldNameList>6419.set</OldNameList>
+	<OldNameList>
+	    <OldName>6419.set</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6419-1.1180063457.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

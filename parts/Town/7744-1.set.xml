@@ -3,10 +3,12 @@
 	<Author>Aawsum (JB)</Author>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7744-1.1198550909.thumb2.jpg</ImageURL>
 	<Description>
-	<OldNameList>7744.set</OldNameList>
 		<en>Police Headquarters</en>
 		<fr>Quartier général de police</fr>
 	</Description>
+	<OldNameList>
+	    <OldName>7744.set</OldName>
+	</OldNameList>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>1</left>

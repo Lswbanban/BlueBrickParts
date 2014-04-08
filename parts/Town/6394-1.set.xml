@@ -5,7 +5,9 @@
 		<en>Metro Park and Service Tower</en>
 		<fr>Parc métro et tour de service</fr>
 	</Description>
-	<OldNameList>6394.set</OldNameList>
+	<OldNameList>
+	    <OldName>6394.set</OldName>
+	</OldNameList>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6394-1.1121389557.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

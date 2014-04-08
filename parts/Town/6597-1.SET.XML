@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Century Skyway</en>
+		<fr>La route céleste du siècle</fr>
+	</Description>
+	<SortingKey>Legoland</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="6597-1.HELIPORT">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>-90</angle>
+		</SubPart>
+		<SubPart id="6597-1.TOWER">
+			<position>
+				<x>-56</x>
+				<y>-24</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="6597-1.TERMINAL">
+			<position>
+				<x>-8</x>
+				<y>-32</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="6597-1.PLANE">
+			<position>
+				<x>-32</x>
+				<y>0</y>
+			</position>
+			<angle>-270</angle>
+		</SubPart>
+		<SubPart id="6597-1.RUNWAY">
+			<position>
+				<x>-64</x>
+				<y>0</y>
+			</position>
+			<angle>-90</angle>
+		</SubPart>
+	</SubPartList>
+</group>

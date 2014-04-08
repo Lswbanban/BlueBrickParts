@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Marc Raps</Author>
+	<Description>
+		<en>City Corner</en>
+		<fr>Coin de ville</fr>
+	</Description>
+	<SortingKey>City</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="7641-1.BUSSTOP">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>-90</angle>
+		</SubPart>
+		<SubPart id="7641-1.BIKESHOP">
+			<position>
+				<x>-30.625</x>
+				<y>1</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="7641-1.PIZZERIA">
+			<position>
+				<x>-12.625</x>
+				<y>1.9375</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="7641-1.BUS">
+			<position>
+				<x>-24.1875</x>
+				<y>12.4375</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

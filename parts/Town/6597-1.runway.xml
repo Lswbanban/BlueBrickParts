@@ -2,11 +2,14 @@
 <part>
 	<Author>Alexander McKenna</Author>
 	<Description>
-		<en>Airport</en>
-		<fr>Aeroport</fr>
+		<en>Century Skyway - Runway</en>
+		<fr>La route céleste du siècle - Piste</fr>
 	</Description>
-	<OldNameList>6392.set4</OldNameList>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/6392-1.1121389543.jpg</ImageURL>
+	<OldNameList>
+	    <OldName>6597.set5</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6597-1.1180385840.thumb2.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>
@@ -14,9 +17,9 @@
 			<type>2</type>
 			<position>
 				<x>0</x>
-				<y>-16</y>
+				<y>16</y>
 			</position>
-			<angle>-90</angle>
+			<angle>180</angle>
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
@@ -26,12 +29,13 @@
 			<type>2</type>
 			<position>
 				<x>0</x>
-				<y>16</y>
+				<y>-16</y>
 			</position>
-			<angle>90</angle>
+			<angle>0</angle>
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 	</ConnexionList>
 </part>
+

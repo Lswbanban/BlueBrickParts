@@ -2,9 +2,12 @@
 <part>
 	<Author>L@go</Author>
 	<Description>
-		<en>Family Home</en>
+		<en>Family Home - Option  1</en>
+		<fr>Maison de famille - Option 1</fr>
 	</Description>
-	<OldNameList>6754.set_option_1</OldNameList>
+	<OldNameList>
+	    <OldName>6754.set_option_1</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6754-1.1249008242.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

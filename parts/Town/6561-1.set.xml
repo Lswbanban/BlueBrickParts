@@ -3,9 +3,11 @@
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>Hot Rod Club</en>
-		<fr></fr>
+		<fr>Club de Hot Rod</fr>
 	</Description>
-	<OldNameList>6561.set</OldNameList>
+	<OldNameList>
+	    <OldName>6561.set</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6561-1.1182649758.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

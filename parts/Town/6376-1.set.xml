@@ -5,7 +5,9 @@
 		<en>Breezeway Cafe</en>
 		<fr>Café de la brise</fr>
 	</Description>
-	<OldNameList>6376.set</OldNameList>
+	<OldNameList>
+	    <OldName>6376.set</OldName>
+	</OldNameList>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6376-1.1183739704.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -14,5 +16,4 @@
 		<top>5</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 </part>

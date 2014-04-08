@@ -7,7 +7,9 @@
 		<en>Beach House</en>
 		<fr>La maison d'été</fr>
 	</Description>
-	<OldNameList>4996.set_option_1</OldNameList>
+	<OldNameList>
+	    <OldName>4996.set_option_1</OldName>
+	</OldNameList>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
@@ -15,8 +17,4 @@
 		<top>1</top>
 		<bottom>0.5</bottom>
 	</SnapMargin>
-	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
-	<ConnexionList>
-		
-	</ConnexionList>
 </part>
