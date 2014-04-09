@@ -9,6 +9,7 @@
 	<OldNameList>
 		<OldName>6930.SET</OldName>
 	</OldNameList>
+	<SortingKey>Set</SortingKey>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>2.5</left>

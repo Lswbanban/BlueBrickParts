@@ -5,6 +5,10 @@
 		<en>Launch Pad</en>
 		<fr>Platforme de lancement</fr>
 	</Description>
+	<OldNameList>
+		<OldName>920.SET</OldName>
+	</OldNameList>
+	<SortingKey>Set</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/920-2.1105127518.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

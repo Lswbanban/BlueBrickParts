@@ -5,6 +5,10 @@
 		<en>Beta-1 Command Base</en>
 		<fr>Base de commandement Beta-1</fr>
 	</Description>
+	<OldNameList>
+		<OldName>6970.SET</OldName>
+	</OldNameList>
+	<SortingKey>Set</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6970-1.1170476326.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
