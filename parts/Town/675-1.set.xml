@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/675-1-966393808.jpg</ImageURL>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/675-1.1105127511.thumb2.jpg</ImageURL>
 	<Description>
 		<de>Snack Bar</de>
 		<en>Snack Bar</en>
@@ -10,11 +10,5 @@
 	<OldNameList>
 		<OldName>675.SET</OldName>
 	</OldNameList>
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
-	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
-		<top>1</top>
-		<bottom>0</bottom>
-	</SnapMargin>
+	<SortingKey>Legoland</SortingKey>	
 </part>

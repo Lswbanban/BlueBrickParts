@@ -5,16 +5,10 @@
 	<Description>
 		<de>Polizei mit Hubschrauberlandeplatz</de>
 		<en>Police heliport</en>
-		<fr>Police heliport</fr>
+		<fr>Héliport de police</fr>
 	</Description>
 	<OldNameList>
 		<OldName>354.SET</OldName>
 	</OldNameList>
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
-	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
-		<top>0</top>
-		<bottom>0</bottom>
-	</SnapMargin>
+	<SortingKey>Vintage</SortingKey>
 </part>

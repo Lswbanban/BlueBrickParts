@@ -8,6 +8,7 @@
   </Description>
   <!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
   <CanUngroup>true</CanUngroup>
+  <SortingKey>Vintage</SortingKey>
 
   <!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
   <SnapMargin>
