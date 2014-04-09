@@ -6,6 +6,7 @@
 		<fr>Scène portuaire</fr>
 		<de>Hafen</de>
 	</Description>
+	<SortingKey>Vintage</SortingKey>
 	<CanUngroup>true</CanUngroup>
 	<SubPartList>
 		<SubPart id="364-1.STOCKHOUSE">

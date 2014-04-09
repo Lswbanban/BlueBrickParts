@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/345-1-966206817.jpg</ImageURL>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/309-2-921994572.jpg</ImageURL>
 	<Description>
-		<en>House with Mini Wheel Car</en>
-		<fr>Maison avec voiture à mini-roues</fr>
+		<de>Kirche</de>
+		<en>Church</en>
+		<fr>église</fr>
 	</Description>
 	<OldNameList>
-		<OldName>345.SET</OldName>
+		<OldName>309.SET</OldName>
 	</OldNameList>
 	<SortingKey>Vintage</SortingKey>
 </part>

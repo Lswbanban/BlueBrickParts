@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/lego605a.jpg</ImageURL>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/361-2-966207175.jpg</ImageURL>
 	<Description>
-		<de>Taxi</de>
-		<en>Taxi</en>
-		<fr>Taxi</fr>
+		<en>Garage</en>
+		<fr>Garage</fr>
 	</Description>
 	<OldNameList>
-		<OldName>605.SET</OldName>
+		<OldName>361.SET</OldName>
 	</OldNameList>
+	<SortingKey>Vintage</SortingKey>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0</right>
-		<top>0</top>
+		<top>1</top>
 		<bottom>0</bottom>
 	</SnapMargin>
 </part>

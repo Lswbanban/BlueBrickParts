@@ -10,11 +10,5 @@
 	<OldNameList>
 		<OldName>344.SET</OldName>
 	</OldNameList>
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
-	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
-		<top>0</top>
-		<bottom>0</bottom>
-	</SnapMargin>
+	<SortingKey>Vintage</SortingKey>
 </part>

@@ -5,9 +5,10 @@
 	<Description>
 		<de>Windmühle</de>
 		<en>Windmill</en>
-		<fr>moulin à vent</fr>
+		<fr>Moulin à vent</fr>
 	</Description>
 	<OldNameList>
 		<OldName>362.SET</OldName>
 	</OldNameList>
+	<SortingKey>Vintage</SortingKey>
 </part>
