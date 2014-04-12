@@ -1,27 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/lego128.jpg</ImageURL>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/721-1-919808787.jpg</ImageURL>
 	<Description>
-		<de>Mobiler Kranwagen</de>
-		<en>Mobile Crane</en>
-		<fr>Wagon grue</fr>
+		<de>Damplokomotive 12V</de>
+		<en>Steam Locomotive 12V</en>
+		<fr>Locomotive à vapeur 12V</fr>
 	</Description>
-
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
-	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
-		<top>0.5</top>
-		<bottom>0.5</bottom>
-	</SnapMargin>
-
+	<OldNameList>
+		<OldName>721.SET</OldName>
+	</OldNameList>
+	<SortingKey>Vintage</SortingKey>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>
 			<type>magnet</type>
 			<position>
-				<x>-11</x>
+				<x>-12.5</x>
 				<y>0</y>
 			</position>
 			<angle>180</angle>
@@ -32,7 +27,7 @@
 		<connexion>
 			<type>magnet</type>
 			<position>
-				<x>11</x>
+				<x>12.5</x>
 				<y>0</y>
 			</position>
 			<angle>0</angle>

@@ -1,27 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/116-1-900376968.jpg</ImageURL>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/113-2-910506999.jpg</ImageURL>
 	<Description>
-		<de>Deluxe Train Set</de>
-		<en>Deluxe Train Set</en>
-		<fr>Set de train Deluxe</fr>
+		<de>Motorisierter Zug</de>
+		<en>Motorized Train Set</en>
+		<fr>Train motorisé</fr>
 	</Description>
-
-	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
-	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
-		<top>0</top>
-		<bottom>0</bottom>
-	</SnapMargin>
-
+	<OldNameList>
+		<OldName>113.SET</OldName>
+	</OldNameList>
+	<SortingKey>Vintage</SortingKey>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>
 			<type>magnet</type>
 			<position>
-				<x>-48</x>
+				<x>-38.5</x>
 				<y>0</y>
 			</position>
 			<angle>180</angle>
@@ -32,7 +27,7 @@
 		<connexion>
 			<type>magnet</type>
 			<position>
-				<x>48</x>
+				<x>38.5</x>
 				<y>0</y>
 			</position>
 			<angle>0</angle>

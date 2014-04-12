@@ -1,26 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://media.peeron.com/pics/inv/setpics/117-1.1176171802.thumb2.jpg</ImageURL>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/137-2-964119366.jpg</ImageURL>
 	<Description>
-		<en>Locomotive without motor</en>
-		<fr>Locomotive sans moteur</fr>
+		<de>Schlafwagen</de>
+		<en>Passenger Sleeping Car</en>
+		<fr>Wagon-lit</fr>
 	</Description>
-
+	<OldNameList>
+		<OldName>137.SET</OldName>
+	</OldNameList>
+	<SortingKey>Vintage</SortingKey>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
-		<left>0</left>
-		<right>0</right>
+		<left>0.75</left>
+		<right>0.75</right>
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>
 			<type>magnet</type>
 			<position>
-				<x>-10.5</x>
+				<x>-10</x>
 				<y>0</y>
 			</position>
 			<angle>180</angle>
@@ -31,7 +34,7 @@
 		<connexion>
 			<type>magnet</type>
 			<position>
-				<x>10.5</x>
+				<x>10</x>
 				<y>0</y>
 			</position>
 			<angle>0</angle>
