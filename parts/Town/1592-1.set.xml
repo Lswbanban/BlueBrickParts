@@ -4,10 +4,12 @@
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/1592-1.1140846945.thumb2.jpg</ImageURL>
 	<Description>
 		<en>Town Square</en>
+		<fr>Centre ville</fr>
 	</Description>
 	<OldNameList>
 		<OldName>1592.SET</OldName>
 	</OldNameList>
+	<SortingKey>Legoland</SortingKey>		
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
@@ -15,7 +17,6 @@
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>

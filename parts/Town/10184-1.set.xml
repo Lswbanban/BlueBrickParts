@@ -5,10 +5,10 @@
 		<en>Town Plan Set</en>
 		<fr>Set Town Plan</fr>
 	</Description>
+	<SortingKey>City</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/10184-1.1200101995.thumb2.jpg</ImageURL>
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
 	<CanUngroup>true</CanUngroup>
-	
 	<!-- The margin of this group in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 	    <left>0</left>
@@ -16,7 +16,6 @@
 	    <top>0</top>
 	    <bottom>0</bottom>
 	</SnapMargin>
-	
 	<!-- list of parts contained in this group -->
 	<SubPartList>
 		<SubPart id="10184-1.GARAGE">

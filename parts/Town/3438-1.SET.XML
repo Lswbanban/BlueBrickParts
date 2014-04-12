@@ -3,8 +3,10 @@
 	<Author>L@go</Author>
 	<Description>
 		<en>McDonald's Promotional Set: LEGO McDonald's Restaurant</en>
+		<fr>Boite promotionnelle McDonald's : Restaurant McDonald's LEGO</fr>
 	</Description>
 	<CanUngroup>true</CanUngroup>
+	<SortingKey>City</SortingKey>
 	<SubPartList>
 		<SubPart id="3438-1.RESTAURANT">
 			<position>

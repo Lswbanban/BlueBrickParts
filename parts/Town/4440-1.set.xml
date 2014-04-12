@@ -5,6 +5,7 @@
 		<en>Forest Police Station</en>
 		<fr>Station de police forestière</fr>
 	</Description>
+	<SortingKey>City</SortingKey>
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
 	<CanUngroup>true</CanUngroup>	
 	<SnapMargin>

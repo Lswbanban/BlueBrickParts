@@ -3,11 +3,12 @@
 	<Author>Alexander McKenna</Author>
 	<Description>
 		<en>VELUX Promotional Set: House</en>
-		<fr></fr>
+		<fr>Boite promotionnelle VELUX : Maison</fr>
 	</Description>
 	<OldNameList>
 		<OldName>1854.SET</OldName>
 	</OldNameList>
+	<SortingKey>City</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/1854-1.1175266695.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

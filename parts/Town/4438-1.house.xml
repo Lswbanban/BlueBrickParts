@@ -2,9 +2,10 @@
 <part>
 	<Author>PucelaBricks</Author>
 	<Description>
-		<en>Robbers' Hideout</en>
-		<fr>Le repair des voleurs</fr>
+		<en>Robbers' Hideout - House</en>
+		<fr>Le repair des voleurs - Maison</fr>
 	</Description>
+	<NotListedInLibrary>true</NotListedInLibrary>
 	<ImageURL>http://www.bricklink.com/OL/4438-1.jpg</ImageURL>
 	<hull>
 	    <point>

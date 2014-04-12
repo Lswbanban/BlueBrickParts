@@ -7,7 +7,8 @@
 	</Description>
 	<OldNameList>
 	    <OldName>6419.set</OldName>
-	</OldNameList>	
+	</OldNameList>
+	<SortingKey>City</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6419-1.1180063457.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

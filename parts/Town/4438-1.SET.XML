@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>PucelaBricks</Author>
+	<Description>
+		<en>Robbers' Hideout</en>
+		<fr>Le repair des voleurs</fr>
+	</Description>
+	<SortingKey>City</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="4438-1.HOUSE">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<!-- Need to add the vehicle in that set -->
+	</SubPartList>
+</group>

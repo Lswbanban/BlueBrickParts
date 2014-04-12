@@ -8,6 +8,7 @@
 	<OldNameList>
 		<OldName>1682.SET</OldName>
 	</OldNameList>
+	<SortingKey>Legoland</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/1682-1.1182578032.thumb2.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>

@@ -9,6 +9,7 @@
 	<OldNameList>
 		<OldName>1966.SET</OldName>
 	</OldNameList>
+	<SortingKey>Legoland</SortingKey>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>

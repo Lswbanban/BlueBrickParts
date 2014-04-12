@@ -7,7 +7,7 @@
 	</Description>
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
 	<CanUngroup>true</CanUngroup>
-	
+	<SortingKey>City</SortingKey>
 	<!-- list of parts contained in this group -->
 	<SubPartList>
 		<SubPart id="3182-1.TERMINAL">

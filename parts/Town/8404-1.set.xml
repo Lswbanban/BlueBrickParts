@@ -5,6 +5,7 @@
 		<en>Public Transport Station</en>
 		<fr>Station de transport public</fr>
 	</Description>
+	<SortingKey>City</SortingKey>
 	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
 	<CanUngroup>true</CanUngroup>		
 	<SnapMargin>
@@ -13,7 +14,6 @@
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
-
 	<!-- list of parts contained in this group -->
 	<SubPartList>
 		<SubPart id="8404-1.STATION1">

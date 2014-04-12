@@ -5,6 +5,7 @@
 		<en>Haunted House</en>
 		<fr>La maison hantée</fr>
 	</Description>
+	<SortingKey>City</SortingKey>
 	<ImageURL>http://www.bricklink.com/SL/10228-1.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

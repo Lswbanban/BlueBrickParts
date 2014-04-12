@@ -3,10 +3,12 @@
 	<Author>L@go</Author>
 	<Description>
 		<en>Shell Promotional Set: Gas Pumps</en>
+		<fr>Boite promotionnelle Shell: station service</fr>
 	</Description>
 	<OldNameList>
 		<OldName>1256.SET</OldName>
 	</OldNameList>
+	<SortingKey>City</SortingKey>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/1256-1.1123353066.thumb2.jpg</ImageURL>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>

@@ -2,11 +2,14 @@
 <part>
 	<Author>PucelaBricks</Author>
 	<Description>
-		<en>Seaside House</en>
-		<fr>Maison du bord de mer</fr>
+		<en>Seaside House - Option 1</en>
+		<fr>Maison du bord de mer - Option 1</fr>
 	</Description>
+	<OldNameList>
+	    <OldName>7346-1.SET</OldName>
+	</OldNameList>
+	<SortingKey>Creator</SortingKey>
 	<ImageURL>http://www.bricklink.com/OL/7346-1.jpg</ImageURL>
-	<SortingKey>Creator</SortingKey>	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

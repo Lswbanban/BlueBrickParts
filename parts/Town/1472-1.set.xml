@@ -10,7 +10,7 @@
   <OldNameList>
     <OldName>1472.SET1</OldName>
   </OldNameList>
-
+  <SortingKey>Legoland</SortingKey>	
   <!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
   <SnapMargin>
     <left>5.25</left>

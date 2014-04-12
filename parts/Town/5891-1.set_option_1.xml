@@ -2,9 +2,12 @@
 <part>
 	<Author>PucelaBricks</Author>
 	<Description>
-		<en>Apple Tree House</en>
-		<fr>La maison du pommier</fr>
+		<en>Apple Tree House - Option 1</en>
+		<fr>La maison du pommier - Option 1</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/5891-1.1267595894.thumb2.jpg</ImageURL>
+	<OldNameList>
+	    <OldName>5891-1.SET</OldName>
+	</OldNameList>
 	<SortingKey>Creator</SortingKey>
 </part>
