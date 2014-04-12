@@ -1,27 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
-	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/113-2-910506999.jpg</ImageURL>
+	<ImageURL>http://img.lugnet.com/display.cgi?set/new/lego128.jpg</ImageURL>
 	<Description>
-		<de>motorisierter Zug</de>
-		<en>motorized Train Set</en>
-		<fr>train motorisé</fr>
+		<de>Mobiler Kranwagen (Train Base)</de>
+		<en>Mobile Crane (Train Base)</en>
+		<fr>Wagon grue (base de train)</fr>
 	</Description>
-
+	<OldNameList>
+		<OldName>128.SET</OldName>
+	</OldNameList>
+	<SortingKey>Vintage</SortingKey>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
 		<right>0</right>
-		<top>0</top>
-		<bottom>0</bottom>
+		<top>0.5</top>
+		<bottom>0.5</bottom>
 	</SnapMargin>
-	
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>
 			<type>magnet</type>
 			<position>
-				<x>-38.5</x>
+				<x>-11</x>
 				<y>0</y>
 			</position>
 			<angle>180</angle>
@@ -32,13 +34,13 @@
 		<connexion>
 			<type>magnet</type>
 			<position>
-				<x>38.5</x>
+				<x>11</x>
 				<y>0</y>
 			</position>
 			<angle>0</angle>
 			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
 			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
 			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
-		</connexion>		
+		</connexion>
 	</ConnexionList>
 </part>
