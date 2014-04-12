@@ -5,9 +5,8 @@
 	    <de>Flucht aus dem Lingusterweg</de>
 	    <en>Escape from Privet Drive</en>
 	</Description>
-	<!-- A boolean flag (True/False) to tell if this group can be disbanded after placed on the map -->
+	<SortingKey>City</SortingKey>
 	<CanUngroup>true</CanUngroup>
-	
 	<!-- The margin of this group in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 	    <left>3.9</left>
@@ -15,7 +14,6 @@
 	    <top>0</top>
 	    <bottom>3</bottom>
 	</SnapMargin>
-	
 	<!-- list of parts contained in this group -->
 	<SubPartList>
 		<SubPart id="4728-1.HOUSE">

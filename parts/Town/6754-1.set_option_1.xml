@@ -7,7 +7,8 @@
 	</Description>
 	<OldNameList>
 	    <OldName>6754.set_option_1</OldName>
-	</OldNameList>	
+	</OldNameList>
+	<SortingKey>Creator</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6754-1.1249008242.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

@@ -2,9 +2,10 @@
 <group>
 	<Author>Aawsum (JB)</Author>
 	<Description>
-		<en>Model Town House</en>
-		<fr>Maison de ville modèle</fr>
+		<en>Model Town House - Option 1</en>
+		<fr>Maison de ville modèle - Option 1</fr>
 	</Description>
+	<SortingKey>Creator</SortingKey>
 	<CanUngroup>true</CanUngroup>
 	<SubPartList>
 		<SubPart id="4954-1.GARAGE">

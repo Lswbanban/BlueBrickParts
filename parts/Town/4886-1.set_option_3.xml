@@ -2,11 +2,13 @@
 <part>
 	<Author>L@go</Author>
 	<Description>
-		<en>Building Bonanza</en>
+		<en>Building Bonanza - Option 3</en>
+		<fr>Construisons Bonanza - Option 3</fr>
 	</Description>
 	<OldNameList>
 	    <OldName>4886.set_option_3</OldName>
-	</OldNameList>	
+	</OldNameList>
+	<SortingKey>Creator</SortingKey>	
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/4886-1.1121720561.thumb2.jpg</ImageURL>
 </part>
 

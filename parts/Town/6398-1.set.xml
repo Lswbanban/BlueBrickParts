@@ -8,7 +8,8 @@
 	</Description>
 	<OldNameList>
 	    <OldName>6398.set</OldName>
-	</OldNameList>	
+	</OldNameList>
+	<SortingKey>City</SortingKey>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

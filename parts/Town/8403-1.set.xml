@@ -8,6 +8,7 @@
 	<OldNameList>
 	    <OldName>8403.set</OldName>
 	</OldNameList>
+	<SortingKey>City</SortingKey>
 	<ImageURL>http://www.1000steine.com/brickset/images/8403-1.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
@@ -16,5 +17,4 @@
 		<top>0</top>
 		<bottom>2</bottom>
 	</SnapMargin>
-	
 </part>

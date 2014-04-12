@@ -8,6 +8,7 @@
 	<OldNameList>
 	    <OldName>6699.set</OldName>
 	</OldNameList>
+	<SortingKey>Legoland</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6699-1.1121480986.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

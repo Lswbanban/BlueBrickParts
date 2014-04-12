@@ -5,8 +5,8 @@
 		<en>Service Station</en>
 		<fr>La Station Service</fr>
 	</Description>
+	<SortingKey>Legoland</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6371-1.1122433430.jpg</ImageURL>
-
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
 	<ConnexionList>
 		<connexion>

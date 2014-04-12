@@ -2,11 +2,13 @@
 <part>
 	<Author>L@go</Author>
 	<Description>
-		<en>Building Bonanza</en>
+		<en>Building Bonanza - Option 2</en>
+		<fr>Construisons Bonanza - Option 2</fr>
 	</Description>
 	<OldNameList>
 	    <OldName>4886.set_option_2</OldName>
-	</OldNameList>	
+	</OldNameList>
+	<SortingKey>Creator</SortingKey>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/4886-1.1121720561.thumb2.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

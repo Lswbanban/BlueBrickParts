@@ -2,9 +2,12 @@
 <part>
 	<Author>PucelaBricks</Author>
 	<Description>
-		<en>Hillside house</en>
-		<fr>Maison sur la coline</fr>
+		<en>Hillside house - Option 1</en>
+		<fr>Maison sur la coline - Option 1</fr>
 	</Description>
 	<ImageURL>http://belay.peeron.com/pics/inv/setpics/5771-1.1321249628.thumb2.jpg</ImageURL>
+	<OldNameList>
+	    <OldName>5571-1.SET</OldName>
+	</OldNameList>
 	<SortingKey>Creator</SortingKey>
 </part>

@@ -3,13 +3,14 @@
 	<Author>Thomas Hess (rumpelmuck, scorpy63)</Author>
 	<ImageURL>http://img.lugnet.com/display.cgi?set/new/upload/4996-1-1198029853.jpg</ImageURL>
 	<Description>
-		<de>Ferienhaus</de>
-		<en>Beach House</en>
-		<fr>La maison d'été</fr>
+		<de>Ferienhaus - Option 1</de>
+		<en>Beach House - Option 1</en>
+		<fr>La maison d'été - Option 1</fr>
 	</Description>
 	<OldNameList>
 	    <OldName>4996.set_option_1</OldName>
-	</OldNameList>	
+	</OldNameList>
+	<SortingKey>Creator</SortingKey>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>
