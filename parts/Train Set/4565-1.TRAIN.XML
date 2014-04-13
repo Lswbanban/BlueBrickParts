@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Freight &amp; Crane Railway - Whole Train</en>
+		<fr>Train de Fret &amp; Grue - Train en entier</fr>
+	</Description>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/4565-1.1174536164.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="4565-1.LOCO">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="4565-1.THREESLOTS">
+			<position>
+				<x>32.5</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="4565-1.TWOSLOTS">
+			<position>
+				<x>62.875</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="4565-1.TWOSLOTS">
+			<position>
+				<x>92.375</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>FreeBee (Roland Bal)</Author>
+	<Description>
+		<en>Train Engine Shed</en>
+		<fr>Remise de locomotive</fr>
+	</Description>
+	<OldNameList>
+		<OldName>10027.SET_SIDEBYSIDE</OldName>
+	</OldNameList>
+	<SortingKey>Station</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10027-1.1124661708.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0.5</left>
+		<right>0.5</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>	
+	<SubPartList>
+		<SubPart id="10027-1.HALF">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="10027-1.HALF">
+			<position>
+				<x>0</x>
+				<y>16</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+	</SubPartList>
+</group>

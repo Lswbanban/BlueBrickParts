@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>typo</Author>
+	<Description>
+		<en>Freight Loading Station</en>
+		<fr>Gare de chargement de fret</fr>
+	</Description>
+	<OldNameList>
+		<OldName>4557.SET</OldName>
+	</OldNameList>
+	<SortingKey>Crane</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/4557-1.1175139833.thumb2.jpg</ImageURL>
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>9</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>

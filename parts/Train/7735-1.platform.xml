@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Jerome Boulanger</Author>
+	<Description>
+		<en>12 Volt Cargo Train - Platform</en>
+		<fr>Train cargo 12V - Plateforme</fr>
+	</Description>
+	<OldNameList>
+		<OldName>7735.SET5</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>	
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7735-1.1173564702.thumb2.jpg</ImageURL>
+</part>

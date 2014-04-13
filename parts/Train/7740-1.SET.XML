@@ -9,24 +9,31 @@
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7740-1.1119047171.thumb2.jpg</ImageURL>
 	<CanUngroup>true</CanUngroup>
 	<SubPartList>
-		<SubPart id="7740-1.LOCO">
+		<SubPart id="7740-1.PLATFORM">
 			<position>
 				<x>0</x>
 				<y>0</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="7740-1.LOCO">
+			<position>
+				<x>-47.625</x>
+				<y>-6.375</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>
 		<SubPart id="7740-1.MIDDLE">
 			<position>
-				<x>31.75</x>
-				<y>0</y>
+				<x>-15.875</x>
+				<y>-6.375</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>
 		<SubPart id="7740-1.TAIL">
 			<position>
-				<x>62.75</x>
-				<y>0</y>
+				<x>15.125</x>
+				<y>-6.375</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>

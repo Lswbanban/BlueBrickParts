@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Train Station</en>
+		<fr>Gare férovière</fr>
+	</Description>
+	<OldNameList>
+		<OldName>7997.SET</OldName>
+	</OldNameList>
+	<SortingKey>Station</SortingKey>
+	<ImageURL>http://www.1000steine.com/brickset/images/7997-1.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>.5</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>

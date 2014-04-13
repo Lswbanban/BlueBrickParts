@@ -113,13 +113,6 @@
 4564-1.loco.gif
 4564-1.loco.xml
 4564-1.SET.XML
-4565-1.loco.gif
-4565-1.loco.xml
-4565-1.SET.XML
-4565-1.threeslots.gif
-4565-1.threeslots.xml
-4565-1.twoslots.gif
-4565-1.twoslots.xml
 721-1.set.gif
 721-1.set.xml
 7725-1.set.gif
@@ -148,6 +141,8 @@
 7735-1.fret.xml
 7735-1.loco.gif
 7735-1.loco.xml
+7735-1.platform.gif
+7735-1.platform.xml
 7735-1.SET.XML
 7735-1.tank.gif
 7735-1.tank.xml
@@ -155,6 +150,8 @@
 7740-1.loco.xml
 7740-1.middle.gif
 7740-1.middle.xml
+7740-1.platform.gif
+7740-1.platform.xml
 7740-1.SET.XML
 7740-1.tail.gif
 7740-1.tail.xml
@@ -162,6 +159,8 @@
 7745-1.backloco.xml
 7745-1.frontloco.gif
 7745-1.frontloco.xml
+7745-1.platform.gif
+7745-1.platform.xml
 7745-1.SET.XML
 7745-1.wagon.gif
 7745-1.wagon.xml
@@ -188,3 +187,9 @@
 7820-1.set.xml
 7821-1.set.gif
 7821-1.set.xml
+7897-1.platform.gif
+7897-1.platform.xml
+7938-1.platform.gif
+7938-1.platform.xml
+7939-1.crane.gif
+7939-1.crane.xml

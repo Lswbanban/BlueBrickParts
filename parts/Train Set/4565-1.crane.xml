@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Freight and Crane Railway</en>
+		<fr>Fret et Grue</fr>
+	</Description>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/4565-1.1174536164.thumb2.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0.8</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>7.25</bottom>
+	</SnapMargin>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>2</type>
+			<position>
+				<x>-15.5</x>
+				<y>-4.5</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>2</type>
+			<position>
+				<x>16.5</x>
+				<y>-4.5</y>
+			</position>
+			<angle>0</angle>
+			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+	</ConnexionList>
+	
+	<hull>
+		<point>
+			<x>7</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>263</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>263</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>168</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>162</x>
+			<y>325</y>
+		</point>
+		<point>
+			<x>156</x>
+			<y>325</y>
+		</point>
+		<point>
+			<x>150</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>142</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>142</x>
+			<y>266</y>
+		</point>
+		<point>
+			<x>134</x>
+			<y>266</y>
+		</point>
+		<point>
+			<x>134</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>54</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>54</x>
+			<y>266</y>
+		</point>
+		<point>
+			<x>46</x>
+			<y>266</y>
+		</point>
+		<point>
+			<x>46</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>38</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>33</x>
+			<y>325</y>
+		</point>
+		<point>
+			<x>26</x>
+			<y>325</y>
+		</point>
+		<point>
+			<x>20</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>6</x>
+			<y>258</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>214</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>202</y>
+		</point>
+	</hull>
+	
+	<!-- Track Designer remaping data -->
+	<TrackDesigner>
+		<ID>114565</ID> <!-- ID of this part in Track Designer -->
+		<Flag>0</Flag> <!-- 0=no flag, 1=piece is an attachment, 2=piece is used to support elevation, 3=piece is an attachment and is used to support elevation -->
+		<HasSeveralGeometries>false</HasSeveralGeometries>
+		<TDBitmapList>
+			<TDBitmap>
+				<BBConnexionPointIndex>0</BBConnexionPointIndex>
+				<Type>20</Type> <!-- The type list is too long, please refer to the help file -->
+				<AngleBetweenTDandBB>0</AngleBetweenTDandBB>
+			</TDBitmap>
+		</TDBitmapList>
+	</TrackDesigner>
+</part>

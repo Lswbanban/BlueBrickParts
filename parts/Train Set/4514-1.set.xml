@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>typo</Author>
+	<Description>
+		<en>Cargo Crane</en>
+		<fr>Grue Cargo</fr>
+	</Description>
+	<OldNameList>
+		<OldName>4514.SET</OldName>
+	</OldNameList>
+	<SortingKey>Crane</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/4514-1.1174537577.thumb2.jpg</ImageURL>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>4.50</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>
