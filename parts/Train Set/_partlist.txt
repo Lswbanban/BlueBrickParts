@@ -46,6 +46,8 @@
 6399.set2.xml
 6399.set3.gif
 6399.set3.xml
+6399-1.train.gif
+6399-1.train.xml
 7735.set5.gif
 7735.set5.xml
 7740.set4.gif

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Train Cars</en>
+		<fr>Wagons</fr>
+	</Description>
+	<SortingKey>0V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/2126-1.1173564686.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="2126-1.DUMPER">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2126-1.CARS">
+			<position>
+				<x>24</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2126-1.BARREL">
+			<position>
+				<x>47.75</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2126-1.TREES">
+			<position>
+				<x>71.5</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

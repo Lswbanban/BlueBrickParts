@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Jerome Boulanger</Author>
+	<Description>
+		<en>Electric Goods Train</en>
+		<fr>Train de marchandise électrique</fr>
+	</Description>
+	<SortingKey>12V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7730-1.1123467205.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="7730-1.LOCO">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="7730-1.FLAT">
+			<position>
+				<x>19.875</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="7730-1.FRET">
+			<position>
+				<x>38.75</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="7730-1.TANK">
+			<position>
+				<x>58</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

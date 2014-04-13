@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Metroliner</en>
+		<fr>Metroliner</fr>
+	</Description>
+	<SortingKey>9V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/4558-1.1174537294.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="4558-1.LOCO">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>-180</angle>
+		</SubPart>
+		<SubPart id="4558-1.WAGON">
+			<position>
+				<x>31.625</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="4558-1.LOCO">
+			<position>
+				<x>63.25</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>
