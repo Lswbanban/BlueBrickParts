@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Electric Passenger Train</en>
+		<fr>Train passager électrique</fr>
+	</Description>
+	<OldNameList>
+		<OldName>7725.SET</OldName>
+	</OldNameList>
+	<SortingKey>12V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7725-1.1118156523.thumb2.jpg</ImageURL>
+</part>

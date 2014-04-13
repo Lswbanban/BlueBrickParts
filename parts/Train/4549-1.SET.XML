@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Road 'N Rail Hauler</en>
+		<fr>Transport Rail-Route</fr>
+	</Description>
+	<OldNameList>
+		<OldName>4549.SET</OldName>
+	</OldNameList>
+	<SortingKey>0V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/4549-1.1174537264.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="4549-1.WAGON">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

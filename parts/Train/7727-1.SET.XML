@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Jerome Boulanger</Author>
+	<Description>
+		<en>Electric Freight Train</en>
+		<fr>Train de Fret électrique</fr>
+	</Description>
+	<SortingKey>12V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7727-1.1122607797.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="7727-1.LOCO">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="7727-1.FLAT1">
+			<position>
+				<x>20.125</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="7727-1.FLAT2">
+			<position>
+				<x>39.375</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="7727-1.FRET">
+			<position>
+				<x>58.25</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

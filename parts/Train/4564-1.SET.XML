@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Freight Rail Runner</en>
+		<fr>Transport de Fret</fr>
+	</Description>
+	<SortingKey>9V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/4564-1.1174537290.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="4564-1.LOCO">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="4564-1.FLAT">
+			<position>
+				<x>23.5</x>
+				<y>0.4000015</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="4564-1.FRET">
+			<position>
+				<x>43.125</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="4564-1.DUMPER">
+			<position>
+				<x>62.75</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>
