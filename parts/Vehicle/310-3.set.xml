@@ -9,5 +9,6 @@
 	</Description>
 	<OldNameList>
 	    <OldName>310.SET</OldName>
-	</OldNameList> 
+	</OldNameList>
+	<SortingKey>Boat</SortingKey>
 </part>

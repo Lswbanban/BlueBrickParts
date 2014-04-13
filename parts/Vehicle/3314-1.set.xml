@@ -10,7 +10,7 @@
   <OldNameList>
     <OldName>3314.SET</OldName>
   </OldNameList>
-
+  <SortingKey>Car</SortingKey>
   <!-- list of parts contained in this group -->
   <SubPartList>
     <SubPart id="3314-1.BUS">
