@@ -5,6 +5,7 @@
 		<en>Off-Road Fire Truck &amp; Fireboat</en>
 		<fr>Camion de pompier tout terrain &amp; bateau de pompier</fr>
 	</Description>
+	<SortingKey>Car</SortingKey>
 	<ImageURL>http://www.bricklink.com/OL/7213-1.jpg</ImageURL>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>

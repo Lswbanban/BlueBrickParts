@@ -5,6 +5,7 @@
 		<en>Heavy-Lift Helicopter</en>
 		<fr>Helicopter pour lourde charge</fr>
 	</Description>
+	<SortingKey>Plane</SortingKey>
 	<ImageURL>http://www.bricklink.com/OL/4439-1.jpg</ImageURL>
 	<hull>
 	    <point>
