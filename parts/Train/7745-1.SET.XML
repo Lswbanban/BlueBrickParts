@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Jerome Boulanger</Author>
+	<Description>
+		<en>12V High Speed Train</en>
+		<fr>Train à grande vitesse 12V</fr>
+	</Description>
+	<SortingKey>12V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7745-1.1174537262.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="7745-1.FRONTLOCO">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="7745-1.WAGON">
+			<position>
+				<x>32.125</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="7745-1.BACKLOCO">
+			<position>
+				<x>63.875</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

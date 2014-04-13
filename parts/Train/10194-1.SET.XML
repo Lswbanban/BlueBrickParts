@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>L@go</Author>
+	<Description>
+		<en>Emerald Night</en>
+		<fr>Emerald Night</fr>
+	</Description>
+	<SortingKey>0V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10170-1.1126142647.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="10194-1.LOCO">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="10194-1.WAGON">
+			<position>
+				<x>43.5</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>

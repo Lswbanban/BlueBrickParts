@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Jerome Boulanger</Author>
+	<Description>
+		<en>12V Electric Steam Locomotive</en>
+		<fr>Loco à vapeur électrique 12V</fr>
+	</Description>
+	<SortingKey>12V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7750-1.1122607817.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="7750-1.TENDER">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="7750-1.LOCO">
+			<position>
+				<x>-20.125</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>
