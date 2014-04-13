@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Electric Inter-city train set, 12 V - Platform</en>
+		<fr>Train inter-aglomération 12V - Plateforme</fr>
+	</Description>
+	<OldNameList>
+		<OldName>7740.SET4</OldName>
+	</OldNameList>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/7740-1.1119047171.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0.25</top>
+		<bottom>1</bottom>
+	</SnapMargin>
+</part>

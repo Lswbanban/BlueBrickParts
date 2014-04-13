@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alexander McKenna	</Author>
+	<Description>
+		<en>Train Station</en>
+		<fr>Gare férovière</fr>
+	</Description>
+	<OldNameList>
+		<OldName>4556.SET</OldName>
+	</OldNameList>
+	<SortingKey>Station</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/4556-1.1175139692.thumb2.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>1</left>
+		<right>1</right>
+		<top>9</top>
+		<bottom>1</bottom>
+	</SnapMargin>
+</part>

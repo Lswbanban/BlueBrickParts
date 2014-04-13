@@ -9,31 +9,38 @@
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/7735-1.1173564702.thumb2.jpg</ImageURL>
 	<CanUngroup>true</CanUngroup>
 	<SubPartList>
-		<SubPart id="7735-1.LOCO">
+		<SubPart id="7735-1.PLATFORM">
 			<position>
 				<x>0</x>
 				<y>0</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>
+		<SubPart id="7735-1.LOCO">
+			<position>
+				<x>-36.875</x>
+				<y>6.5</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
 		<SubPart id="7735-1.TANK">
 			<position>
-				<x>20.625</x>
-				<y>0</y>
+				<x>-16.25</x>
+				<y>6.5</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>
 		<SubPart id="7735-1.BIKECARRIER">
 			<position>
-				<x>40.125</x>
-				<y>0</y>
+				<x>3.25</x>
+				<y>6.5</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>
 		<SubPart id="7735-1.FRET">
 			<position>
-				<x>59.625</x>
-				<y>0</y>
+				<x>22.75</x>
+				<y>6.5</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>

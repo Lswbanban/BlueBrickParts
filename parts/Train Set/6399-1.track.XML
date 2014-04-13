@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>FreeBee (Roland Bal) &amp; Alexander McKenna</Author>
+	<Description>
+		<en>Monorail Bridge Set - Track</en>
+		<fr>Boite pont monorail - Circuit</fr>
+	</Description>
+	<NotListedInLibrary>true</NotListedInLibrary>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/6399-1.1167875109.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="2681.0">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2681.0">
+			<position>
+				<x>-20</x>
+				<y>8</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2681.0">
+			<position>
+				<x>-28</x>
+				<y>28</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2681.0">
+			<position>
+				<x>-28</x>
+				<y>44.5</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2681.0">
+			<position>
+				<x>-20</x>
+				<y>64</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2681.0">
+			<position>
+				<x>0</x>
+				<y>72</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2681.0">
+			<position>
+				<x>109.5</x>
+				<y>25.5</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2681.0">
+			<position>
+				<x>88</x>
+				<y>16</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2681.0">
+			<position>
+				<x>116</x>
+				<y>44</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2681.0">
+			<position>
+				<x>110.5</x>
+				<y>61</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2680.0">
+			<position>
+				<x>32</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2680.0">
+			<position>
+				<x>48</x>
+				<y>16</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="6399-1.LOWSTATION">
+			<position>
+				<x>76</x>
+				<y>-13.5</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="2677.7">
+			<position>
+				<x>48</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="2678.7">
+			<position>
+				<x>16</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="2672.7">
+			<position>
+				<x>-15</x>
+				<y>13</y>
+			</position>
+			<angle>270</angle>
+		</SubPart>
+		<SubPart id="2670.7">
+			<position>
+				<x>-28</x>
+				<y>32</y>
+			</position>
+			<angle>90</angle>
+		</SubPart>
+		<SubPart id="2670.7">
+			<position>
+				<x>-28</x>
+				<y>40</y>
+			</position>
+			<angle>90</angle>
+		</SubPart>
+		<SubPart id="2672.7">
+			<position>
+				<x>-15</x>
+				<y>59</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="6399-1.PILLAR">
+			<position>
+				<x>84</x>
+				<y>72</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2671.7">
+			<position>
+				<x>96</x>
+				<y>72</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2672.7">
+			<position>
+				<x>127</x>
+				<y>59</y>
+			</position>
+			<angle>90</angle>
+		</SubPart>
+		<SubPart id="2670.7">
+			<position>
+				<x>140</x>
+				<y>40</y>
+			</position>
+			<angle>270</angle>
+		</SubPart>
+		<SubPart id="2670.7">
+			<position>
+				<x>140</x>
+				<y>32</y>
+			</position>
+			<angle>270</angle>
+		</SubPart>
+		<SubPart id="2672.7">
+			<position>
+				<x>127</x>
+				<y>13</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2671.7">
+			<position>
+				<x>96</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="6399-1.HIGHSTATION">
+			<position>
+				<x>36</x>
+				<y>87.5</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2672.7">
+			<position>
+				<x>103</x>
+				<y>59</y>
+			</position>
+			<angle>90</angle>
+		</SubPart>
+		<SubPart id="2670.7">
+			<position>
+				<x>84</x>
+				<y>72</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="2672.7">
+			<position>
+				<x>103</x>
+				<y>29</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2678.7">
+			<position>
+				<x>72</x>
+				<y>16</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2677.7">
+			<position>
+				<x>40</x>
+				<y>16</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2672.7">
+			<position>
+				<x>9</x>
+				<y>29</y>
+			</position>
+			<angle>270</angle>
+		</SubPart>
+		<SubPart id="2672.7">
+			<position>
+				<x>9</x>
+				<y>59</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="2671.7">
+			<position>
+				<x>64</x>
+				<y>72</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2671.7">
+			<position>
+				<x>40</x>
+				<y>72</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2670.7">
+			<position>
+				<x>60</x>
+				<y>72</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2670.7">
+			<position>
+				<x>68</x>
+				<y>72</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2670.7">
+			<position>
+				<x>76</x>
+				<y>72</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2671.7">
+			<position>
+				<x>16</x>
+				<y>72</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>
