@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alexander McKenna</Author>
+	<Description>
+		<en>Santa Fe Cars Set I - Option 1</en>
+		<fr>Voiture Santa Fe Boite I - Option 1</fr>
+	</Description>
+	<OldNameList>
+		<OldName>10025.SET1</OldName>
+	</OldNameList>
+	<SortingKey>0V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10025-1.1123424121.thumb2.jpg</ImageURL>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<connexion>
+			<type>magnet</type>
+			<position>
+				<x>-17.5</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>magnet</type>
+			<position>
+				<x>17.5</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+	</ConnexionList>
+</part>

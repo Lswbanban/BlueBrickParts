@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Eurobricks user Stu83</Author>
+	<Description>
+		<en>Maersk Container Train</en>
+		<fr>Train conteneur Maersk</fr>
+	</Description>
+	<SortingKey>0V</SortingKey>
+	<ImageURL>http://media.peeron.com/pics/inv/setpics/10219-1.1302755040.thumb2.jpg</ImageURL>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="10219-1.LOCO">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="10219-1.TWOCONTAINERS">
+			<position>
+				<x>38.375</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="10219-1.ONECONTAINER">
+			<position>
+				<x>74.375</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+</group>
