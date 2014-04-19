@@ -213,6 +213,10 @@
 				<param name="Local" value="Part_XML_Description_Description.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Image URL">
+				<param name="Local" value="Part_XML_Description_Image.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Specify the Sorting Order">
 				<param name="Local" value="Part_XML_Description_SortingKey.htm">
 				</OBJECT>
