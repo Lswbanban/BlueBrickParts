@@ -9,17 +9,17 @@
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/6399-1.1167875109.thumb2.jpg</ImageURL>
 	<CanUngroup>true</CanUngroup>
 	<SubPartList>
-		<SubPart id="6399-1.TRAIN">
-			<position>
-				<x>0</x>
-				<y>0</y>
-			</position>
-			<angle>0</angle>
-		</SubPart>
 		<SubPart id="6399-1.TRACK">
 			<position>
 				<x>-4.5</x>
 				<y>-33.5</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="6399-1.TRAIN">
+			<position>
+				<x>0</x>
+				<y>0</y>
 			</position>
 			<angle>0</angle>
 		</SubPart>

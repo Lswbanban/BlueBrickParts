@@ -12,15 +12,15 @@
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/4565-1.1174536164.thumb2.jpg</ImageURL>
 	<CanUngroup>true</CanUngroup>
 	<SnapMargin>
-		<left>49</left>
-		<right>43</right>
+		<left>50</left>
+		<right>41.5</right>
 		<top>0</top>
 		<bottom>12</bottom>
 	</SnapMargin>	
 	<SubPartList>
 		<SubPart id="4565-1.TRAIN">
 			<position>
-				<x>-48</x>
+				<x>-4</x>
 				<y>20</y>
 			</position>
 			<angle>0</angle>
