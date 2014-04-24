@@ -31,6 +31,24 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="The Part Library">
+		<param name="Local" value="Part_Library.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Organization">
+			<param name="Local" value="Part_Library_Organization.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Part Filtering">
+			<param name="Local" value="Part_Library_How_to_Filter.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Save a Group in the Library">
+			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Navigation">
 		<param name="Local" value="Navigation.htm">
 		</OBJECT>
