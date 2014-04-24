@@ -85,9 +85,14 @@
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="circuit">
+		<param name="Name" value="Electric Circuits">
+		<param name="Local" value="Electric_Circuits.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="color">
 		<param name="Name" value="Opciones de apariencia">
-		<param name="Local" value="Appearance_Options.htm">
+		<param name="Local" value="Appearance_Preferences.htm">
 		<param name="Name" value="Otras opciones">
 		<param name="Local" value="Other_Options.htm">
 		</OBJECT>
@@ -105,7 +110,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="cuadr&iacute;cula">
 			<param name="Name" value="Opciones de apariencia">
-			<param name="Local" value="Appearance_Options.htm">
+			<param name="Local" value="Appearance_Preferences.htm">
 			<param name="Name" value="Otras opciones">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
@@ -120,7 +125,7 @@
 		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
 		<param name="Name" value="Opciones de apariencia">
-		<param name="Local" value="Appearance_Options.htm">
+		<param name="Local" value="Appearance_Preferences.htm">
 		<param name="Name" value="Archivo de configuraci&oacute;n del tipo de conexi&oacute;n">
 		<param name="Local" value="Connection_Type_Config_File.htm">
 		<param name="Name" value="Listar las conexiones del grupo">
@@ -180,6 +185,11 @@
 		<param name="Local" value="Adding_and_Deleting_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="electric">
+		<param name="Name" value="Electric Circuits">
+		<param name="Local" value="Electric_Circuits.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="exportar">
 		<param name="Name" value="Exportaci&oacute;n, informes e impresi&oacute;n">
 		<param name="Local" value="Export_Report_and_Printing.htm">
@@ -222,6 +232,21 @@
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="find">
+		<param name="Name" value="Searching and Replacing Parts">
+		<param name="Local" value="Search_Replace_Parts.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="flex">
+		<param name="Name" value="Using Flex Track">
+		<param name="Local" value="Using_Flex_Track.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="flexible">
+		<param name="Name" value="Using Flex Track">
+		<param name="Local" value="Using_Flex_Track.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="carpeta">
 		<param name="Name" value="Carpetas de la biblioteca de piezas">
 		<param name="Local" value="Part_Library_Folders.htm">
@@ -229,7 +254,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Tipo de letra">
 		<param name="Name" value="Opciones de apariencia">
-		<param name="Local" value="Appearance_Options.htm">
+		<param name="Local" value="Appearance_Preferences.htm">
 		<param name="Name" value="Otras opciones">
 		<param name="Local" value="Other_Options.htm">
 		</OBJECT>
@@ -261,6 +286,8 @@
 		<param name="Name" value="grupo">
 		<param name="Name" value="Descripci&oacute;n XML de grupos">
 		<param name="Local" value="Group_XML_Description.htm">
+		<param name="Name" value="Grouping Parts">
+		<param name="Local" value="Grouping_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="html">
@@ -392,6 +419,11 @@
 			<param name="Local" value="How_to_extend_the_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="organize">
+			<param name="Name" value="Part Library Preferences">
+			<param name="Local" value="Part_Library_Preferences.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="recargar">
 			<param name="Name" value="Recargar la biblioteca de piezas">
 			<param name="Local" value="Reload_the_Part_Library.htm">
@@ -407,7 +439,7 @@
 		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
 		<param name="Name" value="Opciones de apariencia">
-		<param name="Local" value="Appearance_Options.htm">
+		<param name="Local" value="Appearance_Preferences.htm">
 		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
@@ -436,7 +468,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="rat&oacute;n">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Options.htm">
+		<param name="Local" value="General_Preferences.htm">
 		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Zooming_and_Viewing.htm">
 		</OBJECT>
@@ -498,11 +530,11 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="opci&oacute;n">
 		<param name="Name" value="Opciones globales">
-		<param name="Local" value="Global_Options.htm">
+		<param name="Local" value="BlueBrick_Preferences.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Options.htm">
+		<param name="Local" value="General_Preferences.htm">
 		<param name="Name" value="Opciones de apariencia">
-		<param name="Local" value="Appearance_Options.htm">
+		<param name="Local" value="Appearance_Preferences.htm">
 		<param name="Name" value="Atajos de teclado">
 		<param name="Local" value="Shortcut_Keys.htm">
 		</OBJECT>
@@ -510,7 +542,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="aspecto">
 			<param name="Name" value="Opciones de apariencia">
-			<param name="Local" value="Appearance_Options.htm">
+			<param name="Local" value="Appearance_Preferences.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="por defecto">
@@ -520,19 +552,24 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="general">
 			<param name="Name" value="Opciones generales">
-			<param name="Local" value="General_Options.htm">
+			<param name="Local" value="General_Preferences.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Idioma">
 			<param name="Name" value="Elegir un idioma">
 			<param name="Local" value="Choosing_a_language.htm">
 			<param name="Name" value="Opciones generales">
-			<param name="Local" value="General_Options.htm">
+			<param name="Local" value="General_Preferences.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="capa">
 			<param name="Name" value="Otras opciones">
 			<param name="Local" value="Other_Options.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="library">
+			<param name="Name" value="Part Library Preferences">
+			<param name="Local" value="Part_Library_Preferences.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="atajo">
@@ -567,6 +604,11 @@
 			<param name="Local" value="Part_XML_Description_OldName.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="connect">
+			<param name="Name" value="Moving Parts">
+			<param name="Local" value="Moving_Parts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="coordenadas">
 			<param name="Name" value="Descripci&oacute;n XML de las piezas">
 			<param name="Local" value="Part_XML_Description.htm">
@@ -577,6 +619,13 @@
 			<param name="Local" value="Exporting_the_Parts_List.htm">
 			<param name="Name" value="Descripci&oacute;n XML de las piezas">
 			<param name="Local" value="Part_XML_Description.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="group">
+			<param name="Name" value="Grouping Parts">
+			<param name="Local" value="Grouping_Parts.htm">
+			<param name="Name" value="Group XML Description">
+			<param name="Local" value="Group_XML_Description.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="per&iacute;metro">
@@ -601,15 +650,27 @@
 			<param name="Local" value="Exporting_the_Parts_List.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="move">
+			<param name="Name" value="Moving Parts">
+			<param name="Local" value="Moving_Parts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="renombrar">
 			<param name="Name" value="Seguir la pista del nombre anterior de luna pieza">
 			<param name="Local" value="Part_XML_Description_OldName.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="rotate">
+			<param name="Name" value="Moving Parts">
+			<param name="Local" value="Moving_Parts.htm">
+			<param name="Name" value="Using Flex Track">
+			<param name="Local" value="Using_Flex_Track.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="rendimiento">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Options.htm">
+		<param name="Local" value="General_Preferences.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="png">
@@ -617,16 +678,50 @@
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="preferences">
+		<param name="Name" value="BlueBrick Preferences">
+		<param name="Local" value="BlueBrick_Preferences.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="appearance">
+			<param name="Name" value="Appearance Preferences">
+			<param name="Local" value="Appearance_Preferences.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="general">
+			<param name="Name" value="General Preferences">
+			<param name="Local" value="General_Preferences.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="language">
+			<param name="Name" value="Choosing a language">
+			<param name="Local" value="Choosing_a_language.htm">
+			<param name="Name" value="General Preferences">
+			<param name="Local" value="General_Preferences.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="library">
+			<param name="Name" value="Part Library Preferences">
+			<param name="Local" value="Part_Library_Preferences.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="shortcut">
+			<param name="Name" value="Shortcut Keys">
+			<param name="Local" value="Shortcut_Keys.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="reciente">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Options.htm">
+		<param name="Local" value="General_Preferences.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="rehacer">
 		<param name="Name" value="Deshacer y rehacer">
 		<param name="Local" value="Undo_and_Redo.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Options.htm">
+		<param name="Local" value="General_Preferences.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="recargar">
@@ -639,9 +734,21 @@
 		<param name="Local" value="Part_XML_Description_OldName.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="replace">
+		<param name="Name" value="Searching and Replacing Parts">
+		<param name="Local" value="Search_Replace_Parts.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="girar">
 		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Moving_Parts.htm">
+		<param name="Name" value="Using Flex Track">
+		<param name="Local" value="Using_Flex_Track.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="search">
+		<param name="Name" value="Searching and Replacing Parts">
+		<param name="Local" value="Search_Replace_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="guardar">
@@ -677,17 +784,21 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="esquema">
 		<param name="Name" value="Opciones de apariencia">
-		<param name="Local" value="Appearance_Options.htm">
+		<param name="Local" value="Appearance_Preferences.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="seleccionar">
 		<param name="Name" value="Seleccionar piezas">
 		<param name="Local" value="Selecting_Parts.htm">
+		<param name="Name" value="Searching and Replacing Parts">
+		<param name="Local" value="Search_Replace_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="atajo">
 		<param name="Name" value="Atajos de teclado">
 		<param name="Local" value="Shortcut_Keys.htm">
+		<param name="Name" value="Electric Circuits">
+		<param name="Local" value="Electric_Circuits.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ajustar">
@@ -703,7 +814,7 @@
 		<param name="Name" value="Carpetas de la biblioteca de piezas">
 		<param name="Local" value="Part_Library_Folders.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Options.htm">
+		<param name="Local" value="General_Preferences.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="tdl">
@@ -728,7 +839,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="tipo de letra">
 			<param name="Name" value="Opciones de apariencia">
-			<param name="Local" value="Appearance_Options.htm">
+			<param name="Local" value="Appearance_Preferences.htm">
 			<param name="Name" value="Otras opciones">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
@@ -746,7 +857,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="tema">
 		<param name="Name" value="Opciones de apariencia">
-		<param name="Local" value="Appearance_Options.htm">
+		<param name="Local" value="Appearance_Preferences.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="barra de herramientas">
@@ -772,7 +883,7 @@
 		<param name="Name" value="Deshacer y rehacer">
 		<param name="Local" value="Undo_and_Redo.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Options.htm">
+		<param name="Local" value="General_Preferences.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="url">
@@ -815,7 +926,7 @@
 		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Zooming_and_Viewing.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Options.htm">
+		<param name="Local" value="General_Preferences.htm">
 		</OBJECT>
 </UL>
 </BODY></HTML>
