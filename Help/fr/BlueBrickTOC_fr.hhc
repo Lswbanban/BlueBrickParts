@@ -135,7 +135,7 @@
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Pr&eacute;f&eacute;rences g&eacute;n&eacute;rales">
-			<param name="Local" value="General_Preferences.htm">
+			<param name="Local" value="Preferences_General.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Pr&eacute;f&eacute;rences d'apparence">
