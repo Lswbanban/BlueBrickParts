@@ -139,7 +139,7 @@
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Aussehen (Erscheinungsbild) einstellen">
-			<param name="Local" value="Appearance_Preferences.htm">
+			<param name="Local" value="Preferences_Appearance.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Part Library Preferences">

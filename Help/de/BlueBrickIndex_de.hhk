@@ -92,7 +92,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="color">
 		<param name="Name" value="Appearance Preferences">
-		<param name="Local" value="Appearance_Preferences.htm">
+		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Other Options">
 		<param name="Local" value="Other_Options.htm">
 		</OBJECT>
@@ -110,7 +110,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="grid">
 			<param name="Name" value="Appearance Preferences">
-			<param name="Local" value="Appearance_Preferences.htm">
+			<param name="Local" value="Preferences_Appearance.htm">
 			<param name="Name" value="Other Options">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
@@ -125,7 +125,7 @@
 		<param name="Name" value="Moving Parts">
 		<param name="Local" value="Moving_Parts.htm">
 		<param name="Name" value="Appearance Preferences">
-		<param name="Local" value="Appearance_Preferences.htm">
+		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Connection Type Configuration File">
 		<param name="Local" value="Connection_Type_Config_File.htm">
 		<param name="Name" value="List the interface connections of the group">
@@ -254,7 +254,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="font">
 		<param name="Name" value="Appearance Preferences">
-		<param name="Local" value="Appearance_Preferences.htm">
+		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Other Options">
 		<param name="Local" value="Other_Options.htm">
 		</OBJECT>
@@ -439,7 +439,7 @@
 		<param name="Name" value="Moving Parts">
 		<param name="Local" value="Moving_Parts.htm">
 		<param name="Name" value="Appearance Preferences">
-		<param name="Local" value="Appearance_Preferences.htm">
+		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Part XML Description">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
@@ -534,7 +534,7 @@
 		<param name="Name" value="General Preferences">
 		<param name="Local" value="Preferences_General.htm">
 		<param name="Name" value="Appearance Preferences">
-		<param name="Local" value="Appearance_Preferences.htm">
+		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Shortcut Keys">
 		<param name="Local" value="Shortcut_Keys.htm">
 		</OBJECT>
@@ -542,7 +542,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="appearance">
 			<param name="Name" value="Appearance Preferences">
-			<param name="Local" value="Appearance_Preferences.htm">
+			<param name="Local" value="Preferences_Appearance.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="default">
@@ -686,7 +686,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="appearance">
 			<param name="Name" value="Appearance Preferences">
-			<param name="Local" value="Appearance_Preferences.htm">
+			<param name="Local" value="Preferences_Appearance.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="general">
@@ -784,7 +784,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="scheme">
 		<param name="Name" value="Appearance Preferences">
-		<param name="Local" value="Appearance_Preferences.htm">
+		<param name="Local" value="Preferences_Appearance.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="select">
@@ -839,7 +839,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="font">
 			<param name="Name" value="Appearance Preferences">
-			<param name="Local" value="Appearance_Preferences.htm">
+			<param name="Local" value="Preferences_Appearance.htm">
 			<param name="Name" value="Other Options">
 			<param name="Local" value="Other_Options.htm">
 			</OBJECT>
@@ -857,7 +857,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="theme">
 		<param name="Name" value="Appearance Preferences">
-		<param name="Local" value="Appearance_Preferences.htm">
+		<param name="Local" value="Preferences_Appearance.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="toolbar">
