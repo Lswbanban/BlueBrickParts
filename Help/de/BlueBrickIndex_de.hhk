@@ -421,7 +421,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="organize">
 			<param name="Name" value="Part Library Preferences">
-			<param name="Local" value="Part_Library_Preferences.htm">
+			<param name="Local" value="Preferences_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="reload">
@@ -569,7 +569,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="library">
 			<param name="Name" value="Part Library Preferences">
-			<param name="Local" value="Part_Library_Preferences.htm">
+			<param name="Local" value="Preferences_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="shortcut">
@@ -703,7 +703,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="library">
 			<param name="Name" value="Part Library Preferences">
-			<param name="Local" value="Part_Library_Preferences.htm">
+			<param name="Local" value="Preferences_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="shortcut">

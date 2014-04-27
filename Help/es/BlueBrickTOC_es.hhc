@@ -143,7 +143,7 @@
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Opciones de la biblioteca de piezas">
-			<param name="Local" value="Part_Library_Preferences.htm">
+			<param name="Local" value="Preferences_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Atajos de teclado">
