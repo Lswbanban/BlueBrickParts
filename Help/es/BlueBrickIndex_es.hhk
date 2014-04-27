@@ -468,7 +468,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="rat&oacute;n">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Preferences.htm">
+		<param name="Local" value="Preferences_General.htm">
 		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Zooming_and_Viewing.htm">
 		</OBJECT>
@@ -532,7 +532,7 @@
 		<param name="Name" value="Opciones globales">
 		<param name="Local" value="BlueBrick_Preferences.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Preferences.htm">
+		<param name="Local" value="Preferences_General.htm">
 		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Appearance_Preferences.htm">
 		<param name="Name" value="Atajos de teclado">
@@ -552,14 +552,14 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="general">
 			<param name="Name" value="Opciones generales">
-			<param name="Local" value="General_Preferences.htm">
+			<param name="Local" value="Preferences_General.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Idioma">
 			<param name="Name" value="Elegir un idioma">
 			<param name="Local" value="Choosing_a_language.htm">
 			<param name="Name" value="Opciones generales">
-			<param name="Local" value="General_Preferences.htm">
+			<param name="Local" value="Preferences_General.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="capa">
@@ -670,7 +670,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="rendimiento">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Preferences.htm">
+		<param name="Local" value="Preferences_General.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="png">
@@ -691,14 +691,14 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="general">
 			<param name="Name" value="General Preferences">
-			<param name="Local" value="General_Preferences.htm">
+			<param name="Local" value="Preferences_General.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="language">
 			<param name="Name" value="Choosing a language">
 			<param name="Local" value="Choosing_a_language.htm">
 			<param name="Name" value="General Preferences">
-			<param name="Local" value="General_Preferences.htm">
+			<param name="Local" value="Preferences_General.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="library">
@@ -714,14 +714,14 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="reciente">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Preferences.htm">
+		<param name="Local" value="Preferences_General.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="rehacer">
 		<param name="Name" value="Deshacer y rehacer">
 		<param name="Local" value="Undo_and_Redo.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Preferences.htm">
+		<param name="Local" value="Preferences_General.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="recargar">
@@ -814,7 +814,7 @@
 		<param name="Name" value="Carpetas de la biblioteca de piezas">
 		<param name="Local" value="Part_Library_Folders.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Preferences.htm">
+		<param name="Local" value="Preferences_General.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="tdl">
@@ -883,7 +883,7 @@
 		<param name="Name" value="Deshacer y rehacer">
 		<param name="Local" value="Undo_and_Redo.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Preferences.htm">
+		<param name="Local" value="Preferences_General.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="url">
@@ -926,7 +926,7 @@
 		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Zooming_and_Viewing.htm">
 		<param name="Name" value="Opciones generales">
-		<param name="Local" value="General_Preferences.htm">
+		<param name="Local" value="Preferences_General.htm">
 		</OBJECT>
 </UL>
 </BODY></HTML>

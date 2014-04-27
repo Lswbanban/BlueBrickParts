@@ -135,7 +135,7 @@
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Allgemeine Einstellungen">
-			<param name="Local" value="General_Preferences.htm">
+			<param name="Local" value="Preferences_General.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Aussehen (Erscheinungsbild) einstellen">
