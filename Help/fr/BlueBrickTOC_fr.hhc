@@ -147,7 +147,7 @@
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Raccourcis clavier">
-			<param name="Local" value="Shortcut_Keys.htm">
+			<param name="Local" value="Preferences_Shortcut_Keys.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Autres Options">
