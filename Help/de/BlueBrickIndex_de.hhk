@@ -58,7 +58,7 @@
 		<param name="Name" value="Moving Parts">
 		<param name="Local" value="Moving_Parts.htm">
 		<param name="Name" value="Other Options">
-		<param name="Local" value="Other_Options.htm">
+		<param name="Local" value="Preferences_Other_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="bill">
@@ -94,7 +94,7 @@
 		<param name="Name" value="Appearance Preferences">
 		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Other Options">
-		<param name="Local" value="Other_Options.htm">
+		<param name="Local" value="Preferences_Other_Options.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -105,14 +105,14 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="background">
 			<param name="Name" value="Other Options">
-			<param name="Local" value="Other_Options.htm">
+			<param name="Local" value="Preferences_Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="grid">
 			<param name="Name" value="Appearance Preferences">
 			<param name="Local" value="Preferences_Appearance.htm">
 			<param name="Name" value="Other Options">
-			<param name="Local" value="Other_Options.htm">
+			<param name="Local" value="Preferences_Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="id">
@@ -256,7 +256,7 @@
 		<param name="Name" value="Appearance Preferences">
 		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Other Options">
-		<param name="Local" value="Other_Options.htm">
+		<param name="Local" value="Preferences_Other_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="format">
@@ -280,7 +280,7 @@
 		<param name="Name" value="The Five Different Type of Layers">
 		<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 		<param name="Name" value="Other Options">
-		<param name="Local" value="Other_Options.htm">
+		<param name="Local" value="Preferences_Other_Options.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="group">
@@ -492,7 +492,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="grid">
 			<param name="Name" value="Other Options">
-			<param name="Local" value="Other_Options.htm">
+			<param name="Local" value="Preferences_Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="parts">
@@ -564,7 +564,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="layer">
 			<param name="Name" value="Other Options">
-			<param name="Local" value="Other_Options.htm">
+			<param name="Local" value="Preferences_Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="library">
@@ -841,7 +841,7 @@
 			<param name="Name" value="Appearance Preferences">
 			<param name="Local" value="Preferences_Appearance.htm">
 			<param name="Name" value="Other Options">
-			<param name="Local" value="Other_Options.htm">
+			<param name="Local" value="Preferences_Other_Options.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="move">
