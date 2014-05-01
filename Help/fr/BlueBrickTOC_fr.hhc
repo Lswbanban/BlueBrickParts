@@ -31,20 +31,20 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="The Part Library">
+		<param name="Name" value="La Librairie de pi&egrave;ces">
 		<param name="Local" value="Part_Library.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Organization">
+			<param name="Name" value="Organisation">
 			<param name="Local" value="Part_Library_Organization.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Part Filtering">
+			<param name="Name" value="Filtrage des pi&egrave;ces">
 			<param name="Local" value="Part_Library_How_to_Filter.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Save a Group in the Library">
+			<param name="Name" value="Sauvegarder un groupe dans la librairie">
 			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
 			</OBJECT>
 	</UL>
@@ -60,6 +60,20 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Selectionner des pi&egrave;ces">
 			<param name="Local" value="Navigation_Selecting_Parts.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Cr&eacute;er et utiliser des calques">
+		<param name="Local" value="Creating_Using_Layers.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="La barre d'outil des calques">
+			<param name="Local" value="Layer_Toolbar.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Les cinq types differents de calque">
+			<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -80,6 +94,14 @@
 			<param name="Local" value="Grouping_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Utiliser les r&egrave;gles">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Utiliser les textes">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Texts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Chercher et Remplacer des pi&egrave;ces">
 			<param name="Local" value="Search_Replace_Parts.htm">
 			</OBJECT>
@@ -98,20 +120,6 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Sauvegarder et ouvrir">
 			<param name="Local" value="Saving_and_Loading.htm">
-			</OBJECT>
-	</UL>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Cr&eacute;er et utiliser des calques">
-		<param name="Local" value="Creating_Using_Layers.htm">
-		</OBJECT>
-	<UL>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="La barre d'outil des calques">
-			<param name="Local" value="Layer_Toolbar.htm">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Les cinq types differents de calque">
-			<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -136,6 +144,10 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Pr&eacute;f&eacute;rences g&eacute;n&eacute;rales">
 			<param name="Local" value="Preferences_General.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Pr&eacute;f&eacute;rences d'&eacute;dition">
+			<param name="Local" value="Preferences_Edition.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Pr&eacute;f&eacute;rences d'apparence">
