@@ -55,11 +55,11 @@
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Zoomer et observer">
-			<param name="Local" value="Zooming_and_Viewing.htm">
+			<param name="Local" value="Navigation_Zooming_and_Viewing.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Selectionner des pi&egrave;ces">
-			<param name="Local" value="Selecting_Parts.htm">
+			<param name="Local" value="Navigation_Selecting_Parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
