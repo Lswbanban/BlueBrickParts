@@ -64,7 +64,7 @@
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Creating and Modifying Layouts">
-		<param name="Local" value="Creating_and_Modifying_Layouts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -93,7 +93,7 @@
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Undo and Redo">
-			<param name="Local" value="Undo_and_Redo.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Undo_and_Redo.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Saving and Loading">
@@ -102,7 +102,7 @@
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Creating and Using Layers">
-		<param name="Local" value="Creating_and_Using_Layers.htm">
+		<param name="Local" value="Creating_Using_Layers.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
