@@ -10,7 +10,7 @@
 		<param name="Name" value="A&ntilde;adir y borrar piezas">
 		<param name="Local" value="Adding_and_Deleting_Parts.htm">
 		<param name="Name" value="La barra de capas">
-		<param name="Local" value="Layer_Toolbar.htm">
+		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
 		</OBJECT>
@@ -18,7 +18,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="capa">
 			<param name="Name" value="La barra de capas">
-			<param name="Local" value="Layer_Toolbar.htm">
+			<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="pieza">
@@ -158,13 +158,13 @@
 		<param name="Name" value="A&ntilde;adir y borrar piezas">
 		<param name="Local" value="Adding_and_Deleting_Parts.htm">
 		<param name="Name" value="La barra de capas">
-		<param name="Local" value="Layer_Toolbar.htm">
+		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="capa">
 			<param name="Name" value="La barra de capas">
-			<param name="Local" value="Layer_Toolbar.htm">
+			<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="pieza">
@@ -370,7 +370,7 @@
 		<param name="Name" value="Crear y usar capas">
 		<param name="Local" value="Creating_Using_Layers.htm">
 		<param name="Name" value="La barra de capas">
-		<param name="Local" value="Layer_Toolbar.htm">
+		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		<param name="Name" value="Los cinco tipos de capas">
 		<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 		</OBJECT>
@@ -479,7 +479,7 @@
 		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Navigation_Zooming_and_Viewing.htm">
 		<param name="Name" value="La barra de capas">
-		<param name="Local" value="Layer_Toolbar.htm">
+		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		<param name="Name" value="Los cinco tipos de capas">
 		<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 		</OBJECT>
@@ -864,13 +864,13 @@
 		<param name="Name" value="Barras de herramientas">
 		<param name="Local" value="Toolbars.htm">
 		<param name="Name" value="La barra de capas">
-		<param name="Local" value="Layer_Toolbar.htm">
+		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="capa">
 			<param name="Name" value="La barra de capas">
-			<param name="Local" value="Layer_Toolbar.htm">
+			<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="principal">
