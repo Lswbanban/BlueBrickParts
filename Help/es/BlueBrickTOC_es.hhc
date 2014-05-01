@@ -63,6 +63,20 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Crear y usar capas">
+		<param name="Local" value="Creating_Using_Layers.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="La barra de capas">
+			<param name="Local" value="Layer_Toolbar.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Los cinco tipos de capas">
+			<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Creaci&oacute;n y modificaci&oacute;n de un trazado">
 		<param name="Local" value="Creating_Modifying_Layouts.htm">
 		</OBJECT>
@@ -78,6 +92,14 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Grouping Parts">
 			<param name="Local" value="Grouping_Parts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Using Rulers">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Using Texts">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Texts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Searching and Replacing Parts">
@@ -98,20 +120,6 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Guardar y cargar">
 			<param name="Local" value="Saving_and_Loading.htm">
-			</OBJECT>
-	</UL>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Crear y usar capas">
-		<param name="Local" value="Creating_Using_Layers.htm">
-		</OBJECT>
-	<UL>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="La barra de capas">
-			<param name="Local" value="Layer_Toolbar.htm">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Los cinco tipos de capas">
-			<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -136,6 +144,10 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Opciones generales">
 			<param name="Local" value="Preferences_General.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Edition Preferences">
+			<param name="Local" value="Preferences_Edition.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Opciones de apariencia">
