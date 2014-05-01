@@ -64,7 +64,7 @@
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Maken en wijzigen Modellen">
-		<param name="Local" value="Creating_and_Modifying_Layouts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -93,7 +93,7 @@
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Un-do en Re-do">
-			<param name="Local" value="Undo_and_Redo.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Undo_and_Redo.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Opslaan en openen">
@@ -102,7 +102,7 @@
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Aanmaken en gebruiken van Lagen">
-		<param name="Local" value="Creating_and_Using_Layers.htm">
+		<param name="Local" value="Creating_Using_Layers.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">

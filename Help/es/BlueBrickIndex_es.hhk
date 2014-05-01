@@ -368,7 +368,7 @@
 		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
 		<param name="Name" value="Crear y usar capas">
-		<param name="Local" value="Creating_and_Using_Layers.htm">
+		<param name="Local" value="Creating_Using_Layers.htm">
 		<param name="Name" value="La barra de capas">
 		<param name="Local" value="Layer_Toolbar.htm">
 		<param name="Name" value="Los cinco tipos de capas">
@@ -719,7 +719,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="rehacer">
 		<param name="Name" value="Deshacer y rehacer">
-		<param name="Local" value="Undo_and_Redo.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Undo_and_Redo.htm">
 		<param name="Name" value="Opciones generales">
 		<param name="Local" value="Preferences_General.htm">
 		</OBJECT>
@@ -881,7 +881,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="deshacer">
 		<param name="Name" value="Deshacer y rehacer">
-		<param name="Local" value="Undo_and_Redo.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Undo_and_Redo.htm">
 		<param name="Name" value="Opciones generales">
 		<param name="Local" value="Preferences_General.htm">
 		</OBJECT>
