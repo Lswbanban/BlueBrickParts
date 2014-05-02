@@ -34,7 +34,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="align">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="area">
@@ -56,7 +56,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="back">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Other Options">
 		<param name="Local" value="Preferences_Other_Options.htm">
 		</OBJECT>
@@ -80,7 +80,7 @@
 		<param name="Name" value="The Five Different Type of Layers">
 		<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Window Panes">
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
@@ -123,7 +123,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="connection">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Appearance Preferences">
 		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Connection Type Configuration File">
@@ -266,7 +266,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="front">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="gif">
@@ -437,7 +437,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="link">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Appearance Preferences">
 		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Part XML Description">
@@ -456,7 +456,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="magnet">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Part XML Description">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
@@ -475,7 +475,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="move">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Zooming and Viewing">
 		<param name="Local" value="Navigation_Zooming_and_Viewing.htm">
 		<param name="Name" value="The Layer Toolbar">
@@ -497,12 +497,12 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="parts">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="text">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="view">
@@ -580,7 +580,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="order">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="pan">
@@ -606,7 +606,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="connect">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="coordinates">
@@ -652,7 +652,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="move">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="rename">
@@ -662,7 +662,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="rotate">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			<param name="Name" value="Using Flex Track">
 			<param name="Local" value="Using_Flex_Track.htm">
 			</OBJECT>
@@ -741,7 +741,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="rotate">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Using Flex Track">
 		<param name="Local" value="Using_Flex_Track.htm">
 		</OBJECT>
@@ -805,7 +805,7 @@
 		<param name="Name" value="Part XML Description">
 		<param name="Local" value="Part_XML_Description.htm">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="tab">
@@ -828,7 +828,7 @@
 		<param name="Name" value="The Five Different Type of Layers">
 		<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 		<param name="Name" value="Moving Parts">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -846,12 +846,12 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="move">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="rotate">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">

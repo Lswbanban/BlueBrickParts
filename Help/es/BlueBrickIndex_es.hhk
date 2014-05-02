@@ -34,7 +34,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="alineaci&oacute;n">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&aacute;rea">
@@ -56,7 +56,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="volver">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Otras opciones">
 		<param name="Local" value="Preferences_Other_Options.htm">
 		</OBJECT>
@@ -80,7 +80,7 @@
 		<param name="Name" value="Los cinco tipos de capas">
 		<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Window_Panes.htm">
 		</OBJECT>
@@ -123,7 +123,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="conexi&oacute;n">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Archivo de configuraci&oacute;n del tipo de conexi&oacute;n">
@@ -266,7 +266,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="delantera">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="gif">
@@ -437,7 +437,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="enlace">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Opciones de apariencia">
 		<param name="Local" value="Preferences_Appearance.htm">
 		<param name="Name" value="Descripci&oacute;n XML de las piezas">
@@ -456,7 +456,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="im&aacute;n">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
@@ -475,7 +475,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="mover">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Navigation_Zooming_and_Viewing.htm">
 		<param name="Name" value="La barra de capas">
@@ -497,12 +497,12 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="piezas">
 			<param name="Name" value="Mover piezas">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="texto">
 			<param name="Name" value="Mover piezas">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="ver">
@@ -580,7 +580,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="orden">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="centrar">
@@ -606,7 +606,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="connect">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="coordenadas">
@@ -652,7 +652,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="move">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="renombrar">
@@ -662,7 +662,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="rotate">
 			<param name="Name" value="Moving Parts">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			<param name="Name" value="Using Flex Track">
 			<param name="Local" value="Using_Flex_Track.htm">
 			</OBJECT>
@@ -741,7 +741,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="girar">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Using Flex Track">
 		<param name="Local" value="Using_Flex_Track.htm">
 		</OBJECT>
@@ -805,7 +805,7 @@
 		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="pesta&ntilde;a">
@@ -828,7 +828,7 @@
 		<param name="Name" value="Los cinco tipos de capas">
 		<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 		<param name="Name" value="Mover piezas">
-		<param name="Local" value="Moving_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -846,12 +846,12 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="mover">
 			<param name="Name" value="Mover piezas">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="girar">
 			<param name="Name" value="Mover piezas">
-			<param name="Local" value="Moving_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
