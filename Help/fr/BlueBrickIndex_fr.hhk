@@ -8,7 +8,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="add">
 		<param name="Name" value="Adding and Deleting Parts">
-		<param name="Local" value="Adding_and_Deleting_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 		<param name="Name" value="The Layer Toolbar">
 		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		<param name="Name" value="How to extend the Part Library">
@@ -23,7 +23,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="part">
 			<param name="Name" value="Adding and Deleting Parts">
-			<param name="Local" value="Adding_and_Deleting_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="text">
@@ -156,7 +156,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="delete">
 		<param name="Name" value="Adding and Deleting Parts">
-		<param name="Local" value="Adding_and_Deleting_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 		<param name="Name" value="The Layer Toolbar">
 		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		</OBJECT>
@@ -169,7 +169,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="part">
 			<param name="Name" value="Adding and Deleting Parts">
-			<param name="Local" value="Adding_and_Deleting_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -182,7 +182,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="duplicate">
 		<param name="Name" value="Adding and Deleting Parts">
-		<param name="Local" value="Adding_and_Deleting_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="electric">
