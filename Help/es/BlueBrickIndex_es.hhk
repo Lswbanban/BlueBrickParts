@@ -8,7 +8,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="a&ntilde;adir">
 		<param name="Name" value="A&ntilde;adir y borrar piezas">
-		<param name="Local" value="Adding_and_Deleting_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 		<param name="Name" value="La barra de capas">
 		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
@@ -23,7 +23,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="pieza">
 			<param name="Name" value="A&ntilde;adir y borrar piezas">
-			<param name="Local" value="Adding_and_Deleting_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="texto">
@@ -156,7 +156,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="borrar">
 		<param name="Name" value="A&ntilde;adir y borrar piezas">
-		<param name="Local" value="Adding_and_Deleting_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 		<param name="Name" value="La barra de capas">
 		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		</OBJECT>
@@ -169,7 +169,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="pieza">
 			<param name="Name" value="A&ntilde;adir y borrar piezas">
-			<param name="Local" value="Adding_and_Deleting_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -182,7 +182,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="duplicar">
 		<param name="Name" value="A&ntilde;adir y borrar piezas">
-		<param name="Local" value="Adding_and_Deleting_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="electric">
