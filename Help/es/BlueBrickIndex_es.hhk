@@ -234,7 +234,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="find">
 		<param name="Name" value="Searching and Replacing Parts">
-		<param name="Local" value="Search_Replace_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Search_Replace_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="flex">
@@ -736,7 +736,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="replace">
 		<param name="Name" value="Searching and Replacing Parts">
-		<param name="Local" value="Search_Replace_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Search_Replace_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="girar">
@@ -748,7 +748,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="search">
 		<param name="Name" value="Searching and Replacing Parts">
-		<param name="Local" value="Search_Replace_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Search_Replace_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="guardar">
@@ -791,7 +791,7 @@
 		<param name="Name" value="Seleccionar piezas">
 		<param name="Local" value="Navigation_Selecting_Parts.htm">
 		<param name="Name" value="Searching and Replacing Parts">
-		<param name="Local" value="Search_Replace_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Search_Replace_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="atajo">
