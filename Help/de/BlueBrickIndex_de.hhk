@@ -287,7 +287,7 @@
 		<param name="Name" value="Group XML Description">
 		<param name="Local" value="Group_XML_Description.htm">
 		<param name="Name" value="Grouping Parts">
-		<param name="Local" value="Grouping_Parts.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Grouping_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="html">
@@ -623,7 +623,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="group">
 			<param name="Name" value="Grouping Parts">
-			<param name="Local" value="Grouping_Parts.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Grouping_Parts.htm">
 			<param name="Name" value="Group XML Description">
 			<param name="Local" value="Group_XML_Description.htm">
 			</OBJECT>
