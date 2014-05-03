@@ -1,0 +1,32 @@
+<HTML>
+<HEAD>
+<META NAME="keywords" CONTENT="BlueBrick, Help">
+<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
+<META NAME="author" CONTENT="Alex McKenna">
+<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
+<Title>Saving and Loading</Title>
+</HEAD>
+<BODY>
+<H1>Saving and Loading</H1>
+
+<BR>
+<CENTER><IMG SRC="MainToolbar.png"></CENTER>
+
+<P>BlueBrick is a <FONT CLASS="Important">single document application</FONT>, that means you can only open one layout at a time. However it is possible to launch several instances of BlueBrick and open a different document in each, in order to copy part of a layout into another layout. It is not possible to copy a full layer yet, but this limitation will be removed in a futur version of BlueBrick.</P>
+
+<P>To <B>create</B> a new layout press the "create new map" button <FONT CLASS="RefNumber">1</FONT>, or choose <FONT CLASS="path">&nbsp;file &gt; new&nbsp;</FONT>, or press CTRL + N.</P>
+
+<P>To <B>open</B> an existing layout press the "open a map" button <FONT CLASS="RefNumber">2</FONT>, or choose <FONT CLASS="path">&nbsp;file &gt; open...&nbsp;</FONT>, or press CTRL + O.</P>
+
+<P>To <B>save</B> your layout press the "Save the current map" button <FONT CLASS="RefNumber">3</FONT>, or choose <FONT CLASS="path">&nbsp;file &gt; save&nbsp;</FONT> or <FONT CLASS="path">&nbsp;file &gt; save as...&nbsp;</FONT>, or press CTRL + S. You can choose to save it in as a .bbm (BlueBrick), .ldr (LDraw), .mpd (multiple parts file), or a .tdl (track designer) format.</P>
+
+<ul>
+	<li><b>BBM:</b> Only the native BlueBrick format saves all the information of your map such as the layers, areas, texts and rulers.</li>
+	<li><b>LDraw LDR:</b> Saving in the LDraw format gives you the opportunity to see your layout in 3D.<br>
+		Note that opening the file in LDraw may cause BlueBrick parts to be lost which are not in the LDraw parts library. Make sure you library has the latest updates from the <a href="http://www.ldraw.org">LDraw site</a>. These parts will not return if you open the file afterwards in BlueBrick. Also note that with the exception of the brick layers, any additional grid, area or text layers made in BlueBrick will also be lost. Former BlueBrick layers will be represented by a construction step between each "layer" when displayed in the LDraw editor. When opening the LDR file in BlueBrick the separate brick layers will be displayed, they will however lose their layer names. Any changes you make to the height of the parts while in the LDraw format, with an LDraw editor, will <u>not</u> be lost by BlueBrick, even if you save the LDraw file as a BlueBrick file and convert it back to LDraw at a later date. However, Group and Rulers are correctly saved LDraw format.</li>
+	<li><b>LDraw MPD:</b> This is essentially the same as LDraw LDR with the difference that each BlueBrick layer will be saved as a sub-model, and the layer names of the brick layers will be kept. Note that once again all layer information, other than that for brick layers, will not be carried back into BlueBrick.</li>
+	<Li><b>Track Designer:</b> This ensures maximum of compatibility, but the slopes are not supported in BlueBrick yet. When saving in this format, the area, text and ruler information will be lost.</li>
+</ul>
+
+</body>
+</html>
