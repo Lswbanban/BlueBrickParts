@@ -87,7 +87,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="circuit">
 		<param name="Name" value="Electric Circuits">
-		<param name="Local" value="Electric_Circuits.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="color">
@@ -187,7 +187,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="electric">
 		<param name="Name" value="Electric Circuits">
-		<param name="Local" value="Electric_Circuits.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="exportar">
@@ -798,7 +798,7 @@
 		<param name="Name" value="Atajos de teclado">
 		<param name="Local" value="Preferences_Shortcut_Keys.htm">
 		<param name="Name" value="Electric Circuits">
-		<param name="Local" value="Electric_Circuits.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ajustar">
