@@ -4,10 +4,51 @@
 <meta name="description" content="The reference documentation for BlueBrick.">
 <meta name="author" content="Alex McKenna">
 <link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
-<title>Utiliser les règles</title>
+<title>Using Rulers</title>
 </head>
 <body>
-<h1>Utiliser les règles</h1>
+<h1>Using Rulers</h1>
+
+<p>Rulers are tools to measure or delimit some space of your layout. There is two types of Ruler: the linear one (which are basically lines) and the circular ones (circles). They both have connection points and both can provide a measurement. The Linear Rulers have one connection point at each extremity and measure the distance between these two points, whereas the Circular Rulers have one connection point in the center and measure the diameter of the circle. Circular Rulers can be used to represent pilars in an exhibition room or a round table on which you plan do show your layout, but actually the Linear Rulers are more often used to delimit the wall of the exhibition room or to measure the size of your layout.</p>
+
+<p>Rulers can display their measurement in various unit:</b>
+<ul>
+	<li><b>Stud:</b> the default one. One Stud equals 8 millimeters. You can change the default unit in the <a href="Preferences_Edition.htm">Edition Preferences</a> or via the "Use as Template" context menu (see below).</li>
+	<li><b>LDU:</b> i.e. LDraw Unit, knowing that 1 stud equals 20 LDU. This unit may only be relevant to the LDraw Guru.</li>
+	<li><b>Module:</b> a module is a group of 3x3 baseplates of 32x32 studs (i.e. 96 studs), often used as layout unit by LEGO<sup>&#174;</sup> Fans.</li>
+	<li><b>Straight Track:</b> a straight LEGO<sup>&#174;</sup> Rail Track (no matter 9V, 12V or PF) is 16 studs long. This unit can be very convenient if you want to quickly count how many tracks you need on a very long line.</li>
+	<li><b>Meter</b> real-life meters from the metric system. This unit is useful if you want to first set up the wall of the exhibition room before planing your layout.</li>
+	<li><b>Feet</b> real-life feet from the imperial system. Same usage as for meters but for those more familiar with the imperial system.</li>
+</ul>
+
+<h2>How to Add a Ruler</h2>
+<center><img src="MainToolbar.png"></center>
+
+<p>To add a new ruler, you should of course first add a Ruler Layer (see the  <a href="Creating_Using_Layers_Different_Type_of_Layers.htm">The Different Types of Layer</a> section for more details). However the ruler edition tool is selected by default, so nothing will happen if you just click on the layout. You need to first select a Ruler Creation Tool (either Linear or Circular) from the toolbar by clicking the little arrow on <font class="RefNumber">16</font>. The steps to create the ruler are different depending of the type of Ruler:</p>
+<ul>
+	<li><b>Linear Ruler:</b> the mouse cursor shows a cross with a little '1' for the first point, so left click on the first position which makes the mouse cursor now displaying a '2', then drag the mouse to the second desired position and release the left button. If you configured the linear ruler to use offset (which is the case by default), then it's not finished: you should now move the mouse to to obtain the desired offset and finally click again  the left button to validate the offset. Note that at any moment, you can abort your ruler creation by clicking on the right mouse button (sorry not working under Mono).</li>
+	<li><b>Circular Ruler:</b> circular rulers are easier to create. Click with the left mouse button where you want to place the center of the circle, then drag until you reach the desired radius and release the left button.</li>
+</ul>
+
+<p>Once the Ruler has been created, the Edition Tool will be selected again, so you need to select a Ruler Creation Tool again if you want to add another ruler. However, you can change that behavior in the <a href="Preferences_Edition.htm">Edition Preferences</a>.</p>
+
+<p>Rulers can be rotated and moved even if, most of the time, it is more convenient to adjust the position of their connections points. However, moving them as a group can be useful. Of course, they also can be copy/pasted, grouped and ordered ("Send to Back" and "Bring to Front"), just like Parts.</p>
+
+<h2>Ruler Attachement</h2>
+
+<center><img src="../Ruler.png"></center>
+
+<p>By default the connections points of the selected Ruler(s) are shown as little red dot (which turn to orange when you move your mouse over them), but you can hide them if you choose the <font class="Path">&nbsp;View > Ruler Attach Points&nbsp;</font> menu. Those connection points can be attached to LEGO<sup>&#174;</sup> parts displayed under them (so to parts which belongs to a layer placed under the ruler layer). To do that, first make sure that the connection point is above a part, then move your mouse cursor on the connection point (until it turns orange) and right click on it to choose "Attach Ruler to Part" in the context menu. When a Ruler is attached, an additional circle will be drawn around the connection point. As you can see in the screenshot above, the left point is attached to the green baseplate, whereas the right point is not attached. You can of course detach a connection point through the same context menu by choosing "Detach Ruler".</p>
+
+<p>Once a ruler connection point is attached to a part, whenever you move or rotate this part, the point will stay linked to it, increasing the measured distance as needed. This feature may be handy for example if you attach the two extremities of a linear ruler to the edge of two tables in your layout, and whenever you extend your layout by inserting more tables, you will keep the size of your layout updated. Note that when a connection point is attached to a part, you can only move it inside the part. Moreover, if you try to move an attached ruler then its attached point(s) will not move, meaning that if all its points are attached, it will not move at all.</p>
+
+<h2>Ruler Properties</h2>
+<br>
+<center><img src="Creating_Modifying_Layouts_Using_Rulers.png"></center>
+
+<p>Rulers have many options that can be tuned. Just double-click on a Ruler to display its option window as seen on the screenshot above. First you can tune the thickness of the line in pixel (the thickness will stay constant no matter your level of zoom) and its color <font class="RefNumber">1</font>. If it is a Linear Ruler a check-box will let you choose if you want to offset the line from the two attach points <font class="RefNumber">2</font>. If you use an offset, then you can also tune the thickness <font class="RefNumber">3</font> and color <font class="RefNumber">4</font> of the guideline that will be drawn between the attach point and the line itself. By default this guideline use a a dash pattern that you can configure <font class="RefNumber">5</font> knowing that the first value represents the size of the dash, and the second value the size of the spacing. setting zero for this second value will draw a plain line.</p>
+<p>Finally you can also tune the drawing of the measured value. First you can decide to not draw it or not by unchecking the check-box <font class="RefNumber">6</font>. It may be useful to draw a plain line without value if you want to draw the wall of your exhibition room for example. Then if you decide to draw the value, you can choose its unit <font class="RefNumber">7</font> and decide to show or hide the unit next to the value <font class="RefNumber">8</font>. You can also change the font used (including its size) <font class="RefNumber">9</font> and its color <font class="RefNumber">10</font>.</p>
+<p>Since the Rulers have a lot of settings, it would be too troublesome to change them one by one for each of ruler on your layout. Copy/pasting a ruler adjusted to your preference is a solution, but it's not a very convenient way to add rulers. A more convenient way is to adjust a ruler with the style you want, then right-click on it and choose "Use as Template" in the context menu. Then, from now on, every new Ruler that you will create will use the same settings (color, thickness, unit, etc...). Note that using the "Use as Template" function is the same as changing the ruler preferences in the <a href="Preferences_Edition.htm">Edition Preferences</a>, so your template will be carried out even after restarting BlueBrick.</p>
 
 </body>
 </html>
