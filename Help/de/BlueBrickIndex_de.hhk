@@ -87,7 +87,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="circuit">
 		<param name="Name" value="Electric Circuits">
-		<param name="Local" value="Electric_Circuits.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="color">
@@ -187,7 +187,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="electric">
 		<param name="Name" value="Electric Circuits">
-		<param name="Local" value="Electric_Circuits.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="export">
@@ -239,12 +239,12 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="flex">
 		<param name="Name" value="Using Flex Track">
-		<param name="Local" value="Using_Flex_Track.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Flex_Track.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="flexible">
 		<param name="Name" value="Using Flex Track">
-		<param name="Local" value="Using_Flex_Track.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Flex_Track.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="folder">
@@ -664,7 +664,7 @@
 			<param name="Name" value="Moving Parts">
 			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			<param name="Name" value="Using Flex Track">
-			<param name="Local" value="Using_Flex_Track.htm">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Flex_Track.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -743,7 +743,7 @@
 		<param name="Name" value="Moving Parts">
 		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Using Flex Track">
-		<param name="Local" value="Using_Flex_Track.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Flex_Track.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="search">
@@ -798,7 +798,7 @@
 		<param name="Name" value="Shortcut Keys">
 		<param name="Local" value="Preferences_Shortcut_Keys.htm">
 		<param name="Name" value="Electric Circuits">
-		<param name="Local" value="Electric_Circuits.htm">
+		<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="snap">

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Version>8</Version>
+  <nbItems>6</nbItems>
+  <BackgroundColor>
+    <IsKnownColor>true</IsKnownColor>
+    <Name>CornflowerBlue</Name>
+  </BackgroundColor>
+  <Author>Unknown Author</Author>
+  <LUG>Unknown LUG</LUG>
+  <Show>Unknown Event</Show>
+  <Date>
+    <Day>4</Day>
+    <Month>5</Month>
+    <Year>2014</Year>
+  </Date>
+  <Comment />
+  <ExportInfo>
+    <ExportPath />
+    <ExportFileType>1</ExportFileType>
+    <ExportArea>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </ExportArea>
+    <ExportScale>0</ExportScale>
+    <ExportWatermark>true</ExportWatermark>
+    <ExportHull>false</ExportHull>
+    <ExportElectricCircuit>false</ExportElectricCircuit>
+    <ExportConnectionPoints>false</ExportConnectionPoints>
+  </ExportInfo>
+  <SelectedLayerIndex>3</SelectedLayerIndex>
+  <Layers>
+    <Layer type="grid" id="35104124">
+      <Name>Layer 1</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <GridColor>
+        <IsKnownColor>false</IsKnownColor>
+        <Name>ffffffff</Name>
+      </GridColor>
+      <GridThickness>2</GridThickness>
+      <SubGridColor>
+        <IsKnownColor>false</IsKnownColor>
+        <Name>ffd3d3d3</Name>
+      </SubGridColor>
+      <SubGridThickness>1</SubGridThickness>
+      <GridSizeInStud>96</GridSizeInStud>
+      <SubDivisionNumber>3</SubDivisionNumber>
+      <DisplayGrid>true</DisplayGrid>
+      <DisplaySubGrid>true</DisplaySubGrid>
+      <DisplayCellIndex>true</DisplayCellIndex>
+      <CellIndexFont>
+        <FontFamily>Arial</FontFamily>
+        <Size>18</Size>
+        <Style>Regular</Style>
+      </CellIndexFont>
+      <CellIndexColor>
+        <IsKnownColor>false</IsKnownColor>
+        <Name>ff000000</Name>
+      </CellIndexColor>
+      <CellIndexColumnType>0</CellIndexColumnType>
+      <CellIndexRowType>1</CellIndexRowType>
+      <CellIndexCorner>
+        <X>0</X>
+        <Y>0</Y>
+      </CellIndexCorner>
+    </Layer>
+    <Layer type="brick" id="47501665">
+      <Name>Layer 2</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <Bricks>
+        <Brick id="24861802">
+          <DisplayArea>
+            <X>160</X>
+            <Y>160</Y>
+            <Width>32</Width>
+            <Height>32</Height>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>3811.1</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="0" />
+        </Brick>
+        <Brick id="22429634">
+          <DisplayArea>
+            <X>96</X>
+            <Y>160</Y>
+            <Width>32</Width>
+            <Height>32</Height>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>3811.2</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="0" />
+        </Brick>
+      </Bricks>
+      <Groups />
+    </Layer>
+    <Layer type="text" id="540121">
+      <Name>Layer 3</Name>
+      <Visible>false</Visible>
+      <Transparency>100</Transparency>
+      <TextCells>
+        <TextCell>
+          <DisplayArea>
+            <X>109.9192</X>
+            <Y>84.25131</Y>
+            <Width>102.246</Width>
+            <Height>102.246</Height>
+          </DisplayArea>
+          <MyGroup>4861097</MyGroup>
+          <Text>fddg
+ghfdh</Text>
+          <Orientation>-45</Orientation>
+          <FontColor>
+            <IsKnownColor>true</IsKnownColor>
+            <Name>White</Name>
+          </FontColor>
+          <Font>
+            <FontFamily>Bauhaus 93</FontFamily>
+            <Size>18</Size>
+            <Style>Regular</Style>
+          </Font>
+          <TextAlignment>Center</TextAlignment>
+        </TextCell>
+        <TextCell>
+          <DisplayArea>
+            <X>305.2942</X>
+            <Y>178.2353</Y>
+            <Width>24.45312</Width>
+            <Height>29.81249</Height>
+          </DisplayArea>
+          <MyGroup>4861097</MyGroup>
+          <Text>rr</Text>
+          <Orientation>0</Orientation>
+          <FontColor>
+            <IsKnownColor>true</IsKnownColor>
+            <Name>Black</Name>
+          </FontColor>
+          <Font>
+            <FontFamily>Arial</FontFamily>
+            <Size>18</Size>
+            <Style>Regular</Style>
+          </Font>
+          <TextAlignment>Center</TextAlignment>
+        </TextCell>
+      </TextCells>
+      <Groups>
+        <Group id="4861097">
+          <PartNumber />
+          <MyGroup />
+        </Group>
+      </Groups>
+    </Layer>
+    <Layer type="ruler" id="43749873">
+      <Name>Layer 4</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <RulerItems>
+        <LinearRuler>
+          <DisplayArea>
+            <X>112</X>
+            <Y>165.6314</Y>
+            <Width>64</Width>
+            <Height>10.36861</Height>
+          </DisplayArea>
+          <MyGroup />
+          <Color>
+            <IsKnownColor>true</IsKnownColor>
+            <Name>Black</Name>
+          </Color>
+          <LineThickness>4</LineThickness>
+          <DisplayDistance>true</DisplayDistance>
+          <DisplayUnit>true</DisplayUnit>
+          <GuidelineColor>
+            <IsKnownColor>true</IsKnownColor>
+            <Name>Black</Name>
+          </GuidelineColor>
+          <GuidelineThickness>1</GuidelineThickness>
+          <GuidelineDashPattern>
+            <value>2</value>
+            <value>4</value>
+          </GuidelineDashPattern>
+          <Unit>0</Unit>
+          <MeasureFont>
+            <FontFamily>Arial</FontFamily>
+            <Size>15.75</Size>
+            <Style>Regular</Style>
+          </MeasureFont>
+          <MeasureFontColor>
+            <IsKnownColor>true</IsKnownColor>
+            <Name>Black</Name>
+          </MeasureFontColor>
+          <Point1>
+            <X>112</X>
+            <Y>176</Y>
+          </Point1>
+          <Point2>
+            <X>176</X>
+            <Y>176</Y>
+          </Point2>
+          <AttachedBrick1>22429634</AttachedBrick1>
+          <AttachedBrick2>0</AttachedBrick2>
+          <OffsetDistance>8</OffsetDistance>
+          <AllowOffset>true</AllowOffset>
+        </LinearRuler>
+      </RulerItems>
+      <Groups />
+    </Layer>
+  </Layers>
+</Map>
