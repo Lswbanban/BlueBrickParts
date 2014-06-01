@@ -192,7 +192,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="exportar">
 		<param name="Name" value="Exportaci&oacute;n, informes e impresi&oacute;n">
-		<param name="Local" value="Export_Report_and_Printing.htm">
+		<param name="Local" value="Export_Report_Printing.htm">
 		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		<param name="Name" value="Exportar una lista de piezas">
