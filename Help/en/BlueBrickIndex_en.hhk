@@ -192,7 +192,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="export">
 		<param name="Name" value="Exports, Reports and Printing">
-		<param name="Local" value="Export_Report_and_Printing.htm">
+		<param name="Local" value="Export_Report_Printing.htm">
 		<param name="Name" value="Exporting a Layout as an Image">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		<param name="Name" value="Exporting the Parts List">
