@@ -530,7 +530,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="option">
 		<param name="Name" value="BlueBrick Preferences">
-		<param name="Local" value="BlueBrick_Preferences.htm">
+		<param name="Local" value="Preferences_BlueBrick.htm">
 		<param name="Name" value="General Preferences">
 		<param name="Local" value="Preferences_General.htm">
 		<param name="Name" value="Appearance Preferences">
@@ -680,7 +680,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="preferences">
 		<param name="Name" value="BlueBrick Preferences">
-		<param name="Local" value="BlueBrick_Preferences.htm">
+		<param name="Local" value="Preferences_BlueBrick.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
