@@ -63,7 +63,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="lista">
 		<param name="Name" value="Exportar una lista de piezas">
-		<param name="Local" value="Exporting_the_Parts_List.htm">
+		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="bmp">
@@ -73,7 +73,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="bom">
 		<param name="Name" value="Exportar una lista de piezas">
-		<param name="Local" value="Exporting_the_Parts_List.htm">
+		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ladrillo">
@@ -177,7 +177,7 @@
 		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
 		<param name="Name" value="Exportar una lista de piezas">
-		<param name="Local" value="Exporting_the_Parts_List.htm">
+		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="duplicar">
@@ -196,7 +196,7 @@
 		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		<param name="Name" value="Exportar una lista de piezas">
-		<param name="Local" value="Exporting_the_Parts_List.htm">
+		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
 		</OBJECT>
@@ -216,7 +216,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="piezas">
 			<param name="Name" value="Exportar una lista de piezas">
-			<param name="Local" value="Exporting_the_Parts_List.htm">
+			<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="tdl">
@@ -292,7 +292,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="html">
 		<param name="Name" value="Exportar una lista de piezas">
-		<param name="Local" value="Exporting_the_Parts_List.htm">
+		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Per&iacute;metro">
@@ -446,7 +446,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="lista">
 		<param name="Name" value="Exportar una lista de piezas">
-		<param name="Local" value="Exporting_the_Parts_List.htm">
+		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="cargar">
@@ -616,7 +616,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="descripci&oacute;n">
 			<param name="Name" value="Exportar una lista de piezas">
-			<param name="Local" value="Exporting_the_Parts_List.htm">
+			<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 			<param name="Name" value="Descripci&oacute;n XML de las piezas">
 			<param name="Local" value="Part_XML_Description.htm">
 			</OBJECT>
@@ -647,7 +647,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="lista">
 			<param name="Name" value="Exportar una lista de piezas">
-			<param name="Local" value="Exporting_the_Parts_List.htm">
+			<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="move">
@@ -757,7 +757,7 @@
 		<param name="Name" value="Exportar un trazado como imagen">
 		<param name="Local" value="Exporting_a_Layout_as_an_Image.htm">
 		<param name="Name" value="Exportar una lista de piezas">
-		<param name="Local" value="Exporting_the_Parts_List.htm">
+		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -773,7 +773,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="lista de piezas">
 			<param name="Name" value="Exportar una lista de piezas">
-			<param name="Local" value="Exporting_the_Parts_List.htm">
+			<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
