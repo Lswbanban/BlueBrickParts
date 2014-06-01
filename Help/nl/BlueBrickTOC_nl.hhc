@@ -23,11 +23,11 @@
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Werkbalken">
-			<param name="Local" value="Toolbars.htm">
+			<param name="Local" value="Software_Overview_Toolbars.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Scherm vlakken">
-			<param name="Local" value="Window_Panes.htm">
+			<param name="Local" value="Software_Overview_Window_Panes.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">

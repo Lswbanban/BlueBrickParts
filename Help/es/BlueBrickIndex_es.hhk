@@ -82,7 +82,7 @@
 		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="&Aacute;reas de la ventana">
-		<param name="Local" value="Window_Panes.htm">
+		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="circuit">
@@ -366,7 +366,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="capa">
 		<param name="Name" value="&Aacute;reas de la ventana">
-		<param name="Local" value="Window_Panes.htm">
+		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		<param name="Name" value="Crear y usar capas">
 		<param name="Local" value="Creating_Using_Layers.htm">
 		<param name="Name" value="La barra de capas">
@@ -377,7 +377,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="trazado">
 		<param name="Name" value="&Aacute;reas de la ventana">
-		<param name="Local" value="Window_Panes.htm">
+		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ldr">
@@ -401,7 +401,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="biblioteca">
 		<param name="Name" value="&Aacute;reas de la ventana">
-		<param name="Local" value="Window_Panes.htm">
+		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
 		<param name="Name" value="Recargar la biblioteca de piezas">
@@ -411,7 +411,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="navegar">
 			<param name="Name" value="&Aacute;reas de la ventana">
-			<param name="Local" value="Window_Panes.htm">
+			<param name="Local" value="Software_Overview_Window_Panes.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="extender">
@@ -590,12 +590,12 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&aacute;rea">
 		<param name="Name" value="&Aacute;reas de la ventana">
-		<param name="Local" value="Window_Panes.htm">
+		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="pieza">
 		<param name="Name" value="&Aacute;reas de la ventana">
-		<param name="Local" value="Window_Panes.htm">
+		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -640,7 +640,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="biblioteca">
 			<param name="Name" value="&Aacute;reas de la ventana">
-			<param name="Local" value="Window_Panes.htm">
+			<param name="Local" value="Software_Overview_Window_Panes.htm">
 			<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 			<param name="Local" value="How_to_extend_the_Part_Library.htm">
 			</OBJECT>
@@ -810,7 +810,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="pesta&ntilde;a">
 		<param name="Name" value="&Aacute;reas de la ventana">
-		<param name="Local" value="Window_Panes.htm">
+		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		<param name="Name" value="Carpetas de la biblioteca de piezas">
 		<param name="Local" value="Part_Library_Folders.htm">
 		<param name="Name" value="Opciones generales">
@@ -862,7 +862,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="barra de herramientas">
 		<param name="Name" value="Barras de herramientas">
-		<param name="Local" value="Toolbars.htm">
+		<param name="Local" value="Software_Overview_Toolbars.htm">
 		<param name="Name" value="La barra de capas">
 		<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 		</OBJECT>
@@ -875,7 +875,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="principal">
 			<param name="Name" value="Barras de herramientas">
-			<param name="Local" value="Toolbars.htm">
+			<param name="Local" value="Software_Overview_Toolbars.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -895,7 +895,7 @@
 		<param name="Name" value="Zoom y visualizaci&oacute;n">
 		<param name="Local" value="Navigation_Zooming_and_Viewing.htm">
 		<param name="Name" value="&Aacute;reas de la ventana">
-		<param name="Local" value="Window_Panes.htm">
+		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -912,7 +912,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ventana">
 		<param name="Name" value="&Aacute;reas de la ventana">
-		<param name="Local" value="Window_Panes.htm">
+		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="xml">
