@@ -56,9 +56,19 @@ TD.Tilte		{ text-align: center;
 				  width: 6em;
 				  background-color: #B0CAFD; }
 
+TH				{ text-align: center;
+				  font-weight: bold;
+				  vertical-align: top;
+				  width: 6em;
+				  background-color: #B0CAFD; }				 
+
 TD.XMLCode		{ font-family: monospace;
 				  font-weight: bold; }
 
+TD.Shortcut		{ padding-top: 0em;
+				  padding-left: 0.5em;
+				  padding-right: 0.5em;
+				  padding-bottom: 0em; }
 
 /* ---- fonts ----------------------------------------------------- */
 FONT.path		{ font-variant: small-caps;
