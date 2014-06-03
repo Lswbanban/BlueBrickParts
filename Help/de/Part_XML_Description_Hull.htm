@@ -33,42 +33,44 @@
 
 <P>Die Hüllkurve wird, im Gegensatz zu den vorherigen Parametern, <FONT CLASS="Important">in Pixel- und nicht in Noppen-Koordinaten</FONT> angegeben. Wird nämlich in einem Bildbearbeitungsprogramm die Maus über dem Bild bewegt, lassen sich die aktuellen Koordinaten der Mausposition direkt in Pixel ablesen. Die Eckpunkte der Hüllkurve lassen sich also einfach in Pixel bestimmen.</P>
 
-<DIV CLASS="ToTranslate"><P>All the points defined in the list belong to the hull. For example if you want to define the hull of a part which width is 2 studs but with uneven height, the image of the part will be 16 pixel wide, and the minimum hull coordinate will be (0, ...) and the maximum hull coordinate will be (15, ...). Use integer value to define the pixel coordinates, not decimal values.</P></DIV>
+<DIV CLASS="ToTranslate"><P>BlueBrick actually shifts the pixel coordinates that you define in the XML file of 0.5 (half a pixel), in order to set the coordinate at the center of the pixel. However, note that you can use decimal values to define the pixel coordinates in the XML file. It is also allowed to use coordinates which are outside the image (i.e. negative value or value greater than the size of the image).</P></DIV>
 
-<P>Eine falsche Hüllkurve kann dazu führen, dass Teilbereiche eines Teils bei der Drehung um einen beliebigen Winkel abgeschnitten werden. Eine gute Möglichkeit zum Testen der Hüllkurve ist die Drehung dieses Teils um 360&deg; in kleinen Schritten, z.B. 22.5&deg;. Nach jedem Schritt darf kein Bereich des Teils abgeschnitten sein.</P>
-
-<P>Nachfolgend zwei Beispiele einer Hüllkurve, eine 9V-Weiche und ein 9V Kurvengleis:</P>
+<P>Eine falsche Hüllkurve kann dazu führen, dass Teilbereiche eines Teils bei der Drehung um einen beliebigen Winkel abgeschnitten werden. <DIV CLASS="ToTranslate">When you are specifying the hull of your part, a good way to verify it is to draw the Hull by choosing the <font class="Path">&nbsp;View &gt; Hulls &gt; Bricks&nbsp;</font> menu. Here are two examples: one for the hull definition of the 9V Switch Point Track which is a precise concave hull such as you can click around the yellow lever without selecting it; and one for the 9V Curved Track which is a good enough convex hull.</div></P>
 
 <CENTER><IMG SRC="../HullSwitchPoint.png">&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../HullCurve.png"></CENTER>
 <BR>
 
 <DIV CLASS="TechNote">
-<PRE><B>Der zur Beschreibung der Hüllkurve der 9V-Weiche gehörende Teil der XML-Datei sieht wie folgt aus:</B>
+<PRE><B>Der zur Beschreibung der Hüllkurve der 9V Kurvengleis gehörende Teil der XML-Datei sieht wie folgt aus:</B>
 
 &lt;hull&gt;
     &lt;point&gt;
-        &lt;x&gt;258&lt;/x&gt;
+        &lt;x&gt;0&lt;/x&gt;
         &lt;y&gt;0&lt;/y&gt;
     &lt;/point&gt;
     &lt;point&gt;
-        &lt;x&gt;280&lt;/x&gt;
-        &lt;y&gt;52&lt;/y&gt;
+        &lt;x&gt;74&lt;/x&gt;
+        &lt;y&gt;5&lt;/y&gt;
     &lt;/point&gt;
     &lt;point&gt;
-        &lt;x&gt;264&lt;/x&gt;
-        &lt;y&gt;166&lt;/y&gt;
+        &lt;x&gt;138&lt;/x&gt;
+        &lt;y&gt;26&lt;/y&gt;
+    &lt;/point&gt;
+    &lt;point&gt;
+        &lt;x&gt;138&lt;/x&gt;
+        &lt;y&gt;38&lt;/y&gt;
+    &lt;/point&gt;
+    &lt;point&gt;
+        &lt;x&gt;121&lt;/x&gt;
+        &lt;y&gt;77&lt;/y&gt;
+    &lt;/point&gt;
+    &lt;point&gt;
+        &lt;x&gt;114&lt;/x&gt;
+        &lt;y&gt;85&lt;/y&gt;
     &lt;/point&gt;
     &lt;point&gt;
         &lt;x&gt;0&lt;/x&gt;
-        &lt;y&gt;166&lt;/y&gt;
-    &lt;/point&gt;
-    &lt;point&gt;
-        &lt;x&gt;0&lt;/x&gt;
-        &lt;y&gt;102&lt;/y&gt;
-    &lt;/point&gt;
-    &lt;point&gt;
-        &lt;x&gt;19&lt;/x&gt;
-        &lt;y&gt;53&lt;/y&gt;
+        &lt;y&gt;64&lt;/y&gt;
     &lt;/point&gt;
 &lt;/hull&gt;
 </PRE>
