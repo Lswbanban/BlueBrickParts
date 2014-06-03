@@ -35,40 +35,44 @@
 
 <P>Ten cuidado ya que, a diferencia de los par&aacute;metros anteriores, el per&iacute;metro se define en p&iacute;xeles, no en studs. La raz&oacute;n para ello es que es mucho m&aacute;s sencillo definir el per&iacute;metro en p&iacute;xeles, que se pueden encontrar con un editor de imagen, moviendo el cursor sobre la imagen.</P>
 
-<DIV CLASS="ToTranslate"><P>All the points defined in the list belong to the hull. For example if you want to define the hull of a part which width is 2 studs but with uneven height, the image of the part will be 16 pixel wide, and the minimum hull coordinate will be (0, ...) and the maximum hull coordinate will be (15, ...). Use integer value to define the pixel coordinates, not decimal values.</P></DIV>
+<DIV CLASS="ToTranslate"><P>BlueBrick actually shifts the pixel coordinates that you define in the XML file of 0.5 (half a pixel), in order to set the coordinate at the center of the pixel. However, note that you can use decimal values to define the pixel coordinates in the XML file. It is also allowed to use coordinates which are outside the image (i.e. negative value or value greater than the size of the image).</P></DIV>
 
-<P>Una mala definici&oacute;n de per&iacute;metro puede resultar en una pieza truncada al girarla con un &aacute;ngulo libre. Al definir el per&iacute;metro de una pieza, una buena manera de comprobarlo  es girar la pieza hasta 360&deg; en peque&ntilde;os pasos como por ejemplo 22.5&deg; y comprobar en cada paso si la pieza no queda truncada. Abajo dos ejemplos de definici&oacute;n de per&iacute;metro de unas agujas 9V y una curva.</P>
+<P>Una mala definici&oacute;n de per&iacute;metro puede resultar en una pieza truncada al girarla con un &aacute;ngulo libre. <DIV CLASS="ToTranslate">When you are specifying the hull of your part, a good way to verify it is to draw the Hull by choosing the <font class="Path">&nbsp;View &gt; Hulls &gt; Bricks&nbsp;</font> menu. Here are two examples: one for the hull definition of the 9V Switch Point Track which is a precise concave hull such as you can click around the yellow lever without selecting it; and one for the 9V Curved Track which is a good enough convex hull.</div></P>
 
 <CENTER><IMG SRC="../HullSwitchPoint.png">&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../HullCurve.png"></CENTER>
 <BR>
 
 <DIV CLASS="TechNote">
-<PRE><B>Este es el XML correspondiente para el per&iacute;metro de las agujas 9V:</B>
+<PRE><B>Este es el XML correspondiente para el per&iacute;metro de las curva 9V:</B>
 
 &lt;hull&gt;
     &lt;point&gt;
-        &lt;x&gt;258&lt;/x&gt;
+        &lt;x&gt;0&lt;/x&gt;
         &lt;y&gt;0&lt;/y&gt;
     &lt;/point&gt;
     &lt;point&gt;
-        &lt;x&gt;280&lt;/x&gt;
-        &lt;y&gt;52&lt;/y&gt;
+        &lt;x&gt;74&lt;/x&gt;
+        &lt;y&gt;5&lt;/y&gt;
     &lt;/point&gt;
     &lt;point&gt;
-        &lt;x&gt;264&lt;/x&gt;
-        &lt;y&gt;166&lt;/y&gt;
+        &lt;x&gt;138&lt;/x&gt;
+        &lt;y&gt;26&lt;/y&gt;
+    &lt;/point&gt;
+    &lt;point&gt;
+        &lt;x&gt;138&lt;/x&gt;
+        &lt;y&gt;38&lt;/y&gt;
+    &lt;/point&gt;
+    &lt;point&gt;
+        &lt;x&gt;121&lt;/x&gt;
+        &lt;y&gt;77&lt;/y&gt;
+    &lt;/point&gt;
+    &lt;point&gt;
+        &lt;x&gt;114&lt;/x&gt;
+        &lt;y&gt;85&lt;/y&gt;
     &lt;/point&gt;
     &lt;point&gt;
         &lt;x&gt;0&lt;/x&gt;
-        &lt;y&gt;166&lt;/y&gt;
-    &lt;/point&gt;
-    &lt;point&gt;
-        &lt;x&gt;0&lt;/x&gt;
-        &lt;y&gt;102&lt;/y&gt;
-    &lt;/point&gt;
-    &lt;point&gt;
-        &lt;x&gt;19&lt;/x&gt;
-        &lt;y&gt;53&lt;/y&gt;
+        &lt;y&gt;64&lt;/y&gt;
     &lt;/point&gt;
 &lt;/hull&gt;
 
