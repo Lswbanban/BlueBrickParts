@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alex McKenna">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Using a Budget</Title>
+</head>
+<body>
+<h1>Using a Budget</h1>
+
+<h2>How to create a new Budget</h2>
+
+<p>If you don't know what is a Budget in BlueBrick, first read the <a href="Part_Budget.htm">Part Budget</a> section for a detailed description. To create a new Budget from scratch choose the <font class="Path">&nbsp;Budget > New&nbsp;</font> menu. The title bar of the application will be updated to display the name of your new budget which is "MyBudget.bbb" by default. Of course when you create a new budget, it is totally empty, meaning that all the parts maximum value is either "?" or "0" depending on the preference you set in the <a href="Preferences_Part_Library.htm">Part Library Preference</a>, and by default it is "?". So from there, you can edit the budget number of each part of the library (read below to know how) and finally save your budget in a file, in order to reload it later (please read the <a href="Part_Budget_Saving_and_Loading_Budget.htm">Saving and Loading Budget</a> section for more details).</p>
+
+<p>If you don't want to use this budget anymore, you can close it by choosing the <font class="Path">&nbsp;Budget > Close&nbsp;</font> menu. Of course if you have modified your Budget, a message box will popup to ask you if you want to save it before closing it. When your budget has some unsaved modifications, a little star will appear next to the budget name in the title bar.</p>
+
+<h2>How to edit your Budget</h2>
+
+<p>To edit your budget, first make sure that you display all the parts of the library i.e. make sure that the menu <font class="Path">&nbsp;Budget > Show Only Budgeted Parts&nbsp;</font> is <font class="Important">not</font> checked, and that you display the budget numbers i.e. that the menu <font class="Path">&nbsp;Budget > Show Budget Numbers&nbsp;</font> <font class="Important">is</font> checked (this is the default settings, but read below for more details about these options). If it is the case, you should see two numbers separated by a slash under each part in the part library. The first number correspond to the actual count of this part in your current map, and the second one is your budget number for this part.</p>
+
+<p>To edit that budget number, simply click on it (really click on the number, not on the part). Alternatively you can right click on the part and choose <font class="Path">&nbsp;Edit this part's Budget&nbsp;</font> in the contextual menu (this way also works when the budget numbers are hidden). Then the budget number is displayed alone and becomes editable. You can now type any number and press enter to validate (or click elsewhere). If you enter an invalid value such as a negative value, a non integer value, or a text which is not an integer, or an empty input, then your input is ignored and the budget for this part is deleted. This is the normal way to remove a budget value from a part.</p>
+
+<p>By default, if a budget is not set for a part, a question mark will be displayed. This basically means that you can have an infinite number of this part in your map, and BlueBrick will not warn you regarding the number of that part in your map. But you can change this behavior, by asking BlueBrick to consider all the parts without any budget set, to have a budget of 0. In that case BlueBrick will warn you or prevent you to add any part whose budget is not set. To choose this behavior, you need to go to the <font class="Path">&nbsp;Edit > Preferences...&nbsp;</font> menu and choose the Part Library tab (see the <a href="Preferences_Part_Library.htm">Part Library Preference</a> for more details).</p>
+
+<p>Editing the budget of all the parts of the Library is a tiresome work, so most of the time your budget only concern a few parts of the library. When you use a budget, most of the time, you just want to track the budget of some critical parts like your rail tracks and your road baseplates. In that case, choosing an infinite budget for non budgeted part is what you are looking for. Alternatively, if you have a very small LEGO<sup>&#174;</sup> collection and want to be sure that you will be able to build the layout that you designed in BlueBrick, you can take the time to set the exact budget of your collection, and choose to consider all the other parts with a null budget.</p>
+
+<h2>Budget Options</h2>
+
+<p>Once you have set your budget values, BlueBrick can use them in a more or less restrictive ways, depending on what you are looking for. Maybe you just want to know if you exceed a budget, but still want to be able to build because you plan to ask a friend to lend you the missing parts? Or maybe you want BlueBrick to be very strict with you and prevent you to exceed any budget? You can easily switch at any time between these two modes via the <font class="Path">&nbsp;Budget > Use Budget Limitation&nbsp;</font> menu. If this option is checked, BlueBrick will prevent you to add more parts than the number allowed by your budget. This can happen if you try to drag'n'drop the part on the map, do a copy/paste or duplicate, or try to replace another part by this one. In any of this case, BlueBrick will play a beep sound and display a warning message that you can deactivate for later. So if you find that some parts are missing while doing your copy/paste, then before reporting a bug, please make sure you didn't reach the budget limit for these parts.</p>
+
+<p>The budget limitation is not used when you load a map file. So it may happen that some parts exceed your budget if you load a layout created by someone else. Similarly, if you decrease the budget of one part, BlueBrick will <font class="Important">not</font> delete randomly some of those parts in your map to reach your new budget, this is let to you. In any case, whether the budget limitation is used or not, any part that exceed the budget will have its budget number displayed with a red background.</p>
+
+<p>The option <font class="Path">&nbsp;Budget > Show Budget Numbers&nbsp;</font> let you show or hide the budget numbers under the parts in the part library. If you prefer to maximize the space for displaying the parts, you can hide the numbers. The budget limitation will still continue to work even if the numbers are hidden. You can still edit a budget number even if it is hidden, by right clicking on the part and choosing <font class="Path">&nbsp;Edit this part's Budget&nbsp;</font>.</p>
+
+<p>Finally the option <font class="Path">&nbsp;Budget > Show Only Budgeted Parts&nbsp;</font> is quite radical, because it hides all the parts except those who have a budget value set. Because this option will make disappear many parts from the library, the Background Color of the Part library becomes yellow, but you can change that color in the <a href="Preferences_Part_Library.htm">Part Library Preference</a>. This option may be useful for those who have created a budget for their LEGO<sup>&#174;</sup> collection and want to build their layout only with those parts: showing only the parts in their collection will facilitate the search of parts in the library.</p>
+
+<p>These three options can also be changed via the contextual menu of the part library by right clicking on it.</p>
+
+</body>
+</html>
