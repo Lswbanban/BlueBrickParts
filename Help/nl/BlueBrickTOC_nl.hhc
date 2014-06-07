@@ -123,13 +123,27 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Part Budget">
+		<param name="Local" value="Part_Budget.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Using a Budget">
+			<param name="Local" value="Part_Budget_Using_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Exporteren, rapporten en printen">
 		<param name="Local" value="Export_Report_Printing.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Exporteren van een layout als een afbeelding">
-			<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+			<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Exporteren van de onderdelen lijst">
