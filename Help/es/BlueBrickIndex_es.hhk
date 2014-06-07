@@ -85,9 +85,76 @@
 		<param name="Local" value="Software_Overview_Window_Panes.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="budget">
+		<param name="Name" value="Part Budget">
+		<param name="Local" value="Part_Budget.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="close">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="default">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="delete">
+			<param name="Name" value="Using a Budget">
+			<param name="Local" value="Part_Budget_Using_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="edit">
+			<param name="Name" value="Using a Budget">
+			<param name="Local" value="Part_Budget_Using_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="export">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="limit">
+			<param name="Name" value="Using a Budget">
+			<param name="Local" value="Part_Budget_Using_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="load">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="merge">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="new">
+			<param name="Name" value="Using a Budget">
+			<param name="Local" value="Part_Budget_Using_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="save">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="circle">
+		<param name="Name" value="Using Rulers">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="circuit">
 		<param name="Name" value="Electric Circuits">
 		<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="collection">
+		<param name="Name" value="Part Budget">
+		<param name="Local" value="Part_Budget.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="color">
@@ -106,6 +173,8 @@
 			<param name="Name" value="fondo">
 			<param name="Name" value="Otras opciones">
 			<param name="Local" value="Preferences_Other_Options.htm">
+			<param name="Name" value="Part Library Preferences">
+			<param name="Local" value="Preferences_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="cuadr&iacute;cula">
@@ -118,6 +187,11 @@
 			<param name="Name" value="id">
 			<param name="Name" value="Formato de piezas">
 			<param name="Local" value="Part_Image_Format.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="library">
+			<param name="Name" value="Part Library Preferences">
+			<param name="Local" value="Preferences_Part_Library.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -180,6 +254,11 @@
 		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="distance">
+		<param name="Name" value="Using Rulers">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="duplicar">
 		<param name="Name" value="A&ntilde;adir y borrar piezas">
 		<param name="Local" value="Creating_Modifying_Layouts_Adding_and_Deleting_Parts.htm">
@@ -230,6 +309,16 @@
 		<param name="Name" value="extender">
 		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filter">
+		<param name="Name" value="How to Filer the Part Library">
+		<param name="Local" value="Part_Library_How_to_Filter.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filter">
+		<param name="Name" value="How to Filer the Part Library">
+		<param name="Local" value="Part_Library_How_to_Filter.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="find">
@@ -289,6 +378,13 @@
 		<param name="Name" value="Grouping Parts">
 		<param name="Local" value="Creating_Modifying_Layouts_Grouping_Parts.htm">
 		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="save">
+			<param name="Name" value="How to save a group in the Library">
+			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
+			</OBJECT>
+	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="html">
 		<param name="Name" value="Exportar una lista de piezas">
@@ -334,6 +430,11 @@
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="budget">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="ldraw">
 			<param name="Name" value="Guardar y cargar">
 			<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
@@ -359,6 +460,11 @@
 		<param name="Local" value="Preferences_Shortcut_Keys.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="keyword">
+		<param name="Name" value="How to Filer the Part Library">
+		<param name="Local" value="Part_Library_How_to_Filter.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Idioma">
 		<param name="Name" value="Elegir un idioma">
 		<param name="Local" value="Choosing_a_language.htm">
@@ -378,6 +484,8 @@
 		<param name="Name" value="trazado">
 		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Software_Overview_Window_Panes.htm">
+		<param name="Name" value="Creating and Modifying Layouts">
+		<param name="Local" value="Creating_Modifying_Layouts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ldr">
@@ -394,6 +502,11 @@
 		<param name="Local" value="LDraw_Remaping_File.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ldu">
+		<param name="Name" value="Using Rulers">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="legal">
 		<param name="Name" value="P&aacute;gina de inicio">
 		<param name="Local" value="Start_Page.htm">
@@ -402,10 +515,8 @@
 		<param name="Name" value="biblioteca">
 		<param name="Name" value="&Aacute;reas de la ventana">
 		<param name="Local" value="Software_Overview_Window_Panes.htm">
-		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
-		<param name="Local" value="How_to_extend_the_Part_Library.htm">
-		<param name="Name" value="Recargar la biblioteca de piezas">
-		<param name="Local" value="Reload_the_Part_Library.htm">
+		<param name="Name" value="The Part Library">
+		<param name="Local" value="Part_Library.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
@@ -414,9 +525,30 @@
 			<param name="Local" value="Software_Overview_Window_Panes.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="custom">
+			<param name="Name" value="How to extend the Part Library">
+			<param name="Local" value="How_to_extend_the_Part_Library.htm">
+			<param name="Name" value="How to save a group in the Library">
+			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
+			<param name="Name" value="The Part Library Organization and Display Preferences">
+			<param name="Local" value="Part_Library_Organization.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="extender">
 			<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 			<param name="Local" value="How_to_extend_the_Part_Library.htm">
+			<param name="Name" value="How to save a group in the Library">
+			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="filter">
+			<param name="Name" value="How to Filer the Part Library">
+			<param name="Local" value="Part_Library_How_to_Filter.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="organization">
+			<param name="Name" value="The Part Library Organization and Display Preferences">
+			<param name="Local" value="Part_Library_Organization.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="organize">
@@ -433,6 +565,16 @@
 		<param name="Name" value="licencia">
 		<param name="Name" value="P&aacute;gina de inicio">
 		<param name="Local" value="Start_Page.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="limit">
+		<param name="Name" value="Part Budget">
+		<param name="Local" value="Part_Budget.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="line">
+		<param name="Name" value="Using Rulers">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="enlace">
@@ -453,6 +595,18 @@
 		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
 		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="budget">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="map">
+			<param name="Name" value="Saving and Loading">
+			<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
+			</OBJECT>
+	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="im&aacute;n">
 		<param name="Name" value="Mover piezas">
@@ -461,9 +615,21 @@
 		<param name="Local" value="Part_XML_Description.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="map">
+		<param name="Name" value="Creating and Modifying Layouts">
+		<param name="Local" value="Creating_Modifying_Layouts.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="margen">
 		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="measure">
+		<param name="Name" value="Using Rulers">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
+		<param name="Name" value="The Five Different Type of Layers">
+		<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="rat&oacute;n">
@@ -521,6 +687,11 @@
 		<param name="Name" value="nuevo">
 		<param name="Name" value="Guardar y cargar">
 		<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="notification">
+		<param name="Name" value="General Preferences">
+		<param name="Local" value="Preferences_General.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="abrir">
@@ -614,11 +785,26 @@
 			<param name="Local" value="Part_XML_Description.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="custom">
+			<param name="Name" value="How to save a group in the Library">
+			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="descripci&oacute;n">
 			<param name="Name" value="Exportar una lista de piezas">
 			<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 			<param name="Name" value="Descripci&oacute;n XML de las piezas">
 			<param name="Local" value="Part_XML_Description.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="filter">
+			<param name="Name" value="How to Filer the Part Library">
+			<param name="Local" value="Part_Library_How_to_Filter.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="flex">
+			<param name="Name" value="Using Flex Track">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Flex_Track.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="group">
@@ -689,6 +875,11 @@
 			<param name="Local" value="Preferences_Appearance.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="edition">
+			<param name="Name" value="Edition Preferences">
+			<param name="Local" value="Preferences_Edition.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="general">
 			<param name="Name" value="General Preferences">
 			<param name="Local" value="Preferences_General.htm">
@@ -750,6 +941,13 @@
 		<param name="Name" value="Searching and Replacing Parts">
 		<param name="Local" value="Creating_Modifying_Layouts_Search_Replace_Parts.htm">
 		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="attach">
+			<param name="Name" value="Using Rulers">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
+			</OBJECT>
+	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="guardar">
 		<param name="Name" value="Guardar y cargar">
@@ -760,6 +958,11 @@
 		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		</OBJECT>
 	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="budget">
+			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="imagen">
 			<param name="Name" value="Exportar un trazado como imagen">
@@ -787,6 +990,13 @@
 		<param name="Local" value="Preferences_Appearance.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="search">
+		<param name="Name" value="Searching and Replacing Parts">
+		<param name="Local" value="Creating_Modifying_Layouts_Search_Replace_Parts.htm">
+		<param name="Name" value="How to Filer the Part Library">
+		<param name="Local" value="Part_Library_How_to_Filter.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="seleccionar">
 		<param name="Name" value="Seleccionar piezas">
 		<param name="Local" value="Navigation_Selecting_Parts.htm">
@@ -799,6 +1009,8 @@
 		<param name="Local" value="Preferences_Shortcut_Keys.htm">
 		<param name="Name" value="Electric Circuits">
 		<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
+		<param name="Name" value="How to save a group in the Library">
+		<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ajustar">
@@ -829,12 +1041,26 @@
 		<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 		<param name="Name" value="Mover piezas">
 		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
+		<param name="Name" value="Using Texts">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Texts.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="a&ntilde;adir">
 			<param name="Name" value="Los cinco tipos de capas">
 			<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
+			<param name="Name" value="Using Texts">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Texts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="alignment">
+			<param name="Name" value="Using Texts">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Texts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="color">
+			<param name="Name" value="Using Texts">
+			<param name="Local" value="Creating_Modifying_Layouts_Using_Texts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="tipo de letra">
@@ -884,6 +1110,11 @@
 		<param name="Local" value="Creating_Modifying_Layouts_Undo_and_Redo.htm">
 		<param name="Name" value="Opciones generales">
 		<param name="Local" value="Preferences_General.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="unit">
+		<param name="Name" value="Using Rulers">
+		<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="url">
