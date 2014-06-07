@@ -68,7 +68,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="bmp">
 		<param name="Name" value="Exporting a Layout as an Image">
-		<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+		<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="bom">
@@ -194,7 +194,7 @@
 		<param name="Name" value="Exports, Reports and Printing">
 		<param name="Local" value="Export_Report_Printing.htm">
 		<param name="Name" value="Exporting a Layout as an Image">
-		<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+		<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 		<param name="Name" value="Exporting the Parts List">
 		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		<param name="Name" value="Saving and Loading">
@@ -204,7 +204,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="image">
 			<param name="Name" value="Exporting a Layout as an Image">
-			<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+			<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="ldraw">
@@ -273,7 +273,7 @@
 		<param name="Name" value="Part Image Format">
 		<param name="Local" value="Part_Image_Format.htm">
 		<param name="Name" value="Exporting a Layout as an Image">
-		<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+		<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="grid">
@@ -304,13 +304,13 @@
 		<param name="Name" value="Part Image Format">
 		<param name="Local" value="Part_Image_Format.htm">
 		<param name="Name" value="Exporting a Layout as an Image">
-		<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+		<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="export">
 			<param name="Name" value="Exporting a Layout as an Image">
-			<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+			<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="format">
@@ -351,7 +351,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="jpg">
 		<param name="Name" value="Exporting a Layout as an Image">
-		<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+		<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="key">
@@ -675,7 +675,7 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="png">
 		<param name="Name" value="Exporting a Layout as an Image">
-		<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+		<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="preferences">
@@ -755,7 +755,7 @@
 		<param name="Name" value="Saving and Loading">
 		<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
 		<param name="Name" value="Exporting a Layout as an Image">
-		<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+		<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 		<param name="Name" value="Exporting the Parts List">
 		<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 		</OBJECT>
@@ -763,7 +763,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="image">
 			<param name="Name" value="Exporting a Layout as an Image">
-			<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+			<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="map">

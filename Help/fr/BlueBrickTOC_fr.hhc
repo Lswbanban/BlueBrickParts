@@ -123,13 +123,27 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Budget de pi&egrave;ces">
+		<param name="Local" value="Part_Budget.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Utiliser un budget">
+			<param name="Local" value="Part_Budget_Using_Budget.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sauver et ouvrir un budget">
+			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Exporter, rapporter et imprimer">
 		<param name="Local" value="Export_Report_Printing.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Exporter un plan en image">
-			<param name="Local" value="Export_Report_Printing_Exporting_Layout_as_Image.htm">
+			<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Exporter la liste des pi&egrave;ces">
