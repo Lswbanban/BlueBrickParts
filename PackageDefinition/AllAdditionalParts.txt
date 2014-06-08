@@ -8,3 +8,7 @@
 ./parts/Town/*.xml
 ./parts/Train/*.gif
 ./parts/Train/*.xml
+./parts/Train Set/*.gif
+./parts/Train Set/*.xml
+./parts/Vehicle/*.gif
+./parts/Vehicle/*.xml
