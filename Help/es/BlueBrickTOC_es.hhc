@@ -31,20 +31,20 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="The Part Library">
+		<param name="Name" value="La biblioteca de piezas">
 		<param name="Local" value="Part_Library.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Organization">
+			<param name="Name" value="Organizaci&oacute;n">
 			<param name="Local" value="Part_Library_Organization.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Part Filtering">
+			<param name="Name" value="Filgrado de piezas">
 			<param name="Local" value="Part_Library_How_to_Filter.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Save a Group in the Library">
+			<param name="Name" value="Guardar un grupo en la biblioteca">
 			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
 			</OBJECT>
 	</UL>
@@ -90,27 +90,27 @@
 			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Grouping Parts">
+			<param name="Name" value="Agrupar piezas">
 			<param name="Local" value="Creating_Modifying_Layouts_Grouping_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Using Rulers">
+			<param name="Name" value="Usar Reglas">
 			<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Using Texts">
+			<param name="Name" value="Usar Textos">
 			<param name="Local" value="Creating_Modifying_Layouts_Using_Texts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Searching and Replacing Parts">
+			<param name="Name" value="Buscar y reemplazar piezas">
 			<param name="Local" value="Creating_Modifying_Layouts_Search_Replace_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Using Flex Track">
+			<param name="Name" value="Usar v&iacute;as flexibles (Flex Track)">
 			<param name="Local" value="Creating_Modifying_Layouts_Using_Flex_Track.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Seeing Electric Circuits">
+			<param name="Name" value="Ver el circuito el&eacute;ctrico">
 			<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -123,16 +123,16 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Part Budget">
+		<param name="Name" value="Presupuesto de piezas">
 		<param name="Local" value="Part_Budget.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Using a Budget">
+			<param name="Name" value="Usar un presupuesto">
 			<param name="Local" value="Part_Budget_Using_Budget.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Name" value="Guardar y cargar un presupuesto">
 			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
 			</OBJECT>
 	</UL>
@@ -160,7 +160,7 @@
 			<param name="Local" value="Preferences_General.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Edition Preferences">
+			<param name="Name" value="Opciones de edici&oacute;n">
 			<param name="Local" value="Preferences_Edition.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -211,7 +211,7 @@
 				<param name="Local" value="Part_XML_Description_Image.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Specify the Sorting Order">
+				<param name="Name" value="Especificar el orden de clasificaci&oacute;n">
 				<param name="Local" value="Part_XML_Description_SortingKey.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
@@ -265,15 +265,15 @@
 				<param name="Local" value="Part_XML_Description_SortingKey.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Not Listed in Library">
+				<param name="Name" value="No listado en la biblioteca">
 				<param name="Local" value="Part_XML_Description_NotListedInLibrary.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Old Name">
+				<param name="Name" value="Nombre antiguo">
 				<param name="Local" value="Part_XML_Description_OldName.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Posible desagrupar">
+				<param name="Name" value="Posibilidad de desagrupar">
 				<param name="Local" value="Group_XML_Description_CanUngroup.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
