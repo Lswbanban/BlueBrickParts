@@ -6,7 +6,7 @@ Default topic=Start_Page.htm
 Display compile progress=No
 Error log file=log.log
 Index file=BlueBrickIndex_es.hhk
-Language=0x80a Spanish (Mexico)
+Language=0x040a Spanish (Spain, Traditional Sort)
 Title=BlueBrick Help
 
 
