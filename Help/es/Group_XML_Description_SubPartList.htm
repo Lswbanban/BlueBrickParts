@@ -18,19 +18,19 @@
     </TD>
 </TR><TR>
 	<TD CLASS="Tilte">Valor por defecto:</TD>
-	<TD>Si esta etiqueta no est&aacute; presente, el grupo est&aacute; vac&iacute;o y ser&aacute; ignorado durante la carga de la biblioteca de piezas.</TD>
+	<TD>Si esta etiqueta no est&aacute; presente, querr&aacute; decir que el grupo est&aacute; vac&iacute;o y ser&aacute; ignorado durante la carga de la biblioteca de piezas.</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Descripci&oacute;n:</TD>
 	<TD>Una lista de piezas con sus posiciones y orientaciones.</TD>
 </TR>  
 </TABLE>
 
-<P>El <FONT CLASS="Important">campo SubPartList</FONT> contiene una lista de elementos <FONT CLASS="Important">SubPart</FONT>, uno por cada pieza que el grupo contiene. El orden de las piezas en la lista se emplea para determinar el orden de renderizaje: el primer elemento estar&aacute; al fondo y el &uacute;ltimo al frente.</P>
+<P>El <FONT CLASS="Important">campo SubPartList</FONT> contiene una lista de elementos <FONT CLASS="Important">SubPart</FONT>, uno por cada pieza que el grupo contiene. El orden de las piezas en la lista se emplea para determinar el orden en el que se mostrar&aacute;n superpuestos en pantalla: el primer elemento estar&aacute; al fondo y el &uacute;ltimo al frente.</P>
 
-<P>El <FONT CLASS="Important">campo SubPart</FONT> describe una pieza o sub-grupo de este grupo. EL atributo obligatorio <FONT CLASS="Important">id</FONT> es el n&uacute;mero completo de la pieza o el nombre del grupo (sin la extensi&oacute;n gif o xml). Este id trata may&uacute;sculas y min&uacute;sculas como iguales. Si una pieza o grupo no est&aacute; en la biblioteca, se usar&aacute; una cruz roja en su lugar. Las referencias c&iacute;clicas no est&aacute;s permitidas, lo que significa que no puedes referencias el nombre del grupo en el atributo de id, ni otro grupo que referencia este grupo en uno de sus atributos id. BlueBrick detecta estas referencias c&iacute;clicas y generar&aacute; un error al cargar el archivo y el grupo es ignorado por BlueBrick.</P>
+<P>El <FONT CLASS="Important">campo SubPart</FONT> describe una pieza o sub-grupo dentro de este grupo. El atributo obligatorio <FONT CLASS="Important">id</FONT> es el n&uacute;mero completo de la pieza o el nombre del grupo (sin la extensi&oacute;n .GIF o .XML). Este ID trata may&uacute;sculas y min&uacute;sculas como iguales. Si una pieza o grupo no est&aacute; en la biblioteca, se mostrar&aacute; una cruz roja en su lugar. Las referencias c&iacute;clicas no est&aacute;s permitidas, lo que significa que no puedes poner una referencia al nombre del grupo en el atributo de ID, ni otro grupo que referencia a este grupo en uno de sus atributos ID. BlueBrick detecta estas referencias c&iacute;clicas y generar&aacute; un error al cargar el archivo y el grupo ser&aacute; ignorado por BlueBrick.</P>
 
 <P>El <FONT CLASS="Important">campo position</FONT> describe la posici&oacute;n en coordenadas de studs de un elemento dentro del grupo. El origen no tiene importancia, ya que solo se considera la posici&oacute;n relativa entre todos los elementos del grupo. Sin embargo, para facilitar la edici&oacute;n del archivo XML, es conveniente colocar una pieza en el origen (0,0, 0,0) y las dem&aacute;s alrededor. O puedes elegir colocar el origen en el centro del grupo.</P>
 
-<P>El <FONT CLASS="Important">campo angle</FONT> describe la orientaci&oacute;n en grados del elemento, con los valores positivos en el sentido del reloj..</P>
+<P>El <FONT CLASS="Important">campo angle</FONT> describe la orientaci&oacute;n en grados del elemento, contando los valores positivos en el sentido del reloj..</P>
 </BODY>
 </HTML>
