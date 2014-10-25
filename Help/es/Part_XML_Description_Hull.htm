@@ -9,8 +9,7 @@
 <Title>Describir el per&iacute;metro</Title>
 </HEAD>
 <BODY>
-<H1>Describir el per&iacute;metro</H1>
-
+<h1>Definici&oacute;n del contorno</h1>
 <TABLE CLASS="XMLDescription">
 <TR>
 	<TD CLASS="Tilte">Sintaxis:</TD>
@@ -24,26 +23,25 @@
 	</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Valor por defecto:</TD>
-	<TD>Las 4 esquinas de una imagen definen su per&iacute;metro por defecto.</TD>
+	<TD>Las 4 esquinas de una imagen definen su contorno por defecto.</TD>
 </TR><TR>
 	<TD CLASS="Tilte">Descripci&oacute;n:</TD>
-	<TD>El per&iacute;metro es un envoltorio convexo que contiene todas las extremidades de la pieza. Se define como una lista de puntos cuyos <FONT CLASS="Important">coordenadas est&aacute;n en p&iacute;xeles</FONT>, relativo a la esquina superior izquierda de imagen de la pieza.</TD>
+	<TD>El contorno es un envoltorio que contiene toda la pieza. Se define como una lista de puntos, cuyas <font class="Important">coordenadas est&aacute;n en p&iacute;xeles</font>, relativos a la esquina superior izquierda de imagen de la pieza.</TD>
 </TR>
 </TABLE>
 
-<DIV CLASS="ToTranslate"><P>La descripci&oacute;n del per&iacute;metro es pr&aacute;ctico para piezas que no son ni cuadradas ni rectangulares, como las agujas y curvas. BlueBrick emplea ese per&iacute;metro para calcular la caja envoltorio de la pieza. La caja envoltorio es la caja rectangular m&aacute;s peque&ntilde;a posible (alineada con los ejes vertical y horizontal) que puede contener la pieza entera. Un buen per&iacute;metro aumenta el buen uso de la pieza. La definici&oacute;n del per&iacute;metro tambi&eacute;n influye en la cantidad de memoria empleada por BlueBrick. Esto es as&iacute; porque el tama&ntilde;o del per&iacute;metro influye en el tama&ntilde;o de la imagen necesario al girar la pieza. Usually a convex hull is good enough, but you may want to define a concave hull to improve the picking selection. Generally speaking, por favor a&ntilde;ade el m&iacute;nimo de puntos necesario ya que esto influye en el rendimiento del programa.</P></DIV>
+  <P>Una buena descripci&oacute;n del contorno es de utilidad en las piezas que no son ni cuadradas ni rectangulares, como los cambios de v&iacute;a y las curvas. BlueBrick emplea ese contorno para calcular la envolvente de la pieza. La envolvente es el rect&aacute;ngulo m&aacute;s peque&ntilde;o posible (alineado con los ejes vertical y horizontal) que puede contener la pieza entera. Un  contorno bien definido mejora el uso de la pieza. La definici&oacute;n del contorno tambi&eacute;n influye en la cantidad de memoria empleada por BlueBrick. Esto es as&iacute; porque el tama&ntilde;o del contorno influye en el tama&ntilde;o de la imagen necesario al girar la pieza. Por norma general, un contorno convexo es suficiente, pero puedes querer definir un contorno c&oacute;ncavo para mejorar la precisi&oacute;n en la selecci&oacute;n de las piezas. Como norma general, a&ntilde;ade el m&iacute;nimo n&uacute;mero de puntos necesario, ya que esto influye en el rendimiento del programa.</P>
+<P>Ten cuidado ya que, a diferencia de los par&aacute;metros anteriores, el contorno se define en p&iacute;xeles, no en studs. La raz&oacute;n para ello es que es mucho m&aacute;s sencillo definir el contorno en p&iacute;xeles, que se pueden encontrar con un editor de imagen, moviendo el cursor sobre la imagen.</P>
 
-<P>Ten cuidado ya que, a diferencia de los par&aacute;metros anteriores, el per&iacute;metro se define en p&iacute;xeles, no en studs. La raz&oacute;n para ello es que es mucho m&aacute;s sencillo definir el per&iacute;metro en p&iacute;xeles, que se pueden encontrar con un editor de imagen, moviendo el cursor sobre la imagen.</P>
 
-<DIV CLASS="ToTranslate"><P>BlueBrick actually shifts the pixel coordinates that you define in the XML file of 0.5 (half a pixel), in order to set the coordinate at the center of the pixel. However, note that you can use decimal values to define the pixel coordinates in the XML file. It is also allowed to use coordinates which are outside the image (i.e. negative value or value greater than the size of the image).</P></DIV>
-
-<P>Una mala definici&oacute;n de per&iacute;metro puede resultar en una pieza truncada al girarla con un &aacute;ngulo libre. <DIV CLASS="ToTranslate">When you are specifying the hull of your part, a good way to verify it is to draw the Hull by choosing the <font class="Path">&nbsp;View &gt; Hulls &gt; Bricks&nbsp;</font> menu. Here are two examples: one for the hull definition of the 9V Switch Point Track which is a precise concave hull such as you can click around the yellow lever without selecting it; and one for the 9V Curved Track which is a good enough convex hull.</div></P>
-
-<CENTER><IMG SRC="../HullSwitchPoint.png">&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../HullCurve.png"></CENTER>
-<BR>
-
+<P>En realidad, Bluebrick divide internamente la medida que est&aacute; definida en el fichero XML a la mitad (medio pixel) para ajustar la coordenada en el centro del pixel. Pese a ello, debes utilizar valores decimales para definir las coordenadas en p&iacute;xeles. Est&aacute; permitido utilizar coordenadas de puntos que se encuentren fuera del &aacute;rea de imagen (p.ej. valores negativos o mayores que el tama&ntilde;o de la imagen).</P>
+<P>Una  definici&oacute;n de contorno incorrecta puede derivar en una pieza que aparezca recortada al girarla con un &aacute;ngulo libre. Cuando especifiques el contorno de tu pieza, un buen modo de verificarlo es mostrar el contorno usando el men&uacute; <font class="Path">&nbsp;Ver &gt;Contornos &gt; Ladrillos</font>. Aqu&iacute; tienes dos ejemplos, uno de la definici&oacute;n del contorno de un cambio de v&iacute;as, que es un contorno c&oacute;ncavo preciso, que permite hacer clic alrededor de la palanca amarilla sin seleccionarla, y uno de v&iacute;a curva 9V que es un contorno convexo sufici&eacute;ntemente bueno pese a no ser tan preciso.
+<P>
+  <CENTER><IMG SRC="../HullSwitchPoint.png">&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="../HullCurve.png"></CENTER>
+  <BR>
+  
 <DIV CLASS="TechNote">
-<PRE><B>Este es el XML correspondiente para el per&iacute;metro de las curva 9V:</B>
+<PRE><B>Este es el XML correspondiente para el contorno de las curva 9V:</B>
 
 &lt;hull&gt;
     &lt;point&gt;
