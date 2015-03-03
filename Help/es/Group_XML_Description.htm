@@ -12,37 +12,35 @@
 <H1>Descripci&oacute;n XML de grupos</H1>
 <H2>Sinopsis</H2>
 
-<P>Desde la versi&oacute;n 1.7 de BlueBrick se puede escribir un archivo XML que describe varias piezas u otros grupos organizados en posiciones y orientaciones predefinidas. Por lo tanto, un grupo puede ser un atajo para a&ntilde;adir varias piezas de golpe. Por ejemplo, puedes crear un m&oacute;dulo est&aacute;ndar de 3x baseplates con dos v&iacute;as rectas en su parte inferior.</P>
+<P>Desde la versi&oacute;n 1.7 de BlueBrick se puede escribir un archivo XML que describa varias piezas u otros grupos organizados en posiciones y orientaciones predefinidas. Por lo tanto, un grupo puede usarse como atajo para a&ntilde;adir varias piezas de golpe. Por ejemplo, puedes crear un m&oacute;dulo est&aacute;ndar de 3x baseplates con dos v&iacute;as rectas en su parte inferior.</P>
 
-<P>Una pr&oacute;xima versi&oacute;n de BlueBrick proporcionar&aacute; una manera para guardar una selecci&oacute;n actual como grupo, pero por ahora hay que crear el XML de forma manual. Una manera alternativa de hacerlo es guardar las piezas que necesites en un archivo BBM y luego copiar y pegar los c&oacute;digos de orientaci&oacute;n y posici&oacute;n a un archivo XML de grupo.</P>
+<P>Una pr&oacute;xima versi&oacute;n de BlueBrick proporcionar&aacute; un modo de guardar la selecci&oacute;n actual como grupo pero, por ahora, hay que crear el XML de forma manual. Una forma alternativa de hacerlo es guardar las piezas que necesites en un archivo BBM, para luego copiar y pegar los c&oacute;digos de orientaci&oacute;n y posici&oacute;n a un archivo XML de grupo.</P>
 
-<P>Un archivo XML de grupo puede contener una o varias referencias a otros archivos XML de grupo. Sin embargo, no se puede crear referencias c&iacute;clicas, es decir un archivo XML de grupo no puede hacer referencia a si mismo ni a un archivo que hace referencia a otro que a su vez hace referencia al propio archivo, etc.  BlueBrick detecta referencias de este tipo durante la carga de la biblioteca de piezas y genera un error si encuentra uno.</P>
+<P>Un archivo XML de grupo puede contener una o varias referencias a otros archivos XML de grupo. Sin embargo, no se pueden crear referencias c&iacute;clicas, es decir un archivo XML de grupo no puede hacer referencia a si mismo ni a un archivo que hace referencia a otro que a su vez hace referencia al propio archivo, etc.  BlueBrick detecta referencias de este tipo durante la carga de la biblioteca de piezas y genera un error si encuentra uno.</P>
 
-<P>Un grupo en la biblioteca de piezas no requiere una imagen gif. BlueBrick recrea la imagen de grupo de la descripci&oacute;n del mismo durante la carga de la biblioteca. Al a&ntilde;adir un grupo a un trazado, BlueBrick emplea las im&aacute;genes individuales de cada pieza que pertenece al grupo.</P>
+<P>Un grupo en la biblioteca de piezas no requiere una imagen .GIF. BlueBrick recrea la imagen de grupo a partir de la descripci&oacute;n del mismo durante la carga de la biblioteca. Al a&ntilde;adir un grupo a un trazado, BlueBrick emplea las im&aacute;genes individuales de cada pieza que pertenece al grupo.</P>
 
 <P>Puedes duplicar un archivo XML existente y modificarlo para trabajar m&aacute;s r&aacute;pido. Ten cuidado, las etiquetas XML requieren correspondencia exacta de may&uacute;sculas y min&uacute;sculas. Todos los campos salvo &quot;SubPartList&quot; son opcionales y el orden de los campos no importa. Si falta un campo se usar&aacute; el ajuste por defecto en su lugar.</P>
 
 <P>Ten cuidado, en el archivo XML, <FONT CLASS="Important">la primera etiqueta, base de la jerarqu&iacute;a, debe ser &quot;group&quot;</FONT>. Es as&iacute; como BlueBrick distingue entre grupos y piezas.</P>
 
-<DIV class="ToTranslate">
-<H2>File Encoding</H2>
+<H2>Codificaci&oacute;n del fichero</H2>
 
-<P>For a good cross platform compatibility, you should clearly indicate in the header of the xml file the encoding in which the file is saved. The prefered encoding is UTF-8, because it can save accentuated character for the part description in different languages. Use a text editor to save your XML file in UTF-8. For example with Windows Notepad, choose the correct encoding in the save dialog:</P>
+<P>Para permitir una buena compatibilidad entre plataformas, deber&iacute;as indicar en el encabezado del fichero XML el codificado en el cual se guarda el archivo. El codificado preferido es UTF-8 porque permite guardar usando caracteres acentuados en la descripci&oacute;n de las piezas en distintos lenguajes. Utiliza un editor de texto para grabar tu fichero XML en formato UTF-8. Por ejemplo, con el programa Bloc de Notas de Windows, elije la codificaci&oacute;n correcta en el cuadro de di&aacute;logo de guardado::</P>
 
 <CENTER><IMG SRC="XmlEncoding.png"></CENTER>
 
-<P>And make sure the header of your file starts with this line:</P>
+<P>Y aseg&uacute;rate de que la cabecera de tu fichero comienza con esta l&iacute;nea:</P>
 
 <DIV CLASS="TechNote">
 <PRE>
 &lt;?xml version="1.0" <FONT COLOR="red">encoding="UTF-8"</FONT>?&gt;
 </PRE>
 </DIV>
-</DIV>
 
 <H2>Estructura del archivo XML</H2>
 
-<P>Si no sabes lo que es un archivo XML, y no est&aacute;s familiarizado con su sintaxis, te recomiendo en&eacute;rgicamente que busques ayuda adicional en Internet. Para resumirlo e pocas palabras, este formato organiza la informaci&oacute;n en un &aacute;rbol jer&aacute;rquico por medio de etiquetas que se identifican por estar dentro de los caracteres &lt; y &gt;. Esta es una estructura general de un archivo XML de grupo:</P>
+<P>Si no sabes lo que es un archivo XML y no est&aacute;s familiarizado con su sintaxis, te recomiendo  que busques ayuda adicional en Internet. Por intentar resumirlo en pocas palabras, este formato organiza la informaci&oacute;n en un &aacute;rbol jer&aacute;rquico por medio de etiquetas que se identifican por estar dentro de los caracteres '&lt;' y '&gt;' (mayor que, y menor que). Esta es una estructura general de un archivo XML de grupo:</P>
 
 <DIV CLASS="TechNote">
 <PRE>
@@ -78,16 +76,14 @@
 
 <H2>Las diferentes etiquetas XML en detalle</H2>
 
-<P>Para una descripci&oacute;n detallada de cada etiqueta XML, lea las siguientes secciones:</P>
+<P>Para una descripci&oacute;n detallada de cada etiqueta XML, se pueden consultar las siguientes secciones:</P>
 
 <UL>
 	<LI><A HREF="Part_XML_Description_Author.htm">Especificar autor</A> (f&aacute;cil)</LI>
 	<LI><A HREF="Part_XML_Description_Description.htm">A&ntilde;adir una descripci&oacute;n en un idioma diferente</A> (f&aacute;cil)</LI>
-	<DIV class="ToTranslate">
-	<LI><A HREF="Part_XML_Description_SortingKey.htm">Specify the sorting order</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_NotListedInLibrary.htm">Specify if the group should be hidden</A> (easy)</LI>
-	<LI><A HREF="Part_XML_Description_OldName.htm">Keep a trace of the previous name of a group</A> (easy)</LI>
-	</DIV>
+	<LI><A HREF="Part_XML_Description_SortingKey.htm">Especificar el orden de clasificaci&oacute;n </A>(f&aacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_NotListedInLibrary.htm">Especificar si el grupo deber&iacute;a estar oculto </A>(f&aacute;cil)</LI>
+	<LI><A HREF="Part_XML_Description_OldName.htm">Mantener el rastro del anterior nombre de un grupo</A> (f&aacute;cil)</LI>
 	<LI><A HREF="Part_XML_Description_Image.htm">Especificar una imagen de referencia online</A> (f&aacute;cil)</LI>
 	<LI><A HREF="Group_XML_Description_CanUngroup.htm">Especificar si este grupo se puede deagrupar</A> (f&aacute;cil)</LI>
 	<LI><A HREF="Part_XML_Description_Margin.htm">Especificar m&aacute;rgenes para ajuste autom&aacute;tico</A> (dificultad media)</LI>
