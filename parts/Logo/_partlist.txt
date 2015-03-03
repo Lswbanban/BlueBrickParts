@@ -61,6 +61,8 @@ NGLTC.gif
 NGLTC.xml
 NILTC.gif
 NILTC.xml
+OLUG.gif
+OLUG.xml
 ParLUGment.gif
 ParLUGment.xml
 PLUG.gif
