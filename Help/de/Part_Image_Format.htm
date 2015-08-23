@@ -17,6 +17,7 @@
 
 <H2>Zulässige Zeichen für Dateinamen</H2>
 <P>Die Verwendung von Gross- bzw. Kleinbuchstaben im Dateinamen ist ohne Bedeutung, da BlueBrick bei der Erstellung der Teilebibliothek alle Dateinamen in Großbuchstaben abspeichert. Werden also zwei Teile erstellt, deren Namen sich nur durch Groß- bzw. Kleinschreibung unterscheidet, behandelt BlueBrick diese Teile so dass ein Teil doppelt vorliegt. Im Teilnamen kann jedes Zeichen, auch ein Leerzeichen, verwendet werden. Besonders bei internationaler Zusammenarbeit sollten aber nur in England gebräuchliche Buchstaben und keine Umlaute wie ö, ä oder ü verwendet werden. Des weiteren sollte der Dateinamen auch keinen Punkt enthalten, da zum einen ein Punkt den Dateinamen von der Dateiendung (gif, bbm, etc.) trennt und zum anderen in BlueBrick mittels Punkt die Teilnummer von der Teilefarbe getrennt wird.</P>
+<p>However since the filenames on GNU/Linux OS are case sensitive, the ".xml" and ".gif" extensions <FONT CLASS="Important"> must be lower case</FONT> in order for BlueBrick to correctly find the parts on Linux.</p>
 
 <H2>Zulässige Dateinamen eines Teils oder Sets</H2>
 <P>BlueBrick akzeptiert jeden beliebigen Namen eines Teils. Die einzige Bedingung ist, dass der Name in der gesamten Teilebibliothek einzigartig ist. Auch wenn Teile in unterschiedlichen Ordnern abgelegt sind, dürfen diese nicht den gleichen Namen haben. Der Name eines Teils wird als eindeutige ID beim Speichern eines Gleisplans als BBM-Datei verwendet. Um Konflikte in der Teilebibliothek zu vermeiden und um Gleispläne in Form von BBM-Dateien untereinander austauschen zu können, wird allgemein <FONT CLASS="Important">als Dateiname eines Teils oder Sets die Teil- oder Setnummer verwendet</FONT>. Dieses ist nicht unbedingt für BlueBrick erforderlich, aber gängige Praxis. An dieser gängigen Praxis sollte man sich halten, die offizielle BlueBrick Teile- und Setbibliothek wird diese Methode verwenden.</P>
@@ -29,13 +30,20 @@
 &lt;SetNumber&gt;.set.xml
 
 Beispiel: Der Dateiname des Set Nr. 2150 in BlueBrick ist:
-<B>2150.set.gif</B>
+<B>2150-1.set.gif</B>
 
 Soll ein Set in unterschiedliche gif-Bilder aufgeteilt werden,
-so sollten diese folgende Dateinamen erhalten:
-6399.set1.gif
-6399.set2.gif
-6399.set3.gif
+you can name them roughly according to what the splitted part represents like:
+7945-1.station.gif
+7945-1.truck.gif
+etc...
+And it would be nice to add an xml file to group them, and which you can name *.set.xml, like:
+7945-1.set.xml
+
+If you want to make GIFs of the alternative Lego models which can be found in a set, the naming convention should be as follows:
+4886-1.set_option_1.gif
+4886-1.set_option_2.gif
+4886-1.set_option_3.gif
 etc...</PRE>
 </DIV>
 
@@ -80,9 +88,9 @@ Der Dateiname einer blauen 32x32 Grundplatte ist folglich:
 </DIV>
 
 <DIV class="ToTranslate">
-<H3>File Name Convention for a Group</H3>
+<H3>File Name Convention for a Group (which is not a set)</H3>
 
-<P>The file name of the group parts (parts made from other parts arranged in a certain predifined laying out) should start with any name describing the group followed by a dot and then the word "group" and finally by the extension. The group parts never have gif file, only xml files. If you want to make a group which actually represent a set (for example a set including many building in a predifined layout), use the "set" naming convention instead (see above).</P>
+<P>The file name of the group parts (parts made from other parts arranged in a specific, predifined layout) should start with any name describing the group followed by a dot and then the word "group" and finally by the extension. The group parts never have gif file, only xml files. If you want to make a group which actually represents a set (for example a set including many buildings in a predifined layout), use the "set" naming convention instead (see above).</P>
 
 <DIV class="TechNote">
 <PRE>&lt;GroupName&gt;.group.xml
