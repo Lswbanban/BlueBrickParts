@@ -1,6 +1,6 @@
 10027-1.half.gif
 10027-1.half.xml
-10027-1.SET.XML
+10027-1.set.xml
 10128-1.set.gif
 10128-1.set.xml
 146-1.set.gif
@@ -39,10 +39,10 @@
 4565-1.crane.xml
 4565-1.loco.gif
 4565-1.loco.xml
-4565-1.SET.XML
+4565-1.set.xml
 4565-1.threeslots.gif
 4565-1.threeslots.xml
-4565-1.TRAIN.XML
+4565-1.train.xml
 4565-1.twoslots.gif
 4565-1.twoslots.xml
 6399-1.highstation.gif
@@ -51,8 +51,8 @@
 6399-1.lowstation.xml
 6399-1.pillar.gif
 6399-1.pillar.xml
-6399-1.SET.XML
-6399-1.track.XML
+6399-1.set.xml
+6399-1.track.xml
 6399-1.train.gif
 6399-1.train.xml
 7822-1.set.gif

@@ -28,7 +28,7 @@
 10190-1.house.xml
 10190-1.market.gif
 10190-1.market.xml
-10190-1.SET.XML
+10190-1.set.xml
 10196-1.set.gif
 10196-1.set.xml
 10197-1.set.gif
@@ -110,7 +110,7 @@
 3438-1.car.xml
 3438-1.restaurant.gif
 3438-1.restaurant.xml
-3438-1.SET.XML
+3438-1.set.xml
 3438-1.table.gif
 3438-1.table.xml
 344-1.set.gif
@@ -150,7 +150,7 @@
 364-1.factory.xml
 364-1.police.gif
 364-1.police.xml
-364-1.SET.XML
+364-1.set.xml
 364-1.stockhouse.gif
 364-1.stockhouse.xml
 369-1.set.gif
@@ -169,7 +169,7 @@
 4210-1.set.xml
 4438-1.house.gif
 4438-1.house.xml
-4438-1.SET.XML
+4438-1.set.xml
 4440-1.helicopter.gif
 4440-1.helicopter.xml
 4440-1.set.xml
@@ -286,7 +286,7 @@
 6392-1.plane.xml
 6392-1.runway.gif
 6392-1.runway.xml
-6392-1.SET.XML
+6392-1.set.xml
 6392-1.terminal.gif
 6392-1.terminal.xml
 6393-1.set.gif
@@ -329,7 +329,7 @@
 6597-1.plane.xml
 6597-1.runway.gif
 6597-1.runway.xml
-6597-1.SET.XML
+6597-1.set.xml
 6597-1.terminal.gif
 6597-1.terminal.xml
 6597-1.tower.gif
@@ -362,7 +362,7 @@
 7641-1.busstop.xml
 7641-1.pizzeria.gif
 7641-1.pizzeria.xml
-7641-1.SET.XML
+7641-1.set.xml
 7744-1.set.gif
 7744-1.set.xml
 7945-1.set.xml
