@@ -24,6 +24,6 @@
 6990-1.highstation.xml
 6990-1.lowstation.gif
 6990-1.lowstation.xml
-6990-1.SET.XML
+6990-1.set.xml
 920-2.set.gif
 920-2.set.xml
