@@ -19,6 +19,7 @@
 
 <H2>Caracteres permitidos en el nombre de archivo</H2>
 <P>Los nombres de las piezas pueden usar indistintamente may&uacute;sculas o min&uacute;sculas, ya que BlueBrick convertir&aacute; todos los nombres en may&uacute;sculas al crear su biblioteca de piezas. As&iacute; pues, si creas dos piezas con el mismo nombre pero usando de forma distinta las may&uacute;sculas y minusculas, se considerar&aacute;n como la misma pieza. Se puede utilizar cualquier caracter autorizado para poner nombre a tus piezas (inclu&iacute;dos los espacios), pero se recomienda encarecidamente utilizar s&oacute;lo caracteres ingleses (sin tildes ni letras raras) para facilitar la compartici&oacute;n de tus dise&ntilde;os y piezas internacionalmente. Tambi&eacute;n debes evitar el uso del punto, ya que este cadacter se utiliza para separar el nombre del fichero de su extensi&oacute;n y tambi&eacute;n puede ser utilizado por BlueBrick para separar el n&uacute;mero de pieza de su color.</P>
+<p>However since the filenames on GNU/Linux OS are case sensitive, the ".xml" and ".gif" extensions <FONT CLASS="Important"> must be lower case</FONT> in order for BlueBrick to correctly find the parts on Linux.</p>
 <H2>Convenci&oacute;n de nombres de archivo</H2>
 <P>A BlueBrick le da igual el nombre que le des a tus piezas. La &uacute;nica restricci&oacute;n es que el nombre debe ser &uacute;nico en toda la librer&iacute;a. No puedes dar a dos piezas el mismo nombre incluso si est&aacute;n en carpetas distintas. Es m&aacute;s, este nombre se convertir&aacute; en un ID &uacute;nico que se grabar&aacute; en los ficheros .BBM de tu dise&ntilde;o. Para evitar conflictos entre los nombres de las piezas de la biblioteca y hacer tus ficheros .BBM f&aacute;ciles de compartir, <FONT CLASS="Important">habitualmente se emplea el numero de la pieza o set</FONT> como nombre de archivo. Esto es tan solo una pr&aacute;ctica de uso com&uacute;n, pero recomiendo encarecidamente que se siga este criterio. Este es el criterio seguido por la Biblioteca Oficial de Piezas BlueBrick.</P>
 
@@ -32,16 +33,17 @@
 Por ejemplo la convenci&oacute;n para nombrar el set #2150 es:
 <B>2150-1.set.gif</B>
 
-Adem&aacute;s, si quieres separar un set en diferentes im&aacute;genes gif, puedes renombr&aacute;rlos de la siguiente manera:
-6399-1.set1.gif
-6399-1.set2.gif
-6399-1.set3.gif
+Adem&aacute;s, si quieres separar un set en diferentes im&aacute;genes gif, you can name them roughly according to what the splitted part represents like:
+7945-1.station.gif
+7945-1.truck.gif
 etc...
+And it would be nice to add an xml file to group them, and which you can name *.set.xml, like:
+7945-1.set.xml
 
 Si quieres hacer GIFs de modelos alternativos de LEGO que est&aacute;n contenidos dentro de un set, la convenci&oacute;n para nombrarlos es como sigue:
-4886-1.setA.gif
-4886-1.setB.gif
-4886-1.setC.gif
+4886-1.set_option_1.gif
+4886-1.set_option_2.gif
+4886-1.set_option_3.gif
 etc...</PRE>
 </DIV>
 
@@ -85,7 +87,7 @@ Por ejemplo, la convenci&oacute;n para nombrar un baseplate az&uacute;l 32x32 es
  27 Lime                92 Flesh</PRE>
 </DIV>
 
-<H3>Convenci&oacute;n de nombres para grupos</H3>
+<H3>Convenci&oacute;n de nombres para grupos (which is not a set)</H3>
 
 <P>El nombre de archivo de un grupo de piezas (piezas hechas a partir de otras piezas organizadas con una distribuci&oacute;n determinada), deber&iacute;a comenzar con un nombre que describa el grupo seguido por un punto, y entonces la palabra &quot;group&quot; seguida finalmente de la extensi&oacute;n. Las piezas de grupo nunca tienen un fichero .GIF asociado, s&oacute;lo otros ficheros .XML. Si quieres hacer un grupo que represente en realidad un set (por ejemplo, un set que incluya varios edificios en una distribuci&oacute;n concreta), utiliza en su lugar la convenci&oacute;n para nombres de sets indicada m&aacute;s arriba..</P>
 
