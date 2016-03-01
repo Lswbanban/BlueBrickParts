@@ -6,6 +6,7 @@ BAYLTC.gif
 BAYLTC.xml
 BeLUG.gif
 BeLUG.xml
+BrickAlley.gif
 Byggepladen.gif
 Byggepladen.xml
 COLTC.gif
