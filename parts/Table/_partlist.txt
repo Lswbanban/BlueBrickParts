@@ -1,3 +1,7 @@
+Table125x75.gif
+Table125x75.xml
+Table150x75.gif
+Table150x75.xml
 Table187x93.gif
 Table187x93.xml
 Table204x102.gif
