@@ -17,7 +17,6 @@
 	</SnapMargin>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
-		<!-- the center of this part in stud is x = 279 pix / 8 pixperstud / 2 = 17.4375    and    y = 166 / 8 / 2 = 10.375 -->
 		<connexion>
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
 			<type>1</type>
@@ -78,7 +77,7 @@
 		</point>
 		<point>
 			<x>160</x>
-			<y>111</y>
+			<y>110</y>
 		</point>
 		<point>
 			<x>43</x>
@@ -86,11 +85,11 @@
 		</point>
 		<point>
 			<x>43</x>
-			<y>112</y>
+			<y>111</y>
 		</point>
 		<point>
 			<x>17</x>
-			<y>112</y>
+			<y>111</y>
 		</point>
 		<point>
 			<x>17</x>
