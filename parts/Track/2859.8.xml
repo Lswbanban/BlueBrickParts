@@ -13,7 +13,7 @@
 		<left>0.5</left>
 		<right>2.375</right>
 		<top>0</top>
-		<bottom>12.625</bottom>
+		<bottom>12.75</bottom>
 	</SnapMargin>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
@@ -74,16 +74,16 @@
 			<y>63</y>
 		</point>
 		<point>
-			<x>279</x>
+			<x>278</x>
 			<y>107</y>
 		</point>
 		<point>
-			<x>279</x>
+			<x>278</x>
 			<y>115</y>
 		</point>
 		<point>
 			<x>255</x>
-			<y>166</y>
+			<y>165</y>
 		</point>
 		<point>
 			<x>86</x>
