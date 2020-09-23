@@ -1,0 +1,13 @@
+.hg
+*.php
+*.log
+
+; ignore the generated files
+BlueBrick.*
+config/
+de/
+es/
+fr/
+it/
+nl/
+pt/
