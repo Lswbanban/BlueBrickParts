@@ -6,6 +6,9 @@
 		<en>Train Track Sleeper Plate 2 x 8 without Cable Grooves</en>
 		<fr>Traverse de chemin de fer 2 x 8 avec clip</fr>
 	</Description>
+	<OldNameList>
+		<OldName>767.8</OldName>
+	</OldNameList>
 	
 	<!-- LDraw remaping data -->
 	<LDraw>
