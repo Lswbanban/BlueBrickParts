@@ -5,4 +5,9 @@
 		<en>EU Table 200cm x 100cm</en>
 		<fr>Table EU 200cm x 100cm</fr>
 	</Description>
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>TABLE</PartType>
+		<PartName>/tables/metric/EU-200x100.svg</PartName>
+	</FourDBrix>
 </part>

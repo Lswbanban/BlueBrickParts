@@ -5,4 +5,9 @@
 		<en>Table 64 x 64 stud</en>
 		<fr>Table 64 x 64 stud</fr>
 	</Description>
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>TABLE</PartType>
+		<PartName>/tables/imperial/US-24x24.svg</PartName>
+	</FourDBrix>
 </part>

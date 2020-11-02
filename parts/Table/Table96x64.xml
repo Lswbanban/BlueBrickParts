@@ -6,4 +6,9 @@
 		<fr>Table 96 x 64 stud</fr>
 	</Description>
 	<ImageURL>http://www.brickshelf.com/gallery/ludo-soete/Modular-Tables/3_modular_table_2x3.jpg</ImageURL>
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>TABLE</PartType>
+		<PartName>/tables/imperial/US-36x24.svg</PartName>
+	</FourDBrix>
 </part>

@@ -20,4 +20,10 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>TABLE</PartType>
+		<PartName>/tables/imperial/US-36x36.svg</PartName>
+	</FourDBrix>
 </part>

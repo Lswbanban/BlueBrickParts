@@ -5,4 +5,9 @@
 		<en>US Table 30" x 72"</en>
 		<fr>Table US 30" x 72"</fr>
 	</Description>
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>TABLE</PartType>
+		<PartName>/tables/imperial/US-72x30.svg</PartName>
+	</FourDBrix>
 </part>
