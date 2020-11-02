@@ -68,4 +68,10 @@
 	<LDraw>
 		<PreferredHeight>-8</PreferredHeight>
 	</LDraw>
+	
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_STRAIGHT</PartName>
+	</FourDBrix>
 </part>
