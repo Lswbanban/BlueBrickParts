@@ -17,4 +17,9 @@
 		<top>0</top>
 		<bottom>0</bottom>
 	</SnapMargin>
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>STRUCTURE</PartType>
+		<PartName>/structures/space/6930.svg</PartName>
+	</FourDBrix>
 </part>
