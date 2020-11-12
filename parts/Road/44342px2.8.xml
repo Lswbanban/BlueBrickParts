@@ -52,4 +52,10 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>BASEPLATE</PartType>
+		<PartName>/baseplates/roads/44342px2.svg</PartName>
+	</FourDBrix>
 </part>

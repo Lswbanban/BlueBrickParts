@@ -19,4 +19,9 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>BASEPLATE</PartType>
+		<PartName>/baseplates/space/3947.svg</PartName>
+	</FourDBrix>
 </part>

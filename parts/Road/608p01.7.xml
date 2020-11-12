@@ -68,5 +68,11 @@
             			<AngleBetweenTDandBB>180</AngleBetweenTDandBB>
         		</TDBitmap>
     		</TDBitmapList>
-	</TrackDesigner>  
+	</TrackDesigner>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>BASEPLATE</PartType>
+		<PartName>/baseplates/roads/608p01.svg</PartName>
+	</FourDBrix>
 </part>
