@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <part>
 	<Author>Alban Nanty</Author>
-	<ImageURL>https://images.brickset.com/sets/images/60050-1.jpg</ImageURL>
+	<ImageURL>https://images.brickset.com/sets/images/60051-1.jpg</ImageURL>
 	<Description>
-		<en>Train Station</en>
-		<fr>Gare Ferovière</fr>
+		<en>High-speed Passenger Train Stop</en>
+		<fr>Arrêt du train passager à grande vitesse</fr>
 	</Description>
 	<SortingKey>Station</SortingKey>
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0.5</left>
-		<right>2</right>
-		<top>0</top>
+		<right>0.5</right>
+		<top>0.25</top>
 		<bottom>0</bottom>
 	</SnapMargin>
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
@@ -20,8 +20,8 @@
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
 			<type>1</type>
 			<position>
-				<x>-32.75</x>
-				<y>6.5</y>
+				<x>-16</x>
+				<y>0.125</y>
 			</position>
 			<angle>180</angle>
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
@@ -33,8 +33,8 @@
 			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
 			<type>1</type>
 			<position>
-				<x>31.25</x>
-				<y>6.5</y>
+				<x>16</x>
+				<y>0.125</y>
 			</position>
 			<angle>0</angle>
 			<angleToPrev>180</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
@@ -47,6 +47,6 @@
 	<!-- Remap info for 4DBrix format -->
 	<FourDBrix>
 		<PartType>STRUCTURE</PartType>
-		<PartName>/structures/train/60050.svg</PartName>
+		<PartName>/structures/train/60051.svg</PartName>
 	</FourDBrix>
 </part>
