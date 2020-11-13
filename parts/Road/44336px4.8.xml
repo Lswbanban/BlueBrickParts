@@ -52,5 +52,6 @@
 	<FourDBrix>
 		<PartType>BASEPLATE</PartType>
 		<PartName>/baseplates/roads/44336px4.svg</PartName>
+		<OrientationDifference>-90</OrientationDifference>
 	</FourDBrix>
 </part>

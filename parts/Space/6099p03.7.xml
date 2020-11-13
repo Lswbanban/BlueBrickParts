@@ -76,5 +76,6 @@
 	<FourDBrix>
 		<PartType>BASEPLATE</PartType>
 		<PartName>/baseplates/space/6099p06.svg</PartName>
+		<OrientationDifference>-90</OrientationDifference>
 	</FourDBrix>
 </part>
