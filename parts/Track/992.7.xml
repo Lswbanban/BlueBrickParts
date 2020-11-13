@@ -162,4 +162,10 @@
 		<PreferredHeight>-24</PreferredHeight>
 		<SleeperID>4166a.8</SleeperID>
 	</LDraw>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_12V_CROSS</PartName>
+	</FourDBrix>
 </part>

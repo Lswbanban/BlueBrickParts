@@ -57,4 +57,10 @@
 			</TDBitmap>
 		</TDBitmapList>
 	</TrackDesigner>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_HALFSTRAIGHT</PartName>
+	</FourDBrix>
 </part>
