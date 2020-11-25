@@ -2,8 +2,8 @@
 <part>
 	<Author>Alban Nanty</Author>
 	<Description>
-		<en>Parallel Track adapter</en>
-		<fr>Adaptateur de rail parallèle</fr>
+		<en>Parallel track adapter (Radius 40 studs)</en>
+		<fr>Adaptateur de rail parallèle (rayon de 40 tenons)</fr>
 	</Description>
 	<SortingKey>A2.4</SortingKey>
 
