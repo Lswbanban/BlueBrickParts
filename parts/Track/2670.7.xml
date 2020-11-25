@@ -65,4 +65,10 @@
 	<LDraw>
 		<PreferredHeight>-265</PreferredHeight>
 	</LDraw>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_MONORAILSTRAIGHTQUARTER</PartName>
+	</FourDBrix>
 </part>

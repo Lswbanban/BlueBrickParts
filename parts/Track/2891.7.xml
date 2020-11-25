@@ -113,4 +113,12 @@
 		</Translation>
 		<PreferredHeight>-265</PreferredHeight>
 	</LDraw>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_MONORAILSHORTCURVERIGHT</PartName>
+		<OrientationDifference>180</OrientationDifference>
+		<ConnectionIndexUsedAsOrigin>1</ConnectionIndexUsedAsOrigin>
+	</FourDBrix>
 </part>
