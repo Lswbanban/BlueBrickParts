@@ -19,8 +19,8 @@
 	<ConnexionList>
 		<!-- the center of this part in stud is x = 240 pix / 8 pixperstud / 2 = 15    and    y = 240 / 8 / 2 = 15 -->
 		<connexion>
-			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
-			<type>3</type>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>mono</type>
 			<position>
 				<x>-15</x>
 				<y>-13</y>
@@ -31,8 +31,8 @@
 			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 		<connexion>
-			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
-			<type>3</type>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>mono</type>
 			<position>
 				<x>13</x>
 				<y>15</y>

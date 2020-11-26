@@ -18,8 +18,8 @@
 	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
 	<ConnexionList>
 		<connexion>
-			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
-			<type>3</type>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>monoramp</type>
 			<position>
 				<x>-16</x>
 				<y>0</y>
@@ -30,8 +30,8 @@
 			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
 		</connexion>
 		<connexion>
-			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
-			<type>3</type>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>mono</type>
 			<position>
 				<x>16</x>
 				<y>0</y>
