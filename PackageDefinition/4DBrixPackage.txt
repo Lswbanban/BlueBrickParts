@@ -1,0 +1,2 @@
+./parts/4DBrix/*.gif
+./parts/4DBrix/*.xml

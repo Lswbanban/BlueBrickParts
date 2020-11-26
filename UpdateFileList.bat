@@ -1,4 +1,4 @@
-REM updat the folder list
+REM update the folder list
 dir parts\* /B /ON /AD > parts\_folderlist.txt
 
 REM update the part list
