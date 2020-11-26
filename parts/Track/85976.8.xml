@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Narrow Curve Track</en>
+		<fr>Rail courbe étroit</fr>
+	</Description>
+	<SortingKey>Narrow</SortingKey>
+
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0.5</left>
+		<right>0.5</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<!-- the center of this part in stud is x = 76 pix / 8 pixperstud / 2 = 4.75    and    y = 71 / 8 / 2 = 4.4375 -->		
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>narrow</type>
+			<position>
+				<x>-9.125</x>
+				<y>-3</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>225</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>135</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>narrow</type>
+			<position>
+				<x>7.8455627</x>	<!-- x = pos1x + 24 * sin(45) because 24 is the radius in stud of the middle line of a narrow track turn (for a half of circle) -->
+				<y>4.0294372</y>	<!-- y = pos1y + 24 * (1 - cos(45)) because 24 is the radius in stud of the middle line of a narrow track turn (for a half of circle) -->
+			</position>
+			<angle>45</angle>
+			<angleToPrev>135</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>225</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+	</ConnexionList>
+	<hull>
+		<point>
+			<x>0</x>
+			<y>8</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>45</x>
+			<y>3</y>
+		</point>
+		<point>
+			<x>85</x>
+			<y>16</y>
+		</point>
+		<point>
+			<x>122</x>
+			<y>36</y>
+		</point>
+		<point>
+			<x>153</x>
+			<y>62</y>
+		</point>
+		<point>
+			<x>148</x>
+			<y>72</y>
+		</point>
+		<point>
+			<x>129</x>
+			<y>91</y>
+		</point>
+		<point>
+			<x>120</x>
+			<y>95</y>
+		</point>
+		<point>
+			<x>95</x>
+			<y>75</y>
+		</point>
+		<point>
+			<x>66</x>
+			<y>60</y>
+		</point>
+		<point>
+			<x>35</x>
+			<y>50</y>
+		</point>
+		<point>
+			<x>3</x>
+			<y>46</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>37</y>
+		</point>
+	</hull>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_NARROWGAUGE_CURVE_R24</PartName>
+	</FourDBrix>
+</part>
