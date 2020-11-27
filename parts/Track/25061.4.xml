@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Roller Coaster Flat Curve</en>
+		<fr>Courbe plate de Roller Coaster</fr>
+	</Description>
+	<SortingKey>Roller</SortingKey>
+
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<!-- the center of this part in stud is x = 76 pix / 8 pixperstud / 2 = 4.75    and    y = 71 / 8 / 2 = 4.4375 -->		
+		<connexion>
+			<type>coaster</type>
+			<position>
+				<x>-6.8125</x>
+				<y>-5.1875</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>270</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>coaster</type>
+			<position>
+				<x>5.1875</x>	<!-- x = pos1x + 12 * sin(90) because 12 is the radius in stud of the middle line of a roller coaster turn (for a quarter of circle) -->
+				<y>6.8125</y>	<!-- y = pos1y + 12 * (1 - cos(90)) because 12 is the radius in stud of the middle line of a roller coaster turn (for a quarter of circle) -->
+			</position>
+			<angle>90</angle>
+			<angleToPrev>90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>270</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+	</ConnexionList>
+	<hull>
+		<point>
+			<x>0</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>31</x>
+			<y>4</y>
+		</point>
+		<point>
+			<x>56</x>
+			<y>15</y>
+		</point>
+		<point>
+			<x>77</x>
+			<y>32</y>
+		</point>
+		<point>
+			<x>93</x>
+			<y>53</y>
+		</point>
+		<point>
+			<x>104</x>
+			<y>77</y>
+		</point>
+		<point>
+			<x>108</x>
+			<y>108</y>
+		</point>
+		<point>
+			<x>81</x>
+			<y>108</y>
+		</point>
+		<point>
+			<x>78</x>
+			<y>84</y>
+		</point>
+		<point>
+			<x>70</x>
+			<y>67</y>
+		</point>
+		<point>
+			<x>57</x>
+			<y>50</y>
+		</point>
+		<point>
+			<x>42</x>
+			<y>38</y>
+		</point>
+		<point>
+			<x>23</x>
+			<y>30</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>27</y>
+		</point>
+	</hull>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_COASTERCURVE</PartName>
+	</FourDBrix>
+</part>
