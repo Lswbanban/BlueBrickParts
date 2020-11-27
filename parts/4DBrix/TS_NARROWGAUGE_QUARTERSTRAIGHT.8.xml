@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Narrow Gauge Quarter Track Straight 4 x 4</en>
+		<fr>Quart de rail droit étroit 4 x 4</fr>
+	</Description>
+	<SortingKey>E3</SortingKey>
+	
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>narrow</type>
+			<position>
+				<x>-2</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>narrow</type>
+			<position>
+				<x>2</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+			<angleToPrev>180.0</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>180.0</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->			
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+	</ConnexionList>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_NARROWGAUGE_QUARTERSTRAIGHT</PartName>
+	</FourDBrix>
+</part>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Narrow Gauge Half Curve Track</en>
+		<fr>Demi rail courbe étroit</fr>
+	</Description>
+	<SortingKey>E5</SortingKey>
+
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<!-- the center of this part in stud is x = 76 pix / 8 pixperstud / 2 = 4.75    and    y = 71 / 8 / 2 = 4.4375 -->		
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>narrow</type>
+			<position>
+				<x>-5</x>
+				<y>-0.6875</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>200.5</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>157.5</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road) -->
+			<type>narrow</type>
+			<position>
+				<x>4.1844023</x>	<!-- x = pos1x + 24 * sin(22.5) because 24 is the radius in stud of the middle line of a narrow track turn (for a half of circle) -->
+				<y>1.1393912</y>	<!-- y = pos1y + 24 * (1 - cos(22.5)) because 24 is the radius in stud of the middle line of a narrow track turn (for a half of circle) -->
+			</position>
+			<angle>22.5</angle>
+			<angleToPrev>157.5</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>200.5</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+	</ConnexionList>
+	<hull>
+		<point>
+			<x>0</x>
+			<y>0</y>
+		</point>
+		<point>
+			<x>44</x>
+			<y>5</y>
+		</point>
+		<point>
+			<x>79</x>
+			<y>16</y>
+		</point>
+		<point>
+			<x>61</x>
+			<y>58</y>
+		</point>
+		<point>
+			<x>31</x>
+			<y>49</y>
+		</point>
+		<point>
+			<x>0</x>
+			<y>47</y>
+		</point>
+	</hull>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_NARROWGAUGE_TRACK14</PartName>
+	</FourDBrix>
+</part>
