@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Single Crossover Right Turn</en>
+		<fr>Croisement simple droit</fr>
+	</Description>
+	<SortingKey>B5</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="TS_RIGHTSPLITINSIDE.8">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_RIGHTSPLITINSIDE.8">
+			<position>
+				<x>31.99963</x>
+				<y>10.00049</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="TS_DIVERGERRIGHT.8">
+			<position>
+				<x>14.9375</x>
+				<y>0.5625</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_DIVERGERRIGHT.8">
+			<position>
+				<x>17.06213</x>
+				<y>9.437988</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+	</SubPartList>
+	<GroupConnectionPreferenceList>
+		<nextIndex from="0">2</nextIndex>
+		<nextIndex from="2">5</nextIndex>
+		<nextIndex from="5">8</nextIndex>
+		<nextIndex from="8">0</nextIndex>
+	</GroupConnectionPreferenceList>
+</group>
