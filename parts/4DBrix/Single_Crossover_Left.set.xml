@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<fr>Croisement simple gauche</fr>
+		<en>Single Crossover LeftTurn</en>
+	</Description>
+	<SortingKey>B6</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="TS_DIVERGERLEFT.8">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>720</angle>
+		</SubPart>
+		<SubPart id="TS_DIVERGERLEFT.8">
+			<position>
+				<x>2.124634</x>
+				<y>-8.875488</y>
+			</position>
+			<angle>540</angle>
+		</SubPart>
+		<SubPart id="TS_LEFTSPLITINSIDE.8">
+			<position>
+				<x>17.06213</x>
+				<y>-9.437988</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="TS_LEFTSPLITINSIDE.8">
+			<position>
+				<x>-14.9375</x>
+				<y>0.5625</y>
+			</position>
+			<angle>360</angle>
+		</SubPart>
+	</SubPartList>
+	<GroupConnectionPreferenceList>
+		<nextIndex from="1">4</nextIndex>
+		<nextIndex from="4">6</nextIndex>
+		<nextIndex from="6">8</nextIndex>
+		<nextIndex from="8">1</nextIndex>
+	</GroupConnectionPreferenceList>
+</group>
