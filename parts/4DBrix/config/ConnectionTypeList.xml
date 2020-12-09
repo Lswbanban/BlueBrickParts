@@ -15,5 +15,10 @@
 			<Size>1</Size>
 			<FoudDBrixName>NT_SPLITLEFT</FoudDBrixName>
 		</ConnectionType>
+		<ConnectionType name="NT_SPLITTER">
+			<ColorARGB>FFDCDCDC</ColorARGB>
+			<Size>1</Size>
+			<FoudDBrixName>NT_SPLITTER</FoudDBrixName>
+		</ConnectionType>
 	</ConnectionTypeList>
 </info>
