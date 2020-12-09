@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Double Crossover with outside lever</en>
+		<fr>Croisement double avec levier extérieur</fr>
+	</Description>
+	<SortingKey>B1</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="TS_RIGHTSPLITOUTSIDE.8">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_SPLITINTERSECTION.8">
+			<position>
+				<x>16</x>
+				<y>3.626312</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_SPLITINTERSECTION.8">
+			<position>
+				<x>16</x>
+				<y>15.62631</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="TS_LEFTSPLITOUTSIDE.8">
+			<position>
+				<x>0</x>
+				<y>19.25262</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_RIGHTSPLITOUTSIDE.8">
+			<position>
+				<x>32</x>
+				<y>19.25262</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="TS_LEFTSPLITOUTSIDE.8">
+			<position>
+				<x>32</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+	</SubPartList>
+	<GroupConnectionPreferenceList>
+		<nextIndex from="0">8</nextIndex>
+		<nextIndex from="8">10</nextIndex>
+		<nextIndex from="10">12</nextIndex>
+		<nextIndex from="12">0</nextIndex>
+	</GroupConnectionPreferenceList>
+</group>
