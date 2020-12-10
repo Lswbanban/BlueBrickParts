@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Three way switch with parallel tracks</en>
+		<fr>Aiguillage trois voies avec voies parallèles</fr>
+	</Description>
+	<SortingKey>B11</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="TS_THREEWAYSPLITTRACK.8">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_THREEWAYDIVERGER.8">
+			<position>
+				<x>14.9375</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_ADAPTERPARALLELTRACK.8">
+			<position>
+				<x>19.86002</x>
+				<y>10.4129</y>
+			</position>
+			<angle>-157.5</angle>
+		</SubPart>
+		<SubPart id="TS_ADAPTERPARALLELTRACK.8">
+			<position>
+				<x>20.64981</x>
+				<y>-10.86282</y>
+			</position>
+			<angle>-36.87</angle>
+		</SubPart>
+	</SubPartList>
+	<GroupConnectionPreferenceList>
+		<nextIndex from="0">3</nextIndex>
+		<nextIndex from="3">6</nextIndex>
+		<nextIndex from="6">9</nextIndex>
+		<nextIndex from="9">0</nextIndex>
+	</GroupConnectionPreferenceList>
+</group>

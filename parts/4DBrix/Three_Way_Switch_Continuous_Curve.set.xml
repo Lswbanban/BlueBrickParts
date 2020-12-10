@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Three way switch with continuous curves</en>
+		<fr>Aiguillage trois voies avec courbes continues</fr>
+	</Description>
+	<SortingKey>B12</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="TS_THREEWAYSPLITTRACK.8">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_THREEWAYDIVERGER.8">
+			<position>
+				<x>14.9375</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_ADAPTERCONTINUOUSCURVE.8">
+			<position>
+				<x>18.3873</x>
+				<y>10.02533</y>
+			</position>
+			<angle>-323.13</angle>
+		</SubPart>
+		<SubPart id="TS_ADAPTERCONTINUOUSCURVE.8">
+			<position>
+				<x>17.94199</x>
+				<y>-9.638657</y>
+			</position>
+			<angle>-225</angle>
+		</SubPart>
+	</SubPartList>
+	<GroupConnectionPreferenceList>
+		<nextIndex from="0">3</nextIndex>
+		<nextIndex from="3">7</nextIndex>
+		<nextIndex from="7">8</nextIndex>
+		<nextIndex from="8">0</nextIndex>
+	</GroupConnectionPreferenceList>
+</group>
