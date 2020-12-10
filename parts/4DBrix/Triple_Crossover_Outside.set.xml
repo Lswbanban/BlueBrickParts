@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Triple Crossover with outside lever</en>
+		<fr>Croisement triple avec levier extérieur</fr>
+	</Description>
+	<SortingKey>B4</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="TS_THREEWAYSPLITTRACK.8">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_TRACK47.8">
+			<position>
+				<x>16</x>
+				<y>4</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_SPLITINTERSECTION.8">
+			<position>
+				<x>16</x>
+				<y>14</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="TS_LEFTSPLITOUTSIDE.8">
+			<position>
+				<x>0</x>
+				<y>17.62631</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_RIGHTSPLITOUTSIDE.8">
+			<position>
+				<x>32</x>
+				<y>17.62631</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="TS_TRACK47.8">
+			<position>
+				<x>16</x>
+				<y>-4</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="TS_SPLITINTERSECTION.8">
+			<position>
+				<x>16</x>
+				<y>-14</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_LEFTSPLITOUTSIDE.8">
+			<position>
+				<x>32</x>
+				<y>-17.62631</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+		<SubPart id="TS_RIGHTSPLITOUTSIDE.8">
+			<position>
+				<x>0</x>
+				<y>-17.62631</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_THREEWAYSPLITTRACK.8">
+			<position>
+				<x>32</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+		</SubPart>
+	</SubPartList>
+	<GroupConnectionPreferenceList>
+		<nextIndex from="0">9</nextIndex>
+		<nextIndex from="9">11</nextIndex>
+		<nextIndex from="11">20</nextIndex>
+		<nextIndex from="20">22</nextIndex>
+		<nextIndex from="22">24</nextIndex>
+		<nextIndex from="24">0</nextIndex>
+		<nextIndex from="1">25</nextIndex>
+		<nextIndex from="25">1</nextIndex>
+	</GroupConnectionPreferenceList>
+</group>

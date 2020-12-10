@@ -8,27 +8,27 @@
 		<ConnectionType name="NT_SPLITRIGHT">
 			<ColorARGB>FF9E6D02</ColorARGB>
 			<Size>1</Size>
-			<FoudDBrixName>NT_SPLITRIGHT</FoudDBrixName>
+			<FourDBrixName>NT_SPLITRIGHT</FourDBrixName>
 		</ConnectionType>
 		<ConnectionType name="NT_SPLITLEFT">
 			<ColorARGB>FFD7A12C</ColorARGB>
 			<Size>1</Size>
-			<FoudDBrixName>NT_SPLITLEFT</FoudDBrixName>
+			<FourDBrixName>NT_SPLITLEFT</FourDBrixName>
 		</ConnectionType>
 		<ConnectionType name="NT_SPLITTER">
 			<ColorARGB>FFCDCDCD</ColorARGB>
 			<Size>1</Size>
-			<FoudDBrixName>NT_SPLITTER</FoudDBrixName>
+			<FourDBrixName>NT_SPLITTER</FourDBrixName>
 		</ConnectionType>
 		<ConnectionType name="NT_TRIPLESPLITTER">
 			<ColorARGB>FF898989</ColorARGB>
 			<Size>1</Size>
-			<FoudDBrixName>NT_TRIPLESPLITTER</FoudDBrixName>
+			<FourDBrixName>NT_TRIPLESPLITTER</FourDBrixName>
 		</ConnectionType>
 		<ConnectionType name="NT_SPLITTHREEWAY">
 			<ColorARGB>FF555555</ColorARGB>
 			<Size>1</Size>
-			<FoudDBrixName>NT_SPLITTHREEWAY</FoudDBrixName>
+			<FourDBrixName>NT_SPLITTHREEWAY</FourDBrixName>
 		</ConnectionType>
 	</ConnectionTypeList>
 </info>
