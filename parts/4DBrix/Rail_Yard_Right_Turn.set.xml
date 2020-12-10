@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Rail yard on the right</en>
+		<fr>Triage vers la droite</fr>
+	</Description>
+	<SortingKey>B7</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="TS_RIGHTSPLITOUTSIDE.8">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_DIVERGERRIGHT.8">
+			<position>
+				<x>14.9375</x>
+				<y>5.1875</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_LEFTSPLITOUTSIDE.8">
+			<position>
+				<x>21.4248</x>
+				<y>15.72525</y>
+			</position>
+			<angle>36.87</angle>
+		</SubPart>
+		<SubPart id="TS_RAILYARDDIVERGERLEFT.8">
+			<position>
+				<x>34.32068</x>
+				<y>18.91272</y>
+			</position>
+			<angle>36.87</angle>
+		</SubPart>
+		<SubPart id="TS_ADAPTERPARALLELTRACK.8">
+			<position>
+				<x>41.19336</x>
+				<y>28.03783</y>
+			</position>
+			<angle>-157.5</angle>
+		</SubPart>
+		<SubPart id="2867.8">
+			<position>
+				<x>53.14542</x>
+				<y>32.25043</y>
+			</position>
+			<angle>-180</angle>
+		</SubPart>
+		<SubPart id="TS_ADAPTERRAILYARD.8">
+			<position>
+				<x>66.66626</x>
+				<y>33.62543</y>
+			</position>
+			<angle>-360</angle>
+		</SubPart>
+		<SubPart id="2865.8">
+			<position>
+				<x>47.99985</x>
+				<y>17.62494</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2865.8">
+			<position>
+				<x>63.99985</x>
+				<y>17.62494</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2865.8">
+			<position>
+				<x>32</x>
+				<y>1.625</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2865.8">
+			<position>
+				<x>48</x>
+				<y>1.625</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="2865.8">
+			<position>
+				<x>64</x>
+				<y>1.625</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+	</SubPartList>
+	<GroupConnectionPreferenceList>
+		<nextIndex from="0">15</nextIndex>
+		<nextIndex from="15">19</nextIndex>
+		<nextIndex from="19">25</nextIndex>
+		<nextIndex from="25">0</nextIndex>
+	</GroupConnectionPreferenceList>
+</group>
