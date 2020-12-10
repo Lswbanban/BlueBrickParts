@@ -3,7 +3,7 @@
 	<Author>Alban Nanty</Author>
 	<Description>
 		<fr>Croisement simple gauche</fr>
-		<en>Single Crossover LeftTurn</en>
+		<en>Single Crossover Left Turn</en>
 	</Description>
 	<SortingKey>B6</SortingKey>
 	<CanUngroup>true</CanUngroup>
