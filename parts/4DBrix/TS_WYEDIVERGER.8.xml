@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Wye Diverging Track (Radius 40 studs)</en>
+		<fr>Voie en Y divergente (rayon de 40 tenons)</fr>
+	</Description>
+	<SortingKey>A4.7</SortingKey>
+
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the origine defined above) -->
+	<ConnexionList>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>NT_SPLITWYE</type>
+			<position>
+				<x>-4</x>
+				<y>0</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>-143.13</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>143.13</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>1</electricPlug>
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>1</type>
+			<position>
+				<x>3.999825</x>
+				<y>8.0003</y>
+			</position>
+			<angle>-36.87</angle>
+			<angleToPrev>-143.13</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>73.74</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>-1</electricPlug>
+		</connexion>
+		<connexion>
+			<!-- type of connexion (0=none, 1=rail, 2=road, 3=monorail standard, 4=monorail short curve) -->
+			<type>1</type>
+			<position>
+				<x>3.999825</x>
+				<y>-8.0003</y>
+			</position>
+			<angle>36.87</angle>
+			<angleToPrev>-73.74</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>143.13</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+			<electricPlug>-1</electricPlug>
+		</connexion>
+	</ConnexionList>
+
+	<!-- Remap info for 4DBrix format -->
+	<FourDBrix>
+		<PartType>SEGMENT</PartType>
+		<PartName>TS_WYEDIVERGER</PartName>
+	</FourDBrix>
+</part>

@@ -15,6 +15,11 @@
 			<Size>1</Size>
 			<FourDBrixName>NT_SPLITLEFT</FourDBrixName>
 		</ConnectionType>
+		<ConnectionType name="NT_SPLITWYE">
+			<ColorARGB>FF85651E</ColorARGB>
+			<Size>1</Size>
+			<FourDBrixName>NT_SPLITWYE</FourDBrixName>
+		</ConnectionType>
 		<ConnectionType name="NT_SPLITTER">
 			<ColorARGB>FFCDCDCD</ColorARGB>
 			<Size>1</Size>

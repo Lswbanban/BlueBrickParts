@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group>
+	<Author>Alban Nanty</Author>
+	<Description>
+		<en>Wye Switch with parallel tracks</en>
+		<fr>Aiguillage en Y avec voies parallèles</fr>
+	</Description>
+	<SortingKey>B9</SortingKey>
+	<CanUngroup>true</CanUngroup>
+	<SubPartList>
+		<SubPart id="TS_WYESPLITTRACK.8">
+			<position>
+				<x>0</x>
+				<y>0</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_WYEDIVERGER.8">
+			<position>
+				<x>12</x>
+				<y>-1.625</y>
+			</position>
+			<angle>0</angle>
+		</SubPart>
+		<SubPart id="TS_ADAPTERPARALLELTRACK.8">
+			<position>
+				<x>19.86</x>
+				<y>8.787899</y>
+			</position>
+			<angle>-157.5</angle>
+		</SubPart>
+		<SubPart id="TS_ADAPTERPARALLELTRACK.8">
+			<position>
+				<x>20.64982</x>
+				<y>-12.48781</y>
+			</position>
+			<angle>-36.87</angle>
+		</SubPart>
+	</SubPartList>
+	<GroupConnectionPreferenceList>
+		<nextIndex from="0">5</nextIndex>
+		<nextIndex from="5">8</nextIndex>
+		<nextIndex from="8">0</nextIndex>
+	</GroupConnectionPreferenceList>
+</group>
