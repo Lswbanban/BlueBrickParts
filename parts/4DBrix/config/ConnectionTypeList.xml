@@ -15,5 +15,20 @@
 			<Size>1</Size>
 			<FoudDBrixName>NT_SPLITLEFT</FoudDBrixName>
 		</ConnectionType>
+		<ConnectionType name="NT_SPLITTER">
+			<ColorARGB>FFCDCDCD</ColorARGB>
+			<Size>1</Size>
+			<FoudDBrixName>NT_SPLITTER</FoudDBrixName>
+		</ConnectionType>
+		<ConnectionType name="NT_TRIPLESPLITTER">
+			<ColorARGB>FF898989</ColorARGB>
+			<Size>1</Size>
+			<FoudDBrixName>NT_TRIPLESPLITTER</FoudDBrixName>
+		</ConnectionType>
+		<ConnectionType name="NT_SPLITTHREEWAY">
+			<ColorARGB>FF555555</ColorARGB>
+			<Size>1</Size>
+			<FoudDBrixName>NT_SPLITTHREEWAY</FoudDBrixName>
+		</ConnectionType>
 	</ConnectionTypeList>
 </info>
