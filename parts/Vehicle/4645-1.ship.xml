@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Walter Torres</Author>
+	<ImageURL>https://images.brickset.com/sets/AdditionalImages/4645-1/4645-0000-xx-33-3.jpg</ImageURL>
+	<Description>
+		<en>"Farm Line" Company Ship (from set 4645-1)</en>
+		<fr>Bateau de la compagnie "Farm Line" (from set 4645-1)</fr>
+	</Description>
+	<OldNameList>
+		<OldName>4645.SHIP</OldName>
+	</OldNameList> 
+	<SortingKey>Boat</SortingKey>
+</part>
