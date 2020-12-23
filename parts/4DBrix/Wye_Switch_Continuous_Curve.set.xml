@@ -5,7 +5,7 @@
 		<en>Wye Switch with continuous curve</en>
 		<fr>Aiguillage en Y avec voies courbes continues</fr>
 	</Description>
-	<SortingKey>B10</SortingKey>
+	<SortingKey>B91</SortingKey>
 	<CanUngroup>true</CanUngroup>
 	<SubPartList>
 		<SubPart id="TS_WYESPLITTRACK.8">

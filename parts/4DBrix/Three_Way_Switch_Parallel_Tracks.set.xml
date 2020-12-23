@@ -5,7 +5,7 @@
 		<en>Three way switch with parallel tracks</en>
 		<fr>Aiguillage trois voies avec voies parallèles</fr>
 	</Description>
-	<SortingKey>B11</SortingKey>
+	<SortingKey>B92</SortingKey>
 	<CanUngroup>true</CanUngroup>
 	<SubPartList>
 		<SubPart id="TS_THREEWAYSPLITTRACK.8">
