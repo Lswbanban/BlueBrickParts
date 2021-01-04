@@ -5,6 +5,7 @@
 		<en>US Table 30" x 72"</en>
 		<fr>Table US 30" x 72"</fr>
 	</Description>
+	<ImageURL>https://raw.githubusercontent.com/Lswbanban/BlueBrickParts/master/parts/Table/Table96x228.gif</ImageURL>
 	<!-- Remap info for 4DBrix format -->
 	<FourDBrix>
 		<PartType>TABLE</PartType>

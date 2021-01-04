@@ -5,6 +5,7 @@
 		<en>EU Table 150cm x 75cm</en>
 		<fr>Table EU 150cm x 75cm</fr>
 	</Description>
+	<ImageURL>https://raw.githubusercontent.com/Lswbanban/BlueBrickParts/master/parts/Table/Table187x93.gif</ImageURL>
 	<!-- Remap info for 4DBrix format -->
 	<FourDBrix>
 		<PartType>TABLE</PartType>

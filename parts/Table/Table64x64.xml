@@ -5,6 +5,7 @@
 		<en>Table 64 x 64 stud</en>
 		<fr>Table 64 x 64 stud</fr>
 	</Description>
+	<ImageURL>https://raw.githubusercontent.com/Lswbanban/BlueBrickParts/master/parts/Table/Table64x64.gif</ImageURL>
 	<!-- Remap info for 4DBrix format -->
 	<FourDBrix>
 		<PartType>TABLE</PartType>
