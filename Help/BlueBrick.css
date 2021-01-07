@@ -72,23 +72,23 @@ TD.Shortcut		{ padding-top: 0em;
 				  padding-right: 0.5em;
 				  padding-bottom: 0em; }
 
-/* ---- fonts ----------------------------------------------------- */
-FONT.path		{ font-variant: small-caps;
+/* ---- span ----------------------------------------------------- */
+span.path		{ font-variant: small-caps;
 			  	  font-weight: bold;
 			 	  background-color: #CCCCCC }
 
-FONT.Important	{font-variant: small-caps;
+span.Important	{font-variant: small-caps;
 				 font-weight: bold;
 				 color: #6A1AFF }
 
-FONT.RefNumber	{font-family: Arial, Sans-Serif;
+span.RefNumber	{font-family: Arial, Sans-Serif;
 				 font-weight: bold;
 				 background-color: #000000;
 				 color: #FFFFFF }
-FONT.RefNumber:before {	content: url(LeftRefNumber.png); 
+span.RefNumber:before {	content: url(LeftRefNumber.png); 
 						background-color: #C1D4F7;
 						vertical-align: -19% }
-FONT.RefNumber:after { content: url(RightRefNumber.png);
+span.RefNumber:after { content: url(RightRefNumber.png);
 						background-color: #C1D4F7;
 						vertical-align: -19%; }
 				 

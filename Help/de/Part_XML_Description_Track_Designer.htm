@@ -46,13 +46,13 @@
 
 <P>Normally, you only need to add this XML tag if you add a part that is supported by Track Designer. BlueBrick already comes with the full support of Track Designer's default library so you will probably never need to add this information. However, since Track Designer also has a feature to expand the library, it can happen that you want to support the custom part you made for Track Designer (in order to load your TDL file created with your custom TD library).</P>
 
-<P>The <FONT CLASS="Important">ID field</FONT> contains the full Track Designer ID (this can be seen in the parts properties window by right clicking on the part in Track Designer, and choosing "Properties"). This ID is used to make the link between the Track Designer part and the corresponding BlueBrick part. A default value is not possible, this field must always have an entry.</P>
+<P>The <span class="Important">ID field</span> contains the full Track Designer ID (this can be seen in the parts properties window by right clicking on the part in Track Designer, and choosing "Properties"). This ID is used to make the link between the Track Designer part and the corresponding BlueBrick part. A default value is not possible, this field must always have an entry.</P>
 
-<P>Since it is possible to assign any ID to a part in a TD registry, it may happen that the same parts have different IDs in different custom registries, making these two registries incompatible. BlueBrick, however, can still load two different TDL files saved with incompatible TD registries. If a part is known to have different TD IDs in different registries, you can replace the <FONT CLASS="Important">ID field</FONT> by a <FONT CLASS="Important">IDList field</FONT> in which you list all the known IDs.</P>
+<P>Since it is possible to assign any ID to a part in a TD registry, it may happen that the same parts have different IDs in different custom registries, making these two registries incompatible. BlueBrick, however, can still load two different TDL files saved with incompatible TD registries. If a part is known to have different TD IDs in different registries, you can replace the <span class="Important">ID field</span> by a <span class="Important">IDList field</span> in which you list all the known IDs.</P>
 
-<P>The <FONT CLASS="Important">ID field</FONT> contains an attribute named <FONT CLASS="Important">registry</FONT>. The value of this attribute is a keyword that refers to the registry in which the part has this ID. As a keyword, you can use the name of the LUG/LTC that uses the registry, or the name of the website that distribute this registry. Then in the "config" folder of the BlueBrick installation folder, you can find a configuration file named "TDRegistryList.txt" in which you can associate your keyword with the actual file name of the registry.</P>
+<P>The <span class="Important">ID field</span> contains an attribute named <span class="Important">registry</span>. The value of this attribute is a keyword that refers to the registry in which the part has this ID. As a keyword, you can use the name of the LUG/LTC that uses the registry, or the name of the website that distribute this registry. Then in the "config" folder of the BlueBrick installation folder, you can find a configuration file named "TDRegistryList.txt" in which you can associate your keyword with the actual file name of the registry.</P>
 
-<P>The <FONT CLASS="Important">Flag field</FONT> contains an integer value needed by Track Designer. This field can have only four values:
+<P>The <span class="Important">Flag field</span> contains an integer value needed by Track Designer. This field can have only four values:
 <UL>
 	<LI>0 = no flag</LI>
 	<LI>1 = piece is an attachment</LI>
@@ -61,15 +61,15 @@
 </UL>
 Unfortunately there's no way to find this Flag in the part registry of Track Designer. I suspect these flags are computed dynamically by, but as I don't know how to compute them, I added them as fixed values in the XML description for now. Most of the time you can use 0 as the default value. BlueBrick also uses 0 as the default value.</P>
 
-<P>The <FONT CLASS="Important">HasSeveralGeometries field</FONT> contains a boolean flag ("true" or "false" in lower case without the quotes) to tell if the part has several <I>Geometries</I> in Track Designer. To know if a Track Designer part has several geometries, open the Track Designer Registry and click on the part. If you can see more than one item under the "Geometries" field, you should set the <FONT CLASS="Important">HasSeveralGeometries field</FONT> to true. If this field is false, BlueBrick will always use the port ID "0" as the origin of the part when saving the file. The default value is "false".</P>
+<P>The <span class="Important">HasSeveralGeometries field</span> contains a boolean flag ("true" or "false" in lower case without the quotes) to tell if the part has several <I>Geometries</I> in Track Designer. To know if a Track Designer part has several geometries, open the Track Designer Registry and click on the part. If you can see more than one item under the "Geometries" field, you should set the <span class="Important">HasSeveralGeometries field</span> to true. If this field is false, BlueBrick will always use the port ID "0" as the origin of the part when saving the file. The default value is "false".</P>
 
 <CENTER><IMG SRC="../TrackDesignerRegistry1.png"></CENTER>
 
-<P>The <FONT CLASS="Important">TDBitmapList field</FONT> contains a list containing each connection that the Track Designer part has. This field allows you to remap the Track Designer connection point with the BlueBrick connection point. In this list, just enter one <FONT CLASS="Important">TDBitmap field</FONT> for each Track Designer connection points; if the BlueBrick part has more connection point than the Track Designer one, ignore them. If the Track Designer part has more connection points than the BlueBrick part, then create and add them in the connection list of the BlueBrick XML file. Pay special attention to the order of the <FONT CLASS="Important">TDBitmap field</FONT>! This is important as the entries must be in the same order as the bitmap ID order in the Track Designer registry.</P>
+<P>The <span class="Important">TDBitmapList field</span> contains a list containing each connection that the Track Designer part has. This field allows you to remap the Track Designer connection point with the BlueBrick connection point. In this list, just enter one <span class="Important">TDBitmap field</span> for each Track Designer connection points; if the BlueBrick part has more connection point than the Track Designer one, ignore them. If the Track Designer part has more connection points than the BlueBrick part, then create and add them in the connection list of the BlueBrick XML file. Pay special attention to the order of the <span class="Important">TDBitmap field</span>! This is important as the entries must be in the same order as the bitmap ID order in the Track Designer registry.</P>
 
-<P>The <FONT CLASS="Important">BBConnexionPointIndex field</FONT> contains the BlueBrick connexion 0-based index which indicates how the part will be connected in Track Designer when using this bitmap index. In the BlueBrick part description of the XML file, the connection points are described inside the ConnexionList field (see how to <A HREF="Part_XML_Description_Connection.htm">Describe the Connection Points</A> section for more details). The index of the BlueBrick connection refers to the order in which the connections appear.</P>
+<P>The <span class="Important">BBConnexionPointIndex field</span> contains the BlueBrick connexion 0-based index which indicates how the part will be connected in Track Designer when using this bitmap index. In the BlueBrick part description of the XML file, the connection points are described inside the ConnexionList field (see how to <A HREF="Part_XML_Description_Connection.htm">Describe the Connection Points</A> section for more details). The index of the BlueBrick connection refers to the order in which the connections appear.</P>
 
-<P>The <FONT CLASS="Important">Type field</FONT> contains an integer value that describes the Track Designer type of the connection. This number can take a value between 0 and 20:
+<P>The <span class="Important">Type field</span> contains an integer value that describes the Track Designer type of the connection. This number can take a value between 0 and 20:
 <UL>
 	<LI>0 = Straight</LI>
 	<LI>1 = Left Curve</LI>
@@ -96,7 +96,7 @@ Unfortunately there's no way to find this Flag in the part registry of Track Des
 
 <CENTER><IMG SRC="../TrackDesignerRegistry2.png"></CENTER>
 
-<P>The <FONT CLASS="Important">AngleBetweenTDandBB field</FONT> contains a decimal value that is the angle difference (in degrees) between the orientation of the BlueBrick and TrackDesigner parts.</P>
+<P>The <span class="Important">AngleBetweenTDandBB field</span> contains a decimal value that is the angle difference (in degrees) between the orientation of the BlueBrick and TrackDesigner parts.</P>
 
 </BODY>
 </HTML>

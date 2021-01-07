@@ -3,7 +3,7 @@
 <meta name="keywords" content="BlueBrick, Help">
 <meta name="description" content="The reference documentation for BlueBrick.">
 <meta name="author" content="Alban Nanty">
-<link rel=StyleSheet href="../BlueBrick.css" type="text/css" media="screen">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
 <Title>How to Filer the Part Library</Title>
 </head>
 <body>
@@ -11,23 +11,23 @@
 
 <center><img src="LayerPane.png"></center>
 
-<p>At the bottom of the part library, there's a text box <font class="RefNumber">16</font> where you can type any kind of keywords to filter the parts displayed in the part library. The filtering is done on both the description and the color of the part; meaning that every part which contains the specified keyword in their description or color name will be displayed, and the others will be hidden. Clear the text box if you want to unfilter the library.</p>
+<p>At the bottom of the part library, there's a text box <span class="RefNumber">16</span> where you can type any kind of keywords to filter the parts displayed in the part library. The filtering is done on both the description and the color of the part; meaning that every part which contains the specified keyword in their description or color name will be displayed, and the others will be hidden. Clear the text box if you want to unfilter the library.</p>
 
 <p>By default when the part list is filtered, the background color of the part library becomes slightly red, but you can customize this color in the <a href="Preferences_Part_Library.htm">Preferences</a> of the application, including setting it to white if you don't want to see the color change.</p>
 
 <h1>Advanced Filtering</h1>
 
-<p>You can use several keywords separated by a space character. In that case all the parts that match all the specified keywords (in any order) will be displayed. Now if you want to use a space character inside your keyword, you must enclose your search sentence between double quote. For example if you want to display all the 32 x 32 green baseplates in the baseplate tab of the part library you should type: <font class="Important">"32 x 32" green</font>. The double quotes around the "32 x 32" text will ensure that these three words will not be split during the filtering, and the space before the 'green' word will be understood as a separation for a second keyword such as only baseplates that are both green and have a size of 32x32 will be displayed.</p>
+<p>You can use several keywords separated by a space character. In that case all the parts that match all the specified keywords (in any order) will be displayed. Now if you want to use a space character inside your keyword, you must enclose your search sentence between double quote. For example if you want to display all the 32 x 32 green baseplates in the baseplate tab of the part library you should type: <span class="Important">"32 x 32" green</span>. The double quotes around the "32 x 32" text will ensure that these three words will not be split during the filtering, and the space before the 'green' word will be understood as a separation for a second keyword such as only baseplates that are both green and have a size of 32x32 will be displayed.</p>
 
-<p>Note that with the previous example <font class="Important">"32 x 32" green</font> a SAND GREEN baseplate is also listed. Fortunately it is also possible to exclude parts that match specific keywords by adding a minus character - just in front of the keyword. For example if you want to exclude the sand green baseplate you can use: <font class="Important">"32 x 32" green -sand</font>. You can of course use exclusive keywords only, for example if you type <font class="Important">-yellow</font> you will display all the parts except the yellow ones. The minus character also works in front of a double quoted sentence, for example <font class="Important">-"16 x 16"</font> will remove all the 16x16 baseplates. Adding a + in front of a keyword will have the same effect as not adding it.</p>
+<p>Note that with the previous example <span class="Important">"32 x 32" green</span> a SAND GREEN baseplate is also listed. Fortunately it is also possible to exclude parts that match specific keywords by adding a minus character - just in front of the keyword. For example if you want to exclude the sand green baseplate you can use: <span class="Important">"32 x 32" green -sand</span>. You can of course use exclusive keywords only, for example if you type <span class="Important">-yellow</span> you will display all the parts except the yellow ones. The minus character also works in front of a double quoted sentence, for example <span class="Important">-"16 x 16"</span> will remove all the 16x16 baseplates. Adding a + in front of a keyword will have the same effect as not adding it.</p>
 
-<p>You can also filter based on part numbers. To do this, you need to add the sharp character # in front of the keyword. For example, typing <font class="Important">#10</font> for the town tab will make the search easier to find the Modular Buildings as their set number are often around 10 thousands.</p>
+<p>You can also filter based on part numbers. To do this, you need to add the sharp character # in front of the keyword. For example, typing <span class="Important">#10</span> for the town tab will make the search easier to find the Modular Buildings as their set number are often around 10 thousands.</p>
 
 <h1>Filtering by tab or for all tabs</h1>
 
-<p>There are two modes of filtering and you can switch the modes by clicking the button <font class="RefNumber">17</font>. If you press this button then its icon becomes slightly red, which means that the keywords you have typed in the text box will be used for all the tabs of the part library. In such case, even if you switch tabs you will always see the same filter keywords. On the contrary, unclicking the button <font class="RefNumber">17</font> will allow you to have different keywords for each tab, and they will be remembered when you switch tabs.</p>
+<p>There are two modes of filtering and you can switch the modes by clicking the button <span class="RefNumber">17</span>. If you press this button then its icon becomes slightly red, which means that the keywords you have typed in the text box will be used for all the tabs of the part library. In such case, even if you switch tabs you will always see the same filter keywords. On the contrary, unclicking the button <span class="RefNumber">17</span> will allow you to have different keywords for each tab, and they will be remembered when you switch tabs.</p>
 
-<p>The global mode is useful if you search a part whose description you are pretty sure, but you don't know in which tab it is stored; whereas the individual mode is more useful when you want to subset some tabs with the parts you mostly use. For example, if you mostly use 9V track and standard baseplates, you can use <font class="Important">"32 x 32"</font> keyword in the Baseplate tab and the <font class="Important">9V</font> keyword in the Track tab.</p>
+<p>The global mode is useful if you search a part whose description you are pretty sure, but you don't know in which tab it is stored; whereas the individual mode is more useful when you want to subset some tabs with the parts you mostly use. For example, if you mostly use 9V track and standard baseplates, you can use <span class="Important">"32 x 32"</span> keyword in the Baseplate tab and the <span class="Important">9V</span> keyword in the Track tab.</p>
 
 <p>The keywords are automatically saved when you exit the application and reloaded at the next session of Bluebrick.</p>
 
