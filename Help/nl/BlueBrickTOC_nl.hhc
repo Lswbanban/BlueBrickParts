@@ -31,20 +31,24 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="The Part Library">
+		<param name="Name" value="De onderdelenbibliotheek">
 		<param name="Local" value="Part_Library.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Organization">
+			<param name="Name" value="Organisatie">
 			<param name="Local" value="Part_Library_Organization.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Part Filtering">
+			<param name="Name" value="Gedeeltelijk filteren">
 			<param name="Local" value="Part_Library_How_to_Filter.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Save a Group in the Library">
+			<param name="Name" value="Download aanvullende onderdelen">
+			<param name="Local" value="Part_Library_Download_Additional_Parts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sla een groep op in de bibliotheek">
 			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
 			</OBJECT>
 	</UL>
@@ -90,23 +94,23 @@
 			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Grouping Parts">
+			<param name="Name" value="Onderdelen groeperen">
 			<param name="Local" value="Creating_Modifying_Layouts_Grouping_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Using Rulers">
+			<param name="Name" value="Linialen gebruiken">
 			<param name="Local" value="Creating_Modifying_Layouts_Using_Rulers.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Using Texts">
+			<param name="Name" value="Teksten gebruiken">
 			<param name="Local" value="Creating_Modifying_Layouts_Using_Texts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Searching and Replacing Parts">
+			<param name="Name" value="Onderdelen zoeken en vervangen">
 			<param name="Local" value="Creating_Modifying_Layouts_Search_Replace_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Using Flex Track">
+			<param name="Name" value="Flex Track gebruiken">
 			<param name="Local" value="Creating_Modifying_Layouts_Using_Flex_Track.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -123,16 +127,16 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Part Budget">
+		<param name="Name" value="Deel budget">
 		<param name="Local" value="Part_Budget.htm">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Using a Budget">
+			<param name="Name" value="Met een budget">
 			<param name="Local" value="Part_Budget_Using_Budget.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Saving and Loading a Budget">
+			<param name="Name" value="Een budget opslaan en laden">
 			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
 			</OBJECT>
 	</UL>
@@ -160,7 +164,7 @@
 			<param name="Local" value="Preferences_General.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Edition Preferences">
+			<param name="Name" value="Editie opties">
 			<param name="Local" value="Preferences_Edition.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">

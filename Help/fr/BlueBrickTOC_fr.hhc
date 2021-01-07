@@ -44,6 +44,10 @@
 			<param name="Local" value="Part_Library_How_to_Filter.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="T&eacute;l&eacute;charger des pi&egrave; suppl&eacute;mentaires">
+			<param name="Local" value="Part_Library_Download_Additional_Parts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Sauvegarder un groupe dans la librairie">
 			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
 			</OBJECT>
