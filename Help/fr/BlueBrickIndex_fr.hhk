@@ -293,6 +293,11 @@
 			<param name="Local" value="LDraw_Remaping_File.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ncp">
+			<param name="Name" value="Add information for 4DBrix (nControl) Compatibility">
+			<param name="Local" value="Part_XML_Description_4DBrix.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="parts">
 			<param name="Name" value="Exporting the Parts List">
 			<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
@@ -309,11 +314,6 @@
 		<param name="Name" value="extend">
 		<param name="Name" value="How to extend the Part Library">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="filter">
-		<param name="Name" value="How to Filer the Part Library">
-		<param name="Local" value="Part_Library_How_to_Filter.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="filter">
@@ -440,6 +440,11 @@
 			<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
 			<param name="Name" value="LDraw Remaping File">
 			<param name="Local" value="LDraw_Remaping_File.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ncp">
+			<param name="Name" value="Add information for 4DBrix (nControl) Compatibility">
+			<param name="Local" value="Part_XML_Description_4DBrix.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="tdl">

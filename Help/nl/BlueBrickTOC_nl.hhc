@@ -242,6 +242,10 @@
 				<param name="Name" value="LDraw Compatibility">
 				<param name="Local" value="Part_XML_Description_LDRAW.htm">
 				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="4DBrix Compatibility">
+				<param name="Local" value="Part_XML_Description_4DBrix.htm">
+				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="XML Group Description">
