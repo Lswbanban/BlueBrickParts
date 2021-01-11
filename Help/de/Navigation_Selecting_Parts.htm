@@ -1,18 +1,30 @@
-﻿<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alex McKenna">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Auswahl von Teilen</Title>
-</HEAD>
-<BODY>
-<H1>Auswahl von Teilen</H1>
+﻿<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alex McKenna">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Auswahl von Teilen</title>
+</head>
+<body>
+<h1>Auswahl von Teilen</h1>
 
-<P>Man kann ein einzelnes Teil (durch Anklicken) oder mehrere Teile (z.B. durch Ziehen der Maus über die auszuwählenden Teile) auswählen. Die Auswahl von Textfeldern erfolgt in der gleichen Weise wie die Auswahl von Teilen.</P>
+<H2>Standard-Auswahl</H2>
 
-<P>Die Auswahl mehrerer Teile erfolgt indem die <span class="Important">STRG-Taste</span> (Standardeinstellung) gedrückt wird und gleichzeitig die auszuwählenden Teile mit der linken Maustaste angeklickt werden. Wird bei gedrückter STRG-Taste ein bereits ausgewähltes Teil noch einmal angeklickt, so gehört dieses Teil danach nicht mehr zu den ausgewählten Teilen.</P>
+<P>Die allgemeine Auswahl funktioniert für die Ebenen "Stein", "Text" und "Lineal" auf die gleiche Weise. Sie können einzelne Teile auswählen, indem Sie sie anklicken, oder mehrere Teile, indem Sie die Maus über die gewünschten Teile ziehen (und ein Auswahlrechteck bilden). Die Art und Weise, wie ausgewählte Teile hervorgehoben werden, kann unter der Registerkarte "Erscheinungsbild" in den <A HREF="Preferences_Appearance.htm">BlueBrick-Voreinstellungen</A> angepasst werden.</P>
 
-<P>Eine Gruppe von Teilen wird ausgewählt, indem bei gedrückter linker Maustaste die Maus so bewegt wird, dass die auszuwählenden Teile innerhalb des rechteckigen Auswahlfeldes liegen. Durch Bewegung der Maus bei gleichzeitig gedrückter STRG-Taste (Standardeinstellung) und linker Maustaste können weitere Gruppen ausgewählt werden. Die so ausgewählten, einzelnen Gruppen werden zu einer Gesamtauswahl zusammengefasst. Wird die STRG-Taste nicht gedrückt, wird die vorherige Auswahl von Teilen rückgängig gemacht. Wird bei gleichzeitig gedrückter STRG-Taste und linker Maustaste das Auswahlfeld über bereits ausgewählte Teile gezogen, ohne dass neue Teile ausgewählt werden, so sind diese Teile danach nicht mehr Bestandteil der Auswahl.</P>
-</BODY>
-</HTML>
+<P>Die Auswahl mehrerer Teile kann durch <span class="Important">Halten der STRG-Taste</span> (standardmäßig) und Anklicken der Teile mit der linken Maustaste erfolgen. Wenn Sie die STRG-Taste gedrückt halten und auf ein bereits ausgewähltes Teil klicken, wird es abgewählt.</P>
+
+<P>Sie können auch eine Gruppe von Teilen auswählen, indem Sie die linke Maustaste gedrückt halten und die Maus so ziehen, dass sich die gewünschten Teile innerhalb des rechteckigen Auswahlrahmens befinden. Sie können mehrere rechteckige Auswahlen treffen, indem Sie beim Ziehen weiterer Auswahlboxen die STRG-Taste (standardmäßig) gedrückt halten. Wenn Sie die STRG-Taste nicht gedrückt halten, verschwindet das vorherige Auswahlfeld. Wenn sich zwei Auswahlrahmen überschneiden und nicht die gleichen Teile enthalten, werden alle ausgewählten Teile zu einem großen Auswahlrahmen zusammengeführt. Wenn Sie eine Auswahlbox über bereits ausgewählte Teile ziehen, werden diese abgewählt.</P>
+
+<H2>Pfadauswahl nur für Brick</H2>
+
+<P>Sie können auch eine Reihe von zusammenhängenden Teilen auswählen, wie z. B. ein Stück Schienen oder Straßengrundplatten, indem Sie zuerst ein Teil auswählen, dann <span class="Important">SHIFT+STRG</span> (standardmäßig) gedrückt halten und auf ein zweites Teil klicken. Alle Teile zwischen den beiden ausgewählten Teilen werden auf dem kürzesten Weg ausgewählt. Wenn kein Weg zwischen den beiden zunächst ausgewählten Teilen gefunden wird, passiert nichts. Alternativ können Sie zuerst die beiden Extremitäten auswählen, dann mit der rechten Maustaste klicken und im Kontextmenü <span class="path">Select Path</span> wählen oder <span class="Important">STRG+P</span> drücken.
+
+<p>Beachten Sie, dass der Pfad immer mit dem zuletzt ausgewählten Teil beginnt (d. h. dem zuletzt zur Auswahl hinzugefügten Teil) und an dem Teil endet, das Sie mit <span class="Important">SHIFT+STRG</span> anklicken (oder zwischen den letzten beiden ausgewählten Teilen, wenn Sie das Kontextmenü oder die Tastenkombinationen-Methode verwenden).</P>
+
+<H2>Auswahl nach Namen nur für Brick</H2>
+
+<P>Schließlich können Sie Teile auch anhand ihres Namens auswählen. Dies ist sehr praktisch, wenn Sie z. B. alle Grundplatten eines bestimmten Typs auswählen möchten. Dazu müssen Sie das Fenster "Suchen und Ersetzen" verwenden. Lesen Sie die Seite <A HREF="Creating_Modifying_Layouts_Search_Replace_Parts.htm">Suchen und Ersetzen von Teilen</A> für weitere Details.</P>
+</body>
+</html>

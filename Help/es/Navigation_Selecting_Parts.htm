@@ -1,12 +1,11 @@
-<HTML>
-<HEAD>
-<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
-
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alex McKenna">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Seleccionar piezas</Title>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alex McKenna">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Seleccionar piezas</title>
 </HEAD>
 <BODY>
 <H1>Seleccionar piezas</H1>
@@ -17,5 +16,16 @@
 <P>Se pueden seleccionar m&uacute;ltiples piezas <span class="Important">manteniendo pulsada la tecla CTRL</span> (por defecto), mientras se va haciendo clic sobre las piezas con el bot&oacute;n izquierdo del rat&oacute;n. Para deseleccionar una pieza, hay que mantener pulsada la tecla CTRL y hacer clic sobre ella.</P>
 
 <P>Tambi&eacute;n se puede seleccionar un grupo de piezas pulsando el bot&oacute;n izquierdo del rat&oacute;n y arrastr&aacute;ndolo para que las piezas deseadas queden dentro del rect&aacute;ngulo de selecci&oacute;n. Puedes hacer m&uacute;ltiples selecciones de grupos mientras si se mantiene pulsada la tecla CTRL (por defecto) al crear rect&aacute;ngulos de selecci&oacute;n adicionales. Si no se mantiene pulsada la tecla CTRL el rect&aacute;ngulo de selecci&oacute;n anterior desaparecer&aacute;.  Si dos rect&aacute;ngulos de selecci&oacute;n que no contienen las mismas piezas se solapan, todas las piezas se unir&aacute;n en un &uacute;nico rect&aacute;ngulo de selecci&oacute;n. Si se arrastra un rect&aacute;ngulo de selecci&oacute;n sobre piezas que ya est&aacute;n seleccionadas las deseleccionar&aacute;.</P>
-</BODY>
-</HTML>
+
+<H2>Path Selection for Brick only</H2>
+
+<P>You can also select a series of connected parts, like for example a chunk of rail tracks or road baseplates, by first selecting one part, then hold <span class="Important">SHIFT+CTRL</span> (by default) and click on a second part. All the parts between the two selected parts will be selected using the shortest way. If no path can be found between the two initially selected parts, nothing happen. Alternatively, you can first select the two extremities, then right-click and choose <span class="path">Select Path</span> in the contextual menu or press <span class="Important">CTRL+P</span>.
+
+<p>Note that the path will always start from the last part selected (i.e. the last part added to the selection), and will end to the one you click with <span class="Important">SHIFT+CTRL</span> (or between the last two selected parts if you use the context menu or the shortcut key method).</P>
+
+<H2>Selection by name for Brick only</H2>
+
+<P>Finally, you can also select parts based on their name. This is very convenient if you want to select all the baseplate of a certain type for example. To do that you need to use the Find and Replace window. Read the <A HREF="Creating_Modifying_Layouts_Search_Replace_Parts.htm">Searching and Replacing Parts</A> page for more details.</P>
+
+</body>
+</html>

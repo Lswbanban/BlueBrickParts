@@ -1,18 +1,29 @@
-<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alex McKenna">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Selecteren onderdelen</Title>
-</HEAD>
-<BODY>
-<H1>Selecteren onderdelen</H1>
+<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alex McKenna">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Selecteren onderdelen</title>
+</head>
+<body>
+<h1>Selecteren onderdelen</h1>
 
 <P>Algemene selectie werkt hetzelfde voor Brick en tekst lagen. Je kunt afzonderlijke onderdelen selecteren door erop te klikken, of meerdere delen door te slepen met de muis over de onderdelen die u nodig hebt (de vorming van een selectie rechthoek).</P>
 
 <P>Het selecteren van meerdere onderdelen kan worden gedaan door de <span class="Important">Ctrl-toets (standaard) ingedrukt</span> te houden en te klikken op de onderdelen met de linker muisknop. Het vasthouden van de Ctrl toets en klikken op een reeds geselecteerd onderdeel zal deze keuze ongedaan maken.</P>
 
 <P>U kunt ook een groep van onderdelen selecteren door de linkermuisknop ingedrukt te houden en de muis te slepen, zodat de gewenste onderdelen zich binnen het rechthoekige selectie vak bevinden. Je kunt meerdere selecties maken door de Ctrl-toets (standaard) vast te houden en meerdere selectie vakken te maken.  Als je de Ctrl-toets niet vasthoudt dan zal het vorige selectie vak verdwijnen. Als twee selectie vakken elkaar overlappen die niet dezelfde onderdelen bevatten, dan zullen alle geselecteerde onderdelen worden samengevoegd tot een groot selectie vak. Het slepen van een selectie vak over onderdelen die al zijn geselecteerd zal de betreffende onderdelen deselecteren.</P>
-</BODY>
-</HTML>
+
+<h2>Path Selection for Brick only</h2>
+
+<p>You can also select a series of connected parts, like for example a chunk of rail tracks or road baseplates, by first selecting one part, then hold <span class="Important">SHIFT+CTRL</span> (by default) and click on a second part. All the parts between the two selected parts will be selected using the shortest way. If no path can be found between the two initially selected parts, nothing happen. Alternatively, you can first select the two extremities, then right-click and choose <span class="path">Select Path</span> in the contextual menu or press <span class="Important">CTRL+P</span>.
+
+<p>Note that the path will always start from the last part selected (i.e. the last part added to the selection), and will end to the one you click with <span class="Important">SHIFT+CTRL</span> (or between the last two selected parts if you use the context menu or the shortcut key methods).</p>
+
+<h2>Selection by name for Brick only</h2>
+
+<p>Finally, you can also select parts based on their name. This is very convenient if you want to select all the baseplate of a certain type for example. To do that you need to use the Find and Replace window. Read the <A HREF="Creating_Modifying_Layouts_Search_Replace_Parts.htm">Searching and Replacing Parts</A> page for more details.</p>
+
+</body>
+</html>

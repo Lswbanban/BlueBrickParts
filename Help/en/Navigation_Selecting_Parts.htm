@@ -1,30 +1,31 @@
-<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alex McKenna">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Selecting Parts</Title>
-</HEAD>
-<BODY>
-<H1>Selecting Parts</H1>
+<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alex McKenna">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Selecting Parts</title>
+</head>
+<body>
+<h1>Selecting Parts</h1>
 
-<H2>Standard Selection</H2>
+<h2>Standard Selection</h2>
 
-<P>General selection works the same for Brick, Text and Ruler layers. You can select individual parts by clicking on them, or multiple parts by dragging the mouse over parts you need (forming a selection rectangle). The way selected parts are highlighted can be customized under the "Appearance" tab in the <A HREF="Preferences_Appearance.htm">BlueBrick Preferences</A>.</P>
+<p>General selection works the same for Brick, Text and Ruler layers. You can select individual parts by clicking on them, or multiple parts by dragging the mouse over parts you need (forming a selection rectangle). The way selected parts are highlighted can be customized under the "Appearance" tab in the <A HREF="Preferences_Appearance.htm">BlueBrick Preferences</A>.</p>
 
-<P>The selection of multiple parts can be done by <span class="Important">holding the CTRL key</span> (by default), and clicking on the parts with the left mouse button. Holding the CTRL Key and clicking on an already selected part will unselect it.</P>
+<p>The selection of multiple parts can be done by <span class="Important">holding the CTRL key</span> (by default), and clicking on the parts with the left mouse button. Holding the CTRL Key and clicking on an already selected part will unselect it.</p>
 
-<P>You can also select a group of parts by holding the left mouse button and dragging the mouse so that the desired parts are inside the rectangular selection box. You can make multiple rectangle selections by holding the CTRL key (by default) when dragging additional selection boxes. If you do not hold the CTRL key the previous selection box will disappear. If two selection boxes overlap and do not contain the same parts, then all selected parts will be merged into one large selection box. Dragging a selection box over parts that have already been selected will deselect them.</P>
+<p>You can also select a group of parts by holding the left mouse button and dragging the mouse so that the desired parts are inside the rectangular selection box. You can make multiple rectangle selections by holding the CTRL key (by default) when dragging additional selection boxes. If you do not hold the CTRL key the previous selection box will disappear. If two selection boxes overlap and do not contain the same parts, then all selected parts will be merged into one large selection box. Dragging a selection box over parts that have already been selected will deselect them.</p>
 
-<H2>Path Selection for Brick only</H2>
+<h2>Path Selection for Brick only</h2>
 
-<P>You can also select a series of connected parts, like for example a chunk of rail tracks or road baseplates, by first selecting the two extremities, then right-click and choose <span class="Important">Select Path</span> in the contextual menu or press <span class="Important">CTRL+P</span>. All the parts between the two initially selected parts will be selected using the shortest way. If no path can be found between the two initially selected parts, nothing happen.</P>
+<p>You can also select a series of connected parts, like for example a chunk of rail tracks or road baseplates, by first selecting one part, then hold <span class="Important">SHIFT+CTRL</span> (by default) and click on a second part. All the parts between the two selected parts will be selected using the shortest way. If no path can be found between the two initially selected parts, nothing happen. Alternatively, you can first select the two extremities, then right-click and choose <span class="path">Select Path</span> in the contextual menu or press <span class="Important">CTRL+P</span>.
 
-<P>You must select only two parts, no more, no less in order to be able to use the Select Path feature.</P>
+<p>Note that the path will always start from the last part selected (i.e. the last part added to the selection), and will end to the one you click with <span class="Important">SHIFT+CTRL</span> (or between the last two selected parts if you use the context menu or the shortcut key methods).</p>
 
-<H2>Selection by name for Brick only</H2>
+<h2>Selection by name for Brick only</h2>
 
-<P>Finally, you can also select parts based on there name. This is very convenient if you want to select all the baseplace of a certain type for example. To do that you need to use the Find and Replace window. Read the <A HREF="Creating_Modifying_Layouts_Search_Replace_Parts.htm">Searching and Replacing Parts</A> page for more details.</P>
-</BODY>
-</HTML>
+<p>Finally, you can also select parts based on their name. This is very convenient if you want to select all the baseplate of a certain type for example. To do that you need to use the Find and Replace window. Read the <A HREF="Creating_Modifying_Layouts_Search_Replace_Parts.htm">Searching and Replacing Parts</A> page for more details.</p>
+
+</body>
+</html>
