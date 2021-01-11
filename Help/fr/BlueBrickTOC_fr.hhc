@@ -118,6 +118,10 @@
 			<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Propriétés du plan">
+			<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="D&eacute;faire et refaire">
 			<param name="Local" value="Creating_Modifying_Layouts_Undo_and_Redo.htm">
 			</OBJECT>

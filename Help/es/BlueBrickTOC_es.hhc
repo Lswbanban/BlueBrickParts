@@ -44,7 +44,7 @@
 			<param name="Local" value="Part_Library_How_to_Filter.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Download Additional Parts">
+			<param name="Name" value="Descargue las partes adicionales">
 			<param name="Local" value="Part_Library_Download_Additional_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -116,6 +116,10 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Ver el circuito el&eacute;ctrico">
 			<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Propiedades del dise&ntilde;o">
+			<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Deshacer y rehacer">
@@ -269,7 +273,7 @@
 				<param name="Local" value="Part_XML_Description_Image.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Specify the Sorting Order">
+				<param name="Name" value="Especifique el orden de clasificaci&oacute;n">
 				<param name="Local" value="Part_XML_Description_SortingKey.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">

@@ -49,6 +49,8 @@
 		<param name="Local" value="Start_Page.htm">
 		<param name="Name" value="Descripci&oacute;n XML de las piezas">
 		<param name="Local" value="Part_XML_Description.htm">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ejes">
@@ -61,6 +63,13 @@
 		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 		<param name="Name" value="Otras opciones">
 		<param name="Local" value="Preferences_Other_Options.htm">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="background">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="lista">
@@ -177,6 +186,8 @@
 			<param name="Local" value="Preferences_Other_Options.htm">
 			<param name="Name" value="Part Library Preferences">
 			<param name="Local" value="Preferences_Part_Library.htm">
+			<param name="Name" value="Layout Properties">
+			<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="cuadr&iacute;cula">
@@ -196,6 +207,11 @@
 			<param name="Local" value="Preferences_Part_Library.htm">
 			</OBJECT>
 	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="comment">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="conexi&oacute;n">
 		<param name="Name" value="Mover piezas">
@@ -223,6 +239,11 @@
 		<param name="Name" value="personalizado">
 		<param name="Name" value="C&oacute;mo ampliar la biblioteca de piezas">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="date">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="por defecto">
@@ -269,6 +290,11 @@
 		<param name="Name" value="electric">
 		<param name="Name" value="Electric Circuits">
 		<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="event">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="exportar">
@@ -494,6 +520,23 @@
 		<param name="Name" value="Creating and Modifying Layouts">
 		<param name="Local" value="Creating_Modifying_Layouts.htm">
 		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="background">
+			<param name="Name" value="Layout Properties">
+			<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="properties">
+			<param name="Name" value="Layout Properties">
+			<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="size">
+			<param name="Name" value="Layout Properties">
+			<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+			</OBJECT>
+	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ldr">
 		<param name="Name" value="Guardar y cargar">
@@ -619,6 +662,16 @@
 			<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
 			</OBJECT>
 	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ltc">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="lug">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="im&aacute;n">
 		<param name="Name" value="Mover piezas">
@@ -1018,6 +1071,11 @@
 		<param name="Local" value="Creating_Modifying_Layouts_Search_Replace_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="size">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="atajo">
 		<param name="Name" value="Atajos de teclado">
 		<param name="Local" value="Preferences_Shortcut_Keys.htm">
@@ -1154,6 +1212,11 @@
 			<param name="Local" value="Navigation_Zooming_and_Viewing.htm">
 			</OBJECT>
 	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="watermark">
+		<param name="Name" value="Layout Properties">
+		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="ventana">
 		<param name="Name" value="&Aacute;reas de la ventana">
