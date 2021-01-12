@@ -1,27 +1,51 @@
-<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alex McKenna">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Exporteren van de onderdelen lijst</Title>
-</HEAD>
-<BODY>
-<H1>Exporteren van de onderdelen lijst</H1>
-<BR>
-<CENTER><IMG SRC="PartListWindow.png"></CENTER>
+<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alex McKenna">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Displaying and Exporting the Parts List</title>
+</head>
+<body>
+<h1>Displaying and Exporting the Parts List</h1>
 
-<H2>Exporteren</H2>
+<p>You can display the list of all the parts used in the currently open layout, by clicking on the <span class="path">&nbsp;Part List&nbsp;</span> tab <span class="RefNumber">1</span> in the bottom right corner of the BlueBrick window. Note that if you have a budget file opened, like in the screenshot below, you will see more columns in the list (see the <a href="Part_Budget.htm">Part Budget</a> section for more details regarding budgets).</p>
 
-<P>Exporteren van een Onderdelen lijst, is een belangrijke functie als je behoefte hebt aan een checklist, of zelfs een boodschappenlijstje. Deze functie kan worden gevonden in het <span class="path">&nbsp;beeld &gt; onderdelen lijst&nbsp;</span> menu.</P>
+<center><img src="PartListWindow.png"></center>
 
-<P>Je kunt de lijst indien gewenst splitsen per Brick laag door de checkbox aan de onderkant van het venster aan te vinken.</P>
+<h2>Displayed Information</h2>
 
-<P>Als je de lijst wilt opslaan druk dan op de "Exporteer ..." knop.  Je kunt het bestand opslaan als een gewoon tekst-bestand of een HTML-bestand als je foto's van de onderdelen wilt opnemen in de lijst.</P>
+<p>Here is a description of all the columns:
+<ul>
+	<li>The column <span class="RefNumber">2</span> displays the part number along with an tiny icon of the part.</li>
+	<li>The column <span class="RefNumber">3</span> displays the quantity in use on the current layout for each part. If you delete all the parts of one type, this part will be removed from the list.</li>
+	<li>The column <span class="RefNumber">4</span> displays the budgeted count of the part (if you have a budget open, otherwise the column is hidden). If the part is not budgeted then the word "unbudgeted" is written instead.</li>
+	<li>The column <span class="RefNumber">5</span> displays the quantity of part exceeding the budget (if you have a budget open, otherwise the column is hidden), i.e. the quantity of parts that would be missing if you try to build the open layout with the open budget. Unbudgeted part are also counted as missing.</li>
+	<li>The column <span class="RefNumber">6</span> displays a part usage percentage, according to the open budget (if you have a budget open, otherwise the column is hidden). This percentage can goes over 100% if there is more part on the layout, than the number authorised in the budget. If the part is not budgeted then the word "unbudgeted" is written instead.</li>
+	<li>The column <span class="RefNumber">7</span> displays the color of the part.</li>
+	<li>The column <span class="RefNumber">8</span> displays the part description.</li>
+</ul>
+</p>
 
-<H2>Printen</H2>
+<p>Finally at the end of each layer list, there is a line that displays the total of each column.</p>
 
-<P>Je kunt de onderdelen lijst printen door het .Txt of .Html-bestand dat u hebt geëxporteerd met behulp van de "Onderdelen lijst" export functie te openen en gebruik te maken van de print opdracht door de software die het bestand geopend.</P>
+<p>You can split the list by layer by checking the box <span class="RefNumber">9</span> at the bottom of the window. If this box is not checked, all the parts of the same type are counted together even if they are placed in different layers. Also you can include the hidden parts (i.e. the parts that are placed on hidden layers) by checking the box <span class="RefNumber">10</span> at the bottom of the window. If this box is left unchecked, hidden layers are ignored in the count.</p>
 
-</BODY>
-</HTML>
+<p>You can reorder the parts in the list by clicking on each column header. This way you can display all the missing parts on top of the list for example. The little black triangle next to the column name indicates which column is used for the sorting and in which order (ascending or descending). You can click again on a column header to inverse its sorting order.</p>
+
+<h2>Exporting</h2>
+
+<p>Exporting the parts List, may be convenient to create a shopping list, or to share it with other particpants to an event. This feature can be found through the <span class="path">&nbsp;File &gt; Export Part List...&nbsp;</span> menu. This will popup a save file dialog, where you can specify a file name to export the list. You can save the file as a regular text file, as a CSV file, or as an HTML file. Here are the different advantages between the formats:
+<ul>
+	<li><b>Text format:</b> The text format is a quick, dirty and light format. It could be convenient if you want to copy/paste it in an email, as it is formated to be humanly readable.</li>
+	<li><b>CSV format:</b>  CSV stands for Comma Separated Values, and is a format that is readable by spreadsheet software such as Microsoft Excel, or OpenOffice Calc. You can use this format if you want to do some statistics on the part list in a spreadsheet.</li>
+	<li><b>HTML format:</b> This format is nicely formated and includes pictures of the parts. Those pictures are referenced on internet, which makes the file portable (you can send it to your friends), but of course requires an internet connection to be displayed correctly. The picture references are set in the <a href="Part_XML_Description_Image.htm">part XML file</a>, which can leads to broken links if this file is not correctly configured.</li>
+</ul>
+</p>
+
+<h2>Printing</h2>
+
+<p>You can print the parts list by opening the .txt, .csv or .html file which you exported, and using the print command provided by the software that opened the file.</p>
+
+</body>
+</html>
