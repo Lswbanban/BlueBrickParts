@@ -154,7 +154,7 @@
 			<param name="Local" value="Export_Report_Printing_Export_Layout_as_Image.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Exporting the Parts List">
+			<param name="Name" value="Displaying and Exporting the Parts List">
 			<param name="Local" value="Export_Report_Printing_Exporting_Parts_List.htm">
 			</OBJECT>
 	</UL>
