@@ -1,35 +1,35 @@
-<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alex McKenna">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Exporteren van een layout als een afbeelding</Title>
-</HEAD>
-<BODY>
-<H1>Exporteren van een layout als een afbeelding</H1>
-<BR>
-<CENTER><IMG SRC="Export_Report_Printing_Export_Layout_as_Image.png"></CENTER>
+<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alex McKenna">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Exporteren van een layout als een afbeelding</title>
+</head>
+<body>
+<h1>Exporteren van een layout als een afbeelding</h1>
 
-<H2>Display Options</H2>
+<p>Exporteren van een Lay-out als een afbeelding kan handig zijn wanneer je je lay-out niet wilt of kunt afdrukken en je de lay-out wilt laten zien op hardware die ofwel geen Bluebrick software heeft of niet ondersteunt. Het is ook handig als je je lay-outs wilt toevoegen aan een foto archief (bv. Online). Deze functie kan worden gevonden in het menu <span class="path">&nbsp;bestand &gt; exporteer afbeelding...&nbsp;</span> of gewoon door op CTRL+E te drukken..</p>
 
-<p>The watermark will also be exported by default at the bottom right of the red frame, unless you uncheck the checkbox <span class="RefNumber">1</span>. Electric circuit and connection points can also be exported with the checkboxes <span class="RefNumber">3</span> and <span class="RefNumber">4</span>.</p>
+<center><img src="Export_Report_Printing_Export_Layout_as_Image.png"></center>
 
-<p>The checkbox <span class="RefNumber">2</span> let you export the Hull of the parts, which can be very handy if you want to clearly see the baseplates or the track sections to count them and set up your layout quickly the day of the Event</p>
+<h2>Export Options</h2>
 
-<H2>Exporteren</H2>
+<p>The watermark will also be exported by default at the bottom right of each image, unless you uncheck the checkbox <span class="RefNumber">1</span>. Electric circuit and connection points can also be exported with the checkboxes <span class="RefNumber">2</span> and <span class="RefNumber">3</span>.</p>
 
-<P>Exporteren van een Lay-out als een afbeelding kan handig zijn wanneer je je lay-out niet wilt of kunt afdrukken en je de lay-out wilt laten zien op hardware die ofwel geen Bluebrick software heeft of niet ondersteunt. Het is ook handig als je je lay-outs wilt toevoegen aan een foto archief (bv. Online). Deze functie kan worden gevonden in het menu <span class="path">&nbsp;bestand &gt; exporteer afbeelding...&nbsp;</span>  <div class="ToTranslate">or simply by pressing CTRL+E.</div>.</P>
+<p>Het Opties venster geeft je de mogelijkheid om het gedeelte van de lay-out die je wilt exporteren te selecteren. Gewoon klikken en slepen met de muis over de afbeelding om een rood kader te plaatsen rond het gebied dat je wilt opslaan. Je kunt een nauwkeuriger selectie maken door gebruik te maken van de "Ruimte Size in Studs" boxen <span class="RefNumber">4</span> linksonder in het venster.</p>
 
-<P>Het Opties venster geeft je de mogelijkheid om het gedeelte van de lay-out die je wilt exporteren te selecteren. Gewoon klikken en slepen met de muis over de afbeelding om een rood kader te plaatsen rond het gebied dat je wilt opslaan. Je kunt een nauwkeuriger selectie maken door gebruik te maken van de "Ruimte Size in Studs" boxen <span class="RefNumber">5</span> linksonder in het venster.</P>
+<h2>Aantal Afbeelding(en) en grootte</h2>
 
-<P>Je kunt ook de afmetingen van het beeld in pixels opgeven. This let you control the level of details that you want in your exported picture. In the "Image Size in Pixel" <span class="RefNumber">6</span> section, you can either type in the resolution, i.e. how many pixels for drawing one stud (knowing that the native resolution of BlueBrick is 8 pixels per stud, so if you go above that value, you won't have more details in the exported image), or the size of the exported image. Note that each time you type in one of the three values, the two others may be recomputed automatically as they are linked. For example the higher is your pixel/stud resolution, and the bigger the image will be; or if you specify a fixed size, BlueBrick will recompute the needed resolution to fit the layout in that size.</P>
+<p>Once you have selected the area of your layout that you want to export, you should specify the size and the number of images to which your layout should be exported. The fields <span class="RefNumber">5</span> let you specify in how many rows and columns the export should be split. For example if you specify 3 in width and 2 in height, then 6 images will be exported. Spliting your export in multiple images can be usefull if you have a very large layout and still want to keep a reasonable picture resolution.</p>
 
-<P>Ondersteunde bestandstypen zijn .bmp, .jpg, .gif and .png. Currently BlueBrick doesn't know how to export in one step very large layouts in multiple images with a fixed resolution. And the maximum image size allowed by BlueBrick is 4096 x 4096 pixels. But you can do it manually by exporting multiple times, and selecting each part with the red frame, then reassembling the images in your favorite image editor software.</P>
+<p>Then you can specify the size of the exported image(s) in pixel <span class="RefNumber">6</span> or the image(s) resolution <span class="RefNumber">7</span>, i.e. how many pixels for drawing one stud (knowing that the native resolution of BlueBrick is 8 pixels per stud, so if you go above that value, you won't have more details in the exported image, except for the texts and rulers). Note that each time you type in one of the three values, the two others may be recomputed automatically as they are linked. For example the higher is your pixel/stud resolution, and the bigger the image will be; or if you specify a fixed size, BlueBrick will recompute the needed resolution to fit the layout in that size. The image size and resolution will be the same for all the exported images if you set more than one row or column.</p>
 
-<H2>Printen</H2>
+<p>Supported file types are .bmp, .jpg, .gif and .png, and the maximum image size allowed by BlueBrick is 4096 x 4096 pixels. If you want to create a bigger image of your layout, increase the row or column count to export in multiple images, then reassemble them in your favorite image editor software.</p>
 
-<P>Afdrukken  van de lay-out kan worden gedaan door het afdrukken van de afbeelding dat je hebt opgeslagen met behulp van de "Exporteer afbeelding ..." feature.  Je kunt het beeld met behulp van standaard foto software bekijken met je besturingssysteem en vanaf daar afdrukken.</P>
+<h2>Printen</h2>
 
-</BODY>
-</HTML>
+<p>Afdrukken  van de lay-out kan worden gedaan door het afdrukken van de afbeelding dat je hebt opgeslagen met behulp van de <span class="path">&nbsp;bestand &gt; exporteer afbeelding...&nbsp;</span> feature.  Je kunt het beeld met behulp van standaard foto software bekijken met je besturingssysteem en vanaf daar afdrukken.</p>
+
+</body>
+</html>

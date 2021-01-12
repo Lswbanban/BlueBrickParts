@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map>
-  <Version>8</Version>
+  <Version>9</Version>
   <nbItems>73</nbItems>
   <BackgroundColor>
     <IsKnownColor>true</IsKnownColor>
@@ -8,7 +8,7 @@
   </BackgroundColor>
   <Author>Unknown Author</Author>
   <LUG>Unknown LUG</LUG>
-  <Show>Unknown Show</Show>
+  <Event>Unknown Show</Event>
   <Date>
     <Day>11</Day>
     <Month>8</Month>
@@ -16,17 +16,16 @@
   </Date>
   <Comment />
   <ExportInfo>
-    <ExportPath>../../../../../../../../Tutorial Layouts.jpg</ExportPath>
+    <ExportPath>../../../../../../../../temp/BB/Tutorial Layouts.gif</ExportPath>
     <ExportFileType>3</ExportFileType>
     <ExportArea>
-      <X>99.15924</X>
-      <Y>144</Y>
-      <Width>229.809</Width>
-      <Height>142.3694</Height>
+      <X>20.50169</X>
+      <Y>15.72881</Y>
+      <Width>375.8644</Width>
+      <Height>282.7932</Height>
     </ExportArea>
-    <ExportScale>0.892045454545454</ExportScale>
+    <ExportScale>0.892045438289642</ExportScale>
     <ExportWatermark>true</ExportWatermark>
-    <ExportHull>false</ExportHull>
     <ExportElectricCircuit>false</ExportElectricCircuit>
     <ExportConnectionPoints>false</ExportConnectionPoints>
   </ExportInfo>
@@ -36,6 +35,13 @@
       <Name>Background</Name>
       <Visible>true</Visible>
       <Transparency>100</Transparency>
+      <HullProperties isVisible="false">
+        <hullColor>
+          <IsKnownColor>true</IsKnownColor>
+          <Name>Black</Name>
+        </hullColor>
+        <hullThickness>1</hullThickness>
+      </HullProperties>
       <GridColor>
         <IsKnownColor>false</IsKnownColor>
         <Name>ffffffff</Name>
@@ -71,6 +77,14 @@
       <Name>Table</Name>
       <Visible>true</Visible>
       <Transparency>100</Transparency>
+      <HullProperties isVisible="false">
+        <hullColor>
+          <IsKnownColor>true</IsKnownColor>
+          <Name>Black</Name>
+        </hullColor>
+        <hullThickness>1</hullThickness>
+      </HullProperties>
+      <DisplayBrickElevation>false</DisplayBrickElevation>
       <Bricks>
         <Brick id="37964453">
           <DisplayArea>
@@ -163,6 +177,14 @@
       <Name>Roads and Buildings</Name>
       <Visible>true</Visible>
       <Transparency>100</Transparency>
+      <HullProperties isVisible="false">
+        <hullColor>
+          <IsKnownColor>true</IsKnownColor>
+          <Name>Black</Name>
+        </hullColor>
+        <hullThickness>1</hullThickness>
+      </HullProperties>
+      <DisplayBrickElevation>false</DisplayBrickElevation>
       <Bricks>
         <Brick id="65489418">
           <DisplayArea>
@@ -261,7 +283,7 @@
           <DisplayArea>
             <X>116.5</X>
             <Y>193</Y>
-            <Width>32.00002</Width>
+            <Width>32.00001</Width>
             <Height>32.00002</Height>
           </DisplayArea>
           <MyGroup />
@@ -283,7 +305,7 @@
             <X>116.5</X>
             <Y>225</Y>
             <Width>32.00001</Width>
-            <Height>32.00001</Height>
+            <Height>32</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2359P01.7</PartNumber>
@@ -372,13 +394,21 @@
       <Name>Track</Name>
       <Visible>true</Visible>
       <Transparency>100</Transparency>
+      <HullProperties isVisible="false">
+        <hullColor>
+          <IsKnownColor>true</IsKnownColor>
+          <Name>Black</Name>
+        </hullColor>
+        <hullThickness>1</hullThickness>
+      </HullProperties>
+      <DisplayBrickElevation>false</DisplayBrickElevation>
       <Bricks>
         <Brick id="36818152">
           <DisplayArea>
             <X>255.5</X>
             <Y>168</Y>
-            <Width>35</Width>
-            <Height>20.875</Height>
+            <Width>34.875</Width>
+            <Height>20.75</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2859.8</PartNumber>
@@ -402,7 +432,7 @@
             <X>241.375</X>
             <Y>180.75</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -423,7 +453,7 @@
             <X>225.375</X>
             <Y>180.75</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -444,7 +474,7 @@
             <X>209.375</X>
             <Y>180.75</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -465,7 +495,7 @@
             <X>193.375</X>
             <Y>180.75</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -486,7 +516,7 @@
             <X>177.375</X>
             <Y>180.75</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -506,7 +536,7 @@
           <DisplayArea>
             <X>145.375</X>
             <Y>168</Y>
-            <Width>35</Width>
+            <Width>34.875</Width>
             <Height>20.75</Height>
           </DisplayArea>
           <MyGroup />
@@ -804,7 +834,7 @@
             <X>145.375</X>
             <Y>260.7498</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -825,7 +855,7 @@
             <X>161.375</X>
             <Y>260.7498</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -846,7 +876,7 @@
             <X>177.375</X>
             <Y>260.7498</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -867,7 +897,7 @@
             <X>193.375</X>
             <Y>260.7498</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -888,7 +918,7 @@
             <X>209.375</X>
             <Y>260.7498</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -909,7 +939,7 @@
             <X>225.375</X>
             <Y>260.7498</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -930,7 +960,7 @@
             <X>241.375</X>
             <Y>260.7498</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -1109,7 +1139,7 @@
           <DisplayArea>
             <X>293.875</X>
             <Y>144.25</Y>
-            <Width>8.000002</Width>
+            <Width>8.000001</Width>
             <Height>17</Height>
           </DisplayArea>
           <MyGroup />
@@ -1130,7 +1160,7 @@
           <DisplayArea>
             <X>293.875</X>
             <Y>160.25</Y>
-            <Width>8.000002</Width>
+            <Width>8.000001</Width>
             <Height>17</Height>
           </DisplayArea>
           <MyGroup />
@@ -1383,7 +1413,7 @@
             <X>321.375</X>
             <Y>180.7498</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -1404,7 +1434,7 @@
             <X>305.375</X>
             <Y>180.7498</Y>
             <Width>17</Width>
-            <Height>8.000002</Height>
+            <Height>8.000003</Height>
           </DisplayArea>
           <MyGroup />
           <PartNumber>2865.8</PartNumber>
@@ -1516,6 +1546,13 @@
       <Name>Control Station</Name>
       <Visible>true</Visible>
       <Transparency>30</Transparency>
+      <HullProperties isVisible="false">
+        <hullColor>
+          <IsKnownColor>true</IsKnownColor>
+          <Name>Black</Name>
+        </hullColor>
+        <hullThickness>1</hullThickness>
+      </HullProperties>
       <AreaCellSize>32</AreaCellSize>
       <Areas>
         <Area>
@@ -1539,6 +1576,13 @@
       <Name>Layout Name</Name>
       <Visible>true</Visible>
       <Transparency>100</Transparency>
+      <HullProperties isVisible="false">
+        <hullColor>
+          <IsKnownColor>true</IsKnownColor>
+          <Name>Black</Name>
+        </hullColor>
+        <hullThickness>1</hullThickness>
+      </HullProperties>
       <TextCells>
         <TextCell>
           <DisplayArea>
