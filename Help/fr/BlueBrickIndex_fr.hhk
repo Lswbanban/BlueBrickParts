@@ -862,6 +862,11 @@
 			<param name="Local" value="Part_XML_Description.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="elevation">
+			<param name="Name" value="Moving Parts">
+			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="filter">
 			<param name="Name" value="How to Filer the Part Library">
 			<param name="Local" value="Part_Library_How_to_Filter.htm">
