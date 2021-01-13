@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alban Nanty">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>How to share part with the community</title>
+</head>
+<body>
+<h1>How to share parts with the community</h1>
+
+<h2>Propose a part to the official library</h2>
+
+<p>If you have created the image and xml files for a missing part or set and would like it to be included in the official part library, you can send your part files by mail to Alban or to the BlueBrick Part Manager. After review and eventual modifications, he may push it to the part repository on github. The part will then be available to anyone in the next release of BlueBrick or in the next update of the official part packages.</p>
+
+<p>However, if you want to create a whole bunch of parts, for example specific template parts used by your LUG/LTC, then you should consider creating a part package.</p>
+
+<h2>Part Package Name</h2>
+
+<p>To create a new part package simply create a new folder inside the <span class="Important">parts</span> folder of the BlueBrick install folder. The <b>folder name</b> will become <b>the name of your package</b> and it will appear as a separated tab in the BlueBrick part library. Be carefull to choose a quite specific name to avoid package name collision with other part creators from the community, and please do not use one name of the official packages. Which means, please do not redistribute an official package by adding one or two parts inside. For example you may want to name your package after the name of your LUG/LTC if you create a package that is supposed to be used by the members of your LUG/LTC when they plan their events.</p>
+
+<p>At the time of the release of BlueBrick 1.9, the reserved package name list is:
+<ul>
+	<li>4DBrix</li>
+	<li>Baseplate</li>
+	<li>Castle</li>
+	<li>Custom</li>
+	<li>Duplo</li>
+	<li>Logo</li>
+	<li>Road</li>
+	<li>Space</li>
+	<li>Table</li>
+	<li>Town</li>
+	<li>Track</li>
+	<li>Train</li>
+	<li>Train Set</li>
+	<li>Vehicle</li>
+</ul>
+</p>
+
+<p>You can place any number of parts inside your package folder, as explained in the <a href="Part_Library_Folders.htm">Part Library folder</a> section, and together they will form your package, but make sure all your part ids are unique accross the whole library, as explained in the <a href="Part_Image_Format.htm">Part Image Format</a> section.</p>
+
+<h2>The config folder</h2>
+
+<p>Inside your package folder, you should create a sub folder named <span class="Important">config</span> all in non-capital letters. This config folder should contains at least one file named <span class="Important">About.txt</span>, and can also contains a file named <span class="Important">ConnectionTypeList.xml</span> if you want to create new connection types for the parts of your package. For example if your package is named <b>MyPackage</b> then you should have this folder structure:</p>
+
+<div class="TechNote">
+<pre>parts
+  &#x251C;&#x2500; Baseplate
+  &#x251C;&#x2500; Custom
+  &#x251C;&#x2500; Duplo
+  &#x251C;&#x2500; Logo
+<font color="green">  &#x251C;&#x2500; MyPackage
+    &#x251C;&#x2500; config
+    &#x2502; &#x251C;&#x2500; About.txt
+    &#x2502; &#x2514;&#x2500; ConnectionTypeList.xml
+    &#x251C;&#x2500; part.1.gif
+    &#x251C;&#x2500; part.1.xml
+    &#x251C;&#x2500; ...</font>
+  &#x251C;&#x2500; Road
+  &#x251C;&#x2500; Space
+  &#x251C;&#x2500; Track
+  &#x251C;&#x2500; ...</pre>
+</div>
+
+<p>The <span class="Important">About.txt</span> file is a plain text file, that must contain the version number of your package on the first line with the following syntax: <b>"version=X"</b> where X is the actual version number of your package. On the following lines, you can add extra information regarding the package such as the author and the redistribution policy. Those lines will be ignored by BlueBrick but may be useful for the members of the community. For example the content of your About.txt file can be:</p>
+
+<div class="TechNote">
+<pre>version=1.3
+Made by Banban.
+You are free to redistribute it.
+</pre>
+</div>
+
+<p>Since BlueBrick version 1.9, you can now add a <span class="Important">ConnectionTypeList.xml</span> file inside this config folder, in order to declare any type of connection that you may create for the parts of your package. This way the connection type definitions can be distributed with your parts, together in the same package. See the <a href="Connection_Type_Config_File.htm">Connection Type Config File</a> section for more details about the syntax of this file.</p>
+
+<p>At startup, BlueBrick will read all the connection type declared in the <b>ConnectionTypeList.xml</b> located in the config folder of the BlueBrick installation folder, then will parse all the part package config folders and read all the <b>ConnectionTypeList.xml</b> that it can find, to finally merged all the connection types together. This is why the connection name must be unique accross the whole part library. Please do not hesitate to give an explicit and long name to your connections to avoid name conflicts.</p>
+
+<h2>How to distribute your package</h2>
+
+<p>Once you are happy with your package, you should zip the whole package folder, keeping the package folder as first level of the zip (use the zip extension). Be careful, <span class="Important">the name of the zip file</span> must be the same as the <span class="Important">package name</span> followed by <span class="Important">the version number</span> separated by a dot. For example, for the previous package it should be: <span class="Important">MyPackage.1.3.zip</span>. This is very important for BlueBrick, when it check if some package should be updated. BlueBrick will only rely on the zip file name to both know the name of the package and its version number. It will then compare with the folder names listed in the "parts" folder, and with the version number declared in the About.txt files to check if there is a difference.</p>
+
+<p>BlueBrick will not open the zip file online to read the About.txt file on the server. This is why it is very important to <b>make sure that the version number in the About.txt file is the same as the version number that you give to the zip file name</b>. If BlueBrick cannot find the version number in the zip file name (for the package online) or in the About.txt file (for the local package), it will consider the concerned package as having a version number equals to 0.</p>
+
+<p>Once you have created your zip file and made sure that you give it the correct name, you can upload this file somewhere online, and then give the URL to your community. Users of BlueBrick will then be able to download your package through the <span class="path">&nbsp;File &gt; Download Additional Parts...&nbsp;</span> feature. See the <a href="Part_Library_Download_Additional_Parts.htm">How to download additional parts or update the Part Library</a> section for more details.</p>
+
+<p>When a more recent version of a package is downloaded and installed by a user, BlueBrick will delete the whole previous package folder before unzipping the new downloaded package. So, make sure to redistribute all the parts previously distributed, or if you want to renamed a part in your package, add an <a href="Part_XML_Description_OldName.htm">Old Name</a> tag in the xml file of the renamed part.</p>
+
+</body>
+</html>
