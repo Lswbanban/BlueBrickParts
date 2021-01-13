@@ -1,12 +1,12 @@
-﻿<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alban Nanty">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Teile-Ordner "parts"</Title>
-</HEAD>
-<BODY>
+﻿<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alban Nanty">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Teile-Ordner "parts"</title>
+</head>
+<body>
 <H1>Teile-Ordner "parts"</H1>
 <H2>Ordner Aufbau</H2>
 <P>Die Teile-Bibliothek besteht aus gif-Bildern (siehe auch <A HREF="Part_Image_Format.htm">Dateinamen und -formate für Teile- und Setbilder</A>) und <A HREF="Part_XML_Description.htm">xml- Dateien</A>. Diese Dateien sind alle im Ordner "parts" des BlueBrick Installationsordners enthalten.</P>
@@ -46,70 +46,28 @@ parts<FONT COLOR=red>    &#x2190; Direkt im "parts" Ordner gespeicherte Teile we
 </DIV>
 
 <H2>Verarbeitung der Unterordner durch BlueBrick</H2>
-<P>Für jeden Unterordner des "parts" Ordners erstellt BlueBrick eine Karteikarte im <A HREF="Software_Overview_Window_Panes.htm">Fenstersegment "Teile"</A> . Als Name dieser Karteikarte wird der Name des Unterordners übernommen. Der Unterordnername ist frei wählbar, auch Leerzeichen Betonungszeichen dürfen im Namen verwendet werden. Die ursprünglichen Unterordner dürfen auch umbenannt oder gelöscht werden, die Teiledateien dürfen auch in andere Unterordner verschoben werden. Die Ordner sind dienen lediglich der übersichtlichen Gruppierung der Teile in der Teilebibliothek. Der Nachteil ist dass <span class="Important">jeder Teilname in der gesamten Teilebibliothek einzigartig sein muss</span>. Der Dateiname eines Teils ist gleichzeitig die ID dieses Teils. Im Gleisplan wird der Dateiname jedes Teils abgelegt. Dieses stellt kein größeres Problem dar, da jedes LEGO&copy;-Teil bereits eine einzigartige Teilnummer besitzt.</P>
+<P>Für jeden Unterordner des "parts" Ordners erstellt BlueBrick eine Karteikarte im <A HREF="Software_Overview_Window_Panes.htm">Fenstersegment "Teile"</A> . Als Name dieser Karteikarte wird der Name des Unterordners übernommen. Der Unterordnername ist frei wählbar, auch Leerzeichen Betonungszeichen dürfen im Namen verwendet werden. Die ursprünglichen Unterordner dürfen auch umbenannt oder gelöscht werden, die Teiledateien dürfen auch in andere Unterordner verschoben werden. Dies wird jedoch nicht empfohlen, wenn Sie online nach einer Aktualisierung der Teilebibliothek suchen möchten, da dies BlueBrick bei der Prüfung, welches Teil bereits auf Ihrem Computer installiert ist, verwirren wird. Die Ordner sind dienen lediglich der übersichtlichen Gruppierung der Teile in der Teilebibliothek. Der Nachteil ist dass <span class="Important">jeder Teilname in der gesamten Teilebibliothek einzigartig sein muss</span>. Der Dateiname eines Teils ist gleichzeitig die ID dieses Teils. Im Gleisplan wird der Dateiname jedes Teils abgelegt. Dieses stellt kein größeres Problem dar, da jedes LEGO&copy;-Teil bereits eine einzigartige Teilnummer besitzt.</P>
 
 <P>Für die Erstellung der Teilebibliothek sucht BlueBrick nur nach gif-Dateien in den Unterordnern des "parts" Ordners. Für jede gif-Datei sucht BlueBrick nach einer xml-Datei mit gleichem Dateinamen. XML-Dateien sind optional, nicht zu jeder gif-Datei gibt es eine xml-Datei. XML-Dateien ohne zugehörige gif-Datei werden ignoriert.</P>
 
-</BODY>
-</HTML>
+<p>Then BlueBrick looks for XML file without an associated GIF file and will also parse these XML files. These parts can be of two types: either it is a group part, or a normal part. If it is a group part, the image of the group will be recreated by BlueBrick (that's why they don't have gif associated) and visible in the part window pane. If it is a normal part, then this part will be ignored by BlueBrick, which means that they will not be visible in the part window pane. Those parts will also not be visible on a layout and won't generate a warning if BlueBrick finds them in a layout file. So if you want to force BlueBrick to ignore some specific parts, you just need to create the correct XML file.</p>
 
+<center>
+<table border=2>
+<tr>
+	<td></td><td align="center">GIF present</td><td align="center">GIF missing</td>
+</tr><tr>
+	<td>XML present</TD>
+	<td><center><font color="green">Valid Part</font></center>The part is visible in the library.<br>The behavior of the part is correct.</td>
+	<td><center><font color="green">Group Part</font></center>The image is created by BlueBrick.<br>The behavior of the part is correct.<br>
+		<center>or <font color="green">Ignored Part</font></center>The part is not visible in BlueBrick.<br>Some information can be used for export.</td>
+</tr><tr>
+	<td>XML missing</TD>
+	<td><center><font color="green">Simple Image</font></center>The part is visible in the library.<br>The part is inert.</td>
+	<td><center><font color="red">Missing Part</font></center>The part will appear as a red cross.<br>The part is inert.</td>
+</tr>
+</table>
+</center>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
+</html>

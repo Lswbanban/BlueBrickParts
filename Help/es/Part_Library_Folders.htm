@@ -1,21 +1,20 @@
-<HTML>
-<HEAD>
-<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
-
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alban Nanty">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alban Nanty">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
 <Title>Carpetas de la biblioteca de piezas</Title>
-</HEAD>
-<BODY>
+</head>
+<body>
 <H1>Carpetas de la Biblioteca de Piezas</H1>
 <H2>Organizaci&oacute;n de las carpetas</H2>
 <P>La biblioteca de piezas consiste de <A HREF="Part_Image_Format.htm">im&aacute;genes en formato .GIF</A> y <A HREF="Part_XML_Description.htm">archivos en formato .XML</A>, todos ellos almacenados dentro de la subcarpeta llamada &quot;/parts&quot; dentro de la carpeta de instalaci&oacute;nd e BlueBrick.</P>
 
 <CENTER>
 <DIV STYLE="background-image:url(../parts_folder.png); width:455px; height:331px; margin:0px;">
-<DIV STYLE="height:162px; margin:0px;">&nbsp;</DIV><BR>
+<DIV STYLE="height:162px; margin:0px;">&nbsp;</DIV><br>
 <DIV STYLE="color:red; text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;? Esta es la carpeta de la biblioteca de piezas.</DIV>
 </DIV>
 </CENTER>
@@ -46,93 +45,32 @@
   &#x2514;&#x2500; Set</PRE>
 </DIV>
 <H2>An&aacute;lisis de la carpeta de BlueBrick</H2>
-<P>BlueBrick crear&aacute; una pesta&ntilde;a en el panel de la biblioteca de piezas por cada subcarpeta que encuentre dentro de la carpeta &quot;/parts&quot;. El nombre de la pesta&ntilde;a ser&aacute; el mismo que el de la carpeta. Puedes elegir cualquier nombre de fichero, incluyendo espacios y caracteres acentuados. Tambi&eacute;n puedes cambiar el nombre, borrar o reorganizar las carpetas originales a tu gusto ya que las carpetas no se usan para identificar las piezas, s&oacute;lo para organizarlas. Las carpetas no son m&aacute;s que un contenedor pr&aacute;ctico para agrupar las piezas juntas en diferentes pesta&ntilde;as de la Biblioteca de Piezas. Como parte negativa,  <span class="Important">cada nombre de pieza en toda la biblioteca debe ser &uacute;nico</span>, y ese nombre de pieza ser&aacute; el ID que se guarde internamente. Por norma general esto no es un problema ya que cada pieza de LEGO&copy; ya tiene un n&uacute;mero &uacute;nico.</P>
+<P>BlueBrick crear&aacute; una pesta&ntilde;a en el panel de la biblioteca de piezas por cada subcarpeta que encuentre dentro de la carpeta &quot;/parts&quot;. El nombre de la pesta&ntilde;a ser&aacute; el mismo que el de la carpeta. Puedes elegir cualquier nombre de fichero, incluyendo espacios y caracteres acentuados. Tambi&eacute;n puedes cambiar el nombre, borrar o reorganizar las carpetas originales a tu gusto ya que las carpetas no se usan para identificar las piezas, s&oacute;lo para organizarlas. Sin embargo, esto no se recomienda si desea comprobar en línea la actualización de la biblioteca de piezas, ya que confundirá a BlueBrick al comprobar qué pieza ya está instalada en su ordenador. Las carpetas no son m&aacute;s que un contenedor pr&aacute;ctico para agrupar las piezas juntas en diferentes pesta&ntilde;as de la Biblioteca de Piezas. Como parte negativa, <span class="Important">cada nombre de pieza en toda la biblioteca debe ser &uacute;nico</span>, y ese nombre de pieza ser&aacute; el ID que se guarde internamente. Por norma general esto no es un problema ya que cada pieza de LEGO&copy; ya tiene un n&uacute;mero &uacute;nico.</P>
 
 <P>Al crear la biblioteca de piezas, BlueBrick  busca en primer lugar los archivos .GIF en las carpetas de piezas. Para cada .GIF que encuentra, BlueBrick comprueba si hay un archivo XML con el mismo nombre. Los archivos XML son opcionales, y si falta un archivo XML esa pieza usar&aacute; los valores por defecto.</P>
 
 <P>A continuaci&oacute;n, BlueBrick busca ficheros XML que no tengan asociado un fichero .GIF, y analiza esos ficheros XML. Estas piezas podr&iacute;an ser de dos tipos: o bien son un grupo de piezas, o una pieza normal. Si es un grupo, la imagen del mismo la recrear&aacute; BlueBrick a partir de las partes que lo componen (ese es el motivo por el que no tiene .GIF asociado), y la mostrar&aacute; en la ventana de la biblioteca. Si es una pieza normal, BlueBrick la ignorar&aacute;, lo cual implica que esa pieza no se mostrar&aacute; en el panel de la biblioteca de piezas. Estas piezas tampoco ser&aacute;n visibles y no generar&aacute;n una alarma si BlueBrick las encuentra en un dise&ntilde;o. As&iacute; pues, si quieres forzar a BlueBrick para que ignore algunas piezas espec&iacute;ficas, s&oacute;lo tienes que crear el fichero XML correcto.</P>
-<CENTER>
-  <TABLE BORDER=2>
-<TR>
-	<TD></TD>
-	<TD ALIGN="center">Existe GIF </TD>
-	<TD ALIGN="center">Falta GIF </TD>
-</TR><TR>
-	<TD>Existe XML </TD>
-	<TD><CENTER><FONT COLOR="green">Pieza v&aacute;lida</font></CENTER>La pieza es visible en la biblioteca.<BR>El comportamiento de la pieza es correcto.</TD>
-	<TD><CENTER><FONT COLOR="green">Grupo de piezas</font></CENTER>
-	BlueBrick recrea la imagen.<BR>El comportamiento de la pieza es correcto.<BR>
-		<CENTER>o <FONT COLOR="green">Pieza ignorada</font></CENTER>La pieza no es visible en BlueBrick.<BR>
-		See puede usar alguna informaci&oacute;n para exportar.</TD>
-</TR><TR>
-	<TD>falta XML</TD>
-	<TD><CENTER><FONT COLOR="green">Imagen simple</font></CENTER>La pieza es visible en la biblioteca.<BR>La pieza es inerte.</TD>
-	<TD><CENTER><FONT COLOR="red">Pieza falta</font></CENTER>
-	Si la pieza aparece en un dise&ntilde;o,  aparecer&aacute; como una cruz roja.<BR>La pieza es inerte.</TD>
-</TR>
-</TABLE>
-</CENTER>
+<center>
+<table border=2>
+<tr>
+	<td></td>
+	<td align="center">Existe GIF</td>
+	<td align="center">Falta GIF</td>
+</tr><tr>
+	<td>Existe XML</td>
+	<td><center><font color="green">Pieza v&aacute;lida</font></center>La pieza es visible en la biblioteca.<br>El comportamiento de la pieza es correcto.</td>
+	<td><center><font color="green">Grupo de piezas</font></center>
+	BlueBrick recrea la imagen.<br>El comportamiento de la pieza es correcto.<br>
+		<center>o <font color="green">Pieza ignorada</font></center>La pieza no es visible en BlueBrick.<br>
+		See puede usar alguna informaci&oacute;n para exportar.</td>
+</tr><tr>
+	<td>falta XML</td>
+	<td><center><font color="green">Imagen simple</font></center>La pieza es visible en la biblioteca.<br>La pieza es inerte.</td>
+	<td><center><font color="red">Pieza falta</font></center>
+	Si la pieza aparece en un dise&ntilde;o,  aparecer&aacute; como una cruz roja.<br>La pieza es inerte.</td>
+</tr>
+</table>
+</center>
 
-</BODY>
-</HTML>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
+</html>

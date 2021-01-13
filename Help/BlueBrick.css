@@ -110,7 +110,7 @@ DIV.LegalNotice	{ text-align: center;
 DIV.DocAuthor	{ text-align: center;
 				  font-weight: bold; }
 				  
-DIV.TechNote	{ width: 100%;
+DIV.TechNote	{ width: 80%;
 				  margin-left: 10%;
 				  margin-right: 10%;
 				  text-align: left;

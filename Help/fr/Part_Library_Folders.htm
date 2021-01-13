@@ -1,27 +1,27 @@
-<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alban Nanty">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Part Library Folders</Title>
-</HEAD>
-<BODY>
-<H1>Part Library Folders</H1>
-<H2>Folder Organisation</H2>
-<P>The part library is made of <A HREF="Part_Image_Format.htm">GIF format images</A> and <A HREF="Part_XML_Description.htm">XML files</A> all stored inside the subfolder named "parts" of the BlueBrick installation folder.</P>
+<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alban Nanty">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Part Library Folders</title>
+</head>
+<body>
+<h1>Part Library Folders</h1>
+<h2>Folder Organisation</h2>
+<p>The part library is made of <A HREF="Part_Image_Format.htm">GIF format images</A> and <A HREF="Part_XML_Description.htm">XML files</A> all stored inside the subfolder named "parts" of the BlueBrick installation folder.</p>
 
 <CENTER>
 <DIV STYLE="background-image:url(../parts_folder.png); width:455px; height:331px; margin:0px;">
-<DIV STYLE="height:162px; margin:0px;">&nbsp;</DIV><BR>
+<DIV STYLE="height:162px; margin:0px;">&nbsp;</DIV><br>
 <DIV STYLE="color:red; text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2190; This is the part library folder.</DIV>
 </DIV>
 </CENTER>
 
-<P>This folder is parsed when the application is launched and is needed for BlueBrick to run. You can create as many subfolders as you want in the "parts" folder, but <span class="Important">only one depth level is supported</span>. Parts placed in folders within a subfolder will be ignored. Parts which are placed directly in the "parts" folder will also be ignored.</P>
+<p>This folder is parsed when the application is launched and is needed for BlueBrick to run. You can create as many subfolders as you want in the "parts" folder, but <span class="Important">only one depth level is supported</span>. Parts placed in folders within a subfolder will be ignored. Parts which are placed directly in the "parts" folder will also be ignored.</p>
  
 <DIV class="TechNote">
-<PRE><B>The original organisation of the "parts" folder is:</B>
+<PRE><b>The original organisation of the "parts" folder is:</b>
 parts
   &#x251C;&#x2500; Baseplate
   &#x251C;&#x2500; Custom
@@ -31,7 +31,7 @@ parts
   &#x251C;&#x2500; Road
   &#x2514;&#x2500; Set
 
-<B>And here is an example of modification of the parts folder:</B>
+<b>And here is an example of modification of the parts folder:</b>
 parts<FONT COLOR=red>    &#x2190; If you add parts in this folder they will be ignored</font>
   &#x251C;&#x2500; Baseplate
   &#x2502;<FONT COLOR=red>  &#x2514;&#x2500; My Baseplate    &#x2190; This folder will be ignored</font>
@@ -45,89 +45,28 @@ parts<FONT COLOR=red>    &#x2190; If you add parts in this folder they will be i
 </DIV>
 
 <H2>BlueBrick folder parsing</H2>
-<P>For each subfolder of the "parts" folder, BlueBrick will create a Tab page in the parts panel. The name of the Tab page is the same as the folder. You can choose any folder name and include space and accentuated characters. You can also rename, delete or reorganize the original folders as you like as they are not used to identify the parts. The folders are just a convenient container to group the parts together in different Tab Pages in the Brick library. The downside is that <span class="Important">every part name in the whole library must be unique</span>, and the part name is the id that is saved in the map file. Usually this is not a big problem since every Lego&copy; part already has a unique number.</P>
-
-<P>When creating the parts library, BlueBrick first looks for GIF files in the parts folders. For each GIF file that is found, BlueBrick then checks if an XML file of the same name exists. XML files are optional and if the XML file is missing, default values will be used for this part.</P>
-
-<P>Then BlueBrick looks for XML file without an associated GIF file and will also parse these XML files. These parts can be of two types: either it is a group part, or a normal part. If it is a group part, the image of the group will be recreated by BlueBrick (that's why they don't have gif associated) and visible in the part window pane. If it is a normal part, then this part will be ignored by BlueBrick, which means that they will not be visible in the part window pane. Those parts will also not be visible on a layout and won't generate a warning if BlueBrick finds them in a layout file. So if you want to force BlueBrick to ignore some specific parts, you just need to create the correct XML file.</P>
-
-<CENTER>
-<TABLE BORDER=2>
-<TR>
-	<TD></TD><TD ALIGN="center">GIF present</TD><TD ALIGN="center">GIF missing</TD>
-</TR><TR>
-	<TD>XML present</TD>
-	<TD><CENTER><FONT COLOR="green">Valid Part</font></CENTER>The part is visible in the library.<BR>The behavior of the part is correct.</TD>
-	<TD><CENTER><FONT COLOR="green">Group Part</font></CENTER>The image is created by BlueBrick.<BR>The behavior of the part is correct.<BR>
-		<CENTER>or <FONT COLOR="green">Ignored Part</font></CENTER>The part is not visible in BlueBrick.<BR>Some information can be used for export.</TD>
-</TR><TR>
-	<TD>XML missing</TD>
-	<TD><CENTER><FONT COLOR="green">Simple Image</font></CENTER>The part is visible in the library.<BR>The part is inert.</TD>
-	<TD><CENTER><FONT COLOR="red">Missing Part</font></CENTER>The part will appear as a red cross.<BR>The part is inert.</TD>
-</TR>
-</TABLE>
-</CENTER>
-
-</BODY>
-</HTML>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>For each subfolder of the "parts" folder, BlueBrick will create a Tab page in the parts panel. The name of the Tab page is the same as the folder. You can choose any folder name and include space and accentuated characters. You can also rename, delete or reorganize the original folders as you like as they are not used to identify the parts. However, this is not recommended if you want to check online for part library update, as it will confuse BlueBrick when checking which part is already installed on your computer. The folders are just a convenient container to group the parts together in different Tab Pages in the Brick library. The downside is that <span class="Important">every part name in the whole library must be unique</span>, and the part name is the id that is saved in the map file. Usually this is not a big problem since every Lego&copy; part already has a unique number.</p>
+
+<p>When creating the parts library, BlueBrick first looks for GIF files in the parts folders. For each GIF file that is found, BlueBrick then checks if an XML file of the same name exists. XML files are optional and if the XML file is missing, default values will be used for this part.</p>
+
+<p>Then BlueBrick looks for XML file without an associated GIF file and will also parse these XML files. These parts can be of two types: either it is a group part, or a normal part. If it is a group part, the image of the group will be recreated by BlueBrick (that's why they don't have gif associated) and visible in the part window pane. If it is a normal part, then this part will be ignored by BlueBrick, which means that they will not be visible in the part window pane. Those parts will also not be visible on a layout and won't generate a warning if BlueBrick finds them in a layout file. So if you want to force BlueBrick to ignore some specific parts, you just need to create the correct XML file.</p>
+
+<center>
+<table border=2>
+<tr>
+	<td></td><td align="center">GIF present</td><td align="center">GIF missing</td>
+</tr><tr>
+	<td>XML present</TD>
+	<td><center><font color="green">Valid Part</font></center>The part is visible in the library.<br>The behavior of the part is correct.</td>
+	<td><center><font color="green">Group Part</font></center>The image is created by BlueBrick.<br>The behavior of the part is correct.<br>
+		<center>or <font color="green">Ignored Part</font></center>The part is not visible in BlueBrick.<br>Some information can be used for export.</td>
+</tr><tr>
+	<td>XML missing</TD>
+	<td><center><font color="green">Simple Image</font></center>The part is visible in the library.<br>The part is inert.</td>
+	<td><center><font color="red">Missing Part</font></center>The part will appear as a red cross.<br>The part is inert.</td>
+</tr>
+</table>
+</center>
+
+</body>
+</html>
