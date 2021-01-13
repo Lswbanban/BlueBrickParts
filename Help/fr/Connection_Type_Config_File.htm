@@ -1,16 +1,18 @@
-<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alban Nanty">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Connection Type Configuration File</Title>
-</HEAD>
-<BODY>
-<H1>Connection Type Configuration File</H1>
+<html>
+<head>
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alban Nanty">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Connection Type Configuration File</title>
+</head>
+<body>
+<h1>Connection Type Configuration File</h1>
 <P>Since the version 1.7 of BlueBrick you can extend the type of connections for the parts, letting you creating an infinite number of connection types. You can also define the color and the size of the dot used to represent the free connections in BlueBrick.</P>
 
-<P>All the different connections types are described in an XML file named <span class="Important">"ConnectionTypeList.xml"</span> and located in the <span class="Important">"config"</span> folder of the BlueBrick install folder. The file has this architecture:</P>
+<P>All the different connections types are described in an XML file named <span class="Important">"ConnectionTypeList.xml"</span> and located in a <span class="Important">"config"</span> folder inside a part package folder, or in the <span class="Important">"config"</span> folder of the BlueBrick install folder. The <span class="Important">"ConnectionTypeList.xml"</span> located in the <span class="Important">"config"</span> folder of the BlueBrick install folder and released with the application, is a legacy file containing the most common and historical connection types. You can still modify it for your own purpose, however, if you want to share with the community, new parts that you created, you probably want to create a new <span class="Important">"ConnectionTypeList.xml"</span> file in a <span class="Important">"config"</span> folder inside the package of parts that you want to distribute. See <a href="How_to_share_parts.htm">How to Share parts with the community</a> for more details.</p>
+
+<p>The file has this architecture:</p>
 
 <TABLE CLASS="XMLDescription">
 <TR>
@@ -55,5 +57,5 @@
 <FONT STYLE="background-color:lightgreen">5 = Duplo Rail</font><BR>
 </DIV>
 
-</BODY>
-</HTML>
+</body>
+</html>
