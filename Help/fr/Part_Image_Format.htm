@@ -1,16 +1,17 @@
-<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alban Nanty">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Part Image Format</Title>
-</HEAD>
-<BODY>
-<H1>Part Image Format</H1>
-<H2>Format</H2>
-<P>BlueBrick only parses GIF images in the subfolders of the parts folder (see the <A HREF="Part_Library_Folders.htm">Folder Organization</A> for more details). The GIF image can contain a transparent color.</P>
-<P>It doesn't matter in which orientation you place the top view of the part in the image, but to facilitate the integration of your part with LDraw, I recommend you to use the same orientation as the LDraw part. Otherwise, you will have to add remaping information in the <A HREF="Part_XML_Description_LDRAW.htm">LDraw section</A> of the XML file.</P>
+<head>
+<html>
+<meta http-equiv="content-Type" content="text/html;charset=utf-8" />
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alban Nanty">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Part Image Format</title>
+</head>
+<body>
+<h1>Part Image Format</h1>
+<h2>Format</h2>
+<p>BlueBrick only parses GIF images in the subfolders of the parts folder (see the <A HREF="Part_Library_Folders.htm">Folder Organization</A> for more details). The GIF image can contain a transparent color.</P>
+<p>It doesn't matter in which orientation you place the top view of the part in the image, but to facilitate the integration of your part with LDraw, I recommend you to use the same orientation as the LDraw part. Otherwise, you will have to add remaping information in the <A HREF="Part_XML_Description_LDRAW.htm">LDraw section</A> of the XML file.</P>
 
 <H2>Scale</H2>
 <P>The scale of the parts is <span class="Important">1 stud = 8 pixels</span>. Since a stud is equal to 8 millimeters in real life, another way to memorize the scale is 1 pixel = 1 millimeter.</P>
@@ -90,12 +91,12 @@ For example the naming convention for a Blue Baseplate 32 x 32 is:
 
 <P>The file name of the group parts (parts made from other parts arranged in a specific, predifined layout) should start with any name describing the group followed by a dot and then the word "group" and finally by the extension. The group parts never have gif file, only xml files. If you want to make a group which actually represents a set (for example a set including many buildings in a predifined layout), use the "set" naming convention instead (see above).</P>
 
-<DIV class="TechNote">
-<PRE>&lt;GroupName&gt;.group.xml
+<div class="TechNote">
+<pre>&lt;GroupName&gt;.group.xml
 
 For example the naming convention for a flex track can be:
-<B>flex.group.xml</B></PRE>
-</DIV>
+<b>flex.group.xml</b></pre>
+</div>
 
-</BODY>
-</HTML>
+</body>
+</html>

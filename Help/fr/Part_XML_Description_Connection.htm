@@ -1,13 +1,14 @@
-<HTML>
-<HEAD>
-<META NAME="keywords" CONTENT="BlueBrick, Help">
-<META NAME="description" CONTENT="The reference documentation for BlueBrick.">
-<META NAME="author" CONTENT="Alban Nanty">
-<LINK REL=StyleSheet HREF="../BlueBrick.css" TYPE="text/css" MEDIA=screen>
-<Title>Describe the Connection Points</Title>
-</HEAD>
-<BODY>
-<H1>Describe the Connection Points</H1>
+<html>
+<head>
+<meta http-equiv="content-Type" content="text/html;charset=utf-8" />
+<meta name="keywords" content="BlueBrick, Help">
+<meta name="description" content="The reference documentation for BlueBrick.">
+<meta name="author" content="Alban Nanty">
+<link rel="StyleSheet" href="../BlueBrick.css" type="text/css" media="screen">
+<title>Describe the Connection Points</title>
+</head>
+<body>
+<h1>Describe the Connection Points</h1>
 
 <TABLE CLASS="XMLDescription">
 <TR>
@@ -86,14 +87,14 @@ And finally the right top connection point is at:<BR>
 
 <DIV CLASS="TechNote">
 <PRE>&lt;ConnexionList&gt;
-<FONT COLOR="blue">&#x250C;&#x2500;&#x25BA;</font> &lt;connexion&gt;
-<FONT COLOR="blue">&#x2502;</font> <FONT COLOR="green">&#x250C;&#x2500;&#x2500;&#x2500;</font> &lt;nextConnexionPreference&gt;<B><FONT COLOR="green">1</font></B>&lt;/nextConnexionPreference&gt;
-<FONT COLOR="blue">&#x2502;</font> <FONT COLOR="green">&#x2502;</font> &lt;/connexion&gt;
-<FONT COLOR="blue">&#x2502;</font> <FONT COLOR="green">&#x2514;&#x25BA;</font>&lt;connexion&gt;
-<FONT COLOR="blue">&#x251C;&#x2500;&#x2500;&#x2500;&#x2500;</font> &lt;nextConnexionPreference&gt;<B><FONT COLOR="blue">0</font></B>&lt;/nextConnexionPreference&gt;
-<FONT COLOR="blue">&#x2502;</font>    &lt;/connexion&gt;
-<FONT COLOR="blue">&#x2502;</font>    &lt;connexion&gt;
-<FONT COLOR="blue">&#x2514;&#x2500;&#x2500;&#x2500;&#x2500;</font> &lt;nextConnexionPreference&gt;<B><FONT COLOR="blue">0</font></B>&lt;/nextConnexionPreference&gt;
+<font color="blue">&#x250C;&#x2500;&#x25BA;</font> &lt;connexion&gt;
+<font color="blue">&#x2502;</font> <FONT COLOR="green">&#x250C;&#x2500;&#x2500;&#x2500;</font> &lt;nextConnexionPreference&gt;<B><FONT COLOR="green">1</font></B>&lt;/nextConnexionPreference&gt;
+<font color="blue">&#x2502;</font> <FONT COLOR="green">&#x2502;</font> &lt;/connexion&gt;
+<font color="blue">&#x2502;</font> <FONT COLOR="green">&#x2514;&#x25BA;</font>&lt;connexion&gt;
+<font color="blue">&#x251C;&#x2500;&#x2500;&#x2500;&#x2500;</font> &lt;nextConnexionPreference&gt;<B><FONT COLOR="blue">0</font></B>&lt;/nextConnexionPreference&gt;
+<font color="blue">&#x2502;</font>    &lt;/connexion&gt;
+<font color="blue">&#x2502;</font>    &lt;connexion&gt;
+<font color="blue">&#x2514;&#x2500;&#x2500;&#x2500;&#x2500;</font> &lt;nextConnexionPreference&gt;<B><FONT COLOR="blue">0</font></B>&lt;/nextConnexionPreference&gt;
       &lt;/connexion&gt;
 &lt;/ConnexionList&gt;</PRE>
 </DIV>
@@ -101,7 +102,7 @@ And finally the right top connection point is at:<BR>
 <P>Finally the <span class="Important">Electric Plug field</span> is used for track with electric circuits (9V and 12V) so you can omit this field for most parts. The field contains an integer that can be positive or negative. Different values indicates different independant circuits which are not connected electrically on the part. For example if you take the rail-cross part 32087, or a level crossing with two parallel railways, one line will be identified with the numbers +1/-1, and the other line with the numbers +2/-2.</P>
 <P>The connections with the positive values are electricaly connected to the connections with the same negative values. That means a connection with an electric plug +1 is connected to all the connections with an electric plug -1 and vice and versa. But of cource +1 is not connected to -2, neither to another +1. See the image below for some example:</P>
 
-<CENTER><IMG SRC="../ElectricPlug.png"></CENTER>
+<center><img src="../ElectricPlug.png"></center>
 
-</BODY>
-</HTML>
+</body>
+</html>
