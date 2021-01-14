@@ -5,32 +5,32 @@
 <meta name="description" content="The reference documentation for BlueBrick.">
 <meta name="author" content="Alban Nanty">
 <link rel=StyleSheet href="../BlueBrick.css" type="text/css" media="screen">
-<Title>How to Filer the Part Library</Title>
+<Title>Comment filtrer la bibliothèque de pièces</Title>
 </head>
 <body>
-<h1>How to Filer the Part Library</h1>
+<h1>Comment filtrer la bibliothèque de pièces</h1>
 
 <center><img src="LayerPane.png"></center>
 
-<p>At the bottom of the part library, there's a text box <span class="RefNumber">16</span> where you can type any kind of keywords to filter the parts displayed in the part library. The filtering is done on both the description and the color of the part; meaning that every part which contains the specified keyword in their description or color name will be displayed, and the others will be hidden. Clear the text box if you want to unfilter the library.</p>
+<p>En bas de la bibliothèque de pièces, il y a une zone de texte <span class="RefNumber">16</span> où vous pouvez taper n'importe quel type de mots clés pour filtrer les pièces affichées dans la bibliothèque de pièces. Le filtrage est effectué à la fois sur la description et la couleur de la pièce ; ce qui signifie que chaque pièce qui contient le mot-clé spécifié dans sa description ou son nom de couleur sera affichée, et les autres seront cachées. Effacez la zone de texte si vous souhaitez afficher la bibliothèque sans filtre.</p>
 
-<p>By default when the part list is filtered, the background color of the part library becomes slightly red, but you can customize this color in the <a href="Preferences_Part_Library.htm">Prefereces</a> of the application, including setting it to white if you don't want to see the color change.</p>
+<p>Par défaut, lorsque la liste des pièces est filtrée, la couleur de fond de la bibliothèque de pièces devient légèrement rouge, mais vous pouvez personnaliser cette couleur dans les <a href="Preferences_Part_Library.htm">Prefereces</a> de l'application, y compris en la mettant en blanc si vous ne voulez pas voir le changement de couleur.</p>
 
-<h1>Advanced Filtering</h1>
+<h1>Filtrage avancé</h1>
 
-<p>You can use several keywords separated by a space character. In that case all the parts that match all the specified keywords (in any order) will be displayed. Now if you want to use a space character inside your keyword, you must enclose your search sentence between double quote. For example if you want to display all the 32 x 32 green baseplates in the baseplate tab of the part library you should type: <span class="Important">"32 x 32" green</span>. The double quotes around the "32 x 32" text will ensure that these three words will not be split during the filtering, and the space before the 'green' word will be understood as a separation for a second keyword such as only baseplates that are both green and have a size of 32x32 will be displayed.</p>
+<p>Vous pouvez utiliser plusieurs mots-clés séparés par un espace. Dans ce cas, toutes les pièces qui correspondent à tous les mots clés spécifiés (dans n'importe quel ordre) seront affichées. Maintenant, si vous voulez utiliser un espace à l'intérieur de votre mot-clé, vous devez inclure votre phrase de recherche entre guillemets. Par exemple, si vous voulez afficher toutes les plaques de base 32 x 32 vertes dans l'onglet "Baseplate" de la bibliothèque de pièces, vous devez taper : <span class="Important">"32 x 32" green</span>. Les doubles guillemets autour du texte "32 x 32" garantiront que ces trois mots ne seront pas séparés pendant le filtrage, et l'espace avant le mot "green" sera compris comme une séparation pour un deuxième mot-clé, par exemple, seuls les plaques de base qui sont à la fois vertes et ont une taille de 32x32 seront affichées.</p>
 
-<p>Note that with the previous example <span class="Important">"32 x 32" green</span> a SAND GREEN baseplate is also listed. Fortunately it is also possible to exclude parts that match specific keywords by adding a minus character - just in front of the keyword. For example if you want to exclude the sand green baseplate you can use: <span class="Important">"32 x 32" green -sand</span>. You can of course use exclusive keywords only, for example if you type <span class="Important">-yellow</span> you will display all the parts except the yellow ones. The minus character also works in front of a double quoted sentence, for example <span class="Important">-"16 x 16"</span> will remove all the 16x16 baseplates. Adding a + in front of a keyword will have the same effect as not adding it.</p>
+<p>Notez qu'avec l'exemple précédent <span class="Important">"32 x 32" green</span> une plaque de base SAND GREEN est également indiquée. Heureusement, il est également possible d'exclure les pièces qui correspondent à des mots-clés spécifiques en ajoutant un caractère moins - juste devant le mot-clé. Par exemple, si vous voulez exclure la plaque de base "sand green", vous pouvez utiliser <span class="Important">"32 x 32" green -sand</span>. Vous pouvez bien sûr utiliser uniquement des mots-clés exclusifs, par exemple si vous tapez <span class="Important">-yellow</span> vous afficherez toutes les pièces sauf les jaunes. Le caractère moins fonctionne également devant une phrase entre guillement, par exemple <span class="Important">-"16 x 16"</span> supprimera toutes les plaques de base 16x16. Ajouter un + devant un mot-clé aura le même effet que de ne pas l'ajouter.</p>
 
-<p>You can also filter based on part numbers. To do this, you need to add the sharp character # in front of the keyword. For example, typing <span class="Important">#10</span> for the town tab will make the search easier to find the Modular Buildings as their set number are often around 10 thousands.</p>
+<p>Vous pouvez également filtrer sur la base des numéros de pièces. Pour ce faire, vous devez ajouter le caractère dièse # devant le mot-clé. Par exemple, en tapant <span class="Important">#10</span> dans l'onglet "Town", la recherche sera plus facile pour trouver les bâtiments modulaires car leur numéro de set est souvent autour de 10 mille.</p>
 
-<h1>Filtering by tab or for all tabs</h1>
+<h1>Filtrage par onglet ou pour tous les onglets</h1>
 
-<p>There are two modes of filtering and you can switch the modes by clicking the button <span class="RefNumber">17</span>. If you press this button then its icon becomes slightly red, which means that the keywords you have typed in the text box will be used for all the tabs of the part library. In such case, even if you switch tabs you will always see the same filter keywords. On the contrary, unclicking the button <span class="RefNumber">17</span> will allow you to have different keywords for each tab, and they will be remembered when you switch tabs.</p>
+<p>Il existe deux modes de filtrage et vous pouvez changer de mode en cliquant sur le bouton <span class="RefNumber">17</span>. Si vous appuyez sur ce bouton, son icône devient légèrement rouge, ce qui signifie que les mots clés que vous avez saisis dans la zone de texte seront utilisés pour tous les onglets de la bibliothèque de pièces. Dans ce cas, même si vous changez d'onglet, vous verrez toujours les mêmes mots clés de filtrage. Au contraire, en décochant le bouton <span class="RefNumber">17</span>, vous pourrez avoir des mots clés différents pour chaque onglet, et ils seront mémorisés lorsque vous changerez d'onglet.</p>
 
-<p>The global mode is useful if you search a part whose description you are pretty sure, but you don't know in which tab it is stored; whereas the individual mode is more useful when you want to subset some tabs with the parts you mostly use. For example, if you mostly use 9V track and standard baseplates, you can use <span class="Important">"32 x 32"</span> keyword in the Baseplate tab and the <span class="Important">9V</span> keyword in the Track tab.</p>
+<p>Le mode global est utile si vous recherchez une pièce dont vous êtes assez sûr de la description, mais dont vous ignorez l'onglet dans lequel elle est stockée ; alors que le mode individuel est plus utile lorsque vous voulez restreindre certains onglets avec les pièces que vous utilisez le plus souvent. Par exemple, si vous utilisez principalement des rails 9V et des plaques de base standard, vous pouvez utiliser le mot-clé <span class="Important">"32 x 32"</span> dans l'onglet "Baseplate" et le mot-clé <span class="Important">9V</span> dans l'onglet "Track".</p>
 
-<p>The keywords are automatically saved when you exit the application and reloaded at the next session of Bluebrick.</p>
+<p>Les mots clés sont automatiquement enregistrés lorsque vous quittez l'application, et rechargés à la prochaine session de Bluebrick.</p>
 
 </body>
 </html>
