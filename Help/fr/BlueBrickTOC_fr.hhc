@@ -44,7 +44,7 @@
 			<param name="Local" value="Part_Library_How_to_Filter.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="T&eacute;l&eacute;charger des pi&egrave; suppl&eacute;mentaires">
+			<param name="Name" value="T&eacute;l&eacute;charger des pi&egrave;ces suppl&eacute;mentaires">
 			<param name="Local" value="Part_Library_Download_Additional_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -118,7 +118,7 @@
 			<param name="Local" value="Creating_Modifying_Layouts_Electric_Circuits.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Propriétés du plan">
+			<param name="Name" value="Propri&eacute;t&eacute;s du plan">
 			<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -310,7 +310,7 @@
 			<param name="Local" value="Reload_the_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Comment partager des pièces avec la communauté">
+			<param name="Name" value="Comment partager des pi&egrave;ces avec la communaut&eacute;">
 			<param name="Local" value="How_to_share_parts.htm">
 			</OBJECT>
 	</UL>
