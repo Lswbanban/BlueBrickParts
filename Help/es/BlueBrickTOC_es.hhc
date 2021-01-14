@@ -309,6 +309,10 @@
 			<param name="Name" value="Recargar la biblioteca de piezas">
 			<param name="Local" value="Reload_the_Part_Library.htm">
 			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Cómo compartir partes con la comunidad">
+			<param name="Local" value="How_to_share_parts.htm">
+			</OBJECT>
 	</UL>
 </UL>
 </BODY></HTML>

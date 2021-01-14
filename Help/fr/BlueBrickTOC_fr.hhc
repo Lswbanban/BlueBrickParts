@@ -309,6 +309,10 @@
 			<param name="Name" value="Recharger la libraire de pi&egrave;ces">
 			<param name="Local" value="Reload_the_Part_Library.htm">
 			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Comment partager des pièces avec la communauté">
+			<param name="Local" value="How_to_share_parts.htm">
+			</OBJECT>
 	</UL>
 </UL>
 </BODY></HTML>

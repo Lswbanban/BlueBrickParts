@@ -342,6 +342,8 @@
 		<param name="Name" value="extend">
 		<param name="Name" value="How to extend the Part Library">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
+		<param name="Name" value="How to share part with the community">
+		<param name="Local" value="How_to_share_parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="filter">
@@ -367,6 +369,8 @@
 		<param name="Name" value="folder">
 		<param name="Name" value="Part Library Folders">
 		<param name="Local" value="Part_Library_Folders.htm">
+		<param name="Name" value="How to share part with the community">
+		<param name="Local" value="How_to_share_parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="font">
@@ -589,11 +593,18 @@
 			<param name="Local" value="How_to_extend_the_Part_Library.htm">
 			<param name="Name" value="How to save a group in the Library">
 			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
+			<param name="Name" value="How to share part with the community">
+			<param name="Local" value="How_to_share_parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="filter">
 			<param name="Name" value="How to Filer the Part Library">
 			<param name="Local" value="Part_Library_How_to_Filter.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="order parts">
+			<param name="Name" value="Specify the Sorting Order">
+			<param name="Local" value="Part_XML_Description_SortingKey.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="organization">
@@ -614,6 +625,8 @@
 			<param name="Name" value="update">
 			<param name="Name" value="Download Additional Parts">
 			<param name="Local" value="Part_Library_Download_Additional_Parts.htm">
+			<param name="Name" value="How to share part with the community">
+			<param name="Local" value="How_to_share_parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -749,6 +762,13 @@
 		<param name="Local" value="LDraw_Remaping_File.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ncp">
+		<param name="Name" value="Saving and Loading">
+		<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
+		<param name="Name" value="Add information for 4DBrix (nControl) Compatibility">
+		<param name="Local" value="Part_XML_Description_4DBrix.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="new">
 		<param name="Name" value="Saving and Loading">
 		<param name="Local" value="Creating_Modifying_Layouts_Saving_and_Loading.htm">
@@ -817,6 +837,8 @@
 		<param name="Name" value="order">
 		<param name="Name" value="Moving Parts">
 		<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
+		<param name="Name" value="Specify the Sorting Order">
+		<param name="Local" value="Part_XML_Description_SortingKey.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="pan">
@@ -901,6 +923,8 @@
 			<param name="Local" value="How_to_extend_the_Part_Library.htm">
 			<param name="Name" value="Download Additional Parts">
 			<param name="Local" value="Part_Library_Download_Additional_Parts.htm">
+			<param name="Name" value="How to share part with the community">
+			<param name="Local" value="How_to_share_parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="list">
@@ -913,6 +937,11 @@
 			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="package">
+			<param name="Name" value="How to share part with the community">
+			<param name="Local" value="How_to_share_parts.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="rename">
 			<param name="Name" value="Keep a trace of the previous name of a part">
 			<param name="Local" value="Part_XML_Description_OldName.htm">
@@ -923,6 +952,13 @@
 			<param name="Local" value="Creating_Modifying_Layouts_Moving_Parts.htm">
 			<param name="Name" value="Using Flex Track">
 			<param name="Local" value="Creating_Modifying_Layouts_Using_Flex_Track.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="update">
+			<param name="Name" value="How to download additional parts or update the Part Library">
+			<param name="Local" value="Part_Library_Download_Additional_Parts.htm">
+			<param name="Name" value="How to share part with the community">
+			<param name="Local" value="How_to_share_parts.htm">
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
@@ -1079,6 +1115,8 @@
 		<param name="Name" value="size">
 		<param name="Name" value="Layout Properties">
 		<param name="Local" value="Creating_Modifying_Layouts_Map_Properties.htm">
+		<param name="Name" value="Creating and Using Layers">
+		<param name="Local" value="Creating_Using_Layers.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="shortcut">
@@ -1195,8 +1233,10 @@
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="url">
-		<param name="Name" value="Part XML Description">
-		<param name="Local" value="Part_XML_Description.htm">
+		<param name="Name" value="Specify an online reference Image">
+		<param name="Local" value="Part_XML_Description_Image.htm">
+		<param name="Name" value="Download Additional Parts">
+		<param name="Local" value="Part_Library_Download_Additional_Parts.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="view">

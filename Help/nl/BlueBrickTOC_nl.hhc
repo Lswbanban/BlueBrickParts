@@ -309,6 +309,10 @@
 			<param name="Name" value="Reload the Part Library">
 			<param name="Local" value="Reload_the_Part_Library.htm">
 			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to share parts with the community">
+			<param name="Local" value="How_to_share_parts.htm">
+			</OBJECT>
 	</UL>
 </UL>
 </BODY></HTML>
