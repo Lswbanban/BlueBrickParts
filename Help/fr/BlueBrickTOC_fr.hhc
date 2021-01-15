@@ -140,7 +140,7 @@
 			<param name="Local" value="Part_Budget_Using_Budget.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Sauver et ouvrir un budget">
+			<param name="Name" value="Enregistrer et ouvrir un budget">
 			<param name="Local" value="Part_Budget_Saving_and_Loading_Budget.htm">
 			</OBJECT>
 	</UL>
