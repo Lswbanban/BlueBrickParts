@@ -11,40 +11,39 @@
 <body>
 <h1>Afficher et exporter la liste de pièces</h1>
 
-<p>You can display the list of all the parts used in the currently open layout, by clicking on the <span class="path">&nbsp;Part List&nbsp;</span> tab <span class="RefNumber">1</span> in the bottom right corner of the BlueBrick window. Note that if you have a budget file opened, like in the screenshot below, you will see more columns in the list (see the <a href="Part_Budget.htm">Part Budget</a> section for more details regarding budgets).</p>
+<p>Vous pouvez afficher la liste de toutes les pièces utilisées dans le plan actuellement ouvert, en cliquant sur l'onglet <span class="path">&nbsp;Liste de pièces&nbsp;</span> <span class="RefNumber">1</span> dans le coin inférieur droit de la fenêtre BlueBrick. Notez que si vous avez un fichier de budget ouvert, comme dans la capture d'écran ci-dessous, vous verrez plus de colonnes dans la liste (voir la section <a href="Part_Budget.htm">Budget de pièces</a> pour plus de détails concernant les budgets).</p>
 
 <center><img src="PartListWindow.png"></center>
 
-<h2>Displayed Information</h2>
+<h2>Informations affichées</h2>
 
-<p>Here is a description of all the columns:
+<p>Voici une description de toutes les colonnes :
 <ul>
-	<li>The column <span class="RefNumber">2</span> displays the part number along with an tiny icon of the part.</li>
-	<li>The column <span class="RefNumber">3</span> displays the quantity in use on the current layout for each part. If you delete all the parts of one type, this part will be removed from the list.</li>
-	<li>The column <span class="RefNumber">4</span> displays the budgeted count of the part (if you have a budget open, otherwise the column is hidden). If the part is not budgeted then the word "unbudgeted" is written instead.</li>
-	<li>The column <span class="RefNumber">5</span> displays the quantity of part exceeding the budget (if you have a budget open, otherwise the column is hidden), i.e. the quantity of parts that would be missing if you try to build the open layout with the open budget. Unbudgeted part are also counted as missing.</li>
-	<li>The column <span class="RefNumber">6</span> displays a part usage percentage, according to the open budget (if you have a budget open, otherwise the column is hidden). This percentage can goes over 100% if there is more part on the layout, than the number authorised in the budget. If the part is not budgeted then the word "unbudgeted" is written instead.</li>
-	<li>The column <span class="RefNumber">7</span> displays the color of the part.</li>
-	<li>The column <span class="RefNumber">8</span> displays the part description.</li>
+	<li>La colonne <span class="RefNumber">2</span> affiche le numéro de pièce avec une petite icône de la pièce.</li>
+	<li>La colonne <span class="RefNumber">3</span> affiche la quantité utilisée sur le plan actuel pour chaque pièce. Si vous supprimez toutes les pièces d'un type, cette pièce sera supprimée de la liste.</li>
+	<li>La colonne <span class="RefNumber">4</span> affiche le décompte budgété de la pièce (si vous avez un budget ouvert, sinon la colonne est cachée). Si la pièce n'est pas budgétée, le mot "Hors-Budget" est écrit à la place.</li>
+	<li>La colonne <span class="RefNumber">5</span> affiche la quantité de pièces dépassant le budget (si vous avez un budget ouvert, sinon la colonne est cachée), c'est-à-dire la quantité de pièces qui seraient manquantes si vous essayez de construire le plan ouvert avec le budget ouvert. Les pièces non budgétées sont également comptées comme manquantes.</li>
+	<li>La colonne <span class="RefNumber">6</span> affiche un pourcentage d'utilisation des pièces, en fonction du budget ouvert (si vous avez un budget ouvert, sinon la colonne est cachée). Ce pourcentage peut dépasser 100% si le plan comporte plus de pièces que le nombre autorisé dans le budget. Si la pièce n'est pas budgétée, le mot "Hors-Budget" est écrit à la place.</li>
+	<li>La colonne <span class="RefNumber">7</span> affiche la couleur de la pièce.</li>
+	<li>La colonne <span class="RefNumber">8</span> affiche la description de la pièce.</li>
 </ul>
 </p>
 
-<p>Finally at the end of each layer list, there is a line that displays the total of each column.</p>
+<p>Enfin, à la fin de chaque liste de calques, il y a une ligne qui affiche le total de chaque colonne.</p>
 
-<p>You can split the list by layer by checking the box <span class="RefNumber">9</span> at the bottom of the window. If this box is not checked, all the parts of the same type are counted together even if they are placed in different layers. Also you can include the hidden parts (i.e. the parts that are placed on hidden layers) by checking the box <span class="RefNumber">10</span> at the bottom of the window. If this box is left unchecked, hidden layers are ignored in the count.</p>
+<p> Vous pouvez diviser la liste par calque en cochant la case <span class="RefNumber">9</span> en bas de la fenêtre. Si cette case n'est pas cochée, toutes les pièces du même type sont comptées ensemble, même si elles sont placées dans des calques différents. Vous pouvez également inclure les pièces cachées (c'est-à-dire les pièces qui sont placées sur des calques cachés) en cochant la case <span class="RefNumber">10</span> au bas de la fenêtre. Si cette case n'est pas cochée, les calques cachés sont ignorés dans le décompte.</p>
 
-<p>You can reorder the parts in the list by clicking on each column header. This way you can display all the missing parts on top of the list for example. The little black triangle next to the column name indicates which column is used for the sorting and in which order (ascending or descending). You can click again on a column header to inverse its sorting order.</p>
+<p>Vous pouvez réorganiser les pièces de la liste en cliquant sur l'en-tête de chaque colonne. De cette façon, vous pouvez afficher toutes les pièces manquantes en haut de la liste par exemple. Le petit triangle noir à côté du nom de la colonne indique quelle colonne est utilisée pour le tri et dans quel ordre (ascendant ou descendant). Vous pouvez cliquer à nouveau sur un en-tête de colonne pour inverser son ordre de tri.</p>
 
 <h2>Exportation</h2>
 
-<p>Exporting the parts List, may be convenient to create a shopping list, or to share it with other particpants to an event. This feature can be found through the <span class="path">&nbsp;File &gt; Export Part List...&nbsp;</span> menu. This will popup a save file dialog, where you can specify a file name to export the list. You can save the file as a regular text file, as a CSV file, or as an HTML file. Here are the different advantages between the formats:
+<p>Exporter la liste des pièces, peut être pratique pour créer une liste d'achats, ou pour la partager avec d'autres participants à un événement. Cette fonctionnalité se trouve via le menu <span class="path">&nbsp;Fichier &gt; Exporter la liste de Pièces...&nbsp;</span>. Une boîte de dialogue d'enregistrement de fichier apparaîtra, dans laquelle vous pourrez spécifier un nom de fichier pour exporter la liste. Vous pouvez enregistrer le fichier sous forme de fichier texte simple, de fichier CSV ou de fichier HTML. Voici les différents avantages entre ces formats :
 <ul>
-	<li><b>Text format:</b> The text format is a quick, dirty and light format. It could be convenient if you want to copy/paste it in an email, as it is formated to be humanly readable.</li>
-	<li><b>CSV format:</b>  CSV stands for Comma Separated Values, and is a format that is readable by spreadsheet software such as Microsoft Excel, or OpenOffice Calc. You can use this format if you want to do some statistics on the part list in a spreadsheet.</li>
-	<li><b>HTML format:</b> This format is nicely formated and includes pictures of the parts. Those pictures are referenced on internet, which makes the file portable (you can send it to your friends), but of course requires an internet connection to be displayed correctly. The picture references are set in the <a href="Part_XML_Description_Image.htm">part XML file</a>, which can leads to broken links if this file is not correctly configured.</li>
+	<li><b>Format texte :</b> Le format texte est un format rapide, sale et léger. Il peut être pratique si vous souhaitez le copier/coller dans un e-mail, car il est formaté pour être humainement lisible.</li>
+	<li><b>Format CSV :</b> CSV signifie Comma Separated Values, et est un format lisible par des logiciels de tableur tels que Microsoft Excel, ou OpenOffice Calc. Vous pouvez utiliser ce format si vous voulez faire des statistiques sur la liste des pièces dans un tableur.</li>
+	<li><b>Format HTML :</b> Ce format est agréablement formaté et comprend les images des pièces. Ces images sont référencées sur internet, ce qui rend le fichier portable (vous pouvez l'envoyer à vos amis), mais nécessite bien sûr une connexion internet pour être affiché correctement. Les références des images sont définies dans le fichier <a href="Part_XML_Description_Image.htm">Définir un lien vers une image en ligne</a>, ce qui peut entraîner des liens rompus si ce fichier n'est pas correctement configuré.</li>
 </ul>
 </p>
-
 <h2>Impression</h2>
 
 <p>Il est possible d'imprimer la liste de pièces en ouvrant le fichier .txt, .csv ou .html dans lequel vous avez exporté la liste, puis utiliser l'option d'impression du logiciel utilisé pour ouvrir le fichier.</p>
