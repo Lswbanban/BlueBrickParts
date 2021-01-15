@@ -31,7 +31,7 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="La Librairie de pi&egrave;ces">
+		<param name="Name" value="La biblioth&egrave;que de pi&egrave;ces">
 		<param name="Local" value="Part_Library.htm">
 		</OBJECT>
 	<UL>
@@ -48,7 +48,7 @@
 			<param name="Local" value="Part_Library_Download_Additional_Parts.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Sauvegarder un groupe dans la librairie">
+			<param name="Name" value="Sauvegarder un groupe dans la biblioth&egrave;que">
 			<param name="Local" value="Part_Library_Save_a_Group_in_the_Library.htm">
 			</OBJECT>
 	</UL>
@@ -58,7 +58,7 @@
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Zoomer et observer">
+			<param name="Name" value="Zoom et navigation">
 			<param name="Local" value="Navigation_Zooming_and_Viewing.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -176,7 +176,7 @@
 			<param name="Local" value="Preferences_Appearance.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Pr&eacute;f&eacute;rences de la librairie de pi&egrave;ces">
+			<param name="Name" value="Pr&eacute;f&eacute;rences de la biblioth&egrave;que de pi&egrave;ces">
 			<param name="Local" value="Preferences_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -189,7 +189,7 @@
 			</OBJECT>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Comment &eacute;tendre la librairie de pi&egrave;ces">
+		<param name="Name" value="Comment &eacute;tendre la biblioth&egrave;que de pi&egrave;ces">
 		<param name="Local" value="How_to_extend_the_Part_Library.htm">
 		</OBJECT>
 	<UL>
