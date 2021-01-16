@@ -76,7 +76,7 @@
 			<param name="Local" value="Creating_Using_Layers_Layer_Toolbar.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Die f&Atilde;&frac14;nf verschiedenen Arten von Ebenen">
+			<param name="Name" value="Die vier verschiedenen Arten von Ebenen">
 			<param name="Local" value="Creating_Using_Layers_Different_Type_of_Layers.htm">
 			</OBJECT>
 	</UL>
@@ -168,7 +168,7 @@
 			<param name="Local" value="Preferences_General.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Voreinstellungen für die Ausgabe">
+			<param name="Name" value="Voreinstellungen f&uuml;r die Ausgabe">
 			<param name="Local" value="Preferences_Edition.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -176,7 +176,7 @@
 			<param name="Local" value="Preferences_Appearance.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Voreinstellungen für die Teilebibliothek">
+			<param name="Name" value="Voreinstellungen f&uuml;r die Teilebibliothek">
 			<param name="Local" value="Preferences_Part_Library.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
@@ -243,15 +243,15 @@
 				<param name="Local" value="Part_XML_Description_Hull.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="TD-Kompatibilität">
+				<param name="Name" value="TD-Kompatibilit&auml;t">
 				<param name="Local" value="Part_XML_Description_Track_Designer.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="LDraw-Kompatibilität">
+				<param name="Name" value="LDraw-Kompatibilit&auml;t">
 				<param name="Local" value="Part_XML_Description_LDRAW.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="4DBrix-Kompatibilität">
+				<param name="Name" value="4DBrix-Kompatibilit&auml;t">
 				<param name="Local" value="Part_XML_Description_4DBrix.htm">
 				</OBJECT>
 		</UL>
@@ -297,7 +297,7 @@
 				<param name="Local" value="Group_XML_Description_SubPartList.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Verbindungspräferenzliste">
+				<param name="Name" value="Verbindungspr&auml;ferenzliste">
 				<param name="Local" value="Group_XML_Description_GroupConnectionPreferenceList.htm">
 				</OBJECT>
 		</UL>
