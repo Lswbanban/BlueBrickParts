@@ -45,6 +45,12 @@
 4565-1.train.xml
 4565-1.twoslots.gif
 4565-1.twoslots.xml
+60050-1.set.gif
+60050-1.set.xml
+60051-1.set.gif
+60051-1.set.xml
+60052-1.set.gif
+60052-1.set.xml
 6399-1.highstation.gif
 6399-1.highstation.xml
 6399-1.lowstation.gif
