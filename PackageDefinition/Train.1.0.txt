@@ -1,0 +1,3 @@
+./Train/config/*
+./Train/*.gif
+./Train/*.xml

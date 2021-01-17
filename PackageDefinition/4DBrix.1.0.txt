@@ -1,0 +1,3 @@
+./4DBrix/config/*
+./4DBrix/*.gif
+./4DBrix/*.xml

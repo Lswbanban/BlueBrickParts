@@ -1,2 +1,0 @@
-./parts/Train/*.gif
-./parts/Train/*.xml

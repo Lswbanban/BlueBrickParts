@@ -1,0 +1,3 @@
+./Duplo/config/*
+./Duplo/*.gif
+./Duplo/*.xml

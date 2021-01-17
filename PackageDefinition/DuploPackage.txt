@@ -1,2 +1,0 @@
-./parts/Duplo/*.gif
-./parts/Duplo/*.xml

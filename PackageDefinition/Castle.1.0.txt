@@ -1,0 +1,3 @@
+./Castle/config/*
+./Castle/*.gif
+./Castle/*.xml
