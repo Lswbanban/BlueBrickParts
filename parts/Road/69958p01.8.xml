@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Alban</Author>
+	<Description>
+		<en>Road plate 16 x 16 With Straight Stripes Pattern</en>
+		<fr>Plaque de route 16 x 16 avec des lignes blanches en ligne droite</fr>
+	</Description>
+
+	<!-- list of connexion point (assuming that this part can connect to another one), the position of the connexion is in stud coord and relative to the center) -->
+	<ConnexionList>
+		<connexion>
+			<type>16x16road</type>
+			<position>
+				<x>-8</x>
+				<y>-4</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>6</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>16x16road</type>
+			<position>
+				<x>4</x>
+				<y>-8</y>
+			</position>
+			<angle>-90</angle>
+			<angleToPrev>90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>7</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>16x16road</type>
+			<position>
+				<x>8</x>
+				<y>4</y>
+			</position>
+			<angle>0</angle>
+			<angleToPrev>90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>4</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>16x16road</type>
+			<position>
+				<x>-4</x>
+				<y>8</y>
+			</position>
+			<angle>90</angle>
+			<angleToPrev>90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>5</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>16x16road</type>
+			<position>
+				<x>-8</x>
+				<y>4</y>
+			</position>
+			<angle>180</angle>
+			<angleToPrev>90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>2</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>16x16road</type>
+			<position>
+				<x>-4</x>
+				<y>-8</y>
+			</position>
+			<angle>-90</angle>
+			<angleToPrev>90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>3</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>16x16road</type>
+			<position>
+				<x>8</x>
+				<y>-4</y>
+			</position>
+			<angle>0</angle>
+			<angleToPrev>90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>0</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+		<connexion>
+			<type>16x16road</type>
+			<position>
+				<x>4</x>
+				<y>8</y>
+			</position>
+			<angle>90</angle>
+			<angleToPrev>90</angleToPrev> <!-- how much angle between this connection and the prev one in this circular list -->
+			<angleToNext>90</angleToNext> <!-- how much angle between this connection and the next one in this circular list -->
+			<nextConnexionPreference>1</nextConnexionPreference> <!-- index (0-based) in that list for connecting the next part -->
+		</connexion>
+	</ConnexionList>
+</part>
