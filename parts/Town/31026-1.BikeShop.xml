@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<Author>Raymond Brown</Author>
+	<Description>
+		<en>Bike Shop &amp; Cafe: Bike Shop</en>
+		<fr>Magasin de vélo et Café : Magasin de vélo</fr>
+	</Description>
+	<SortingKey>City</SortingKey>
+	<ImageURL>https://images.brickset.com/sets/large/31026-1.jpg</ImageURL>
+	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>0</bottom>
+	</SnapMargin>
+</part>
