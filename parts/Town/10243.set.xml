@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<part>
+    <Author>Thomas Hess (Rumpelmuck, scorpy63), LDD file by eurobrick member: kcoon</Author>
+    <Description>
+	<de>Parisian Restaurant</de>
+        <en>Parisian Restaurant</en>   
+    </Description>
+    <ImageURL>http://www.brickshelf.com/gallery/scorpy63/BlueBrick-Parts/Creator/10243.set.gif</ImageURL>
+    <SnapMargin>
+        <left>0</left>
+	<right>0</right>
+	<top>1</top>
+	<bottom>0</bottom>
+    </SnapMargin>
+    </part>
