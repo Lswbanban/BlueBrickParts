@@ -7,6 +7,11 @@
 	</Description>
 	<SortingKey>City</SortingKey>
 	<ImageURL>https://images.brickset.com/sets/images/31010-1.jpg</ImageURL>
+	<OldNameList>
+		<OldName>31010-1.set</OldName>
+		<OldName>31010.set.option1</OldName>
+	</OldNameList>
+	
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>0</left>

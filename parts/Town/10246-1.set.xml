@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Thomas Hess (Rumpelmuck, scorpy63), LDD file by eurobricks member: Schlitter</Author>
+	<Description>
+		<de>Detektivbüro</de>
+		<en>Detective's Offioce</en>
+	</Description>
+	<SortingKey>City</SortingKey>
+	<ImageURL>http://www.brickshelf.com/gallery/Adriel/0-Modular-0/10246/10246-00.jpg</ImageURL>
+	<OldNameList>
+		<OldName>10246.set</OldName>
+	</OldNameList>
+	
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>0</top>
+		<bottom>-0.5</bottom>
+	</SnapMargin>
+</part>

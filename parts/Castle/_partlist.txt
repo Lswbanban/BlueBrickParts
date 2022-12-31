@@ -7,3 +7,5 @@
 10193-1.tree.xml
 3739-1.set.gif
 3739-1.set.xml
+6080-1.set.gif
+6080-1.set.xml

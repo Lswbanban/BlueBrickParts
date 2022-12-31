@@ -6,6 +6,10 @@
 		<fr>Kings Castle</fr>
 	</Description>
 	<ImageURL>http://media.peeron.com/pics/inv/setpics/379-1.1105127490.thumb2.jpg</ImageURL>
+	<OldNameList>
+		<OldName>6080.set</OldName>
+	</OldNameList>
+
 	<!-- The margin of this part in stud for snaping on the grid, relative to the bitmap -->
 	<SnapMargin>
 		<left>2</left>

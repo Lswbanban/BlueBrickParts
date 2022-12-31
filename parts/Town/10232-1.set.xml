@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Thomas Hess (Rumpelmuck, scorpy63), LDD file by eurobricks member: Stephan</Author>
+	<Description>
+		<de>Palace Cinema</de>
+		<en>Palace Cinema</en>
+	</Description>
+	<SortingKey>City</SortingKey>
+	<ImageURL>http://www.brickshelf.com/gallery/scorpy63/BlueBrick-Parts/Creator/10232.set..gif</ImageURL>
+	<OldNameList>
+		<OldName>10232.set</OldName>
+	</OldNameList>
+	
+	<SnapMargin>
+		<left>0</left>
+		<right>-0.5</right>
+		<top>1</top>
+		<bottom>-0.5</bottom>
+	</SnapMargin>
+</part>

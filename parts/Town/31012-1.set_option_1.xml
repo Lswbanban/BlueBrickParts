@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Thomas Hess (Rumpelmuck, scorpy63), LDD file by eurobricks member: Stephan</Author>
+	<Description>
+		<de>Grosses Einfamilienhaus</de>
+		<en>Family House</en>
+	</Description>
+	<SortingKey>City</SortingKey>
+	<ImageURL>http://www.brickshelf.com/gallery/scorpy63/BlueBrick-Parts/Creator/31012.set.1.gif</ImageURL>
+	<OldNameList>
+		<OldName>31012.set.option1</OldName>
+	</OldNameList>
+
+	<SnapMargin>
+		<left>0</left>
+		<right>1</right>
+		<top>1</top>
+		<bottom>0.5</bottom>
+	</SnapMargin>
+</part>

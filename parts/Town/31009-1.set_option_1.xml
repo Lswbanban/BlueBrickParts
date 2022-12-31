@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<part>
+	<Author>Thomas Hess (Rumpelmuck, scorpy63)</Author>
+	<Description>
+		<de>Landhaus Option1</de>
+		<en>Small Cottage Option1</en>
+	</Description>
+	<SortingKey>City</SortingKey>
+	<OldNameList>
+		<OldName>31009.set.option1</OldName>
+	</OldNameList>
+	
+	<SnapMargin>
+		<left>0</left>
+		<right>0</right>
+		<top>1</top>
+		<bottom>0.5</bottom>
+	</SnapMargin>
+</part>
