@@ -1,2 +1,2 @@
 version=1.0
-This part package is released with BlueBrick.
+This part package was created by Alban Nanty but is released as an additional package.
