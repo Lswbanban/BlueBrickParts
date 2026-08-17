@@ -1,0 +1,3 @@
+./Logo/config/*
+./Logo/*.gif
+./Logo/*.xml

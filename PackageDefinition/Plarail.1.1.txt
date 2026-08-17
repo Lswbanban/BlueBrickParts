@@ -1,0 +1,3 @@
+./Plarail/config/*
+./Plarail/*.gif
+./Plarail/*.xml
